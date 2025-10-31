@@ -1,36 +1,39 @@
 {
-	"id": "voice-two",
-	"name": "VoiceTwo",
-	"componentBaseName": "VoiceTwo",
-	"category": "communication",
-	"tags": ["voice", "two"],
-	"aliases": [],
-	"description": "VoiceTwo icon - Communication",
-	"variants": {
-		"two-tone": {
-			"available": true,
-			"componentName": "VoiceTwoTwoTone",
-			"svgPath": "icons/communication/voice-two-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/VoiceTwoTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { VoiceTwoTwoTone } from 'magic-icons';\n\n<VoiceTwoTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "voice two",
-		"title": "VoiceTwo"
-	}
+  "id": "voice-two",
+  "name": "VoiceTwo",
+  "componentBaseName": "VoiceTwo",
+  "category": "communication",
+  "tags": [
+    "voice",
+    "two"
+  ],
+  "aliases": [],
+  "description": "VoiceTwo icon - Communication",
+  "variants": {
+    "two-tone": {
+      "available": true,
+      "componentName": "VoiceTwoTwoTone",
+      "svgPath": "icons/communication/voice-two-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/VoiceTwoTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { VoiceTwoTwoTone } from 'magic-icons';\n\n<VoiceTwoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "voice two",
+    "title": "VoiceTwo"
+  }
 }

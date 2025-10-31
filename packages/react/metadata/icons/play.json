@@ -1,72 +1,74 @@
 {
-	"id": "play",
-	"name": "Play",
-	"componentBaseName": "Play",
-	"category": "media",
-	"tags": ["play"],
-	"aliases": [],
-	"description": "Play icon - Media & Entertainment",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "PlayBroken",
-			"svgPath": "icons/media/Play-broken.svg",
-			"componentPath": "./components/icons/Broken/PlayBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "PlayBulk",
-			"svgPath": "icons/media/Play-bulk.svg",
-			"componentPath": "./components/icons/Bulk/PlayBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "PlayLight",
-			"svgPath": "icons/media/Play-light.svg",
-			"componentPath": "./components/icons/Light/PlayLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "PlayOutline",
-			"svgPath": "icons/media/Play-outline.svg",
-			"componentPath": "./components/icons/Outline/PlayOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "PlayTwoTone",
-			"svgPath": "icons/media/Play-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/PlayTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { PlayTwoTone } from 'magic-icons';\n\n<PlayTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "play",
-		"title": "Play"
-	}
+  "id": "play",
+  "name": "Play",
+  "componentBaseName": "Play",
+  "category": "media",
+  "tags": [
+    "play"
+  ],
+  "aliases": [],
+  "description": "Play icon - Media & Entertainment",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "PlayBroken",
+      "svgPath": "icons/media/Play-broken.svg",
+      "componentPath": "./components/icons/Broken/PlayBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "PlayBulk",
+      "svgPath": "icons/media/Play-bulk.svg",
+      "componentPath": "./components/icons/Bulk/PlayBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "PlayLight",
+      "svgPath": "icons/media/Play-light.svg",
+      "componentPath": "./components/icons/Light/PlayLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "PlayOutline",
+      "svgPath": "icons/media/Play-outline.svg",
+      "componentPath": "./components/icons/Outline/PlayOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "PlayTwoTone",
+      "svgPath": "icons/media/Play-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/PlayTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { PlayTwoTone } from 'magic-icons';\n\n<PlayTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "play",
+    "title": "Play"
+  }
 }

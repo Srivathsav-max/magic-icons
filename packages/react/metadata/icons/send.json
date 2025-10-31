@@ -1,72 +1,74 @@
 {
-	"id": "send",
-	"name": "Send",
-	"componentBaseName": "Send",
-	"category": "communication",
-	"tags": ["send"],
-	"aliases": [],
-	"description": "Send icon - Communication",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "SendBroken",
-			"svgPath": "icons/communication/Send-broken.svg",
-			"componentPath": "./components/icons/Broken/SendBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "SendBulk",
-			"svgPath": "icons/communication/Send-bulk.svg",
-			"componentPath": "./components/icons/Bulk/SendBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "SendLight",
-			"svgPath": "icons/communication/Send-light.svg",
-			"componentPath": "./components/icons/Light/SendLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "SendOutline",
-			"svgPath": "icons/communication/Send-outline.svg",
-			"componentPath": "./components/icons/Outline/SendOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "SendTwoTone",
-			"svgPath": "icons/communication/Send-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/SendTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { SendTwoTone } from 'magic-icons';\n\n<SendTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "send",
-		"title": "Send"
-	}
+  "id": "send",
+  "name": "Send",
+  "componentBaseName": "Send",
+  "category": "communication",
+  "tags": [
+    "send"
+  ],
+  "aliases": [],
+  "description": "Send icon - Communication",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "SendBroken",
+      "svgPath": "icons/communication/Send-broken.svg",
+      "componentPath": "./components/icons/Broken/SendBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "SendBulk",
+      "svgPath": "icons/communication/Send-bulk.svg",
+      "componentPath": "./components/icons/Bulk/SendBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "SendLight",
+      "svgPath": "icons/communication/Send-light.svg",
+      "componentPath": "./components/icons/Light/SendLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "SendOutline",
+      "svgPath": "icons/communication/Send-outline.svg",
+      "componentPath": "./components/icons/Outline/SendOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "SendTwoTone",
+      "svgPath": "icons/communication/Send-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/SendTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { SendTwoTone } from 'magic-icons';\n\n<SendTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "send",
+    "title": "Send"
+  }
 }

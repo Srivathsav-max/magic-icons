@@ -1,0 +1,38 @@
+{
+  "id": "expand",
+  "name": "Expand",
+  "componentBaseName": "Expand",
+  "category": "action",
+  "tags": [
+    "expand"
+  ],
+  "aliases": [],
+  "description": "Expand icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ExpandOutline",
+      "svgPath": "icons/action/expand-outline.svg",
+      "componentPath": "./components/icons/Outline/ExpandOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ExpandTwoTone } from 'magic-icons';\n\n<ExpandTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "expand",
+    "title": "Expand"
+  }
+}

@@ -1,72 +1,76 @@
 {
-	"id": "arrow-up-three",
-	"name": "ArrowUpThree",
-	"componentBaseName": "ArrowUpThree",
-	"category": "navigation",
-	"tags": ["arrow", "up", "three"],
-	"aliases": [],
-	"description": "ArrowUpThree icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowUpThreeBroken",
-			"svgPath": "icons/navigation/arrow-up-three-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowUpThreeBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowUpThreeBulk",
-			"svgPath": "icons/navigation/arrow-up-three-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowUpThreeBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowUpThreeLight",
-			"svgPath": "icons/navigation/arrow-up-three-light.svg",
-			"componentPath": "./components/icons/Light/ArrowUpThreeLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowUpThreeOutline",
-			"svgPath": "icons/navigation/arrow-up-three-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowUpThreeOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowUpThreeTwoTone",
-			"svgPath": "icons/navigation/arrow-up-three-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowUpThreeTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowUpThreeTwoTone } from 'magic-icons';\n\n<ArrowUpThreeTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow up three",
-		"title": "ArrowUpThree"
-	}
+  "id": "arrow-up-three",
+  "name": "ArrowUpThree",
+  "componentBaseName": "ArrowUpThree",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "up",
+    "three"
+  ],
+  "aliases": [],
+  "description": "ArrowUpThree icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowUpThreeBroken",
+      "svgPath": "icons/navigation/arrow-up-three-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowUpThreeBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowUpThreeBulk",
+      "svgPath": "icons/navigation/arrow-up-three-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowUpThreeBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowUpThreeLight",
+      "svgPath": "icons/navigation/arrow-up-three-light.svg",
+      "componentPath": "./components/icons/Light/ArrowUpThreeLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUpThreeOutline",
+      "svgPath": "icons/navigation/arrow-up-three-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowUpThreeOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowUpThreeTwoTone",
+      "svgPath": "icons/navigation/arrow-up-three-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowUpThreeTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowUpThreeTwoTone } from 'magic-icons';\n\n<ArrowUpThreeTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow up three",
+    "title": "ArrowUpThree"
+  }
 }

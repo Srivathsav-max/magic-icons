@@ -1,0 +1,39 @@
+{
+  "id": "trending-up",
+  "name": "TrendingUp",
+  "componentBaseName": "TrendingUp",
+  "category": "action",
+  "tags": [
+    "trending",
+    "up"
+  ],
+  "aliases": [],
+  "description": "TrendingUp icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TrendingUpOutline",
+      "svgPath": "icons/action/trending-up-outline.svg",
+      "componentPath": "./components/icons/Outline/TrendingUpOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { TrendingUpTwoTone } from 'magic-icons';\n\n<TrendingUpTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "trending up",
+    "title": "TrendingUp"
+  }
+}

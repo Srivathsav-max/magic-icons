@@ -1,72 +1,74 @@
 {
-	"id": "game",
-	"name": "Game",
-	"componentBaseName": "Game",
-	"category": "misc",
-	"tags": ["game"],
-	"aliases": [],
-	"description": "Game icon - Miscellaneous",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "GameBroken",
-			"svgPath": "icons/misc/Game-broken.svg",
-			"componentPath": "./components/icons/Broken/GameBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "GameBulk",
-			"svgPath": "icons/misc/Game-bulk.svg",
-			"componentPath": "./components/icons/Bulk/GameBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "GameLight",
-			"svgPath": "icons/misc/Game-light.svg",
-			"componentPath": "./components/icons/Light/GameLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "GameOutline",
-			"svgPath": "icons/misc/Game-outline.svg",
-			"componentPath": "./components/icons/Outline/GameOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "GameTwoTone",
-			"svgPath": "icons/misc/Game-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/GameTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { GameTwoTone } from 'magic-icons';\n\n<GameTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "game",
-		"title": "Game"
-	}
+  "id": "game",
+  "name": "Game",
+  "componentBaseName": "Game",
+  "category": "misc",
+  "tags": [
+    "game"
+  ],
+  "aliases": [],
+  "description": "Game icon - Miscellaneous",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "GameBroken",
+      "svgPath": "icons/misc/Game-broken.svg",
+      "componentPath": "./components/icons/Broken/GameBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "GameBulk",
+      "svgPath": "icons/misc/Game-bulk.svg",
+      "componentPath": "./components/icons/Bulk/GameBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "GameLight",
+      "svgPath": "icons/misc/Game-light.svg",
+      "componentPath": "./components/icons/Light/GameLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "GameOutline",
+      "svgPath": "icons/misc/Game-outline.svg",
+      "componentPath": "./components/icons/Outline/GameOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "GameTwoTone",
+      "svgPath": "icons/misc/Game-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/GameTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { GameTwoTone } from 'magic-icons';\n\n<GameTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "game",
+    "title": "Game"
+  }
 }

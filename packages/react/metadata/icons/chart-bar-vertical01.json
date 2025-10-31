@@ -1,0 +1,40 @@
+{
+  "id": "chart-bar-vertical01",
+  "name": "ChartBarVertical01",
+  "componentBaseName": "ChartBarVertical01",
+  "category": "action",
+  "tags": [
+    "chart",
+    "bar",
+    "vertical01"
+  ],
+  "aliases": [],
+  "description": "ChartBarVertical01 icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChartBarVertical01Outline",
+      "svgPath": "icons/action/chart-bar-vertical-01-outline.svg",
+      "componentPath": "./components/icons/Outline/ChartBarVertical01Outline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ChartBarVertical01TwoTone } from 'magic-icons';\n\n<ChartBarVertical01TwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "chart bar vertical01",
+    "title": "ChartBarVertical01"
+  }
+}

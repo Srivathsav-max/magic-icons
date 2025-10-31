@@ -1,158 +1,285 @@
 {
-	"action": {
-		"label": "Actions & Operations",
-		"description": "Icons for user actions and operations",
-		"count": 9,
-		"icons": [
-			"Delete",
-			"Edit",
-			"EditSquare",
-			"Filter",
-			"FilterThree",
-			"FilterTwo",
-			"Plus",
-			"Scan",
-			"Swap"
-		]
-	},
-	"commerce": {
-		"label": "E-Commerce & Shopping",
-		"description": "Icons for shopping, payments, and e-commerce",
-		"count": 6,
-		"icons": ["Bag", "BagThree", "BagTwo", "Buy", "Discount", "Wallet"]
-	},
-	"communication": {
-		"label": "Communication",
-		"description": "Icons for messaging, calls, and communication features",
-		"count": 11,
-		"icons": [
-			"Call",
-			"CallMissed",
-			"CallSilent",
-			"Calling",
-			"Chat",
-			"Message",
-			"Send",
-			"Video",
-			"Voice",
-			"VoiceThree",
-			"VoiceTwo"
-		]
-	},
-	"data": {
-		"label": "Data & Analytics",
-		"description": "Icons for data visualization, charts, and analytics",
-		"count": 3,
-		"icons": ["Activity", "Chart", "Graph"]
-	},
-	"file": {
-		"label": "Files & Documents",
-		"description": "Icons for files, folders, documents, and file operations",
-		"count": 8,
-		"icons": [
-			"Document",
-			"Folder",
-			"Paper",
-			"PaperFail",
-			"PaperNegative",
-			"PaperPlus",
-			"Ticket",
-			"TicketStar"
-		]
-	},
-	"location": {
-		"label": "Location & Maps",
-		"description": "Icons for location, maps, and discovery",
-		"count": 2,
-		"icons": ["Discovery", "Location"]
-	},
-	"media": {
-		"label": "Media & Entertainment",
-		"description": "Icons for images, videos, audio, and media controls",
-		"count": 6,
-		"icons": ["Camera", "Image", "ImageThree", "ImageTwo", "Play", "VolumeOff"]
-	},
-	"misc": {
-		"label": "Miscellaneous",
-		"description": "Other icons that don't fit into specific categories",
-		"count": 6,
-		"icons": ["Bookmark", "Category", "Game", "Heart", "Home", "Star"]
-	},
-	"navigation": {
-		"label": "Navigation & Arrows",
-		"description": "Directional arrows and navigation icons",
-		"count": 26,
-		"icons": [
-			"ArrowDown",
-			"ArrowDownCircle",
-			"ArrowDownSquare",
-			"ArrowDownThree",
-			"ArrowDownTwo",
-			"ArrowLeft",
-			"ArrowLeftCircle",
-			"ArrowLeftSquare",
-			"ArrowLeftThree",
-			"ArrowLeftTwo",
-			"ArrowRight",
-			"ArrowRightCircle",
-			"ArrowRightSquare",
-			"ArrowRightThree",
-			"ArrowRightTwo",
-			"ArrowUp",
-			"ArrowUpCircle",
-			"ArrowUpSquare",
-			"ArrowUpThree",
-			"ArrowUpTwo",
-			"Download",
-			"PaperDownload",
-			"PaperUpload",
-			"Upload",
-			"VolumeDown",
-			"VolumeUp"
-		]
-	},
-	"security": {
-		"label": "Security & Authentication",
-		"description": "Icons for security, authentication, and privacy",
-		"count": 7,
-		"icons": ["Lock", "Login", "Logout", "Password", "ShieldDone", "ShieldFail", "Unlock"]
-	},
-	"status": {
-		"label": "Status & Indicators",
-		"description": "Status indicators, alerts, and notifications",
-		"count": 7,
-		"icons": [
-			"CloseSquare",
-			"Danger",
-			"DangerCircle",
-			"DangerTriangle",
-			"InfoCircle",
-			"InfoSquare",
-			"TickSquare"
-		]
-	},
-	"time": {
-		"label": "Time & Calendar",
-		"description": "Icons for time, dates, and calendar events",
-		"count": 3,
-		"icons": ["Calendar", "TimeCircle", "TimeSquare"]
-	},
-	"ui": {
-		"label": "UI Elements",
-		"description": "User interface elements and controls",
-		"count": 7,
-		"icons": ["Hide", "MoreCircle", "MoreSquare", "Notification", "Search", "Setting", "Show"]
-	},
-	"user": {
-		"label": "User & Profile",
-		"description": "Icons related to user accounts, profiles, and people",
-		"count": 4,
-		"icons": ["AddUser", "Profile", "ThreeUser", "TwoUser"]
-	},
-	"work": {
-		"label": "Work & Productivity",
-		"description": "Icons for work, business, and productivity",
-		"count": 1,
-		"icons": ["Work"]
-	}
+  "action": {
+    "label": "Actions & Operations",
+    "description": "Icons for user actions and operations",
+    "count": 81,
+    "icons": [
+      "ArrowCircleDown",
+      "ArrowCircleDownLeft",
+      "ArrowCircleDownRight",
+      "ArrowCircleLeft",
+      "ArrowCircleRight",
+      "ArrowCircleUp",
+      "ArrowCircleUpLeft",
+      "ArrowCircleUpRight",
+      "ArrowDownLeftLG",
+      "ArrowDownRightLG",
+      "ArrowDownUp",
+      "ArrowLeftRight",
+      "ArrowReload02",
+      "ArrowSubDownLeft",
+      "ArrowSubDownRight",
+      "ArrowSubLeftDown",
+      "ArrowSubLeftUp",
+      "ArrowSubRightDown",
+      "ArrowSubRightUp",
+      "ArrowSubUpLeft",
+      "ArrowSubUpRight",
+      "ArrowUndoDownLeft",
+      "ArrowUndoDownRight",
+      "ArrowUndoUpLeft",
+      "ArrowUndoUpRight",
+      "ArrowUpLeftLG",
+      "ArrowUpRightLG",
+      "ArrowsReload01",
+      "Book",
+      "BookOpen",
+      "ChartBarHorizontal01",
+      "ChartBarVertical01",
+      "ChartLine",
+      "Check",
+      "CheckAll",
+      "ChevronDownDuo",
+      "ChevronLeftDuo",
+      "ChevronRightDuo",
+      "ChevronUpDuo",
+      "Command",
+      "CreditCard01",
+      "Delete",
+      "DragHorizontal",
+      "DragVertical",
+      "Edit",
+      "EditSquare",
+      "Expand",
+      "ExternalLink",
+      "Filter",
+      "FilterOff",
+      "FilterThree",
+      "FilterTwo",
+      "Gift",
+      "Heart01",
+      "Heart011",
+      "Label",
+      "Link",
+      "LinkBreak",
+      "LinkHorizontal",
+      "LinkHorizontalOff",
+      "LinkVertical",
+      "MagnifyingGlassMinus",
+      "MagnifyingGlassPlus",
+      "MainComponent",
+      "Option",
+      "Plus",
+      "Scan",
+      "ShoppingCart02",
+      "Shrink",
+      "Slider01",
+      "Slider02",
+      "Slider03",
+      "Suitcase",
+      "Swap",
+      "SwichtLeft",
+      "SwichtRight",
+      "Tag",
+      "TrendingDown",
+      "TrendingUp",
+      "UnfoldLess",
+      "UnfoldMore"
+    ]
+  },
+  "commerce": {
+    "label": "E-Commerce & Shopping",
+    "description": "Icons for shopping, payments, and e-commerce",
+    "count": 6,
+    "icons": [
+      "Bag",
+      "BagThree",
+      "BagTwo",
+      "Buy",
+      "Discount",
+      "Wallet"
+    ]
+  },
+  "communication": {
+    "label": "Communication",
+    "description": "Icons for messaging, calls, and communication features",
+    "count": 11,
+    "icons": [
+      "Call",
+      "CallMissed",
+      "CallSilent",
+      "Calling",
+      "Chat",
+      "Message",
+      "Send",
+      "Video",
+      "Voice",
+      "VoiceThree",
+      "VoiceTwo"
+    ]
+  },
+  "data": {
+    "label": "Data & Analytics",
+    "description": "Icons for data visualization, charts, and analytics",
+    "count": 3,
+    "icons": [
+      "Activity",
+      "Chart",
+      "Graph"
+    ]
+  },
+  "file": {
+    "label": "Files & Documents",
+    "description": "Icons for files, folders, documents, and file operations",
+    "count": 8,
+    "icons": [
+      "Document",
+      "Folder",
+      "Paper",
+      "PaperFail",
+      "PaperNegative",
+      "PaperPlus",
+      "Ticket",
+      "TicketStar"
+    ]
+  },
+  "location": {
+    "label": "Location & Maps",
+    "description": "Icons for location, maps, and discovery",
+    "count": 2,
+    "icons": [
+      "Discovery",
+      "Location"
+    ]
+  },
+  "media": {
+    "label": "Media & Entertainment",
+    "description": "Icons for images, videos, audio, and media controls",
+    "count": 6,
+    "icons": [
+      "Camera",
+      "Image",
+      "ImageThree",
+      "ImageTwo",
+      "Play",
+      "VolumeOff"
+    ]
+  },
+  "misc": {
+    "label": "Miscellaneous",
+    "description": "Other icons that don't fit into specific categories",
+    "count": 6,
+    "icons": [
+      "Bookmark",
+      "Category",
+      "Game",
+      "Heart",
+      "Home",
+      "Star"
+    ]
+  },
+  "navigation": {
+    "label": "Navigation & Arrows",
+    "description": "Directional arrows and navigation icons",
+    "count": 26,
+    "icons": [
+      "ArrowDown",
+      "ArrowDownCircle",
+      "ArrowDownSquare",
+      "ArrowDownThree",
+      "ArrowDownTwo",
+      "ArrowLeft",
+      "ArrowLeftCircle",
+      "ArrowLeftSquare",
+      "ArrowLeftThree",
+      "ArrowLeftTwo",
+      "ArrowRight",
+      "ArrowRightCircle",
+      "ArrowRightSquare",
+      "ArrowRightThree",
+      "ArrowRightTwo",
+      "ArrowUp",
+      "ArrowUpCircle",
+      "ArrowUpSquare",
+      "ArrowUpThree",
+      "ArrowUpTwo",
+      "Download",
+      "PaperDownload",
+      "PaperUpload",
+      "Upload",
+      "VolumeDown",
+      "VolumeUp"
+    ]
+  },
+  "security": {
+    "label": "Security & Authentication",
+    "description": "Icons for security, authentication, and privacy",
+    "count": 7,
+    "icons": [
+      "Lock",
+      "Login",
+      "Logout",
+      "Password",
+      "ShieldDone",
+      "ShieldFail",
+      "Unlock"
+    ]
+  },
+  "status": {
+    "label": "Status & Indicators",
+    "description": "Status indicators, alerts, and notifications",
+    "count": 7,
+    "icons": [
+      "CloseSquare",
+      "Danger",
+      "DangerCircle",
+      "DangerTriangle",
+      "InfoCircle",
+      "InfoSquare",
+      "TickSquare"
+    ]
+  },
+  "time": {
+    "label": "Time & Calendar",
+    "description": "Icons for time, dates, and calendar events",
+    "count": 3,
+    "icons": [
+      "Calendar",
+      "TimeCircle",
+      "TimeSquare"
+    ]
+  },
+  "ui": {
+    "label": "UI Elements",
+    "description": "User interface elements and controls",
+    "count": 7,
+    "icons": [
+      "Hide",
+      "MoreCircle",
+      "MoreSquare",
+      "Notification",
+      "Search",
+      "Setting",
+      "Show"
+    ]
+  },
+  "user": {
+    "label": "User & Profile",
+    "description": "Icons related to user accounts, profiles, and people",
+    "count": 4,
+    "icons": [
+      "AddUser",
+      "Profile",
+      "ThreeUser",
+      "TwoUser"
+    ]
+  },
+  "work": {
+    "label": "Work & Productivity",
+    "description": "Icons for work, business, and productivity",
+    "count": 1,
+    "icons": [
+      "Work"
+    ]
+  }
 }

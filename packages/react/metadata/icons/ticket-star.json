@@ -1,72 +1,75 @@
 {
-	"id": "ticket-star",
-	"name": "TicketStar",
-	"componentBaseName": "TicketStar",
-	"category": "file",
-	"tags": ["ticket", "star"],
-	"aliases": [],
-	"description": "TicketStar icon - Files & Documents",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "TicketStarBroken",
-			"svgPath": "icons/file/ticket-star-broken.svg",
-			"componentPath": "./components/icons/Broken/TicketStarBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "TicketStarBulk",
-			"svgPath": "icons/file/ticket-star-bulk.svg",
-			"componentPath": "./components/icons/Bulk/TicketStarBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "TicketStarLight",
-			"svgPath": "icons/file/ticket-star-light.svg",
-			"componentPath": "./components/icons/Light/TicketStarLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "TicketStarOutline",
-			"svgPath": "icons/file/ticket-star-outline.svg",
-			"componentPath": "./components/icons/Outline/TicketStarOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "TicketStarTwoTone",
-			"svgPath": "icons/file/ticket-star-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/TicketStarTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { TicketStarTwoTone } from 'magic-icons';\n\n<TicketStarTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "ticket star",
-		"title": "TicketStar"
-	}
+  "id": "ticket-star",
+  "name": "TicketStar",
+  "componentBaseName": "TicketStar",
+  "category": "file",
+  "tags": [
+    "ticket",
+    "star"
+  ],
+  "aliases": [],
+  "description": "TicketStar icon - Files & Documents",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "TicketStarBroken",
+      "svgPath": "icons/file/ticket-star-broken.svg",
+      "componentPath": "./components/icons/Broken/TicketStarBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "TicketStarBulk",
+      "svgPath": "icons/file/ticket-star-bulk.svg",
+      "componentPath": "./components/icons/Bulk/TicketStarBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "TicketStarLight",
+      "svgPath": "icons/file/ticket-star-light.svg",
+      "componentPath": "./components/icons/Light/TicketStarLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "TicketStarOutline",
+      "svgPath": "icons/file/ticket-star-outline.svg",
+      "componentPath": "./components/icons/Outline/TicketStarOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "TicketStarTwoTone",
+      "svgPath": "icons/file/ticket-star-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/TicketStarTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { TicketStarTwoTone } from 'magic-icons';\n\n<TicketStarTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "ticket star",
+    "title": "TicketStar"
+  }
 }

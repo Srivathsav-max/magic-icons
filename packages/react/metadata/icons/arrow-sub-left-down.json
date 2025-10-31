@@ -1,0 +1,41 @@
+{
+  "id": "arrow-sub-left-down",
+  "name": "ArrowSubLeftDown",
+  "componentBaseName": "ArrowSubLeftDown",
+  "category": "action",
+  "tags": [
+    "arrow",
+    "sub",
+    "left",
+    "down"
+  ],
+  "aliases": [],
+  "description": "ArrowSubLeftDown icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowSubLeftDownOutline",
+      "svgPath": "icons/action/arrow-sub-left-down-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowSubLeftDownOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowSubLeftDownTwoTone } from 'magic-icons';\n\n<ArrowSubLeftDownTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow sub left down",
+    "title": "ArrowSubLeftDown"
+  }
+}

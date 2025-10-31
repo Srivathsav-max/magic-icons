@@ -1,72 +1,75 @@
 {
-	"id": "paper-negative",
-	"name": "PaperNegative",
-	"componentBaseName": "PaperNegative",
-	"category": "file",
-	"tags": ["paper", "negative"],
-	"aliases": [],
-	"description": "PaperNegative icon - Files & Documents",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "PaperNegativeBroken",
-			"svgPath": "icons/file/paper-negative-broken.svg",
-			"componentPath": "./components/icons/Broken/PaperNegativeBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "PaperNegativeBulk",
-			"svgPath": "icons/file/paper-negative-bulk.svg",
-			"componentPath": "./components/icons/Bulk/PaperNegativeBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "PaperNegativeLight",
-			"svgPath": "icons/file/paper-negative-light.svg",
-			"componentPath": "./components/icons/Light/PaperNegativeLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "PaperNegativeOutline",
-			"svgPath": "icons/file/paper-negative-outline.svg",
-			"componentPath": "./components/icons/Outline/PaperNegativeOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "PaperNegativeTwoTone",
-			"svgPath": "icons/file/paper-negative-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/PaperNegativeTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { PaperNegativeTwoTone } from 'magic-icons';\n\n<PaperNegativeTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "paper negative",
-		"title": "PaperNegative"
-	}
+  "id": "paper-negative",
+  "name": "PaperNegative",
+  "componentBaseName": "PaperNegative",
+  "category": "file",
+  "tags": [
+    "paper",
+    "negative"
+  ],
+  "aliases": [],
+  "description": "PaperNegative icon - Files & Documents",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "PaperNegativeBroken",
+      "svgPath": "icons/file/paper-negative-broken.svg",
+      "componentPath": "./components/icons/Broken/PaperNegativeBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "PaperNegativeBulk",
+      "svgPath": "icons/file/paper-negative-bulk.svg",
+      "componentPath": "./components/icons/Bulk/PaperNegativeBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "PaperNegativeLight",
+      "svgPath": "icons/file/paper-negative-light.svg",
+      "componentPath": "./components/icons/Light/PaperNegativeLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "PaperNegativeOutline",
+      "svgPath": "icons/file/paper-negative-outline.svg",
+      "componentPath": "./components/icons/Outline/PaperNegativeOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "PaperNegativeTwoTone",
+      "svgPath": "icons/file/paper-negative-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/PaperNegativeTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { PaperNegativeTwoTone } from 'magic-icons';\n\n<PaperNegativeTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "paper negative",
+    "title": "PaperNegative"
+  }
 }

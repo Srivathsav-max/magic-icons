@@ -1,8 +1,8 @@
 "use client";
 
+import { Card, CardContent } from "@magic-icons/ui";
 import * as Icons from "magic-icons";
 import { memo } from "react";
-import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 interface IconCardProps {

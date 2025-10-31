@@ -1,72 +1,74 @@
 {
-	"id": "home",
-	"name": "Home",
-	"componentBaseName": "Home",
-	"category": "misc",
-	"tags": ["home"],
-	"aliases": [],
-	"description": "Home icon - Miscellaneous",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "HomeBroken",
-			"svgPath": "icons/misc/Home-broken.svg",
-			"componentPath": "./components/icons/Broken/HomeBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "HomeBulk",
-			"svgPath": "icons/misc/Home-bulk.svg",
-			"componentPath": "./components/icons/Bulk/HomeBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "HomeLight",
-			"svgPath": "icons/misc/Home-light.svg",
-			"componentPath": "./components/icons/Light/HomeLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "HomeOutline",
-			"svgPath": "icons/misc/Home-outline.svg",
-			"componentPath": "./components/icons/Outline/HomeOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "HomeTwoTone",
-			"svgPath": "icons/misc/Home-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/HomeTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { HomeTwoTone } from 'magic-icons';\n\n<HomeTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "home",
-		"title": "Home"
-	}
+  "id": "home",
+  "name": "Home",
+  "componentBaseName": "Home",
+  "category": "misc",
+  "tags": [
+    "home"
+  ],
+  "aliases": [],
+  "description": "Home icon - Miscellaneous",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "HomeBroken",
+      "svgPath": "icons/misc/Home-broken.svg",
+      "componentPath": "./components/icons/Broken/HomeBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "HomeBulk",
+      "svgPath": "icons/misc/Home-bulk.svg",
+      "componentPath": "./components/icons/Bulk/HomeBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "HomeLight",
+      "svgPath": "icons/misc/Home-light.svg",
+      "componentPath": "./components/icons/Light/HomeLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "HomeOutline",
+      "svgPath": "icons/misc/Home-outline.svg",
+      "componentPath": "./components/icons/Outline/HomeOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "HomeTwoTone",
+      "svgPath": "icons/misc/Home-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/HomeTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { HomeTwoTone } from 'magic-icons';\n\n<HomeTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "home",
+    "title": "Home"
+  }
 }

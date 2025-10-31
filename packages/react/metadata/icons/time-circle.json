@@ -1,72 +1,75 @@
 {
-	"id": "time-circle",
-	"name": "TimeCircle",
-	"componentBaseName": "TimeCircle",
-	"category": "time",
-	"tags": ["time", "circle"],
-	"aliases": [],
-	"description": "TimeCircle icon - Time & Calendar",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "TimeCircleBroken",
-			"svgPath": "icons/time/time-circle-broken.svg",
-			"componentPath": "./components/icons/Broken/TimeCircleBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "TimeCircleBulk",
-			"svgPath": "icons/time/time-circle-bulk.svg",
-			"componentPath": "./components/icons/Bulk/TimeCircleBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "TimeCircleLight",
-			"svgPath": "icons/time/time-circle-light.svg",
-			"componentPath": "./components/icons/Light/TimeCircleLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "TimeCircleOutline",
-			"svgPath": "icons/time/time-circle-outline.svg",
-			"componentPath": "./components/icons/Outline/TimeCircleOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "TimeCircleTwoTone",
-			"svgPath": "icons/time/time-circle-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/TimeCircleTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { TimeCircleTwoTone } from 'magic-icons';\n\n<TimeCircleTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "time circle",
-		"title": "TimeCircle"
-	}
+  "id": "time-circle",
+  "name": "TimeCircle",
+  "componentBaseName": "TimeCircle",
+  "category": "time",
+  "tags": [
+    "time",
+    "circle"
+  ],
+  "aliases": [],
+  "description": "TimeCircle icon - Time & Calendar",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "TimeCircleBroken",
+      "svgPath": "icons/time/time-circle-broken.svg",
+      "componentPath": "./components/icons/Broken/TimeCircleBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "TimeCircleBulk",
+      "svgPath": "icons/time/time-circle-bulk.svg",
+      "componentPath": "./components/icons/Bulk/TimeCircleBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "TimeCircleLight",
+      "svgPath": "icons/time/time-circle-light.svg",
+      "componentPath": "./components/icons/Light/TimeCircleLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "TimeCircleOutline",
+      "svgPath": "icons/time/time-circle-outline.svg",
+      "componentPath": "./components/icons/Outline/TimeCircleOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "TimeCircleTwoTone",
+      "svgPath": "icons/time/time-circle-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/TimeCircleTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { TimeCircleTwoTone } from 'magic-icons';\n\n<TimeCircleTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "time circle",
+    "title": "TimeCircle"
+  }
 }

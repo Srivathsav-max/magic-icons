@@ -1,0 +1,38 @@
+{
+  "id": "book",
+  "name": "Book",
+  "componentBaseName": "Book",
+  "category": "action",
+  "tags": [
+    "book"
+  ],
+  "aliases": [],
+  "description": "Book icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "BookOutline",
+      "svgPath": "icons/action/book-outline.svg",
+      "componentPath": "./components/icons/Outline/BookOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { BookTwoTone } from 'magic-icons';\n\n<BookTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "book",
+    "title": "Book"
+  }
+}

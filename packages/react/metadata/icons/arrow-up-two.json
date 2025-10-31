@@ -1,72 +1,76 @@
 {
-	"id": "arrow-up-two",
-	"name": "ArrowUpTwo",
-	"componentBaseName": "ArrowUpTwo",
-	"category": "navigation",
-	"tags": ["arrow", "up", "two"],
-	"aliases": [],
-	"description": "ArrowUpTwo icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowUpTwoBroken",
-			"svgPath": "icons/navigation/arrow-up-two-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowUpTwoBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowUpTwoBulk",
-			"svgPath": "icons/navigation/arrow-up-two-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowUpTwoBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowUpTwoLight",
-			"svgPath": "icons/navigation/arrow-up-two-light.svg",
-			"componentPath": "./components/icons/Light/ArrowUpTwoLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowUpTwoOutline",
-			"svgPath": "icons/navigation/arrow-up-two-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowUpTwoOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowUpTwoTwoTone",
-			"svgPath": "icons/navigation/arrow-up-two-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowUpTwoTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowUpTwoTwoTone } from 'magic-icons';\n\n<ArrowUpTwoTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow up two",
-		"title": "ArrowUpTwo"
-	}
+  "id": "arrow-up-two",
+  "name": "ArrowUpTwo",
+  "componentBaseName": "ArrowUpTwo",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "up",
+    "two"
+  ],
+  "aliases": [],
+  "description": "ArrowUpTwo icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowUpTwoBroken",
+      "svgPath": "icons/navigation/arrow-up-two-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowUpTwoBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowUpTwoBulk",
+      "svgPath": "icons/navigation/arrow-up-two-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowUpTwoBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowUpTwoLight",
+      "svgPath": "icons/navigation/arrow-up-two-light.svg",
+      "componentPath": "./components/icons/Light/ArrowUpTwoLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUpTwoOutline",
+      "svgPath": "icons/navigation/arrow-up-two-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowUpTwoOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowUpTwoTwoTone",
+      "svgPath": "icons/navigation/arrow-up-two-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowUpTwoTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowUpTwoTwoTone } from 'magic-icons';\n\n<ArrowUpTwoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow up two",
+    "title": "ArrowUpTwo"
+  }
 }

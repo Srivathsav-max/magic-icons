@@ -1,0 +1,15 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "outline",
+	"contributors": [
+		"Admin"
+	],
+	"tags": [
+		"shrink"
+	],
+	"categories": [
+		"action"
+	],
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chevron-right-duo",
+  "name": "ChevronRightDuo",
+  "componentBaseName": "ChevronRightDuo",
+  "category": "action",
+  "tags": [
+    "chevron",
+    "right",
+    "duo"
+  ],
+  "aliases": [],
+  "description": "ChevronRightDuo icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChevronRightDuoOutline",
+      "svgPath": "icons/action/chevron-right-duo-outline.svg",
+      "componentPath": "./components/icons/Outline/ChevronRightDuoOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ChevronRightDuoTwoTone } from 'magic-icons';\n\n<ChevronRightDuoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "chevron right duo",
+    "title": "ChevronRightDuo"
+  }
+}

@@ -10,7 +10,7 @@
 	],
 	"packageManager": "bun@1.2.22",
 	"scripts": {
-		"dev": "turbo run dev --filter=web",
+		"dev": "turbo run dev",
 		"dev:web": "turbo run dev --filter=web",
 		"build:icons": "turbo run build:icons --filter=magic-icons",
 		"build:lib": "turbo run build --filter=magic-icons",

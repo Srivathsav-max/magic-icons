@@ -1,72 +1,65 @@
 {
-	"id": "plus",
-	"name": "Plus",
-	"componentBaseName": "Plus",
-	"category": "action",
-	"tags": ["plus"],
-	"aliases": [],
-	"description": "Plus icon - Actions & Operations",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "PlusBroken",
-			"svgPath": "icons/action/Plus-broken.svg",
-			"componentPath": "./components/icons/Broken/PlusBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "PlusBulk",
-			"svgPath": "icons/action/Plus-bulk.svg",
-			"componentPath": "./components/icons/Bulk/PlusBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "PlusLight",
-			"svgPath": "icons/action/Plus-light.svg",
-			"componentPath": "./components/icons/Light/PlusLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "PlusOutline",
-			"svgPath": "icons/action/Plus-outline.svg",
-			"componentPath": "./components/icons/Outline/PlusOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "PlusTwoTone",
-			"svgPath": "icons/action/Plus-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/PlusTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { PlusTwoTone } from 'magic-icons';\n\n<PlusTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "plus",
-		"title": "Plus"
-	}
+  "id": "plus",
+  "name": "Plus",
+  "componentBaseName": "Plus",
+  "category": "action",
+  "tags": [
+    "plus"
+  ],
+  "aliases": [],
+  "description": "Plus icon - Actions & Operations",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "PlusBroken",
+      "svgPath": "icons/action/Plus-broken.svg",
+      "componentPath": "./components/icons/Broken/PlusBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "PlusBulk",
+      "svgPath": "icons/action/Plus-bulk.svg",
+      "componentPath": "./components/icons/Bulk/PlusBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "PlusOutline",
+      "svgPath": "icons/action/Plus-outline.svg",
+      "componentPath": "./components/icons/Outline/PlusOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "PlusTwoTone",
+      "svgPath": "icons/action/Plus-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/PlusTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { PlusTwoTone } from 'magic-icons';\n\n<PlusTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "plus",
+    "title": "Plus"
+  }
 }

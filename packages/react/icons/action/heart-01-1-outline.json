@@ -1,0 +1,15 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "outline",
+	"contributors": [
+		"Admin"
+	],
+	"tags": [
+		"heart-01-1"
+	],
+	"categories": [
+		"action"
+	],
+	"aliases": [],
+	"deprecated": false
+}

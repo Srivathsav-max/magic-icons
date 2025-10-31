@@ -1,45 +1,48 @@
 {
-	"id": "danger-circle",
-	"name": "DangerCircle",
-	"componentBaseName": "DangerCircle",
-	"category": "status",
-	"tags": ["danger", "circle"],
-	"aliases": [],
-	"description": "DangerCircle icon - Status & Indicators",
-	"variants": {
-		"light": {
-			"available": true,
-			"componentName": "DangerCircleLight",
-			"svgPath": "icons/status/danger-circle-light.svg",
-			"componentPath": "./components/icons/Light/DangerCircleLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "DangerCircleOutline",
-			"svgPath": "icons/status/danger-circle-outline.svg",
-			"componentPath": "./components/icons/Outline/DangerCircleOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { DangerCircleTwoTone } from 'magic-icons';\n\n<DangerCircleTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "danger circle",
-		"title": "DangerCircle"
-	}
+  "id": "danger-circle",
+  "name": "DangerCircle",
+  "componentBaseName": "DangerCircle",
+  "category": "status",
+  "tags": [
+    "danger",
+    "circle"
+  ],
+  "aliases": [],
+  "description": "DangerCircle icon - Status & Indicators",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "DangerCircleLight",
+      "svgPath": "icons/status/danger-circle-light.svg",
+      "componentPath": "./components/icons/Light/DangerCircleLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "DangerCircleOutline",
+      "svgPath": "icons/status/danger-circle-outline.svg",
+      "componentPath": "./components/icons/Outline/DangerCircleOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { DangerCircleTwoTone } from 'magic-icons';\n\n<DangerCircleTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "danger circle",
+    "title": "DangerCircle"
+  }
 }

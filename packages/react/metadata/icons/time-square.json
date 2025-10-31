@@ -1,72 +1,75 @@
 {
-	"id": "time-square",
-	"name": "TimeSquare",
-	"componentBaseName": "TimeSquare",
-	"category": "time",
-	"tags": ["time", "square"],
-	"aliases": [],
-	"description": "TimeSquare icon - Time & Calendar",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "TimeSquareBroken",
-			"svgPath": "icons/time/time-square-broken.svg",
-			"componentPath": "./components/icons/Broken/TimeSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "TimeSquareBulk",
-			"svgPath": "icons/time/time-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/TimeSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "TimeSquareLight",
-			"svgPath": "icons/time/time-square-light.svg",
-			"componentPath": "./components/icons/Light/TimeSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "TimeSquareOutline",
-			"svgPath": "icons/time/time-square-outline.svg",
-			"componentPath": "./components/icons/Outline/TimeSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "TimeSquareTwoTone",
-			"svgPath": "icons/time/time-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/TimeSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { TimeSquareTwoTone } from 'magic-icons';\n\n<TimeSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "time square",
-		"title": "TimeSquare"
-	}
+  "id": "time-square",
+  "name": "TimeSquare",
+  "componentBaseName": "TimeSquare",
+  "category": "time",
+  "tags": [
+    "time",
+    "square"
+  ],
+  "aliases": [],
+  "description": "TimeSquare icon - Time & Calendar",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "TimeSquareBroken",
+      "svgPath": "icons/time/time-square-broken.svg",
+      "componentPath": "./components/icons/Broken/TimeSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "TimeSquareBulk",
+      "svgPath": "icons/time/time-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/TimeSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "TimeSquareLight",
+      "svgPath": "icons/time/time-square-light.svg",
+      "componentPath": "./components/icons/Light/TimeSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "TimeSquareOutline",
+      "svgPath": "icons/time/time-square-outline.svg",
+      "componentPath": "./components/icons/Outline/TimeSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "TimeSquareTwoTone",
+      "svgPath": "icons/time/time-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/TimeSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { TimeSquareTwoTone } from 'magic-icons';\n\n<TimeSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "time square",
+    "title": "TimeSquare"
+  }
 }

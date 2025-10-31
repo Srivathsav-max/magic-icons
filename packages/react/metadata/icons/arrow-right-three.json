@@ -1,72 +1,76 @@
 {
-	"id": "arrow-right-three",
-	"name": "ArrowRightThree",
-	"componentBaseName": "ArrowRightThree",
-	"category": "navigation",
-	"tags": ["arrow", "right", "three"],
-	"aliases": [],
-	"description": "ArrowRightThree icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowRightThreeBroken",
-			"svgPath": "icons/navigation/arrow-right-three-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowRightThreeBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowRightThreeBulk",
-			"svgPath": "icons/navigation/arrow-right-three-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowRightThreeBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowRightThreeLight",
-			"svgPath": "icons/navigation/arrow-right-three-light.svg",
-			"componentPath": "./components/icons/Light/ArrowRightThreeLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowRightThreeOutline",
-			"svgPath": "icons/navigation/arrow-right-three-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowRightThreeOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowRightThreeTwoTone",
-			"svgPath": "icons/navigation/arrow-right-three-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowRightThreeTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowRightThreeTwoTone } from 'magic-icons';\n\n<ArrowRightThreeTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow right three",
-		"title": "ArrowRightThree"
-	}
+  "id": "arrow-right-three",
+  "name": "ArrowRightThree",
+  "componentBaseName": "ArrowRightThree",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "right",
+    "three"
+  ],
+  "aliases": [],
+  "description": "ArrowRightThree icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowRightThreeBroken",
+      "svgPath": "icons/navigation/arrow-right-three-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowRightThreeBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowRightThreeBulk",
+      "svgPath": "icons/navigation/arrow-right-three-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowRightThreeBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowRightThreeLight",
+      "svgPath": "icons/navigation/arrow-right-three-light.svg",
+      "componentPath": "./components/icons/Light/ArrowRightThreeLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowRightThreeOutline",
+      "svgPath": "icons/navigation/arrow-right-three-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowRightThreeOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowRightThreeTwoTone",
+      "svgPath": "icons/navigation/arrow-right-three-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowRightThreeTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowRightThreeTwoTone } from 'magic-icons';\n\n<ArrowRightThreeTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow right three",
+    "title": "ArrowRightThree"
+  }
 }

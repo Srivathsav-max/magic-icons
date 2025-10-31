@@ -1,72 +1,75 @@
 {
-	"id": "more-square",
-	"name": "MoreSquare",
-	"componentBaseName": "MoreSquare",
-	"category": "ui",
-	"tags": ["more", "square"],
-	"aliases": [],
-	"description": "MoreSquare icon - UI Elements",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "MoreSquareBroken",
-			"svgPath": "icons/ui/more-square-broken.svg",
-			"componentPath": "./components/icons/Broken/MoreSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "MoreSquareBulk",
-			"svgPath": "icons/ui/more-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/MoreSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "MoreSquareLight",
-			"svgPath": "icons/ui/more-square-light.svg",
-			"componentPath": "./components/icons/Light/MoreSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "MoreSquareOutline",
-			"svgPath": "icons/ui/more-square-outline.svg",
-			"componentPath": "./components/icons/Outline/MoreSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "MoreSquareTwoTone",
-			"svgPath": "icons/ui/more-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/MoreSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { MoreSquareTwoTone } from 'magic-icons';\n\n<MoreSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "more square",
-		"title": "MoreSquare"
-	}
+  "id": "more-square",
+  "name": "MoreSquare",
+  "componentBaseName": "MoreSquare",
+  "category": "ui",
+  "tags": [
+    "more",
+    "square"
+  ],
+  "aliases": [],
+  "description": "MoreSquare icon - UI Elements",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "MoreSquareBroken",
+      "svgPath": "icons/ui/more-square-broken.svg",
+      "componentPath": "./components/icons/Broken/MoreSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "MoreSquareBulk",
+      "svgPath": "icons/ui/more-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/MoreSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "MoreSquareLight",
+      "svgPath": "icons/ui/more-square-light.svg",
+      "componentPath": "./components/icons/Light/MoreSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "MoreSquareOutline",
+      "svgPath": "icons/ui/more-square-outline.svg",
+      "componentPath": "./components/icons/Outline/MoreSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "MoreSquareTwoTone",
+      "svgPath": "icons/ui/more-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/MoreSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { MoreSquareTwoTone } from 'magic-icons';\n\n<MoreSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "more square",
+    "title": "MoreSquare"
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "drag-vertical",
+  "name": "DragVertical",
+  "componentBaseName": "DragVertical",
+  "category": "action",
+  "tags": [
+    "drag",
+    "vertical"
+  ],
+  "aliases": [],
+  "description": "DragVertical icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "DragVerticalOutline",
+      "svgPath": "icons/action/drag-vertical-outline.svg",
+      "componentPath": "./components/icons/Outline/DragVerticalOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { DragVerticalTwoTone } from 'magic-icons';\n\n<DragVerticalTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "drag vertical",
+    "title": "DragVertical"
+  }
+}

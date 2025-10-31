@@ -1,36 +1,39 @@
 {
-	"id": "filter-two",
-	"name": "FilterTwo",
-	"componentBaseName": "FilterTwo",
-	"category": "action",
-	"tags": ["filter", "two"],
-	"aliases": [],
-	"description": "FilterTwo icon - Actions & Operations",
-	"variants": {
-		"bulk": {
-			"available": true,
-			"componentName": "FilterTwoBulk",
-			"svgPath": "icons/action/filter-two-bulk.svg",
-			"componentPath": "./components/icons/Bulk/FilterTwoBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { FilterTwoTwoTone } from 'magic-icons';\n\n<FilterTwoTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "filter two",
-		"title": "FilterTwo"
-	}
+  "id": "filter-two",
+  "name": "FilterTwo",
+  "componentBaseName": "FilterTwo",
+  "category": "action",
+  "tags": [
+    "filter",
+    "two"
+  ],
+  "aliases": [],
+  "description": "FilterTwo icon - Actions & Operations",
+  "variants": {
+    "bulk": {
+      "available": true,
+      "componentName": "FilterTwoBulk",
+      "svgPath": "icons/action/filter-two-bulk.svg",
+      "componentPath": "./components/icons/Bulk/FilterTwoBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { FilterTwoTwoTone } from 'magic-icons';\n\n<FilterTwoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "filter two",
+    "title": "FilterTwo"
+  }
 }

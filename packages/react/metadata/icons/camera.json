@@ -1,72 +1,74 @@
 {
-	"id": "camera",
-	"name": "Camera",
-	"componentBaseName": "Camera",
-	"category": "media",
-	"tags": ["camera"],
-	"aliases": [],
-	"description": "Camera icon - Media & Entertainment",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "CameraBroken",
-			"svgPath": "icons/media/Camera-broken.svg",
-			"componentPath": "./components/icons/Broken/CameraBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "CameraBulk",
-			"svgPath": "icons/media/Camera-bulk.svg",
-			"componentPath": "./components/icons/Bulk/CameraBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "CameraLight",
-			"svgPath": "icons/media/Camera-light.svg",
-			"componentPath": "./components/icons/Light/CameraLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "CameraOutline",
-			"svgPath": "icons/media/Camera-outline.svg",
-			"componentPath": "./components/icons/Outline/CameraOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "CameraTwoTone",
-			"svgPath": "icons/media/Camera-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/CameraTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { CameraTwoTone } from 'magic-icons';\n\n<CameraTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "camera",
-		"title": "Camera"
-	}
+  "id": "camera",
+  "name": "Camera",
+  "componentBaseName": "Camera",
+  "category": "media",
+  "tags": [
+    "camera"
+  ],
+  "aliases": [],
+  "description": "Camera icon - Media & Entertainment",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "CameraBroken",
+      "svgPath": "icons/media/Camera-broken.svg",
+      "componentPath": "./components/icons/Broken/CameraBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "CameraBulk",
+      "svgPath": "icons/media/Camera-bulk.svg",
+      "componentPath": "./components/icons/Bulk/CameraBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "CameraLight",
+      "svgPath": "icons/media/Camera-light.svg",
+      "componentPath": "./components/icons/Light/CameraLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "CameraOutline",
+      "svgPath": "icons/media/Camera-outline.svg",
+      "componentPath": "./components/icons/Outline/CameraOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "CameraTwoTone",
+      "svgPath": "icons/media/Camera-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/CameraTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CameraTwoTone } from 'magic-icons';\n\n<CameraTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "camera",
+    "title": "Camera"
+  }
 }

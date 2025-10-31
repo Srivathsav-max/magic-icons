@@ -1,0 +1,39 @@
+{
+  "id": "link-break",
+  "name": "LinkBreak",
+  "componentBaseName": "LinkBreak",
+  "category": "action",
+  "tags": [
+    "link",
+    "break"
+  ],
+  "aliases": [],
+  "description": "LinkBreak icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "LinkBreakOutline",
+      "svgPath": "icons/action/link-break-outline.svg",
+      "componentPath": "./components/icons/Outline/LinkBreakOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { LinkBreakTwoTone } from 'magic-icons';\n\n<LinkBreakTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "link break",
+    "title": "LinkBreak"
+  }
+}

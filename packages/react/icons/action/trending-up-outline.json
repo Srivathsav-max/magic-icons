@@ -1,0 +1,15 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "outline",
+	"contributors": [
+		"Admin"
+	],
+	"tags": [
+		"trending-up"
+	],
+	"categories": [
+		"action"
+	],
+	"aliases": [],
+	"deprecated": false
+}

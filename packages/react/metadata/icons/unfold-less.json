@@ -1,0 +1,39 @@
+{
+  "id": "unfold-less",
+  "name": "UnfoldLess",
+  "componentBaseName": "UnfoldLess",
+  "category": "action",
+  "tags": [
+    "unfold",
+    "less"
+  ],
+  "aliases": [],
+  "description": "UnfoldLess icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "UnfoldLessOutline",
+      "svgPath": "icons/action/unfold-less-outline.svg",
+      "componentPath": "./components/icons/Outline/UnfoldLessOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { UnfoldLessTwoTone } from 'magic-icons';\n\n<UnfoldLessTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "unfold less",
+    "title": "UnfoldLess"
+  }
+}

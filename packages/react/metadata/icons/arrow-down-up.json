@@ -1,0 +1,40 @@
+{
+  "id": "arrow-down-up",
+  "name": "ArrowDownUp",
+  "componentBaseName": "ArrowDownUp",
+  "category": "action",
+  "tags": [
+    "arrow",
+    "down",
+    "up"
+  ],
+  "aliases": [],
+  "description": "ArrowDownUp icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDownUpOutline",
+      "svgPath": "icons/action/arrow-down-up-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowDownUpOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowDownUpTwoTone } from 'magic-icons';\n\n<ArrowDownUpTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow down up",
+    "title": "ArrowDownUp"
+  }
+}

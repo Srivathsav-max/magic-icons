@@ -1,10 +1,10 @@
 "use client";
 
+import { Button } from "@magic-icons/ui";
 import { ArrowRight, Check, Copy, Github, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import IconShowcase from "@/components/IconShowcase";
-import { Button } from "@/components/ui/button";
 
 export default function Home() {
 	const { theme, setTheme } = useTheme();

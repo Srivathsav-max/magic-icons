@@ -1,14 +1,22 @@
 "use client";
 
+import {
+	Badge,
+	Button,
+	Dialog,
+	DialogContent,
+	DialogHeader,
+	DialogTitle,
+	Tabs,
+	TabsContent,
+	TabsList,
+	TabsTrigger,
+} from "@magic-icons/ui";
 import { Check, Copy } from "lucide-react";
 import * as Icons from "magic-icons";
 import type React from "react";
 import { Suspense, useState } from "react";
 import { cn } from "@/lib/utils";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 interface IconDetailDialogProps {
 	icon: {

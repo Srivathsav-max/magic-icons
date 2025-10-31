@@ -1,72 +1,74 @@
 {
-	"id": "work",
-	"name": "Work",
-	"componentBaseName": "Work",
-	"category": "work",
-	"tags": ["work"],
-	"aliases": [],
-	"description": "Work icon - Work & Productivity",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "WorkBroken",
-			"svgPath": "icons/work/Work-broken.svg",
-			"componentPath": "./components/icons/Broken/WorkBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "WorkBulk",
-			"svgPath": "icons/work/Work-bulk.svg",
-			"componentPath": "./components/icons/Bulk/WorkBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "WorkLight",
-			"svgPath": "icons/work/Work-light.svg",
-			"componentPath": "./components/icons/Light/WorkLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "WorkOutline",
-			"svgPath": "icons/work/Work-outline.svg",
-			"componentPath": "./components/icons/Outline/WorkOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "WorkTwoTone",
-			"svgPath": "icons/work/Work-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/WorkTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { WorkTwoTone } from 'magic-icons';\n\n<WorkTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "work",
-		"title": "Work"
-	}
+  "id": "work",
+  "name": "Work",
+  "componentBaseName": "Work",
+  "category": "work",
+  "tags": [
+    "work"
+  ],
+  "aliases": [],
+  "description": "Work icon - Work & Productivity",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "WorkBroken",
+      "svgPath": "icons/work/Work-broken.svg",
+      "componentPath": "./components/icons/Broken/WorkBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "WorkBulk",
+      "svgPath": "icons/work/Work-bulk.svg",
+      "componentPath": "./components/icons/Bulk/WorkBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "WorkLight",
+      "svgPath": "icons/work/Work-light.svg",
+      "componentPath": "./components/icons/Light/WorkLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "WorkOutline",
+      "svgPath": "icons/work/Work-outline.svg",
+      "componentPath": "./components/icons/Outline/WorkOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "WorkTwoTone",
+      "svgPath": "icons/work/Work-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/WorkTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { WorkTwoTone } from 'magic-icons';\n\n<WorkTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "work",
+    "title": "Work"
+  }
 }

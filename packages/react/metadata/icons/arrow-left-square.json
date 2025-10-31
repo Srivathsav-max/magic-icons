@@ -1,72 +1,76 @@
 {
-	"id": "arrow-left-square",
-	"name": "ArrowLeftSquare",
-	"componentBaseName": "ArrowLeftSquare",
-	"category": "navigation",
-	"tags": ["arrow", "left", "square"],
-	"aliases": [],
-	"description": "ArrowLeftSquare icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowLeftSquareBroken",
-			"svgPath": "icons/navigation/arrow-left-square-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowLeftSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowLeftSquareBulk",
-			"svgPath": "icons/navigation/arrow-left-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowLeftSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowLeftSquareLight",
-			"svgPath": "icons/navigation/arrow-left-square-light.svg",
-			"componentPath": "./components/icons/Light/ArrowLeftSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowLeftSquareOutline",
-			"svgPath": "icons/navigation/arrow-left-square-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowLeftSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowLeftSquareTwoTone",
-			"svgPath": "icons/navigation/arrow-left-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowLeftSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowLeftSquareTwoTone } from 'magic-icons';\n\n<ArrowLeftSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow left square",
-		"title": "ArrowLeftSquare"
-	}
+  "id": "arrow-left-square",
+  "name": "ArrowLeftSquare",
+  "componentBaseName": "ArrowLeftSquare",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "left",
+    "square"
+  ],
+  "aliases": [],
+  "description": "ArrowLeftSquare icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowLeftSquareBroken",
+      "svgPath": "icons/navigation/arrow-left-square-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowLeftSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowLeftSquareBulk",
+      "svgPath": "icons/navigation/arrow-left-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowLeftSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowLeftSquareLight",
+      "svgPath": "icons/navigation/arrow-left-square-light.svg",
+      "componentPath": "./components/icons/Light/ArrowLeftSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowLeftSquareOutline",
+      "svgPath": "icons/navigation/arrow-left-square-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowLeftSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowLeftSquareTwoTone",
+      "svgPath": "icons/navigation/arrow-left-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowLeftSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowLeftSquareTwoTone } from 'magic-icons';\n\n<ArrowLeftSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow left square",
+    "title": "ArrowLeftSquare"
+  }
 }

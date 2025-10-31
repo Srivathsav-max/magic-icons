@@ -1,72 +1,74 @@
 {
-	"id": "setting",
-	"name": "Setting",
-	"componentBaseName": "Setting",
-	"category": "ui",
-	"tags": ["setting"],
-	"aliases": [],
-	"description": "Setting icon - UI Elements",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "SettingBroken",
-			"svgPath": "icons/ui/Setting-broken.svg",
-			"componentPath": "./components/icons/Broken/SettingBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "SettingBulk",
-			"svgPath": "icons/ui/Setting-bulk.svg",
-			"componentPath": "./components/icons/Bulk/SettingBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "SettingLight",
-			"svgPath": "icons/ui/Setting-light.svg",
-			"componentPath": "./components/icons/Light/SettingLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "SettingOutline",
-			"svgPath": "icons/ui/Setting-outline.svg",
-			"componentPath": "./components/icons/Outline/SettingOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "SettingTwoTone",
-			"svgPath": "icons/ui/Setting-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/SettingTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { SettingTwoTone } from 'magic-icons';\n\n<SettingTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "setting",
-		"title": "Setting"
-	}
+  "id": "setting",
+  "name": "Setting",
+  "componentBaseName": "Setting",
+  "category": "ui",
+  "tags": [
+    "setting"
+  ],
+  "aliases": [],
+  "description": "Setting icon - UI Elements",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "SettingBroken",
+      "svgPath": "icons/ui/Setting-broken.svg",
+      "componentPath": "./components/icons/Broken/SettingBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "SettingBulk",
+      "svgPath": "icons/ui/Setting-bulk.svg",
+      "componentPath": "./components/icons/Bulk/SettingBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "SettingLight",
+      "svgPath": "icons/ui/Setting-light.svg",
+      "componentPath": "./components/icons/Light/SettingLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "SettingOutline",
+      "svgPath": "icons/ui/Setting-outline.svg",
+      "componentPath": "./components/icons/Outline/SettingOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "SettingTwoTone",
+      "svgPath": "icons/ui/Setting-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/SettingTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { SettingTwoTone } from 'magic-icons';\n\n<SettingTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "setting",
+    "title": "Setting"
+  }
 }

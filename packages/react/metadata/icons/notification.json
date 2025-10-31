@@ -1,72 +1,74 @@
 {
-	"id": "notification",
-	"name": "Notification",
-	"componentBaseName": "Notification",
-	"category": "ui",
-	"tags": ["notification"],
-	"aliases": [],
-	"description": "Notification icon - UI Elements",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "NotificationBroken",
-			"svgPath": "icons/ui/Notification-broken.svg",
-			"componentPath": "./components/icons/Broken/NotificationBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "NotificationBulk",
-			"svgPath": "icons/ui/Notification-bulk.svg",
-			"componentPath": "./components/icons/Bulk/NotificationBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "NotificationLight",
-			"svgPath": "icons/ui/Notification-light.svg",
-			"componentPath": "./components/icons/Light/NotificationLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "NotificationOutline",
-			"svgPath": "icons/ui/Notification-outline.svg",
-			"componentPath": "./components/icons/Outline/NotificationOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "NotificationTwoTone",
-			"svgPath": "icons/ui/Notification-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/NotificationTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { NotificationTwoTone } from 'magic-icons';\n\n<NotificationTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "notification",
-		"title": "Notification"
-	}
+  "id": "notification",
+  "name": "Notification",
+  "componentBaseName": "Notification",
+  "category": "ui",
+  "tags": [
+    "notification"
+  ],
+  "aliases": [],
+  "description": "Notification icon - UI Elements",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "NotificationBroken",
+      "svgPath": "icons/ui/Notification-broken.svg",
+      "componentPath": "./components/icons/Broken/NotificationBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "NotificationBulk",
+      "svgPath": "icons/ui/Notification-bulk.svg",
+      "componentPath": "./components/icons/Bulk/NotificationBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "NotificationLight",
+      "svgPath": "icons/ui/Notification-light.svg",
+      "componentPath": "./components/icons/Light/NotificationLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "NotificationOutline",
+      "svgPath": "icons/ui/Notification-outline.svg",
+      "componentPath": "./components/icons/Outline/NotificationOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "NotificationTwoTone",
+      "svgPath": "icons/ui/Notification-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/NotificationTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { NotificationTwoTone } from 'magic-icons';\n\n<NotificationTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "notification",
+    "title": "Notification"
+  }
 }

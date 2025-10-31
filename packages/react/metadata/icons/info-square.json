@@ -1,72 +1,75 @@
 {
-	"id": "info-square",
-	"name": "InfoSquare",
-	"componentBaseName": "InfoSquare",
-	"category": "status",
-	"tags": ["info", "square"],
-	"aliases": [],
-	"description": "InfoSquare icon - Status & Indicators",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "InfoSquareBroken",
-			"svgPath": "icons/status/info-square-broken.svg",
-			"componentPath": "./components/icons/Broken/InfoSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "InfoSquareBulk",
-			"svgPath": "icons/status/info-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/InfoSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "InfoSquareLight",
-			"svgPath": "icons/status/info-square-light.svg",
-			"componentPath": "./components/icons/Light/InfoSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "InfoSquareOutline",
-			"svgPath": "icons/status/info-square-outline.svg",
-			"componentPath": "./components/icons/Outline/InfoSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "InfoSquareTwoTone",
-			"svgPath": "icons/status/info-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/InfoSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { InfoSquareTwoTone } from 'magic-icons';\n\n<InfoSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "info square",
-		"title": "InfoSquare"
-	}
+  "id": "info-square",
+  "name": "InfoSquare",
+  "componentBaseName": "InfoSquare",
+  "category": "status",
+  "tags": [
+    "info",
+    "square"
+  ],
+  "aliases": [],
+  "description": "InfoSquare icon - Status & Indicators",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "InfoSquareBroken",
+      "svgPath": "icons/status/info-square-broken.svg",
+      "componentPath": "./components/icons/Broken/InfoSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "InfoSquareBulk",
+      "svgPath": "icons/status/info-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/InfoSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "InfoSquareLight",
+      "svgPath": "icons/status/info-square-light.svg",
+      "componentPath": "./components/icons/Light/InfoSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "InfoSquareOutline",
+      "svgPath": "icons/status/info-square-outline.svg",
+      "componentPath": "./components/icons/Outline/InfoSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "InfoSquareTwoTone",
+      "svgPath": "icons/status/info-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/InfoSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { InfoSquareTwoTone } from 'magic-icons';\n\n<InfoSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "info square",
+    "title": "InfoSquare"
+  }
 }

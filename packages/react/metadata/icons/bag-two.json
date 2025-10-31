@@ -1,36 +1,39 @@
 {
-	"id": "bag-two",
-	"name": "BagTwo",
-	"componentBaseName": "BagTwo",
-	"category": "commerce",
-	"tags": ["bag", "two"],
-	"aliases": [],
-	"description": "BagTwo icon - E-Commerce & Shopping",
-	"variants": {
-		"two-tone": {
-			"available": true,
-			"componentName": "BagTwoTwoTone",
-			"svgPath": "icons/commerce/bag-two-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/BagTwoTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { BagTwoTwoTone } from 'magic-icons';\n\n<BagTwoTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "bag two",
-		"title": "BagTwo"
-	}
+  "id": "bag-two",
+  "name": "BagTwo",
+  "componentBaseName": "BagTwo",
+  "category": "commerce",
+  "tags": [
+    "bag",
+    "two"
+  ],
+  "aliases": [],
+  "description": "BagTwo icon - E-Commerce & Shopping",
+  "variants": {
+    "two-tone": {
+      "available": true,
+      "componentName": "BagTwoTwoTone",
+      "svgPath": "icons/commerce/bag-two-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/BagTwoTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { BagTwoTwoTone } from 'magic-icons';\n\n<BagTwoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "bag two",
+    "title": "BagTwo"
+  }
 }

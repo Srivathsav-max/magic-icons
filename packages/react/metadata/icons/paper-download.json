@@ -1,72 +1,76 @@
 {
-	"id": "paper-download",
-	"name": "PaperDownload",
-	"componentBaseName": "PaperDownload",
-	"category": "navigation",
-	"tags": ["down", "paper", "download"],
-	"aliases": [],
-	"description": "PaperDownload icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "PaperDownloadBroken",
-			"svgPath": "icons/navigation/paper-download-broken.svg",
-			"componentPath": "./components/icons/Broken/PaperDownloadBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "PaperDownloadBulk",
-			"svgPath": "icons/navigation/paper-download-bulk.svg",
-			"componentPath": "./components/icons/Bulk/PaperDownloadBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "PaperDownloadLight",
-			"svgPath": "icons/navigation/paper-download-light.svg",
-			"componentPath": "./components/icons/Light/PaperDownloadLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "PaperDownloadOutline",
-			"svgPath": "icons/navigation/paper-download-outline.svg",
-			"componentPath": "./components/icons/Outline/PaperDownloadOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "PaperDownloadTwoTone",
-			"svgPath": "icons/navigation/paper-download-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/PaperDownloadTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { PaperDownloadTwoTone } from 'magic-icons';\n\n<PaperDownloadTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "paper download",
-		"title": "PaperDownload"
-	}
+  "id": "paper-download",
+  "name": "PaperDownload",
+  "componentBaseName": "PaperDownload",
+  "category": "navigation",
+  "tags": [
+    "down",
+    "paper",
+    "download"
+  ],
+  "aliases": [],
+  "description": "PaperDownload icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "PaperDownloadBroken",
+      "svgPath": "icons/navigation/paper-download-broken.svg",
+      "componentPath": "./components/icons/Broken/PaperDownloadBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "PaperDownloadBulk",
+      "svgPath": "icons/navigation/paper-download-bulk.svg",
+      "componentPath": "./components/icons/Bulk/PaperDownloadBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "PaperDownloadLight",
+      "svgPath": "icons/navigation/paper-download-light.svg",
+      "componentPath": "./components/icons/Light/PaperDownloadLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "PaperDownloadOutline",
+      "svgPath": "icons/navigation/paper-download-outline.svg",
+      "componentPath": "./components/icons/Outline/PaperDownloadOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "PaperDownloadTwoTone",
+      "svgPath": "icons/navigation/paper-download-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/PaperDownloadTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { PaperDownloadTwoTone } from 'magic-icons';\n\n<PaperDownloadTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "paper download",
+    "title": "PaperDownload"
+  }
 }

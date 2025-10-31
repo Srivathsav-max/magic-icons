@@ -1,0 +1,38 @@
+{
+  "id": "heart01",
+  "name": "Heart01",
+  "componentBaseName": "Heart01",
+  "category": "action",
+  "tags": [
+    "heart01"
+  ],
+  "aliases": [],
+  "description": "Heart01 icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Heart01Outline",
+      "svgPath": "icons/action/heart-01-outline.svg",
+      "componentPath": "./components/icons/Outline/Heart01Outline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { Heart01TwoTone } from 'magic-icons';\n\n<Heart01TwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "heart01",
+    "title": "Heart01"
+  }
+}

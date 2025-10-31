@@ -1,72 +1,74 @@
 {
-	"id": "video",
-	"name": "Video",
-	"componentBaseName": "Video",
-	"category": "communication",
-	"tags": ["video"],
-	"aliases": [],
-	"description": "Video icon - Communication",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "VideoBroken",
-			"svgPath": "icons/communication/Video-broken.svg",
-			"componentPath": "./components/icons/Broken/VideoBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "VideoBulk",
-			"svgPath": "icons/communication/Video-bulk.svg",
-			"componentPath": "./components/icons/Bulk/VideoBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "VideoLight",
-			"svgPath": "icons/communication/Video-light.svg",
-			"componentPath": "./components/icons/Light/VideoLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "VideoOutline",
-			"svgPath": "icons/communication/Video-outline.svg",
-			"componentPath": "./components/icons/Outline/VideoOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "VideoTwoTone",
-			"svgPath": "icons/communication/Video-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/VideoTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { VideoTwoTone } from 'magic-icons';\n\n<VideoTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "video",
-		"title": "Video"
-	}
+  "id": "video",
+  "name": "Video",
+  "componentBaseName": "Video",
+  "category": "communication",
+  "tags": [
+    "video"
+  ],
+  "aliases": [],
+  "description": "Video icon - Communication",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "VideoBroken",
+      "svgPath": "icons/communication/Video-broken.svg",
+      "componentPath": "./components/icons/Broken/VideoBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "VideoBulk",
+      "svgPath": "icons/communication/Video-bulk.svg",
+      "componentPath": "./components/icons/Bulk/VideoBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "VideoLight",
+      "svgPath": "icons/communication/Video-light.svg",
+      "componentPath": "./components/icons/Light/VideoLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "VideoOutline",
+      "svgPath": "icons/communication/Video-outline.svg",
+      "componentPath": "./components/icons/Outline/VideoOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "VideoTwoTone",
+      "svgPath": "icons/communication/Video-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/VideoTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { VideoTwoTone } from 'magic-icons';\n\n<VideoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "video",
+    "title": "Video"
+  }
 }

@@ -1,72 +1,76 @@
 {
-	"id": "arrow-up-square",
-	"name": "ArrowUpSquare",
-	"componentBaseName": "ArrowUpSquare",
-	"category": "navigation",
-	"tags": ["arrow", "up", "square"],
-	"aliases": [],
-	"description": "ArrowUpSquare icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowUpSquareBroken",
-			"svgPath": "icons/navigation/arrow-up-square-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowUpSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowUpSquareBulk",
-			"svgPath": "icons/navigation/arrow-up-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowUpSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowUpSquareLight",
-			"svgPath": "icons/navigation/arrow-up-square-light.svg",
-			"componentPath": "./components/icons/Light/ArrowUpSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowUpSquareOutline",
-			"svgPath": "icons/navigation/arrow-up-square-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowUpSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowUpSquareTwoTone",
-			"svgPath": "icons/navigation/arrow-up-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowUpSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowUpSquareTwoTone } from 'magic-icons';\n\n<ArrowUpSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow up square",
-		"title": "ArrowUpSquare"
-	}
+  "id": "arrow-up-square",
+  "name": "ArrowUpSquare",
+  "componentBaseName": "ArrowUpSquare",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "up",
+    "square"
+  ],
+  "aliases": [],
+  "description": "ArrowUpSquare icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowUpSquareBroken",
+      "svgPath": "icons/navigation/arrow-up-square-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowUpSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowUpSquareBulk",
+      "svgPath": "icons/navigation/arrow-up-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowUpSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowUpSquareLight",
+      "svgPath": "icons/navigation/arrow-up-square-light.svg",
+      "componentPath": "./components/icons/Light/ArrowUpSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUpSquareOutline",
+      "svgPath": "icons/navigation/arrow-up-square-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowUpSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowUpSquareTwoTone",
+      "svgPath": "icons/navigation/arrow-up-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowUpSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowUpSquareTwoTone } from 'magic-icons';\n\n<ArrowUpSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow up square",
+    "title": "ArrowUpSquare"
+  }
 }

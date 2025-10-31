@@ -1,0 +1,40 @@
+{
+  "id": "credit-card01",
+  "name": "CreditCard01",
+  "componentBaseName": "CreditCard01",
+  "category": "action",
+  "tags": [
+    "edit",
+    "credit",
+    "card01"
+  ],
+  "aliases": [],
+  "description": "CreditCard01 icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CreditCard01Outline",
+      "svgPath": "icons/action/credit-card-01-outline.svg",
+      "componentPath": "./components/icons/Outline/CreditCard01Outline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CreditCard01TwoTone } from 'magic-icons';\n\n<CreditCard01TwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "credit card01",
+    "title": "CreditCard01"
+  }
+}

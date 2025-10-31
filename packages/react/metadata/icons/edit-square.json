@@ -1,72 +1,75 @@
 {
-	"id": "edit-square",
-	"name": "EditSquare",
-	"componentBaseName": "EditSquare",
-	"category": "action",
-	"tags": ["edit", "square"],
-	"aliases": [],
-	"description": "EditSquare icon - Actions & Operations",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "EditSquareBroken",
-			"svgPath": "icons/action/edit-square-broken.svg",
-			"componentPath": "./components/icons/Broken/EditSquareBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "EditSquareBulk",
-			"svgPath": "icons/action/edit-square-bulk.svg",
-			"componentPath": "./components/icons/Bulk/EditSquareBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "EditSquareLight",
-			"svgPath": "icons/action/edit-square-light.svg",
-			"componentPath": "./components/icons/Light/EditSquareLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "EditSquareOutline",
-			"svgPath": "icons/action/edit-square-outline.svg",
-			"componentPath": "./components/icons/Outline/EditSquareOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "EditSquareTwoTone",
-			"svgPath": "icons/action/edit-square-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/EditSquareTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { EditSquareTwoTone } from 'magic-icons';\n\n<EditSquareTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "edit square",
-		"title": "EditSquare"
-	}
+  "id": "edit-square",
+  "name": "EditSquare",
+  "componentBaseName": "EditSquare",
+  "category": "action",
+  "tags": [
+    "edit",
+    "square"
+  ],
+  "aliases": [],
+  "description": "EditSquare icon - Actions & Operations",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "EditSquareBroken",
+      "svgPath": "icons/action/edit-square-broken.svg",
+      "componentPath": "./components/icons/Broken/EditSquareBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "EditSquareBulk",
+      "svgPath": "icons/action/edit-square-bulk.svg",
+      "componentPath": "./components/icons/Bulk/EditSquareBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "EditSquareLight",
+      "svgPath": "icons/action/edit-square-light.svg",
+      "componentPath": "./components/icons/Light/EditSquareLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "EditSquareOutline",
+      "svgPath": "icons/action/edit-square-outline.svg",
+      "componentPath": "./components/icons/Outline/EditSquareOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "EditSquareTwoTone",
+      "svgPath": "icons/action/edit-square-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/EditSquareTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { EditSquareTwoTone } from 'magic-icons';\n\n<EditSquareTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "edit square",
+    "title": "EditSquare"
+  }
 }

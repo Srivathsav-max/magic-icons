@@ -1,72 +1,75 @@
 {
-	"id": "calling",
-	"name": "Calling",
-	"componentBaseName": "Calling",
-	"category": "communication",
-	"tags": ["call", "calling"],
-	"aliases": [],
-	"description": "Calling icon - Communication",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "CallingBroken",
-			"svgPath": "icons/communication/Calling-broken.svg",
-			"componentPath": "./components/icons/Broken/CallingBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "CallingBulk",
-			"svgPath": "icons/communication/Calling-bulk.svg",
-			"componentPath": "./components/icons/Bulk/CallingBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "CallingLight",
-			"svgPath": "icons/communication/Calling-light.svg",
-			"componentPath": "./components/icons/Light/CallingLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "CallingOutline",
-			"svgPath": "icons/communication/Calling-outline.svg",
-			"componentPath": "./components/icons/Outline/CallingOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "CallingTwoTone",
-			"svgPath": "icons/communication/Calling-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/CallingTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { CallingTwoTone } from 'magic-icons';\n\n<CallingTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "calling",
-		"title": "Calling"
-	}
+  "id": "calling",
+  "name": "Calling",
+  "componentBaseName": "Calling",
+  "category": "communication",
+  "tags": [
+    "call",
+    "calling"
+  ],
+  "aliases": [],
+  "description": "Calling icon - Communication",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "CallingBroken",
+      "svgPath": "icons/communication/Calling-broken.svg",
+      "componentPath": "./components/icons/Broken/CallingBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "CallingBulk",
+      "svgPath": "icons/communication/Calling-bulk.svg",
+      "componentPath": "./components/icons/Bulk/CallingBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "CallingLight",
+      "svgPath": "icons/communication/Calling-light.svg",
+      "componentPath": "./components/icons/Light/CallingLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "CallingOutline",
+      "svgPath": "icons/communication/Calling-outline.svg",
+      "componentPath": "./components/icons/Outline/CallingOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "CallingTwoTone",
+      "svgPath": "icons/communication/Calling-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/CallingTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CallingTwoTone } from 'magic-icons';\n\n<CallingTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "calling",
+    "title": "Calling"
+  }
 }

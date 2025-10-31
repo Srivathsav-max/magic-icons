@@ -1,72 +1,76 @@
 {
-	"id": "arrow-down-circle",
-	"name": "ArrowDownCircle",
-	"componentBaseName": "ArrowDownCircle",
-	"category": "navigation",
-	"tags": ["arrow", "down", "circle"],
-	"aliases": [],
-	"description": "ArrowDownCircle icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ArrowDownCircleBroken",
-			"svgPath": "icons/navigation/arrow-down-circle-broken.svg",
-			"componentPath": "./components/icons/Broken/ArrowDownCircleBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ArrowDownCircleBulk",
-			"svgPath": "icons/navigation/arrow-down-circle-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ArrowDownCircleBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ArrowDownCircleLight",
-			"svgPath": "icons/navigation/arrow-down-circle-light.svg",
-			"componentPath": "./components/icons/Light/ArrowDownCircleLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ArrowDownCircleOutline",
-			"svgPath": "icons/navigation/arrow-down-circle-outline.svg",
-			"componentPath": "./components/icons/Outline/ArrowDownCircleOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ArrowDownCircleTwoTone",
-			"svgPath": "icons/navigation/arrow-down-circle-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ArrowDownCircleTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ArrowDownCircleTwoTone } from 'magic-icons';\n\n<ArrowDownCircleTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "arrow down circle",
-		"title": "ArrowDownCircle"
-	}
+  "id": "arrow-down-circle",
+  "name": "ArrowDownCircle",
+  "componentBaseName": "ArrowDownCircle",
+  "category": "navigation",
+  "tags": [
+    "arrow",
+    "down",
+    "circle"
+  ],
+  "aliases": [],
+  "description": "ArrowDownCircle icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ArrowDownCircleBroken",
+      "svgPath": "icons/navigation/arrow-down-circle-broken.svg",
+      "componentPath": "./components/icons/Broken/ArrowDownCircleBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ArrowDownCircleBulk",
+      "svgPath": "icons/navigation/arrow-down-circle-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ArrowDownCircleBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ArrowDownCircleLight",
+      "svgPath": "icons/navigation/arrow-down-circle-light.svg",
+      "componentPath": "./components/icons/Light/ArrowDownCircleLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDownCircleOutline",
+      "svgPath": "icons/navigation/arrow-down-circle-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowDownCircleOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ArrowDownCircleTwoTone",
+      "svgPath": "icons/navigation/arrow-down-circle-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowDownCircleTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowDownCircleTwoTone } from 'magic-icons';\n\n<ArrowDownCircleTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow down circle",
+    "title": "ArrowDownCircle"
+  }
 }

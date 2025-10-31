@@ -1,5 +1,14 @@
 "use client";
 
+import {
+	Badge,
+	Button,
+	Input,
+	Popover,
+	PopoverContent,
+	PopoverTrigger,
+	ScrollArea,
+} from "@magic-icons/ui";
 import { ArrowLeft, Moon, Search, Settings, Sun, X } from "lucide-react";
 import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
@@ -7,11 +16,6 @@ import { useEffect, useMemo, useState } from "react";
 import IconCard from "@/components/IconCard";
 import IconDetailDialog from "@/components/IconDetailDialog";
 import Sidebar from "@/components/Sidebar";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface IconData {
 	name: string;

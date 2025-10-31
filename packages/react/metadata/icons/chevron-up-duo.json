@@ -1,0 +1,40 @@
+{
+  "id": "chevron-up-duo",
+  "name": "ChevronUpDuo",
+  "componentBaseName": "ChevronUpDuo",
+  "category": "action",
+  "tags": [
+    "chevron",
+    "up",
+    "duo"
+  ],
+  "aliases": [],
+  "description": "ChevronUpDuo icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChevronUpDuoOutline",
+      "svgPath": "icons/action/chevron-up-duo-outline.svg",
+      "componentPath": "./components/icons/Outline/ChevronUpDuoOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ChevronUpDuoTwoTone } from 'magic-icons';\n\n<ChevronUpDuoTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "chevron up duo",
+    "title": "ChevronUpDuo"
+  }
+}

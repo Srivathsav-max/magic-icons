@@ -1,0 +1,41 @@
+{
+  "id": "arrow-circle-up-left",
+  "name": "ArrowCircleUpLeft",
+  "componentBaseName": "ArrowCircleUpLeft",
+  "category": "action",
+  "tags": [
+    "arrow",
+    "circle",
+    "up",
+    "left"
+  ],
+  "aliases": [],
+  "description": "ArrowCircleUpLeft icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowCircleUpLeftOutline",
+      "svgPath": "icons/action/arrow-circle-up-left-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowCircleUpLeftOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowCircleUpLeftTwoTone } from 'magic-icons';\n\n<ArrowCircleUpLeftTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow circle up left",
+    "title": "ArrowCircleUpLeft"
+  }
+}

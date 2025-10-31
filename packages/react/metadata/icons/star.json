@@ -1,72 +1,74 @@
 {
-	"id": "star",
-	"name": "Star",
-	"componentBaseName": "Star",
-	"category": "misc",
-	"tags": ["star"],
-	"aliases": [],
-	"description": "Star icon - Miscellaneous",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "StarBroken",
-			"svgPath": "icons/misc/Star-broken.svg",
-			"componentPath": "./components/icons/Broken/StarBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "StarBulk",
-			"svgPath": "icons/misc/Star-bulk.svg",
-			"componentPath": "./components/icons/Bulk/StarBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "StarLight",
-			"svgPath": "icons/misc/Star-light.svg",
-			"componentPath": "./components/icons/Light/StarLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "StarOutline",
-			"svgPath": "icons/misc/Star-outline.svg",
-			"componentPath": "./components/icons/Outline/StarOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "StarTwoTone",
-			"svgPath": "icons/misc/Star-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/StarTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { StarTwoTone } from 'magic-icons';\n\n<StarTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "star",
-		"title": "Star"
-	}
+  "id": "star",
+  "name": "Star",
+  "componentBaseName": "Star",
+  "category": "misc",
+  "tags": [
+    "star"
+  ],
+  "aliases": [],
+  "description": "Star icon - Miscellaneous",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "StarBroken",
+      "svgPath": "icons/misc/Star-broken.svg",
+      "componentPath": "./components/icons/Broken/StarBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "StarBulk",
+      "svgPath": "icons/misc/Star-bulk.svg",
+      "componentPath": "./components/icons/Bulk/StarBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "StarLight",
+      "svgPath": "icons/misc/Star-light.svg",
+      "componentPath": "./components/icons/Light/StarLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "StarOutline",
+      "svgPath": "icons/misc/Star-outline.svg",
+      "componentPath": "./components/icons/Outline/StarOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "StarTwoTone",
+      "svgPath": "icons/misc/Star-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/StarTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { StarTwoTone } from 'magic-icons';\n\n<StarTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "star",
+    "title": "Star"
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "check-all",
+  "name": "CheckAll",
+  "componentBaseName": "CheckAll",
+  "category": "action",
+  "tags": [
+    "check",
+    "all"
+  ],
+  "aliases": [],
+  "description": "CheckAll icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CheckAllOutline",
+      "svgPath": "icons/action/check-all-outline.svg",
+      "componentPath": "./components/icons/Outline/CheckAllOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CheckAllTwoTone } from 'magic-icons';\n\n<CheckAllTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "check all",
+    "title": "CheckAll"
+  }
+}

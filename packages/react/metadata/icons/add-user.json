@@ -1,72 +1,75 @@
 {
-	"id": "add-user",
-	"name": "AddUser",
-	"componentBaseName": "AddUser",
-	"category": "user",
-	"tags": ["user", "add"],
-	"aliases": [],
-	"description": "AddUser icon - User & Profile",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "AddUserBroken",
-			"svgPath": "icons/user/add-user-broken.svg",
-			"componentPath": "./components/icons/Broken/AddUserBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "AddUserBulk",
-			"svgPath": "icons/user/add-user-bulk.svg",
-			"componentPath": "./components/icons/Bulk/AddUserBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "AddUserLight",
-			"svgPath": "icons/user/add-user-light.svg",
-			"componentPath": "./components/icons/Light/AddUserLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "AddUserOutline",
-			"svgPath": "icons/user/add-user-outline.svg",
-			"componentPath": "./components/icons/Outline/AddUserOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "AddUserTwoTone",
-			"svgPath": "icons/user/add-user-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/AddUserTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { AddUserTwoTone } from 'magic-icons';\n\n<AddUserTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "add user",
-		"title": "AddUser"
-	}
+  "id": "add-user",
+  "name": "AddUser",
+  "componentBaseName": "AddUser",
+  "category": "user",
+  "tags": [
+    "user",
+    "add"
+  ],
+  "aliases": [],
+  "description": "AddUser icon - User & Profile",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "AddUserBroken",
+      "svgPath": "icons/user/add-user-broken.svg",
+      "componentPath": "./components/icons/Broken/AddUserBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "AddUserBulk",
+      "svgPath": "icons/user/add-user-bulk.svg",
+      "componentPath": "./components/icons/Bulk/AddUserBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "AddUserLight",
+      "svgPath": "icons/user/add-user-light.svg",
+      "componentPath": "./components/icons/Light/AddUserLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "AddUserOutline",
+      "svgPath": "icons/user/add-user-outline.svg",
+      "componentPath": "./components/icons/Outline/AddUserOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "AddUserTwoTone",
+      "svgPath": "icons/user/add-user-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/AddUserTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { AddUserTwoTone } from 'magic-icons';\n\n<AddUserTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "add user",
+    "title": "AddUser"
+  }
 }

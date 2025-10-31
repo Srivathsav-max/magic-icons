@@ -1,72 +1,74 @@
 {
-	"id": "edit",
-	"name": "Edit",
-	"componentBaseName": "Edit",
-	"category": "action",
-	"tags": ["edit"],
-	"aliases": [],
-	"description": "Edit icon - Actions & Operations",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "EditBroken",
-			"svgPath": "icons/action/Edit-broken.svg",
-			"componentPath": "./components/icons/Broken/EditBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "EditBulk",
-			"svgPath": "icons/action/Edit-bulk.svg",
-			"componentPath": "./components/icons/Bulk/EditBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "EditLight",
-			"svgPath": "icons/action/Edit-light.svg",
-			"componentPath": "./components/icons/Light/EditLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "EditOutline",
-			"svgPath": "icons/action/Edit-outline.svg",
-			"componentPath": "./components/icons/Outline/EditOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "EditTwoTone",
-			"svgPath": "icons/action/Edit-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/EditTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { EditTwoTone } from 'magic-icons';\n\n<EditTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "edit",
-		"title": "Edit"
-	}
+  "id": "edit",
+  "name": "Edit",
+  "componentBaseName": "Edit",
+  "category": "action",
+  "tags": [
+    "edit"
+  ],
+  "aliases": [],
+  "description": "Edit icon - Actions & Operations",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "EditBroken",
+      "svgPath": "icons/action/Edit-broken.svg",
+      "componentPath": "./components/icons/Broken/EditBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "EditBulk",
+      "svgPath": "icons/action/Edit-bulk.svg",
+      "componentPath": "./components/icons/Bulk/EditBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "EditLight",
+      "svgPath": "icons/action/Edit-light.svg",
+      "componentPath": "./components/icons/Light/EditLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "EditOutline",
+      "svgPath": "icons/action/Edit-outline.svg",
+      "componentPath": "./components/icons/Outline/EditOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "EditTwoTone",
+      "svgPath": "icons/action/Edit-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/EditTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { EditTwoTone } from 'magic-icons';\n\n<EditTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "edit",
+    "title": "Edit"
+  }
 }

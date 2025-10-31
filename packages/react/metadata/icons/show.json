@@ -1,72 +1,74 @@
 {
-	"id": "show",
-	"name": "Show",
-	"componentBaseName": "Show",
-	"category": "ui",
-	"tags": ["show"],
-	"aliases": [],
-	"description": "Show icon - UI Elements",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "ShowBroken",
-			"svgPath": "icons/ui/Show-broken.svg",
-			"componentPath": "./components/icons/Broken/ShowBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "ShowBulk",
-			"svgPath": "icons/ui/Show-bulk.svg",
-			"componentPath": "./components/icons/Bulk/ShowBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "ShowLight",
-			"svgPath": "icons/ui/Show-light.svg",
-			"componentPath": "./components/icons/Light/ShowLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "ShowOutline",
-			"svgPath": "icons/ui/Show-outline.svg",
-			"componentPath": "./components/icons/Outline/ShowOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "ShowTwoTone",
-			"svgPath": "icons/ui/Show-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/ShowTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { ShowTwoTone } from 'magic-icons';\n\n<ShowTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "show",
-		"title": "Show"
-	}
+  "id": "show",
+  "name": "Show",
+  "componentBaseName": "Show",
+  "category": "ui",
+  "tags": [
+    "show"
+  ],
+  "aliases": [],
+  "description": "Show icon - UI Elements",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "ShowBroken",
+      "svgPath": "icons/ui/Show-broken.svg",
+      "componentPath": "./components/icons/Broken/ShowBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "ShowBulk",
+      "svgPath": "icons/ui/Show-bulk.svg",
+      "componentPath": "./components/icons/Bulk/ShowBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ShowLight",
+      "svgPath": "icons/ui/Show-light.svg",
+      "componentPath": "./components/icons/Light/ShowLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "ShowOutline",
+      "svgPath": "icons/ui/Show-outline.svg",
+      "componentPath": "./components/icons/Outline/ShowOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "ShowTwoTone",
+      "svgPath": "icons/ui/Show-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/ShowTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ShowTwoTone } from 'magic-icons';\n\n<ShowTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "show",
+    "title": "Show"
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "id": "option",
+  "name": "Option",
+  "componentBaseName": "Option",
+  "category": "action",
+  "tags": [
+    "option"
+  ],
+  "aliases": [],
+  "description": "Option icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "OptionOutline",
+      "svgPath": "icons/action/option-outline.svg",
+      "componentPath": "./components/icons/Outline/OptionOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { OptionTwoTone } from 'magic-icons';\n\n<OptionTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "option",
+    "title": "Option"
+  }
+}

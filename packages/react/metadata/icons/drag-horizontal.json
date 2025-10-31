@@ -1,0 +1,39 @@
+{
+  "id": "drag-horizontal",
+  "name": "DragHorizontal",
+  "componentBaseName": "DragHorizontal",
+  "category": "action",
+  "tags": [
+    "drag",
+    "horizontal"
+  ],
+  "aliases": [],
+  "description": "DragHorizontal icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "DragHorizontalOutline",
+      "svgPath": "icons/action/drag-horizontal-outline.svg",
+      "componentPath": "./components/icons/Outline/DragHorizontalOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { DragHorizontalTwoTone } from 'magic-icons';\n\n<DragHorizontalTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "drag horizontal",
+    "title": "DragHorizontal"
+  }
+}

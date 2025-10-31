@@ -1,0 +1,40 @@
+{
+  "id": "link-horizontal-off",
+  "name": "LinkHorizontalOff",
+  "componentBaseName": "LinkHorizontalOff",
+  "category": "action",
+  "tags": [
+    "link",
+    "horizontal",
+    "off"
+  ],
+  "aliases": [],
+  "description": "LinkHorizontalOff icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "LinkHorizontalOffOutline",
+      "svgPath": "icons/action/link-horizontal-off-outline.svg",
+      "componentPath": "./components/icons/Outline/LinkHorizontalOffOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { LinkHorizontalOffTwoTone } from 'magic-icons';\n\n<LinkHorizontalOffTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "link horizontal off",
+    "title": "LinkHorizontalOff"
+  }
+}

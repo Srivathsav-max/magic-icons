@@ -1,0 +1,40 @@
+{
+  "id": "arrow-circle-left",
+  "name": "ArrowCircleLeft",
+  "componentBaseName": "ArrowCircleLeft",
+  "category": "action",
+  "tags": [
+    "arrow",
+    "circle",
+    "left"
+  ],
+  "aliases": [],
+  "description": "ArrowCircleLeft icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowCircleLeftOutline",
+      "svgPath": "icons/action/arrow-circle-left-outline.svg",
+      "componentPath": "./components/icons/Outline/ArrowCircleLeftOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ArrowCircleLeftTwoTone } from 'magic-icons';\n\n<ArrowCircleLeftTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "arrow circle left",
+    "title": "ArrowCircleLeft"
+  }
+}

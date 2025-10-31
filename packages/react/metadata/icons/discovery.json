@@ -1,72 +1,74 @@
 {
-	"id": "discovery",
-	"name": "Discovery",
-	"componentBaseName": "Discovery",
-	"category": "location",
-	"tags": ["discovery"],
-	"aliases": [],
-	"description": "Discovery icon - Location & Maps",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "DiscoveryBroken",
-			"svgPath": "icons/location/Discovery-broken.svg",
-			"componentPath": "./components/icons/Broken/DiscoveryBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "DiscoveryBulk",
-			"svgPath": "icons/location/Discovery-bulk.svg",
-			"componentPath": "./components/icons/Bulk/DiscoveryBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "DiscoveryLight",
-			"svgPath": "icons/location/Discovery-light.svg",
-			"componentPath": "./components/icons/Light/DiscoveryLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "DiscoveryOutline",
-			"svgPath": "icons/location/Discovery-outline.svg",
-			"componentPath": "./components/icons/Outline/DiscoveryOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "DiscoveryTwoTone",
-			"svgPath": "icons/location/Discovery-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/DiscoveryTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { DiscoveryTwoTone } from 'magic-icons';\n\n<DiscoveryTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "discovery",
-		"title": "Discovery"
-	}
+  "id": "discovery",
+  "name": "Discovery",
+  "componentBaseName": "Discovery",
+  "category": "location",
+  "tags": [
+    "discovery"
+  ],
+  "aliases": [],
+  "description": "Discovery icon - Location & Maps",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "DiscoveryBroken",
+      "svgPath": "icons/location/Discovery-broken.svg",
+      "componentPath": "./components/icons/Broken/DiscoveryBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "DiscoveryBulk",
+      "svgPath": "icons/location/Discovery-bulk.svg",
+      "componentPath": "./components/icons/Bulk/DiscoveryBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "DiscoveryLight",
+      "svgPath": "icons/location/Discovery-light.svg",
+      "componentPath": "./components/icons/Light/DiscoveryLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "DiscoveryOutline",
+      "svgPath": "icons/location/Discovery-outline.svg",
+      "componentPath": "./components/icons/Outline/DiscoveryOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "DiscoveryTwoTone",
+      "svgPath": "icons/location/Discovery-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/DiscoveryTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { DiscoveryTwoTone } from 'magic-icons';\n\n<DiscoveryTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "discovery",
+    "title": "Discovery"
+  }
 }

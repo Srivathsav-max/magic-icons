@@ -1,72 +1,74 @@
 {
-	"id": "buy",
-	"name": "Buy",
-	"componentBaseName": "Buy",
-	"category": "commerce",
-	"tags": ["buy"],
-	"aliases": [],
-	"description": "Buy icon - E-Commerce & Shopping",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "BuyBroken",
-			"svgPath": "icons/commerce/Buy-broken.svg",
-			"componentPath": "./components/icons/Broken/BuyBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "BuyBulk",
-			"svgPath": "icons/commerce/Buy-bulk.svg",
-			"componentPath": "./components/icons/Bulk/BuyBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "BuyLight",
-			"svgPath": "icons/commerce/Buy-light.svg",
-			"componentPath": "./components/icons/Light/BuyLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "BuyOutline",
-			"svgPath": "icons/commerce/Buy-outline.svg",
-			"componentPath": "./components/icons/Outline/BuyOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "BuyTwoTone",
-			"svgPath": "icons/commerce/Buy-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/BuyTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { BuyTwoTone } from 'magic-icons';\n\n<BuyTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "buy",
-		"title": "Buy"
-	}
+  "id": "buy",
+  "name": "Buy",
+  "componentBaseName": "Buy",
+  "category": "commerce",
+  "tags": [
+    "buy"
+  ],
+  "aliases": [],
+  "description": "Buy icon - E-Commerce & Shopping",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "BuyBroken",
+      "svgPath": "icons/commerce/Buy-broken.svg",
+      "componentPath": "./components/icons/Broken/BuyBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "BuyBulk",
+      "svgPath": "icons/commerce/Buy-bulk.svg",
+      "componentPath": "./components/icons/Bulk/BuyBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "BuyLight",
+      "svgPath": "icons/commerce/Buy-light.svg",
+      "componentPath": "./components/icons/Light/BuyLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "BuyOutline",
+      "svgPath": "icons/commerce/Buy-outline.svg",
+      "componentPath": "./components/icons/Outline/BuyOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "BuyTwoTone",
+      "svgPath": "icons/commerce/Buy-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/BuyTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { BuyTwoTone } from 'magic-icons';\n\n<BuyTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "buy",
+    "title": "Buy"
+  }
 }

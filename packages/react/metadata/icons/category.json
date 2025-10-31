@@ -1,72 +1,74 @@
 {
-	"id": "category",
-	"name": "Category",
-	"componentBaseName": "Category",
-	"category": "misc",
-	"tags": ["category"],
-	"aliases": [],
-	"description": "Category icon - Miscellaneous",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "CategoryBroken",
-			"svgPath": "icons/misc/Category-broken.svg",
-			"componentPath": "./components/icons/Broken/CategoryBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "CategoryBulk",
-			"svgPath": "icons/misc/Category-bulk.svg",
-			"componentPath": "./components/icons/Bulk/CategoryBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "CategoryLight",
-			"svgPath": "icons/misc/Category-light.svg",
-			"componentPath": "./components/icons/Light/CategoryLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "CategoryOutline",
-			"svgPath": "icons/misc/Category-outline.svg",
-			"componentPath": "./components/icons/Outline/CategoryOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "CategoryTwoTone",
-			"svgPath": "icons/misc/Category-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/CategoryTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { CategoryTwoTone } from 'magic-icons';\n\n<CategoryTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "category",
-		"title": "Category"
-	}
+  "id": "category",
+  "name": "Category",
+  "componentBaseName": "Category",
+  "category": "misc",
+  "tags": [
+    "category"
+  ],
+  "aliases": [],
+  "description": "Category icon - Miscellaneous",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "CategoryBroken",
+      "svgPath": "icons/misc/Category-broken.svg",
+      "componentPath": "./components/icons/Broken/CategoryBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "CategoryBulk",
+      "svgPath": "icons/misc/Category-bulk.svg",
+      "componentPath": "./components/icons/Bulk/CategoryBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "CategoryLight",
+      "svgPath": "icons/misc/Category-light.svg",
+      "componentPath": "./components/icons/Light/CategoryLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "CategoryOutline",
+      "svgPath": "icons/misc/Category-outline.svg",
+      "componentPath": "./components/icons/Outline/CategoryOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "CategoryTwoTone",
+      "svgPath": "icons/misc/Category-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/CategoryTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CategoryTwoTone } from 'magic-icons';\n\n<CategoryTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "category",
+    "title": "Category"
+  }
 }

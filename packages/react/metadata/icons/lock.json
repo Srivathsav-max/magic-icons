@@ -1,72 +1,74 @@
 {
-	"id": "lock",
-	"name": "Lock",
-	"componentBaseName": "Lock",
-	"category": "security",
-	"tags": ["lock"],
-	"aliases": [],
-	"description": "Lock icon - Security & Authentication",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "LockBroken",
-			"svgPath": "icons/security/Lock-broken.svg",
-			"componentPath": "./components/icons/Broken/LockBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "LockBulk",
-			"svgPath": "icons/security/Lock-bulk.svg",
-			"componentPath": "./components/icons/Bulk/LockBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "LockLight",
-			"svgPath": "icons/security/Lock-light.svg",
-			"componentPath": "./components/icons/Light/LockLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "LockOutline",
-			"svgPath": "icons/security/Lock-outline.svg",
-			"componentPath": "./components/icons/Outline/LockOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "LockTwoTone",
-			"svgPath": "icons/security/Lock-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/LockTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { LockTwoTone } from 'magic-icons';\n\n<LockTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "lock",
-		"title": "Lock"
-	}
+  "id": "lock",
+  "name": "Lock",
+  "componentBaseName": "Lock",
+  "category": "security",
+  "tags": [
+    "lock"
+  ],
+  "aliases": [],
+  "description": "Lock icon - Security & Authentication",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "LockBroken",
+      "svgPath": "icons/security/Lock-broken.svg",
+      "componentPath": "./components/icons/Broken/LockBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "LockBulk",
+      "svgPath": "icons/security/Lock-bulk.svg",
+      "componentPath": "./components/icons/Bulk/LockBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "LockLight",
+      "svgPath": "icons/security/Lock-light.svg",
+      "componentPath": "./components/icons/Light/LockLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "LockOutline",
+      "svgPath": "icons/security/Lock-outline.svg",
+      "componentPath": "./components/icons/Outline/LockOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "LockTwoTone",
+      "svgPath": "icons/security/Lock-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/LockTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { LockTwoTone } from 'magic-icons';\n\n<LockTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "lock",
+    "title": "Lock"
+  }
 }

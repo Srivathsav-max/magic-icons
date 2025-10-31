@@ -1,0 +1,39 @@
+{
+  "id": "external-link",
+  "name": "ExternalLink",
+  "componentBaseName": "ExternalLink",
+  "category": "action",
+  "tags": [
+    "external",
+    "link"
+  ],
+  "aliases": [],
+  "description": "ExternalLink icon - Actions & Operations",
+  "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ExternalLinkOutline",
+      "svgPath": "icons/action/external-link-outline.svg",
+      "componentPath": "./components/icons/Outline/ExternalLinkOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ExternalLinkTwoTone } from 'magic-icons';\n\n<ExternalLinkTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "external link",
+    "title": "ExternalLink"
+  }
+}

@@ -1,72 +1,74 @@
 {
-	"id": "calendar",
-	"name": "Calendar",
-	"componentBaseName": "Calendar",
-	"category": "time",
-	"tags": ["calendar"],
-	"aliases": [],
-	"description": "Calendar icon - Time & Calendar",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "CalendarBroken",
-			"svgPath": "icons/time/Calendar-broken.svg",
-			"componentPath": "./components/icons/Broken/CalendarBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "CalendarBulk",
-			"svgPath": "icons/time/Calendar-bulk.svg",
-			"componentPath": "./components/icons/Bulk/CalendarBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "CalendarLight",
-			"svgPath": "icons/time/Calendar-light.svg",
-			"componentPath": "./components/icons/Light/CalendarLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "CalendarOutline",
-			"svgPath": "icons/time/Calendar-outline.svg",
-			"componentPath": "./components/icons/Outline/CalendarOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "CalendarTwoTone",
-			"svgPath": "icons/time/Calendar-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/CalendarTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { CalendarTwoTone } from 'magic-icons';\n\n<CalendarTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "calendar",
-		"title": "Calendar"
-	}
+  "id": "calendar",
+  "name": "Calendar",
+  "componentBaseName": "Calendar",
+  "category": "time",
+  "tags": [
+    "calendar"
+  ],
+  "aliases": [],
+  "description": "Calendar icon - Time & Calendar",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "CalendarBroken",
+      "svgPath": "icons/time/Calendar-broken.svg",
+      "componentPath": "./components/icons/Broken/CalendarBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "CalendarBulk",
+      "svgPath": "icons/time/Calendar-bulk.svg",
+      "componentPath": "./components/icons/Bulk/CalendarBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "CalendarLight",
+      "svgPath": "icons/time/Calendar-light.svg",
+      "componentPath": "./components/icons/Light/CalendarLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "CalendarOutline",
+      "svgPath": "icons/time/Calendar-outline.svg",
+      "componentPath": "./components/icons/Outline/CalendarOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "CalendarTwoTone",
+      "svgPath": "icons/time/Calendar-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/CalendarTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CalendarTwoTone } from 'magic-icons';\n\n<CalendarTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "calendar",
+    "title": "Calendar"
+  }
 }

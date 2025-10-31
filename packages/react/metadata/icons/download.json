@@ -1,72 +1,75 @@
 {
-	"id": "download",
-	"name": "Download",
-	"componentBaseName": "Download",
-	"category": "navigation",
-	"tags": ["down", "download"],
-	"aliases": [],
-	"description": "Download icon - Navigation & Arrows",
-	"variants": {
-		"broken": {
-			"available": true,
-			"componentName": "DownloadBroken",
-			"svgPath": "icons/navigation/Download-broken.svg",
-			"componentPath": "./components/icons/Broken/DownloadBroken",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"bulk": {
-			"available": true,
-			"componentName": "DownloadBulk",
-			"svgPath": "icons/navigation/Download-bulk.svg",
-			"componentPath": "./components/icons/Bulk/DownloadBulk",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"light": {
-			"available": true,
-			"componentName": "DownloadLight",
-			"svgPath": "icons/navigation/Download-light.svg",
-			"componentPath": "./components/icons/Light/DownloadLight",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1,
-			"fillType": "stroke"
-		},
-		"outline": {
-			"available": true,
-			"componentName": "DownloadOutline",
-			"svgPath": "icons/navigation/Download-outline.svg",
-			"componentPath": "./components/icons/Outline/DownloadOutline",
-			"supportsStrokeWidth": false,
-			"defaultStrokeWidth": 0,
-			"fillType": "fill"
-		},
-		"two-tone": {
-			"available": true,
-			"componentName": "DownloadTwoTone",
-			"svgPath": "icons/navigation/Download-two-tone.svg",
-			"componentPath": "./components/icons/TwoTone/DownloadTwoTone",
-			"supportsStrokeWidth": true,
-			"defaultStrokeWidth": 1.5,
-			"fillType": "mixed"
-		}
-	},
-	"metadata": {
-		"addedDate": "2025-10-31",
-		"lastModified": "2025-10-31",
-		"version": "0.0.2",
-		"author": "Jaya Raj Srivathsav Adari",
-		"popularity": 0,
-		"isDeprecated": false
-	},
-	"usage": {
-		"recommended": [],
-		"codeExample": "import { DownloadTwoTone } from 'magic-icons';\n\n<DownloadTwoTone size={24} color=\"currentColor\" />"
-	},
-	"accessibility": {
-		"ariaLabel": "download",
-		"title": "Download"
-	}
+  "id": "download",
+  "name": "Download",
+  "componentBaseName": "Download",
+  "category": "navigation",
+  "tags": [
+    "down",
+    "download"
+  ],
+  "aliases": [],
+  "description": "Download icon - Navigation & Arrows",
+  "variants": {
+    "broken": {
+      "available": true,
+      "componentName": "DownloadBroken",
+      "svgPath": "icons/navigation/Download-broken.svg",
+      "componentPath": "./components/icons/Broken/DownloadBroken",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "bulk": {
+      "available": true,
+      "componentName": "DownloadBulk",
+      "svgPath": "icons/navigation/Download-bulk.svg",
+      "componentPath": "./components/icons/Bulk/DownloadBulk",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "DownloadLight",
+      "svgPath": "icons/navigation/Download-light.svg",
+      "componentPath": "./components/icons/Light/DownloadLight",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
+    "outline": {
+      "available": true,
+      "componentName": "DownloadOutline",
+      "svgPath": "icons/navigation/Download-outline.svg",
+      "componentPath": "./components/icons/Outline/DownloadOutline",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
+    "two-tone": {
+      "available": true,
+      "componentName": "DownloadTwoTone",
+      "svgPath": "icons/navigation/Download-two-tone.svg",
+      "componentPath": "./components/icons/TwoTone/DownloadTwoTone",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1.5,
+      "fillType": "mixed"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-10-31",
+    "lastModified": "2025-10-31",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { DownloadTwoTone } from 'magic-icons';\n\n<DownloadTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "download",
+    "title": "Download"
+  }
 }
