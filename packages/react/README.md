@@ -1,14 +1,5 @@
 # Magic Icons ✨
 
-A monorepo containing the Magic Icons React library and showcase website.
-
-## 📦 Packages
-
-- **[packages/react](./packages/react)** - The main icon library (npm: `magic-icons`)
-- **[apps/web](./apps/web)** - Next.js showcase website
-
-## About Magic Icons
-
 A comprehensive React icon library with **500 customizable icons** across 5 beautiful variants. Built with TypeScript and designed for modern React applications including Next.js.
 
 [![npm version](https://img.shields.io/npm/v/magic-icons.svg)](https://www.npmjs.com/package/magic-icons)
@@ -357,59 +348,30 @@ import * as Icons from 'magic-icons';
 
 ## 🛠️ Development
 
-This is a monorepo managed with npm workspaces.
-
-### Initial Setup
+This repository includes an interactive Next.js showcase to browse all 500 icons:
 
 ```bash
-# Install all dependencies (root + all workspaces)
+# Install dependencies (root and web app)
 npm install
-```
+cd apps/web && npm install
 
-### Working with the Icon Library
-
-```bash
-# Generate icon components from SVGs
+# Generate icon components from SVGs and copy to web app
 npm run build:icons
 
-# Build the library for npm publishing
-npm run build:lib
-```
-
-### Working with the Showcase Website
-
-```bash
-# Start Next.js development server
+# Start Next.js showcase development server
 npm run dev
 
-# Build the showcase for production
+# Build the library for npm
+npm run build:lib
+
+# Build the Next.js showcase
 npm run build:web
 
-# Start production server
+# Start production showcase server
 npm run start:web
 ```
 
-### Monorepo Structure
-
-```
-magic-icons/
-├── packages/
-│   └── react/          # Main icon library
-│       ├── src/
-│       ├── icons/      # SVG source files
-│       ├── scripts/    # Build scripts
-│       └── dist/       # Built package
-├── apps/
-│   └── web/           # Next.js showcase
-│       ├── app/
-│       ├── components/
-│       └── public/
-└── scripts/           # Shared scripts
-```
-
-### Showcase Features
-
-The showcase app (`apps/web`) provides:
+The showcase app is located in `apps/web` and provides:
 - 🔍 Search through all 500 icons
 - 🎨 Live customization (size, color, stroke width)
 - 📋 Copy code snippets for multiple frameworks

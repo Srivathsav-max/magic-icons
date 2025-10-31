@@ -9,16 +9,23 @@ yarn.lock
 # Build output
 dist/
 build/
+.turbo/
 
-# Generated icon components (keep structure with .gitkeep)
-src/components/icons/Outline/*.tsx
-src/components/icons/Bulk/*.tsx
-src/components/icons/Broken/*.tsx
-src/components/icons/Light/*.tsx
-src/components/icons/TwoTone/*.tsx
-src/components/icons/*/index.ts
-src/components/icons/index.ts
-src/components/icons/metadata.json
+# Generated icon components in packages/react
+packages/react/src/components/icons/Outline/*.tsx
+packages/react/src/components/icons/Bulk/*.tsx
+packages/react/src/components/icons/Broken/*.tsx
+packages/react/src/components/icons/Light/*.tsx
+packages/react/src/components/icons/TwoTone/*.tsx
+packages/react/src/components/icons/*/index.ts
+packages/react/src/components/icons/index.ts
+packages/react/src/components/icons/metadata.json
+
+# Package build outputs
+packages/react/dist/
+
+# Web app icons (copied from packages/react)
+apps/web/components/icons/
 
 # Showcase build
 .next/
