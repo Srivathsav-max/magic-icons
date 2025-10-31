@@ -1,0 +1,72 @@
+{
+	"id": "paper-upload",
+	"name": "PaperUpload",
+	"componentBaseName": "PaperUpload",
+	"category": "navigation",
+	"tags": ["up", "paper", "upload"],
+	"aliases": [],
+	"description": "PaperUpload icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "PaperUploadBroken",
+			"svgPath": "icons/navigation/paper-upload-broken.svg",
+			"componentPath": "./components/icons/Broken/PaperUploadBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "PaperUploadBulk",
+			"svgPath": "icons/navigation/paper-upload-bulk.svg",
+			"componentPath": "./components/icons/Bulk/PaperUploadBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "PaperUploadLight",
+			"svgPath": "icons/navigation/paper-upload-light.svg",
+			"componentPath": "./components/icons/Light/PaperUploadLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "PaperUploadOutline",
+			"svgPath": "icons/navigation/paper-upload-outline.svg",
+			"componentPath": "./components/icons/Outline/PaperUploadOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "PaperUploadTwoTone",
+			"svgPath": "icons/navigation/paper-upload-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/PaperUploadTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { PaperUploadTwoTone } from 'magic-icons';\n\n<PaperUploadTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "paper upload",
+		"title": "PaperUpload"
+	}
+}

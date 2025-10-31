@@ -1,0 +1,54 @@
+{
+	"id": "danger",
+	"name": "Danger",
+	"componentBaseName": "Danger",
+	"category": "status",
+	"tags": ["danger"],
+	"aliases": [],
+	"description": "Danger icon - Status & Indicators",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "DangerBroken",
+			"svgPath": "icons/status/Danger-broken.svg",
+			"componentPath": "./components/icons/Broken/DangerBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "DangerBulk",
+			"svgPath": "icons/status/Danger-bulk.svg",
+			"componentPath": "./components/icons/Bulk/DangerBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "DangerTwoTone",
+			"svgPath": "icons/status/Danger-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/DangerTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { DangerTwoTone } from 'magic-icons';\n\n<DangerTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "danger",
+		"title": "Danger"
+	}
+}

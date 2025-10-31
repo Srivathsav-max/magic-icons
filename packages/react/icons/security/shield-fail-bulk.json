@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "bulk",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["shield", "fail"],
+	"categories": ["security"],
+	"aliases": [],
+	"deprecated": false
+}

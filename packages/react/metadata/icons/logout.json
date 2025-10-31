@@ -1,0 +1,72 @@
+{
+	"id": "logout",
+	"name": "Logout",
+	"componentBaseName": "Logout",
+	"category": "security",
+	"tags": ["logout"],
+	"aliases": [],
+	"description": "Logout icon - Security & Authentication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "LogoutBroken",
+			"svgPath": "icons/security/Logout-broken.svg",
+			"componentPath": "./components/icons/Broken/LogoutBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "LogoutBulk",
+			"svgPath": "icons/security/Logout-bulk.svg",
+			"componentPath": "./components/icons/Bulk/LogoutBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "LogoutLight",
+			"svgPath": "icons/security/Logout-light.svg",
+			"componentPath": "./components/icons/Light/LogoutLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "LogoutOutline",
+			"svgPath": "icons/security/Logout-outline.svg",
+			"componentPath": "./components/icons/Outline/LogoutOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "LogoutTwoTone",
+			"svgPath": "icons/security/Logout-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/LogoutTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { LogoutTwoTone } from 'magic-icons';\n\n<LogoutTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "logout",
+		"title": "Logout"
+	}
+}

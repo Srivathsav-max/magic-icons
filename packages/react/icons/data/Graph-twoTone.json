@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "twoTone",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["graph"],
+	"categories": ["data"],
+	"aliases": [],
+	"deprecated": false
+}

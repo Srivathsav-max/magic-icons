@@ -1,0 +1,72 @@
+{
+	"id": "paper",
+	"name": "Paper",
+	"componentBaseName": "Paper",
+	"category": "file",
+	"tags": ["paper"],
+	"aliases": [],
+	"description": "Paper icon - Files & Documents",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "PaperBroken",
+			"svgPath": "icons/file/Paper-broken.svg",
+			"componentPath": "./components/icons/Broken/PaperBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "PaperBulk",
+			"svgPath": "icons/file/Paper-bulk.svg",
+			"componentPath": "./components/icons/Bulk/PaperBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "PaperLight",
+			"svgPath": "icons/file/Paper-light.svg",
+			"componentPath": "./components/icons/Light/PaperLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "PaperOutline",
+			"svgPath": "icons/file/Paper-outline.svg",
+			"componentPath": "./components/icons/Outline/PaperOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "PaperTwoTone",
+			"svgPath": "icons/file/Paper-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/PaperTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { PaperTwoTone } from 'magic-icons';\n\n<PaperTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "paper",
+		"title": "Paper"
+	}
+}

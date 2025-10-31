@@ -13,19 +13,32 @@
 			"require": "./dist/index.cjs",
 			"default": "./dist/index.js"
 		},
+		"./metadata": {
+			"types": "./dist/metadata.d.ts",
+			"import": "./dist/metadata.js",
+			"default": "./dist/metadata.js"
+		},
 		"./package.json": "./package.json"
 	},
 	"sideEffects": false,
 	"files": [
 		"dist",
 		"README.md",
-		"LICENSE"
+		"LICENSE",
+		"src/components/icons/metadata.json"
 	],
 	"scripts": {
-		"build:icons": "node scripts/generate-icons.js",
-		"build": "npm run build:icons && tsup",
-		"prepublishOnly": "npm run build",
-		"lint": "eslint ."
+		"build:icons": "bun run scripts/generate-icons.mts",
+		"build": "bun run build:icons && tsup",
+		"prepublishOnly": "bun run build",
+		"lint": "eslint .",
+		"svg:check": "bun run scripts/svg-name-updater.mts",
+		"svg:rename": "bun run scripts/svg-name-updater.mts rename --apply",
+		"svg:sort": "bun run scripts/svg-name-updater.mts sort --apply",
+		"svg:organize": "bun run scripts/svg-name-updater.mts --apply",
+		"schemas:generate": "bun run scripts/generate-icon-schemas.mts",
+		"migrate:check": "bun run scripts/migrate-to-categories.mts",
+		"migrate:apply": "bun run scripts/migrate-to-categories.mts --apply"
 	},
 	"keywords": [
 		"react",

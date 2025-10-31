@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "outline",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["call", "silent"],
+	"categories": ["communication"],
+	"aliases": [],
+	"deprecated": false
+}

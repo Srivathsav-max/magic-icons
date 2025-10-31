@@ -1,0 +1,72 @@
+{
+	"id": "two-user",
+	"name": "TwoUser",
+	"componentBaseName": "TwoUser",
+	"category": "user",
+	"tags": ["user", "two"],
+	"aliases": [],
+	"description": "TwoUser icon - User & Profile",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "TwoUserBroken",
+			"svgPath": "icons/user/two-user-broken.svg",
+			"componentPath": "./components/icons/Broken/TwoUserBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "TwoUserBulk",
+			"svgPath": "icons/user/two-user-bulk.svg",
+			"componentPath": "./components/icons/Bulk/TwoUserBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "TwoUserLight",
+			"svgPath": "icons/user/two-user-light.svg",
+			"componentPath": "./components/icons/Light/TwoUserLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "TwoUserOutline",
+			"svgPath": "icons/user/two-user-outline.svg",
+			"componentPath": "./components/icons/Outline/TwoUserOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "TwoUserTwoTone",
+			"svgPath": "icons/user/two-user-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/TwoUserTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { TwoUserTwoTone } from 'magic-icons';\n\n<TwoUserTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "two user",
+		"title": "TwoUser"
+	}
+}

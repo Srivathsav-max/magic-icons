@@ -1,0 +1,72 @@
+{
+	"id": "arrow-left",
+	"name": "ArrowLeft",
+	"componentBaseName": "ArrowLeft",
+	"category": "navigation",
+	"tags": ["arrow", "left"],
+	"aliases": [],
+	"description": "ArrowLeft icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ArrowLeftBroken",
+			"svgPath": "icons/navigation/arrow-left-broken.svg",
+			"componentPath": "./components/icons/Broken/ArrowLeftBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ArrowLeftBulk",
+			"svgPath": "icons/navigation/arrow-left-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ArrowLeftBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ArrowLeftLight",
+			"svgPath": "icons/navigation/arrow-left-light.svg",
+			"componentPath": "./components/icons/Light/ArrowLeftLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ArrowLeftOutline",
+			"svgPath": "icons/navigation/arrow-left-outline.svg",
+			"componentPath": "./components/icons/Outline/ArrowLeftOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ArrowLeftTwoTone",
+			"svgPath": "icons/navigation/arrow-left-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ArrowLeftTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ArrowLeftTwoTone } from 'magic-icons';\n\n<ArrowLeftTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "arrow left",
+		"title": "ArrowLeft"
+	}
+}

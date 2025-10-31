@@ -1,0 +1,72 @@
+{
+	"id": "scan",
+	"name": "Scan",
+	"componentBaseName": "Scan",
+	"category": "action",
+	"tags": ["scan"],
+	"aliases": [],
+	"description": "Scan icon - Actions & Operations",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ScanBroken",
+			"svgPath": "icons/action/Scan-broken.svg",
+			"componentPath": "./components/icons/Broken/ScanBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ScanBulk",
+			"svgPath": "icons/action/Scan-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ScanBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ScanLight",
+			"svgPath": "icons/action/Scan-light.svg",
+			"componentPath": "./components/icons/Light/ScanLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ScanOutline",
+			"svgPath": "icons/action/Scan-outline.svg",
+			"componentPath": "./components/icons/Outline/ScanOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ScanTwoTone",
+			"svgPath": "icons/action/Scan-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ScanTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ScanTwoTone } from 'magic-icons';\n\n<ScanTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "scan",
+		"title": "Scan"
+	}
+}

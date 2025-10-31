@@ -1,0 +1,72 @@
+{
+	"id": "upload",
+	"name": "Upload",
+	"componentBaseName": "Upload",
+	"category": "navigation",
+	"tags": ["up", "upload"],
+	"aliases": [],
+	"description": "Upload icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "UploadBroken",
+			"svgPath": "icons/navigation/Upload-broken.svg",
+			"componentPath": "./components/icons/Broken/UploadBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "UploadBulk",
+			"svgPath": "icons/navigation/Upload-bulk.svg",
+			"componentPath": "./components/icons/Bulk/UploadBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "UploadLight",
+			"svgPath": "icons/navigation/Upload-light.svg",
+			"componentPath": "./components/icons/Light/UploadLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "UploadOutline",
+			"svgPath": "icons/navigation/Upload-outline.svg",
+			"componentPath": "./components/icons/Outline/UploadOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "UploadTwoTone",
+			"svgPath": "icons/navigation/Upload-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/UploadTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { UploadTwoTone } from 'magic-icons';\n\n<UploadTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "upload",
+		"title": "Upload"
+	}
+}

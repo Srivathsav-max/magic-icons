@@ -1,0 +1,63 @@
+{
+	"id": "image-three",
+	"name": "ImageThree",
+	"componentBaseName": "ImageThree",
+	"category": "media",
+	"tags": ["image", "three"],
+	"aliases": [],
+	"description": "ImageThree icon - Media & Entertainment",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ImageThreeBroken",
+			"svgPath": "icons/media/image-three-broken.svg",
+			"componentPath": "./components/icons/Broken/ImageThreeBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ImageThreeBulk",
+			"svgPath": "icons/media/image-three-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ImageThreeBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ImageThreeLight",
+			"svgPath": "icons/media/image-three-light.svg",
+			"componentPath": "./components/icons/Light/ImageThreeLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ImageThreeOutline",
+			"svgPath": "icons/media/image-three-outline.svg",
+			"componentPath": "./components/icons/Outline/ImageThreeOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ImageThreeTwoTone } from 'magic-icons';\n\n<ImageThreeTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "image three",
+		"title": "ImageThree"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "message",
+	"name": "Message",
+	"componentBaseName": "Message",
+	"category": "communication",
+	"tags": ["message"],
+	"aliases": [],
+	"description": "Message icon - Communication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "MessageBroken",
+			"svgPath": "icons/communication/Message-broken.svg",
+			"componentPath": "./components/icons/Broken/MessageBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "MessageBulk",
+			"svgPath": "icons/communication/Message-bulk.svg",
+			"componentPath": "./components/icons/Bulk/MessageBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "MessageLight",
+			"svgPath": "icons/communication/Message-light.svg",
+			"componentPath": "./components/icons/Light/MessageLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "MessageOutline",
+			"svgPath": "icons/communication/Message-outline.svg",
+			"componentPath": "./components/icons/Outline/MessageOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "MessageTwoTone",
+			"svgPath": "icons/communication/Message-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/MessageTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { MessageTwoTone } from 'magic-icons';\n\n<MessageTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "message",
+		"title": "Message"
+	}
+}

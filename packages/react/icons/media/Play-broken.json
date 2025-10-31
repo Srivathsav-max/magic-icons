@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "broken",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["play"],
+	"categories": ["media"],
+	"aliases": [],
+	"deprecated": false
+}

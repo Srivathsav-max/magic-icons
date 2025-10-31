@@ -1,0 +1,63 @@
+{
+	"id": "filter-three",
+	"name": "FilterThree",
+	"componentBaseName": "FilterThree",
+	"category": "action",
+	"tags": ["filter", "three"],
+	"aliases": [],
+	"description": "FilterThree icon - Actions & Operations",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "FilterThreeBroken",
+			"svgPath": "icons/action/filter-three-broken.svg",
+			"componentPath": "./components/icons/Broken/FilterThreeBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "FilterThreeLight",
+			"svgPath": "icons/action/filter-three-light.svg",
+			"componentPath": "./components/icons/Light/FilterThreeLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "FilterThreeOutline",
+			"svgPath": "icons/action/filter-three-outline.svg",
+			"componentPath": "./components/icons/Outline/FilterThreeOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "FilterThreeTwoTone",
+			"svgPath": "icons/action/filter-three-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/FilterThreeTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { FilterThreeTwoTone } from 'magic-icons';\n\n<FilterThreeTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "filter three",
+		"title": "FilterThree"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "wallet",
+	"name": "Wallet",
+	"componentBaseName": "Wallet",
+	"category": "commerce",
+	"tags": ["wallet"],
+	"aliases": [],
+	"description": "Wallet icon - E-Commerce & Shopping",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "WalletBroken",
+			"svgPath": "icons/commerce/Wallet-broken.svg",
+			"componentPath": "./components/icons/Broken/WalletBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "WalletBulk",
+			"svgPath": "icons/commerce/Wallet-bulk.svg",
+			"componentPath": "./components/icons/Bulk/WalletBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "WalletLight",
+			"svgPath": "icons/commerce/Wallet-light.svg",
+			"componentPath": "./components/icons/Light/WalletLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "WalletOutline",
+			"svgPath": "icons/commerce/Wallet-outline.svg",
+			"componentPath": "./components/icons/Outline/WalletOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "WalletTwoTone",
+			"svgPath": "icons/commerce/Wallet-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/WalletTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { WalletTwoTone } from 'magic-icons';\n\n<WalletTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "wallet",
+		"title": "Wallet"
+	}
+}

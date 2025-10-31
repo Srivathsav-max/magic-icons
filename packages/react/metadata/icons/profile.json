@@ -1,0 +1,72 @@
+{
+	"id": "profile",
+	"name": "Profile",
+	"componentBaseName": "Profile",
+	"category": "user",
+	"tags": ["profile"],
+	"aliases": [],
+	"description": "Profile icon - User & Profile",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ProfileBroken",
+			"svgPath": "icons/user/Profile-broken.svg",
+			"componentPath": "./components/icons/Broken/ProfileBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ProfileBulk",
+			"svgPath": "icons/user/Profile-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ProfileBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ProfileLight",
+			"svgPath": "icons/user/Profile-light.svg",
+			"componentPath": "./components/icons/Light/ProfileLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ProfileOutline",
+			"svgPath": "icons/user/Profile-outline.svg",
+			"componentPath": "./components/icons/Outline/ProfileOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ProfileTwoTone",
+			"svgPath": "icons/user/Profile-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ProfileTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ProfileTwoTone } from 'magic-icons';\n\n<ProfileTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "profile",
+		"title": "Profile"
+	}
+}

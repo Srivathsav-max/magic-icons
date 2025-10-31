@@ -14,7 +14,7 @@ interface IconCardProps {
 		supportsStrokeWidth: boolean;
 	};
 	size: number;
-	color: string;
+	color: string | undefined;
 	strokeWidth: number;
 	onClick?: () => void;
 }
@@ -46,7 +46,7 @@ const IconCard = memo(({ icon, size, color, strokeWidth, onClick }: IconCardProp
 				<div className="flex items-center justify-center w-full h-16 transition-transform group-hover:scale-110">
 					<IconComponent
 						size={size}
-						color={color}
+						{...(color !== undefined ? { color } : {})}
 						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 					/>
 				</div>

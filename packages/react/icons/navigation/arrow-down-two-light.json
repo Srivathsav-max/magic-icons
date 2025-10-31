@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "light",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["arrow", "down", "two"],
+	"categories": ["navigation"],
+	"aliases": [],
+	"deprecated": false
+}

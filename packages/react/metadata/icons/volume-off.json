@@ -1,0 +1,72 @@
+{
+	"id": "volume-off",
+	"name": "VolumeOff",
+	"componentBaseName": "VolumeOff",
+	"category": "media",
+	"tags": ["volume", "off"],
+	"aliases": [],
+	"description": "VolumeOff icon - Media & Entertainment",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "VolumeOffBroken",
+			"svgPath": "icons/media/volume-off-broken.svg",
+			"componentPath": "./components/icons/Broken/VolumeOffBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "VolumeOffBulk",
+			"svgPath": "icons/media/volume-off-bulk.svg",
+			"componentPath": "./components/icons/Bulk/VolumeOffBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "VolumeOffLight",
+			"svgPath": "icons/media/volume-off-light.svg",
+			"componentPath": "./components/icons/Light/VolumeOffLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "VolumeOffOutline",
+			"svgPath": "icons/media/volume-off-outline.svg",
+			"componentPath": "./components/icons/Outline/VolumeOffOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "VolumeOffTwoTone",
+			"svgPath": "icons/media/volume-off-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/VolumeOffTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { VolumeOffTwoTone } from 'magic-icons';\n\n<VolumeOffTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "volume off",
+		"title": "VolumeOff"
+	}
+}

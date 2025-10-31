@@ -8,19 +8,16 @@ const __dirname = path.dirname(__filename);
 const distDir = path.join(__dirname, "..", "dist");
 const srcIconsDir = path.join(__dirname, "..", "src", "components", "icons");
 
-// Ensure dist directory exists
 if (!fs.existsSync(distDir)) {
 	fs.mkdirSync(distDir, { recursive: true });
 }
 
-// Copy the generated index.ts exports
 const indexPath = path.join(srcIconsDir, "index.ts");
 const distIndexPath = path.join(distDir, "index.js");
 
 if (fs.existsSync(indexPath)) {
 	let indexContent = fs.readFileSync(indexPath, "utf-8");
 
-	// Fix the export paths - they should point to folders with index.js
 	indexContent = indexContent
 		.replace(/export \* from '\.\/Outline';/g, "export * from './Outline/index.js';")
 		.replace(/export \* from '\.\/Bulk';/g, "export * from './Bulk/index.js';")
@@ -32,7 +29,6 @@ if (fs.existsSync(indexPath)) {
 	console.log("✓ Created dist/index.js");
 }
 
-// Create CommonJS version
 const cjsContent = `'use strict';
 
 if (process.env.NODE_ENV === 'production') {
@@ -45,7 +41,6 @@ if (process.env.NODE_ENV === 'production') {
 fs.writeFileSync(path.join(distDir, "index.cjs"), cjsContent);
 console.log("✓ Created dist/index.cjs");
 
-// Copy all icon component files to dist
 function _copyDirectory(src, dest) {
 	if (!fs.existsSync(dest)) {
 		fs.mkdirSync(dest, { recursive: true });
@@ -60,12 +55,9 @@ function _copyDirectory(src, dest) {
 		if (entry.isDirectory()) {
 			_copyDirectory(srcPath, destPath);
 		} else if (entry.name.endsWith(".tsx")) {
-			// Copy TypeScript files as .js files (they'll be compiled by tsc)
 			const jsFileName = entry.name.replace(".tsx", ".js");
 			const jsDestPath = path.join(dest, jsFileName);
 
-			// The .js file should already be created by tsc
-			// We just need to ensure the structure is correct
 			if (fs.existsSync(jsDestPath)) {
 				console.log(`✓ Copied ${entry.name} -> ${jsFileName}`);
 			}

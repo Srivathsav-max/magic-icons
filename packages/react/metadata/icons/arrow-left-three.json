@@ -1,0 +1,72 @@
+{
+	"id": "arrow-left-three",
+	"name": "ArrowLeftThree",
+	"componentBaseName": "ArrowLeftThree",
+	"category": "navigation",
+	"tags": ["arrow", "left", "three"],
+	"aliases": [],
+	"description": "ArrowLeftThree icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ArrowLeftThreeBroken",
+			"svgPath": "icons/navigation/arrow-left-three-broken.svg",
+			"componentPath": "./components/icons/Broken/ArrowLeftThreeBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ArrowLeftThreeBulk",
+			"svgPath": "icons/navigation/arrow-left-three-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ArrowLeftThreeBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ArrowLeftThreeLight",
+			"svgPath": "icons/navigation/arrow-left-three-light.svg",
+			"componentPath": "./components/icons/Light/ArrowLeftThreeLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ArrowLeftThreeOutline",
+			"svgPath": "icons/navigation/arrow-left-three-outline.svg",
+			"componentPath": "./components/icons/Outline/ArrowLeftThreeOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ArrowLeftThreeTwoTone",
+			"svgPath": "icons/navigation/arrow-left-three-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ArrowLeftThreeTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ArrowLeftThreeTwoTone } from 'magic-icons';\n\n<ArrowLeftThreeTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "arrow left three",
+		"title": "ArrowLeftThree"
+	}
+}

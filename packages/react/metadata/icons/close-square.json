@@ -1,0 +1,72 @@
+{
+	"id": "close-square",
+	"name": "CloseSquare",
+	"componentBaseName": "CloseSquare",
+	"category": "status",
+	"tags": ["close", "square"],
+	"aliases": [],
+	"description": "CloseSquare icon - Status & Indicators",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "CloseSquareBroken",
+			"svgPath": "icons/status/close-square-broken.svg",
+			"componentPath": "./components/icons/Broken/CloseSquareBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "CloseSquareBulk",
+			"svgPath": "icons/status/close-square-bulk.svg",
+			"componentPath": "./components/icons/Bulk/CloseSquareBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "CloseSquareLight",
+			"svgPath": "icons/status/close-square-light.svg",
+			"componentPath": "./components/icons/Light/CloseSquareLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "CloseSquareOutline",
+			"svgPath": "icons/status/close-square-outline.svg",
+			"componentPath": "./components/icons/Outline/CloseSquareOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "CloseSquareTwoTone",
+			"svgPath": "icons/status/close-square-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/CloseSquareTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { CloseSquareTwoTone } from 'magic-icons';\n\n<CloseSquareTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "close square",
+		"title": "CloseSquare"
+	}
+}

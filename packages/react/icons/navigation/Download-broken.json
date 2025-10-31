@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "broken",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["down", "download"],
+	"categories": ["navigation", "file"],
+	"aliases": [],
+	"deprecated": false
+}

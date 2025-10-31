@@ -1,0 +1,72 @@
+{
+	"id": "graph",
+	"name": "Graph",
+	"componentBaseName": "Graph",
+	"category": "data",
+	"tags": ["graph"],
+	"aliases": [],
+	"description": "Graph icon - Data & Analytics",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "GraphBroken",
+			"svgPath": "icons/data/Graph-broken.svg",
+			"componentPath": "./components/icons/Broken/GraphBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "GraphBulk",
+			"svgPath": "icons/data/Graph-bulk.svg",
+			"componentPath": "./components/icons/Bulk/GraphBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "GraphLight",
+			"svgPath": "icons/data/Graph-light.svg",
+			"componentPath": "./components/icons/Light/GraphLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "GraphOutline",
+			"svgPath": "icons/data/Graph-outline.svg",
+			"componentPath": "./components/icons/Outline/GraphOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "GraphTwoTone",
+			"svgPath": "icons/data/Graph-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/GraphTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { GraphTwoTone } from 'magic-icons';\n\n<GraphTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "graph",
+		"title": "Graph"
+	}
+}

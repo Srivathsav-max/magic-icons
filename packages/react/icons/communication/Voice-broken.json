@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "broken",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["voice"],
+	"categories": ["communication"],
+	"aliases": [],
+	"deprecated": false
+}

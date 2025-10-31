@@ -1,0 +1,63 @@
+{
+	"id": "bag-three",
+	"name": "BagThree",
+	"componentBaseName": "BagThree",
+	"category": "commerce",
+	"tags": ["bag", "three"],
+	"aliases": [],
+	"description": "BagThree icon - E-Commerce & Shopping",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "BagThreeBroken",
+			"svgPath": "icons/commerce/bag-three-broken.svg",
+			"componentPath": "./components/icons/Broken/BagThreeBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "BagThreeBulk",
+			"svgPath": "icons/commerce/bag-three-bulk.svg",
+			"componentPath": "./components/icons/Bulk/BagThreeBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "BagThreeLight",
+			"svgPath": "icons/commerce/bag-three-light.svg",
+			"componentPath": "./components/icons/Light/BagThreeLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "BagThreeOutline",
+			"svgPath": "icons/commerce/bag-three-outline.svg",
+			"componentPath": "./components/icons/Outline/BagThreeOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { BagThreeTwoTone } from 'magic-icons';\n\n<BagThreeTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "bag three",
+		"title": "BagThree"
+	}
+}

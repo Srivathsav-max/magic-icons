@@ -21,7 +21,7 @@ interface IconDetailDialogProps {
 	open: boolean;
 	onOpenChange: (open: boolean) => void;
 	size: number;
-	color: string;
+	color: string | undefined;
 	strokeWidth: number;
 }
 
@@ -39,15 +39,15 @@ const frameworks = [
 const getIconComponent = (
 	iconName: string,
 ): React.ComponentType<{
-	size: number;
-	color: string;
+	size?: number;
+	color?: string;
 	strokeWidth?: number;
 }> => {
 	const iconsMap = Icons as Record<
 		string,
 		React.ComponentType<{
-			size: number;
-			color: string;
+			size?: number;
+			color?: string;
 			strokeWidth?: number;
 		}>
 	>;
@@ -72,21 +72,24 @@ const IconDetailDialog = ({
 	const IconComponent = getIconComponent(icon.name);
 
 	const getCode = (framework: string) => {
+		const colorProp = color ? ` color="${color}"` : "";
+		const colorComment = color ? "" : "\n";
+
 		switch (framework) {
 			case "react":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "preact":
-				return `import { ${icon.name} } from 'magic-icons';\n\nexport default function App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}`;
+				return `import { ${icon.name} } from 'magic-icons';\n\nexport default function App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}`;
 			case "vue":
-				return `<template>\n  <${icon.name} :size="24" color="#000" />\n</template>\n\n<script setup>\nimport { ${icon.name} } from 'magic-icons';\n</script>`;
+				return `<template>${colorComment ? `\n  <!-- ${colorComment.trim()} -->` : ""}\n  <${icon.name} :size="24"${colorProp} />\n</template>\n\n<script setup>\nimport { ${icon.name} } from 'magic-icons';\n</script>`;
 			case "svelte":
-				return `<script>\n  import { ${icon.name} } from 'magic-icons';\n</script>\n\n<${icon.name} size={24} color="#000" />`;
+				return `<script>\n  import { ${icon.name} } from 'magic-icons';\n</script>\n${colorComment ? `\n<!-- ${colorComment.trim()} -->` : ""}\n<${icon.name} size={24}${colorProp} />`;
 			case "solid":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "angular":
-				return `import { ${icon.name} } from 'magic-icons';\n\n@Component({\n  selector: 'app-root',\n  template: '<${icon.name} [size]="24" color="#000" />'\n})\nexport class AppComponent {}`;
+				return `import { ${icon.name} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\n@Component({\n  selector: 'app-root',\n  template: '<${icon.name} [size]="24"${colorProp} />'\n})\nexport class AppComponent {}`;
 			case "vanilla":
-				return `import { ${icon.name} } from 'magic-icons';\n\nconst icon = ${icon.name}({ size: 24, color: '#000' });\ndocument.body.appendChild(icon);`;
+				return `import { ${icon.name} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\nconst icon = ${icon.name}({ size: 24${color ? `, color: '${color}'` : ""} });\ndocument.body.appendChild(icon);`;
 			default:
 				return `import { ${icon.name} } from 'magic-icons';`;
 		}
@@ -108,7 +111,7 @@ const IconDetailDialog = ({
 				root.render(
 					<IconComponentForSvg
 						size={size}
-						color={color}
+						{...(color !== undefined ? { color } : {})}
 						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 					/>,
 				);
@@ -235,7 +238,7 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size * 2}
-											color={color}
+											{...(color !== undefined ? { color } : {})}
 											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 										/>
 									</Suspense>
@@ -244,7 +247,7 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size}
-											color={color}
+											{...(color !== undefined ? { color } : {})}
 											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 										/>
 									</Suspense>
@@ -253,7 +256,7 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size / 1.5}
-											color={color}
+											{...(color !== undefined ? { color } : {})}
 											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 										/>
 									</Suspense>
@@ -264,7 +267,7 @@ const IconDetailDialog = ({
 								<Suspense fallback={<div>Loading...</div>}>
 									<IconComponent
 										size={size * 4}
-										color={color}
+										{...(color !== undefined ? { color } : {})}
 										{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
 									/>
 								</Suspense>

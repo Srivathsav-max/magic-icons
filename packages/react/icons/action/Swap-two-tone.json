@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "two-tone",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["swap"],
+	"categories": ["action"],
+	"aliases": [],
+	"deprecated": false
+}

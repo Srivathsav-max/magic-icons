@@ -1,0 +1,72 @@
+{
+	"id": "arrow-right-circle",
+	"name": "ArrowRightCircle",
+	"componentBaseName": "ArrowRightCircle",
+	"category": "navigation",
+	"tags": ["arrow", "right", "circle"],
+	"aliases": [],
+	"description": "ArrowRightCircle icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ArrowRightCircleBroken",
+			"svgPath": "icons/navigation/arrow-right-circle-broken.svg",
+			"componentPath": "./components/icons/Broken/ArrowRightCircleBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ArrowRightCircleBulk",
+			"svgPath": "icons/navigation/arrow-right-circle-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ArrowRightCircleBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ArrowRightCircleLight",
+			"svgPath": "icons/navigation/arrow-right-circle-light.svg",
+			"componentPath": "./components/icons/Light/ArrowRightCircleLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ArrowRightCircleOutline",
+			"svgPath": "icons/navigation/arrow-right-circle-outline.svg",
+			"componentPath": "./components/icons/Outline/ArrowRightCircleOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ArrowRightCircleTwoTone",
+			"svgPath": "icons/navigation/arrow-right-circle-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ArrowRightCircleTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ArrowRightCircleTwoTone } from 'magic-icons';\n\n<ArrowRightCircleTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "arrow right circle",
+		"title": "ArrowRightCircle"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "swap",
+	"name": "Swap",
+	"componentBaseName": "Swap",
+	"category": "action",
+	"tags": ["swap"],
+	"aliases": [],
+	"description": "Swap icon - Actions & Operations",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "SwapBroken",
+			"svgPath": "icons/action/Swap-broken.svg",
+			"componentPath": "./components/icons/Broken/SwapBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "SwapBulk",
+			"svgPath": "icons/action/Swap-bulk.svg",
+			"componentPath": "./components/icons/Bulk/SwapBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "SwapLight",
+			"svgPath": "icons/action/Swap-light.svg",
+			"componentPath": "./components/icons/Light/SwapLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "SwapOutline",
+			"svgPath": "icons/action/Swap-outline.svg",
+			"componentPath": "./components/icons/Outline/SwapOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "SwapTwoTone",
+			"svgPath": "icons/action/Swap-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/SwapTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { SwapTwoTone } from 'magic-icons';\n\n<SwapTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "swap",
+		"title": "Swap"
+	}
+}

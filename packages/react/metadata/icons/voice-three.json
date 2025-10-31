@@ -1,0 +1,63 @@
+{
+	"id": "voice-three",
+	"name": "VoiceThree",
+	"componentBaseName": "VoiceThree",
+	"category": "communication",
+	"tags": ["voice", "three"],
+	"aliases": [],
+	"description": "VoiceThree icon - Communication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "VoiceThreeBroken",
+			"svgPath": "icons/communication/voice-three-broken.svg",
+			"componentPath": "./components/icons/Broken/VoiceThreeBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "VoiceThreeBulk",
+			"svgPath": "icons/communication/voice-three-bulk.svg",
+			"componentPath": "./components/icons/Bulk/VoiceThreeBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "VoiceThreeLight",
+			"svgPath": "icons/communication/voice-three-light.svg",
+			"componentPath": "./components/icons/Light/VoiceThreeLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "VoiceThreeOutline",
+			"svgPath": "icons/communication/voice-three-outline.svg",
+			"componentPath": "./components/icons/Outline/VoiceThreeOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { VoiceThreeTwoTone } from 'magic-icons';\n\n<VoiceThreeTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "voice three",
+		"title": "VoiceThree"
+	}
+}

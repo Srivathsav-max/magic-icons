@@ -1,0 +1,72 @@
+{
+	"id": "three-user",
+	"name": "ThreeUser",
+	"componentBaseName": "ThreeUser",
+	"category": "user",
+	"tags": ["user", "three"],
+	"aliases": [],
+	"description": "ThreeUser icon - User & Profile",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ThreeUserBroken",
+			"svgPath": "icons/user/three-user-broken.svg",
+			"componentPath": "./components/icons/Broken/ThreeUserBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ThreeUserBulk",
+			"svgPath": "icons/user/three-user-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ThreeUserBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ThreeUserLight",
+			"svgPath": "icons/user/three-user-light.svg",
+			"componentPath": "./components/icons/Light/ThreeUserLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ThreeUserOutline",
+			"svgPath": "icons/user/three-user-outline.svg",
+			"componentPath": "./components/icons/Outline/ThreeUserOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ThreeUserTwoTone",
+			"svgPath": "icons/user/three-user-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ThreeUserTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ThreeUserTwoTone } from 'magic-icons';\n\n<ThreeUserTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "three user",
+		"title": "ThreeUser"
+	}
+}

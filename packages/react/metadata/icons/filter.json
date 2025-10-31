@@ -1,0 +1,72 @@
+{
+	"id": "filter",
+	"name": "Filter",
+	"componentBaseName": "Filter",
+	"category": "action",
+	"tags": ["filter"],
+	"aliases": [],
+	"description": "Filter icon - Actions & Operations",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "FilterBroken",
+			"svgPath": "icons/action/Filter-broken.svg",
+			"componentPath": "./components/icons/Broken/FilterBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "FilterBulk",
+			"svgPath": "icons/action/Filter-bulk.svg",
+			"componentPath": "./components/icons/Bulk/FilterBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "FilterLight",
+			"svgPath": "icons/action/Filter-light.svg",
+			"componentPath": "./components/icons/Light/FilterLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "FilterOutline",
+			"svgPath": "icons/action/Filter-outline.svg",
+			"componentPath": "./components/icons/Outline/FilterOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "FilterTwoTone",
+			"svgPath": "icons/action/Filter-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/FilterTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { FilterTwoTone } from 'magic-icons';\n\n<FilterTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "filter",
+		"title": "Filter"
+	}
+}

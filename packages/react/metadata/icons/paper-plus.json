@@ -1,0 +1,72 @@
+{
+	"id": "paper-plus",
+	"name": "PaperPlus",
+	"componentBaseName": "PaperPlus",
+	"category": "file",
+	"tags": ["paper", "plus"],
+	"aliases": [],
+	"description": "PaperPlus icon - Files & Documents",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "PaperPlusBroken",
+			"svgPath": "icons/file/paper-plus-broken.svg",
+			"componentPath": "./components/icons/Broken/PaperPlusBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "PaperPlusBulk",
+			"svgPath": "icons/file/paper-plus-bulk.svg",
+			"componentPath": "./components/icons/Bulk/PaperPlusBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "PaperPlusLight",
+			"svgPath": "icons/file/paper-plus-light.svg",
+			"componentPath": "./components/icons/Light/PaperPlusLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "PaperPlusOutline",
+			"svgPath": "icons/file/paper-plus-outline.svg",
+			"componentPath": "./components/icons/Outline/PaperPlusOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "PaperPlusTwoTone",
+			"svgPath": "icons/file/paper-plus-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/PaperPlusTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { PaperPlusTwoTone } from 'magic-icons';\n\n<PaperPlusTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "paper plus",
+		"title": "PaperPlus"
+	}
+}

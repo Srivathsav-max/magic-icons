@@ -1,0 +1,72 @@
+{
+	"id": "discount",
+	"name": "Discount",
+	"componentBaseName": "Discount",
+	"category": "commerce",
+	"tags": ["discount"],
+	"aliases": [],
+	"description": "Discount icon - E-Commerce & Shopping",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "DiscountBroken",
+			"svgPath": "icons/commerce/Discount-broken.svg",
+			"componentPath": "./components/icons/Broken/DiscountBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "DiscountBulk",
+			"svgPath": "icons/commerce/Discount-bulk.svg",
+			"componentPath": "./components/icons/Bulk/DiscountBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "DiscountLight",
+			"svgPath": "icons/commerce/Discount-light.svg",
+			"componentPath": "./components/icons/Light/DiscountLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "DiscountOutline",
+			"svgPath": "icons/commerce/Discount-outline.svg",
+			"componentPath": "./components/icons/Outline/DiscountOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "DiscountTwoTone",
+			"svgPath": "icons/commerce/Discount-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/DiscountTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { DiscountTwoTone } from 'magic-icons';\n\n<DiscountTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "discount",
+		"title": "Discount"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "location",
+	"name": "Location",
+	"componentBaseName": "Location",
+	"category": "location",
+	"tags": ["location"],
+	"aliases": [],
+	"description": "Location icon - Location & Maps",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "LocationBroken",
+			"svgPath": "icons/location/Location-broken.svg",
+			"componentPath": "./components/icons/Broken/LocationBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "LocationBulk",
+			"svgPath": "icons/location/Location-bulk.svg",
+			"componentPath": "./components/icons/Bulk/LocationBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "LocationLight",
+			"svgPath": "icons/location/Location-light.svg",
+			"componentPath": "./components/icons/Light/LocationLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "LocationOutline",
+			"svgPath": "icons/location/Location-outline.svg",
+			"componentPath": "./components/icons/Outline/LocationOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "LocationTwoTone",
+			"svgPath": "icons/location/Location-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/LocationTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { LocationTwoTone } from 'magic-icons';\n\n<LocationTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "location",
+		"title": "Location"
+	}
+}

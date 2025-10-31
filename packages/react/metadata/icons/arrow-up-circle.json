@@ -1,0 +1,72 @@
+{
+	"id": "arrow-up-circle",
+	"name": "ArrowUpCircle",
+	"componentBaseName": "ArrowUpCircle",
+	"category": "navigation",
+	"tags": ["arrow", "up", "circle"],
+	"aliases": [],
+	"description": "ArrowUpCircle icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ArrowUpCircleBroken",
+			"svgPath": "icons/navigation/arrow-up-circle-broken.svg",
+			"componentPath": "./components/icons/Broken/ArrowUpCircleBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ArrowUpCircleBulk",
+			"svgPath": "icons/navigation/arrow-up-circle-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ArrowUpCircleBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ArrowUpCircleLight",
+			"svgPath": "icons/navigation/arrow-up-circle-light.svg",
+			"componentPath": "./components/icons/Light/ArrowUpCircleLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ArrowUpCircleOutline",
+			"svgPath": "icons/navigation/arrow-up-circle-outline.svg",
+			"componentPath": "./components/icons/Outline/ArrowUpCircleOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ArrowUpCircleTwoTone",
+			"svgPath": "icons/navigation/arrow-up-circle-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ArrowUpCircleTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ArrowUpCircleTwoTone } from 'magic-icons';\n\n<ArrowUpCircleTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "arrow up circle",
+		"title": "ArrowUpCircle"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "bag",
+	"name": "Bag",
+	"componentBaseName": "Bag",
+	"category": "commerce",
+	"tags": ["bag"],
+	"aliases": [],
+	"description": "Bag icon - E-Commerce & Shopping",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "BagBroken",
+			"svgPath": "icons/commerce/Bag-broken.svg",
+			"componentPath": "./components/icons/Broken/BagBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "BagBulk",
+			"svgPath": "icons/commerce/Bag-bulk.svg",
+			"componentPath": "./components/icons/Bulk/BagBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "BagLight",
+			"svgPath": "icons/commerce/Bag-light.svg",
+			"componentPath": "./components/icons/Light/BagLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "BagOutline",
+			"svgPath": "icons/commerce/Bag-outline.svg",
+			"componentPath": "./components/icons/Outline/BagOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "BagTwoTone",
+			"svgPath": "icons/commerce/Bag-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/BagTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { BagTwoTone } from 'magic-icons';\n\n<BagTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "bag",
+		"title": "Bag"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "call",
+	"name": "Call",
+	"componentBaseName": "Call",
+	"category": "communication",
+	"tags": ["call"],
+	"aliases": [],
+	"description": "Call icon - Communication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "CallBroken",
+			"svgPath": "icons/communication/Call-broken.svg",
+			"componentPath": "./components/icons/Broken/CallBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "CallBulk",
+			"svgPath": "icons/communication/Call-bulk.svg",
+			"componentPath": "./components/icons/Bulk/CallBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "CallLight",
+			"svgPath": "icons/communication/Call-light.svg",
+			"componentPath": "./components/icons/Light/CallLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "CallOutline",
+			"svgPath": "icons/communication/Call-outline.svg",
+			"componentPath": "./components/icons/Outline/CallOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "CallTwoTone",
+			"svgPath": "icons/communication/Call-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/CallTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { CallTwoTone } from 'magic-icons';\n\n<CallTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "call",
+		"title": "Call"
+	}
+}

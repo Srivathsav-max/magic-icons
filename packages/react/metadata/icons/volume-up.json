@@ -1,0 +1,72 @@
+{
+	"id": "volume-up",
+	"name": "VolumeUp",
+	"componentBaseName": "VolumeUp",
+	"category": "navigation",
+	"tags": ["up", "volume"],
+	"aliases": [],
+	"description": "VolumeUp icon - Navigation & Arrows",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "VolumeUpBroken",
+			"svgPath": "icons/navigation/volume-up-broken.svg",
+			"componentPath": "./components/icons/Broken/VolumeUpBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "VolumeUpBulk",
+			"svgPath": "icons/navigation/volume-up-bulk.svg",
+			"componentPath": "./components/icons/Bulk/VolumeUpBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "VolumeUpLight",
+			"svgPath": "icons/navigation/volume-up-light.svg",
+			"componentPath": "./components/icons/Light/VolumeUpLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "VolumeUpOutline",
+			"svgPath": "icons/navigation/volume-up-outline.svg",
+			"componentPath": "./components/icons/Outline/VolumeUpOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "VolumeUpTwoTone",
+			"svgPath": "icons/navigation/volume-up-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/VolumeUpTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { VolumeUpTwoTone } from 'magic-icons';\n\n<VolumeUpTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "volume up",
+		"title": "VolumeUp"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"id": "call-missed",
+	"name": "CallMissed",
+	"componentBaseName": "CallMissed",
+	"category": "communication",
+	"tags": ["call", "missed"],
+	"aliases": [],
+	"description": "CallMissed icon - Communication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "CallMissedBroken",
+			"svgPath": "icons/communication/call-missed-broken.svg",
+			"componentPath": "./components/icons/Broken/CallMissedBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "CallMissedBulk",
+			"svgPath": "icons/communication/call-missed-bulk.svg",
+			"componentPath": "./components/icons/Bulk/CallMissedBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "CallMissedLight",
+			"svgPath": "icons/communication/call-missed-light.svg",
+			"componentPath": "./components/icons/Light/CallMissedLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "CallMissedOutline",
+			"svgPath": "icons/communication/call-missed-outline.svg",
+			"componentPath": "./components/icons/Outline/CallMissedOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "CallMissedTwoTone",
+			"svgPath": "icons/communication/call-missed-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/CallMissedTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { CallMissedTwoTone } from 'magic-icons';\n\n<CallMissedTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "call missed",
+		"title": "CallMissed"
+	}
+}

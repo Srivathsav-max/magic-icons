@@ -1,0 +1,72 @@
+{
+	"id": "shield-done",
+	"name": "ShieldDone",
+	"componentBaseName": "ShieldDone",
+	"category": "security",
+	"tags": ["shield", "done"],
+	"aliases": [],
+	"description": "ShieldDone icon - Security & Authentication",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ShieldDoneBroken",
+			"svgPath": "icons/security/shield-done-broken.svg",
+			"componentPath": "./components/icons/Broken/ShieldDoneBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ShieldDoneBulk",
+			"svgPath": "icons/security/shield-done-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ShieldDoneBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ShieldDoneLight",
+			"svgPath": "icons/security/shield-done-light.svg",
+			"componentPath": "./components/icons/Light/ShieldDoneLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ShieldDoneOutline",
+			"svgPath": "icons/security/shield-done-outline.svg",
+			"componentPath": "./components/icons/Outline/ShieldDoneOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ShieldDoneTwoTone",
+			"svgPath": "icons/security/shield-done-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ShieldDoneTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ShieldDoneTwoTone } from 'magic-icons';\n\n<ShieldDoneTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "shield done",
+		"title": "ShieldDone"
+	}
+}

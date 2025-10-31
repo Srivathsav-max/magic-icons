@@ -73,13 +73,13 @@ function svgToReactComponent(svgContent, componentName, variantConfig) {
 	} else if (variantConfig.fillType === "fill") {
 		// For fill-based icons, replace only black fills (preserve white and other colors)
 		reactContent = reactContent
-			.replace(/fill="black"/g, "fill={color}")
+			.replace(/fill="none"/g, "fill={color}")
 			.replace(/fill="#000000"/g, "fill={color}")
 			.replace(/fill="#000"/g, "fill={color}");
 	} else {
 		// Mixed - replace both black fills and strokes
 		reactContent = reactContent
-			.replace(/fill="black"/g, "fill={color}")
+			.replace(/fill="none"/g, "fill={color}")
 			.replace(/fill="#000000"/g, "fill={color}")
 			.replace(/fill="#000"/g, "fill={color}")
 			.replace(/stroke="(?!none)[^"]*"/g, "stroke={color}");

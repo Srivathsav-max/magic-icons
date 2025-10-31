@@ -1,0 +1,72 @@
+{
+	"id": "image",
+	"name": "Image",
+	"componentBaseName": "Image",
+	"category": "media",
+	"tags": ["image"],
+	"aliases": [],
+	"description": "Image icon - Media & Entertainment",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "ImageBroken",
+			"svgPath": "icons/media/Image-broken.svg",
+			"componentPath": "./components/icons/Broken/ImageBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "ImageBulk",
+			"svgPath": "icons/media/Image-bulk.svg",
+			"componentPath": "./components/icons/Bulk/ImageBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "ImageLight",
+			"svgPath": "icons/media/Image-light.svg",
+			"componentPath": "./components/icons/Light/ImageLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "ImageOutline",
+			"svgPath": "icons/media/Image-outline.svg",
+			"componentPath": "./components/icons/Outline/ImageOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "ImageTwoTone",
+			"svgPath": "icons/media/Image-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/ImageTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { ImageTwoTone } from 'magic-icons';\n\n<ImageTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "image",
+		"title": "Image"
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"id": "info-circle",
+	"name": "InfoCircle",
+	"componentBaseName": "InfoCircle",
+	"category": "status",
+	"tags": ["info", "circle"],
+	"aliases": [],
+	"description": "InfoCircle icon - Status & Indicators",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "InfoCircleBroken",
+			"svgPath": "icons/status/info-circle-broken.svg",
+			"componentPath": "./components/icons/Broken/InfoCircleBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "InfoCircleBulk",
+			"svgPath": "icons/status/info-circle-bulk.svg",
+			"componentPath": "./components/icons/Bulk/InfoCircleBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "InfoCircleTwoTone",
+			"svgPath": "icons/status/info-circle-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/InfoCircleTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { InfoCircleTwoTone } from 'magic-icons';\n\n<InfoCircleTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "info circle",
+		"title": "InfoCircle"
+	}
+}

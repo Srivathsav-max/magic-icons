@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "bulk",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["ticket", "star"],
+	"categories": ["file", "commerce", "status", "misc"],
+	"aliases": [],
+	"deprecated": false
+}

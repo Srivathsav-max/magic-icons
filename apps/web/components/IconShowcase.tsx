@@ -1,19 +1,23 @@
 "use client";
 
-import { ArrowLeft, Moon, Search, Sun } from "lucide-react";
+import { ArrowLeft, Moon, Search, Settings, Sun, X } from "lucide-react";
+import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import IconCard from "@/components/IconCard";
 import IconDetailDialog from "@/components/IconDetailDialog";
-import metadata from "@/components/metadata.json";
 import Sidebar from "@/components/Sidebar";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface IconData {
 	name: string;
 	originalName: string;
+	baseName: string;
+	path: string;
 	variant: string;
 	category: string;
 	supportsStrokeWidth: boolean;
@@ -22,12 +26,15 @@ interface IconData {
 }
 
 interface VariantConfig {
+	id: string;
 	name: string;
-	directory: string;
+	suffix: string;
 	description: string;
 	defaultStrokeWidth: number;
 	supportsStrokeWidth: boolean;
 	fillType: string;
+	order: number;
+	recommended: boolean;
 }
 
 interface CategoryData {
@@ -56,41 +63,28 @@ const IconShowcase = () => {
 	const [mounted, setMounted] = useState(false);
 	const [searchTerm, setSearchTerm] = useState("");
 	const [selectedCategory, setSelectedCategory] = useState<string>("all");
+	const [selectedVariant, setSelectedVariant] = useState<string>("all");
 	const [size, setSize] = useState(32);
-	const [color, setColor] = useState("#000000");
+	const [color, setColor] = useState<string | undefined>(undefined);
 	const [strokeWidth, setStrokeWidth] = useState(2);
 	const [absoluteStrokeWidth, setAbsoluteStrokeWidth] = useState(false);
 	const [includeExternalLibs, setIncludeExternalLibs] = useState(false);
 	const [view, setView] = useState<"all" | "categories">("all");
 	const [selectedIcon, setSelectedIcon] = useState<IconData | null>(null);
 	const [dialogOpen, setDialogOpen] = useState(false);
-	const [manualColorOverride, setManualColorOverride] = useState(false);
 
 	const typedMetadata = metadata as MetadataType;
 
-	// Handle theme changes and update icon color
 	useEffect(() => {
 		setMounted(true);
 	}, []);
 
-	useEffect(() => {
-		if (mounted && !manualColorOverride) {
-			if (theme === "dark") {
-				setColor("#ffffff");
-			} else {
-				setColor("#000000");
-			}
-		}
-	}, [theme, mounted, manualColorOverride]);
-
-	const handleColorChange = (newColor: string) => {
-		setColor(newColor);
-		const themeColor = theme === "dark" ? "#ffffff" : "#000000";
-		setManualColorOverride(newColor !== themeColor);
-	};
-
 	const filteredIcons = useMemo(() => {
 		let icons = typedMetadata.icons;
+
+		if (selectedVariant !== "all") {
+			icons = icons.filter((icon) => icon.variant.toLowerCase() === selectedVariant.toLowerCase());
+		}
 
 		if (searchTerm) {
 			icons = icons.filter((icon) =>
@@ -102,14 +96,26 @@ const IconShowcase = () => {
 			icons = icons.filter((icon) => icon.category === selectedCategory);
 		}
 
-		return icons;
-	}, [searchTerm, selectedCategory, typedMetadata.icons]);
+		return icons.sort((a, b) => a.originalName.localeCompare(b.originalName));
+	}, [searchTerm, selectedCategory, selectedVariant, typedMetadata.icons]);
 
 	const categories = Object.entries(typedMetadata.categories).map(([key, value]) => ({
 		key,
 		label: value.label,
 		count: typedMetadata.stats.byCategory[key] || 0,
 	}));
+
+	const variants = useMemo(
+		() => [
+			{ id: "all", name: "All", count: typedMetadata.stats.total },
+			...typedMetadata.variants.map((v) => ({
+				id: v.id,
+				name: v.name,
+				count: typedMetadata.stats.byVariant[v.name] || 0,
+			})),
+		],
+		[typedMetadata],
+	);
 
 	const handleIconClick = (icon: IconData) => {
 		setSelectedIcon(icon);
@@ -120,7 +126,7 @@ const IconShowcase = () => {
 		<div className="flex h-screen bg-background">
 			<Sidebar
 				color={color}
-				onColorChange={handleColorChange}
+				onColorChange={setColor}
 				strokeWidth={strokeWidth}
 				onStrokeWidthChange={setStrokeWidth}
 				size={size}
@@ -147,16 +153,7 @@ const IconShowcase = () => {
 						>
 							<ArrowLeft className="h-5 w-5" />
 						</Button>
-						<div className="relative flex-1 max-w-2xl">
-							<Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-							<Input
-								type="text"
-								placeholder={`Search ${typedMetadata.stats.total} icons ...`}
-								value={searchTerm}
-								onChange={(e) => setSearchTerm(e.target.value)}
-								className="pl-10"
-							/>
-						</div>
+						<div className="flex-1" />
 						<Button
 							variant="ghost"
 							size="icon"
@@ -205,6 +202,60 @@ const IconShowcase = () => {
 						)}
 					</div>
 				</ScrollArea>
+			</div>
+
+			{/* Floating Search Bar at Bottom */}
+			<div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50">
+				<div className="bg-background/95 rounded-full border border-border shadow-2xl px-2 py-2 flex items-center gap-2 min-w-[500px]">
+					<Search className="h-5 w-5 text-muted-foreground ml-3" />
+					<Input
+						type="text"
+						placeholder={`Search icons...`}
+						value={searchTerm}
+						onChange={(e) => setSearchTerm(e.target.value)}
+						className="border-0 bg-transparent flex-1 focus:ring-0 focus:ring-offset-0 focus-visible:ring-0 focus-visible:ring-offset-0 outline-none"
+					/>
+					{searchTerm && (
+						<Button
+							variant="ghost"
+							size="icon"
+							onClick={() => setSearchTerm("")}
+							className="h-8 w-8 rounded-full"
+						>
+							<X className="h-4 w-4" />
+						</Button>
+					)}
+					<Popover>
+						<PopoverTrigger>
+							<Button variant="ghost" size="icon" className="h-10 w-10 rounded-full">
+								<Settings className="h-5 w-5" />
+							</Button>
+						</PopoverTrigger>
+						<PopoverContent className="w-80 mb-2" align="end">
+							<div className="space-y-4">
+								<div>
+									<h4 className="font-semibold mb-3">Filter by Variant</h4>
+									<div className="flex flex-wrap gap-2">
+										{variants.map((variant) => (
+											<Button
+												key={variant.id}
+												variant={selectedVariant === variant.id ? "default" : "outline"}
+												size="sm"
+												onClick={() => setSelectedVariant(variant.id)}
+												className="rounded-full"
+											>
+												{variant.name}
+												<Badge variant="secondary" className="ml-2 text-xs">
+													{variant.count}
+												</Badge>
+											</Button>
+										))}
+									</div>
+								</div>
+							</div>
+						</PopoverContent>
+					</Popover>
+				</div>
 			</div>
 
 			<IconDetailDialog

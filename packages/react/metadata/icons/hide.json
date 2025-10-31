@@ -1,0 +1,72 @@
+{
+	"id": "hide",
+	"name": "Hide",
+	"componentBaseName": "Hide",
+	"category": "ui",
+	"tags": ["hide"],
+	"aliases": [],
+	"description": "Hide icon - UI Elements",
+	"variants": {
+		"broken": {
+			"available": true,
+			"componentName": "HideBroken",
+			"svgPath": "icons/ui/Hide-broken.svg",
+			"componentPath": "./components/icons/Broken/HideBroken",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"bulk": {
+			"available": true,
+			"componentName": "HideBulk",
+			"svgPath": "icons/ui/Hide-bulk.svg",
+			"componentPath": "./components/icons/Bulk/HideBulk",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"light": {
+			"available": true,
+			"componentName": "HideLight",
+			"svgPath": "icons/ui/Hide-light.svg",
+			"componentPath": "./components/icons/Light/HideLight",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1,
+			"fillType": "stroke"
+		},
+		"outline": {
+			"available": true,
+			"componentName": "HideOutline",
+			"svgPath": "icons/ui/Hide-outline.svg",
+			"componentPath": "./components/icons/Outline/HideOutline",
+			"supportsStrokeWidth": false,
+			"defaultStrokeWidth": 0,
+			"fillType": "fill"
+		},
+		"two-tone": {
+			"available": true,
+			"componentName": "HideTwoTone",
+			"svgPath": "icons/ui/Hide-two-tone.svg",
+			"componentPath": "./components/icons/TwoTone/HideTwoTone",
+			"supportsStrokeWidth": true,
+			"defaultStrokeWidth": 1.5,
+			"fillType": "mixed"
+		}
+	},
+	"metadata": {
+		"addedDate": "2025-10-31",
+		"lastModified": "2025-10-31",
+		"version": "0.0.2",
+		"author": "Jaya Raj Srivathsav Adari",
+		"popularity": 0,
+		"isDeprecated": false
+	},
+	"usage": {
+		"recommended": [],
+		"codeExample": "import { HideTwoTone } from 'magic-icons';\n\n<HideTwoTone size={24} color=\"currentColor\" />"
+	},
+	"accessibility": {
+		"ariaLabel": "hide",
+		"title": "Hide"
+	}
+}

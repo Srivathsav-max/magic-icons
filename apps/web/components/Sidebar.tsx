@@ -1,9 +1,7 @@
 "use client";
 
 import { RefreshCw } from "lucide-react";
-import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
@@ -12,8 +10,8 @@ import { Switch } from "@/components/ui/switch";
 import { cn } from "@/lib/utils";
 
 interface SidebarProps {
-	color: string;
-	onColorChange: (value: string) => void;
+	color: string | undefined;
+	onColorChange: (value: string | undefined) => void;
 	strokeWidth: number;
 	onStrokeWidthChange: (value: number) => void;
 	size: number;
@@ -38,30 +36,24 @@ const Sidebar = ({
 	onSizeChange,
 	absoluteStrokeWidth,
 	onAbsoluteStrokeWidthChange,
-	includeExternalLibs,
-	onIncludeExternalLibsChange,
 	view,
 	onViewChange,
 	selectedCategory,
 	onCategoryChange,
 	categories,
 }: SidebarProps) => {
-	const { theme } = useTheme();
-
 	const handleReset = () => {
-		const defaultColor = theme === "dark" ? "#ffffff" : "#000000";
-		onColorChange(defaultColor);
+		onColorChange(undefined);
 		onStrokeWidthChange(2);
 		onSizeChange(32);
 		onAbsoluteStrokeWidthChange(false);
-		onIncludeExternalLibsChange(false);
 	};
 
 	return (
 		<div className="w-60 border-r border-border bg-sidebar h-screen flex flex-col">
 			<div className="p-4 border-b border-sidebar-border">
 				<div className="flex items-center justify-between mb-4">
-					<h2 className="text-lg font-semibold text-sidebar-foreground">Customizer</h2>
+					<h2 className="text-lg font-semibold text-sidebar-foreground">Magic Icons</h2>
 					<Button variant="ghost" size="icon" onClick={handleReset} className="h-8 w-8">
 						<RefreshCw className="h-4 w-4" />
 					</Button>
@@ -70,19 +62,27 @@ const Sidebar = ({
 				<div className="space-y-6">
 					{/* Color */}
 					<div className="space-y-2">
-						<Label htmlFor="color" className="text-sm text-sidebar-foreground">
-							Color
-						</Label>
-						<div className="flex items-center gap-2">
-							<input
-								id="color"
-								type="color"
-								value={color}
-								onChange={(e) => onColorChange(e.target.value)}
-								className="h-8 w-12 rounded border border-sidebar-border cursor-pointer"
+						<div className="flex items-center justify-between">
+							<Label htmlFor="color" className="text-sm text-sidebar-foreground">
+								Custom Color
+							</Label>
+							<Switch
+								checked={color !== undefined}
+								onCheckedChange={(checked) => onColorChange(checked ? "#000000" : undefined)}
 							/>
-							<span className="text-xs text-sidebar-foreground/70">current</span>
 						</div>
+						{color !== undefined && (
+							<div className="flex items-center gap-2">
+								<input
+									id="color"
+									type="color"
+									value={color}
+									onChange={(e) => onColorChange(e.target.value)}
+									className="h-8 w-12 rounded border border-sidebar-border cursor-pointer"
+								/>
+								<span className="text-xs text-sidebar-foreground/70">{color}</span>
+							</div>
+						)}
 					</div>
 
 					{/* Stroke Width */}
@@ -139,27 +139,6 @@ const Sidebar = ({
 							checked={absoluteStrokeWidth}
 							onCheckedChange={onAbsoluteStrokeWidthChange}
 						/>
-					</div>
-				</div>
-			</div>
-
-			<Separator />
-
-			{/* Include external libs */}
-			<div className="p-4 border-b border-sidebar-border">
-				<div className="space-y-3">
-					<Label className="text-sm font-medium text-sidebar-foreground">
-						Include external libs
-					</Label>
-					<div className="flex items-center space-x-2">
-						<Checkbox
-							id="lab"
-							checked={includeExternalLibs}
-							onCheckedChange={(checked) => onIncludeExternalLibsChange(checked as boolean)}
-						/>
-						<label htmlFor="lab" className="text-sm text-sidebar-foreground cursor-pointer">
-							Lab
-						</label>
 					</div>
 				</div>
 			</div>

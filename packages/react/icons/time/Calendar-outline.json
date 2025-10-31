@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "outline",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["calendar"],
+	"categories": ["time", "misc"],
+	"aliases": [],
+	"deprecated": false
+}
