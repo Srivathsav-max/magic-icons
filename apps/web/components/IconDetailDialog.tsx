@@ -1,10 +1,10 @@
 "use client";
 
 import { Check, Copy } from "lucide-react";
+import * as Icons from "magic-icons";
 import type React from "react";
 import { Suspense, useState } from "react";
-import * as Icons from "@/components/icons";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
