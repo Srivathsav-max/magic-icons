@@ -1,7 +1,9 @@
 "use client";
 
 import { Check, Copy } from "lucide-react";
-import { lazy, Suspense, useState } from "react";
+import type React from "react";
+import { Suspense, useState } from "react";
+import * as Icons from "@/components/icons";
 import { cn } from "../lib/utils";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -34,6 +36,24 @@ const frameworks = [
 	{ id: "icon-font", label: "Icon font" },
 ];
 
+const getIconComponent = (
+	iconName: string,
+): React.ComponentType<{
+	size: number;
+	color: string;
+	strokeWidth?: number;
+}> => {
+	const iconsMap = Icons as Record<
+		string,
+		React.ComponentType<{
+			size: number;
+			color: string;
+			strokeWidth?: number;
+		}>
+	>;
+	return iconsMap[iconName];
+};
+
 const IconDetailDialog = ({
 	icon,
 	open,
@@ -49,7 +69,7 @@ const IconDetailDialog = ({
 
 	if (!icon) return null;
 
-	const IconComponent = lazy(() => import(`@/components/icons/${icon.variant}/${icon.name}.tsx`));
+	const IconComponent = getIconComponent(icon.name);
 
 	const getCode = (framework: string) => {
 		switch (framework) {
@@ -79,19 +99,18 @@ const IconDetailDialog = ({
 		document.body.appendChild(container);
 
 		try {
-			const IconModule = await import(`@/components/icons/${icon.variant}/${icon.name}.tsx`);
-			const IconComponent = IconModule.default;
+			const IconComponentForSvg = getIconComponent(icon.name);
 
 			const { createRoot } = await import("react-dom/client");
 			const root = createRoot(container);
 
 			await new Promise<void>((resolve) => {
 				root.render(
-					IconComponent({
-						size,
-						color,
-						...(icon.supportsStrokeWidth ? { strokeWidth } : {}),
-					}),
+					<IconComponentForSvg
+						size={size}
+						color={color}
+						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+					/>,
 				);
 				setTimeout(resolve, 100);
 			});
