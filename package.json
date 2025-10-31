@@ -12,10 +12,10 @@
 	"scripts": {
 		"dev": "turbo run dev --filter=web",
 		"dev:web": "turbo run dev --filter=web",
-		"build:icons": "turbo run build:icons --filter=react",
-		"build:lib": "turbo run build --filter=react",
+		"build:icons": "turbo run build:icons --filter=magic-icons",
+		"build:lib": "turbo run build --filter=magic-icons",
 		"build:web": "turbo run build --filter=web",
-		"build": "turbo run build:lib && turbo run build:web",
+		"build": "turbo run build",
 		"lint": "turbo run lint",
 		"start:web": "turbo run start --filter=web"
 	},
