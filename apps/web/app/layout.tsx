@@ -40,15 +40,17 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" suppressHydrationWarning>
-			<NextThemesProvider
-				attribute="class"
-				defaultTheme="system"
-				enableSystem
-				disableTransitionOnChange
-			>
-				<body className={`${waldenburg.variable} font-sans antialiased`}>{children}</body>
-			</NextThemesProvider>
+		<html lang="en" suppressHydrationWarning className={waldenburg.variable}>
+			<body className="antialiased">
+				<NextThemesProvider
+					attribute="class"
+					defaultTheme="system"
+					enableSystem
+					disableTransitionOnChange
+				>
+					{children}
+				</NextThemesProvider>
+			</body>
 		</html>
 	);
 }

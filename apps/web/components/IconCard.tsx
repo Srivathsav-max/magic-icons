@@ -1,6 +1,7 @@
 "use client";
 
-import { lazy, Suspense, memo, useMemo } from "react";
+import * as Icons from "magic-icons";
+import { memo } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
@@ -19,11 +20,19 @@ interface IconCardProps {
 }
 
 const IconCard = memo(({ icon, size, color, strokeWidth, onClick }: IconCardProps) => {
-	// Memoize the dynamic import to prevent re-importing on every render
-	const IconComponent = useMemo(
-		() => lazy(() => import(`@/components/icons/${icon.variant}/${icon.name}.tsx`)),
-		[icon.variant, icon.name],
-	);
+	const iconsMap = Icons as Record<
+		string,
+		React.ComponentType<{
+			size?: number;
+			color?: string;
+			strokeWidth?: number;
+		}>
+	>;
+	const IconComponent = iconsMap[icon.name];
+
+	if (!IconComponent) {
+		return null;
+	}
 
 	return (
 		<Card
@@ -35,13 +44,11 @@ const IconCard = memo(({ icon, size, color, strokeWidth, onClick }: IconCardProp
 		>
 			<CardContent className="p-6 flex flex-col items-center gap-3">
 				<div className="flex items-center justify-center w-full h-16 transition-transform group-hover:scale-110">
-					<Suspense fallback={<div className="text-xs text-muted-foreground">Loading...</div>}>
-						<IconComponent
-							size={size}
-							color={color}
-							{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
-						/>
-					</Suspense>
+					<IconComponent
+						size={size}
+						color={color}
+						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+					/>
 				</div>
 
 				<div className="text-center w-full">
