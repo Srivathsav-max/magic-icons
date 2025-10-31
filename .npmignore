@@ -1,0 +1,75 @@
+# Source files (except we don't publish any source)
+src/
+scripts/
+icons/
+examples/
+
+# Showcase UI components (not needed in package)
+src/components/IconShowcase.*
+src/components/IconCard.*
+src/components/IconControls.*
+src/App.*
+src/main.*
+src/index.css
+src/assets/
+
+# Config files
+tsconfig.json
+tsconfig.app.json
+tsconfig.node.json
+tsconfig.lib.json
+tsup.config.ts
+vite.config.ts
+eslint.config.js
+icon-schema.json
+
+# Documentation (internal)
+PUBLISHING_GUIDE.md
+PACKAGE_SUMMARY.md
+
+# Development files
+.git/
+.gitignore
+.vscode/
+.idea/
+node_modules/
+bun.lock
+package-lock.json
+yarn.lock
+
+# Build artifacts (showcase)
+build/
+.vite/
+
+# Documentation
+*.md
+!README.md
+
+# HTML and public files (showcase - not needed)
+index.html
+public/
+*.html
+
+# Tests
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

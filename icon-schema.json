@@ -1,0 +1,99 @@
+{
+  "variants": [
+    {
+      "name": "Outline",
+      "directory": "icons/Regular/Outline",
+      "description": "Outlined icons with filled paths",
+      "defaultStrokeWidth": 0,
+      "supportsStrokeWidth": false,
+      "fillType": "fill"
+    },
+    {
+      "name": "Bulk",
+      "directory": "icons/Regular/Bulk",
+      "description": "Icons with partial fills for a modern look",
+      "defaultStrokeWidth": 0,
+      "supportsStrokeWidth": false,
+      "fillType": "fill"
+    },
+    {
+      "name": "Broken",
+      "directory": "icons/Regular/Broken",
+      "description": "Broken line style icons with filled paths",
+      "defaultStrokeWidth": 0,
+      "supportsStrokeWidth": false,
+      "fillType": "fill"
+    },
+    {
+      "name": "Light",
+      "directory": "icons/Regular/Light",
+      "description": "Light stroke icons",
+      "defaultStrokeWidth": 1,
+      "supportsStrokeWidth": true,
+      "fillType": "stroke"
+    },
+    {
+      "name": "TwoTone",
+      "directory": "icons/Regular/Two-tone",
+      "description": "Two-tone style icons",
+      "defaultStrokeWidth": 1.5,
+      "supportsStrokeWidth": true,
+      "fillType": "stroke"
+    }
+  ],
+  "categories": {
+    "user": {
+      "label": "User & Profile",
+      "keywords": ["user", "profile", "people", "person"]
+    },
+    "communication": {
+      "label": "Communication",
+      "keywords": ["message", "chat", "call", "video", "voice", "send", "mail"]
+    },
+    "navigation": {
+      "label": "Navigation",
+      "keywords": ["arrow", "home", "location", "direction"]
+    },
+    "media": {
+      "label": "Media",
+      "keywords": ["image", "camera", "play", "volume", "voice", "video"]
+    },
+    "file": {
+      "label": "Files & Folders",
+      "keywords": ["folder", "document", "paper", "download", "upload", "file"]
+    },
+    "commerce": {
+      "label": "Commerce",
+      "keywords": ["bag", "buy", "wallet", "ticket", "discount", "shop", "cart"]
+    },
+    "action": {
+      "label": "Actions",
+      "keywords": ["edit", "delete", "add", "plus", "swap", "filter", "refresh"]
+    },
+    "security": {
+      "label": "Security",
+      "keywords": ["lock", "unlock", "password", "shield", "login", "logout", "security"]
+    },
+    "ui": {
+      "label": "UI Elements",
+      "keywords": ["show", "hide", "search", "setting", "notification", "more", "menu"]
+    },
+    "data": {
+      "label": "Data & Analytics",
+      "keywords": ["chart", "graph", "activity", "scan", "analytics"]
+    },
+    "status": {
+      "label": "Status & Indicators",
+      "keywords": ["tick", "close", "danger", "info", "time", "check", "warning"]
+    },
+    "misc": {
+      "label": "Miscellaneous",
+      "keywords": ["star", "heart", "bookmark", "calendar", "game", "work", "discovery", "category"]
+    }
+  },
+  "defaultSettings": {
+    "size": 24,
+    "color": "currentColor",
+    "strokeWidth": 1.5
+  }
+}
