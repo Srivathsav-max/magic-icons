@@ -10,15 +10,6 @@
   "aliases": [],
   "description": "Calling icon - Communication",
   "variants": {
-    "broken": {
-      "available": true,
-      "componentName": "CallingBroken",
-      "svgPath": "icons/communication/Calling-broken.svg",
-      "componentPath": "./components/icons/Broken/CallingBroken",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "bulk": {
       "available": true,
       "componentName": "CallingBulk",

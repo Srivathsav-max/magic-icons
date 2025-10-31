@@ -1,9 +1,0 @@
-{
-	"$schema": "../icon.schema.json",
-	"variant": "twoTone",
-	"contributors": ["Jaya Raj Srivathsav Adari"],
-	"tags": ["ticket", "star"],
-	"categories": ["file", "commerce", "status", "misc"],
-	"aliases": [],
-	"deprecated": false
-}

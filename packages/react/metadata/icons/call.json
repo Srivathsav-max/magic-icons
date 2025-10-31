@@ -9,24 +9,6 @@
   "aliases": [],
   "description": "Call icon - Communication",
   "variants": {
-    "broken": {
-      "available": true,
-      "componentName": "CallBroken",
-      "svgPath": "icons/communication/Call-broken.svg",
-      "componentPath": "./components/icons/Broken/CallBroken",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
-    "bulk": {
-      "available": true,
-      "componentName": "CallBulk",
-      "svgPath": "icons/communication/Call-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CallBulk",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "light": {
       "available": true,
       "componentName": "CallLight",
@@ -35,15 +17,6 @@
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "CallOutline",
-      "svgPath": "icons/communication/Call-outline.svg",
-      "componentPath": "./components/icons/Outline/CallOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
     },
     "two-tone": {
       "available": true,

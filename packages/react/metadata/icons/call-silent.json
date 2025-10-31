@@ -10,24 +10,6 @@
   "aliases": [],
   "description": "CallSilent icon - Communication",
   "variants": {
-    "broken": {
-      "available": true,
-      "componentName": "CallSilentBroken",
-      "svgPath": "icons/communication/call-silent-broken.svg",
-      "componentPath": "./components/icons/Broken/CallSilentBroken",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
-    "bulk": {
-      "available": true,
-      "componentName": "CallSilentBulk",
-      "svgPath": "icons/communication/call-silent-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CallSilentBulk",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "light": {
       "available": true,
       "componentName": "CallSilentLight",
@@ -36,15 +18,6 @@
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "CallSilentOutline",
-      "svgPath": "icons/communication/call-silent-outline.svg",
-      "componentPath": "./components/icons/Outline/CallSilentOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
     },
     "two-tone": {
       "available": true,
