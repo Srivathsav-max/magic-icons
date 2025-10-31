@@ -5,7 +5,7 @@ import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import IconCard from "@/components/IconCard";
 import IconDetailDialog from "@/components/IconDetailDialog";
-import metadata from "@/components/icons/metadata.json";
+import metadata from "@/components/metadata.json";
 import Sidebar from "@/components/Sidebar";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
