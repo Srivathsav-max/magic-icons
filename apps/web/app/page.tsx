@@ -14,7 +14,6 @@ export default function Home() {
 
 	const installCommand = "npm install magic-icons";
 
-	// Prevent hydration mismatch
 	useEffect(() => {
 		setMounted(true);
 	}, []);
