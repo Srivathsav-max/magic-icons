@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Location icon - Location & Maps",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Location01",
+      "svgPath": "icons/location/location-01.svg",
+      "componentPath": "./components/icons/Outline/Location01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "LocationBroken",
-      "svgPath": "icons/location/Location-broken.svg",
-      "componentPath": "./components/icons/Broken/LocationBroken",
+      "componentName": "Location02",
+      "svgPath": "icons/location/location-02.svg",
+      "componentPath": "./components/icons/Broken/Location02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "LocationBulk",
-      "svgPath": "icons/location/Location-bulk.svg",
-      "componentPath": "./components/icons/Bulk/LocationBulk",
+      "componentName": "Location03",
+      "svgPath": "icons/location/location-03.svg",
+      "componentPath": "./components/icons/Bulk/Location03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "LocationLight",
-      "svgPath": "icons/location/Location-light.svg",
-      "componentPath": "./components/icons/Light/LocationLight",
+      "componentName": "Location04",
+      "svgPath": "icons/location/location-04.svg",
+      "componentPath": "./components/icons/Light/Location04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "LocationOutline",
-      "svgPath": "icons/location/Location-outline.svg",
-      "componentPath": "./components/icons/Outline/LocationOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "LocationTwoTone",
-      "svgPath": "icons/location/Location-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/LocationTwoTone",
+      "componentName": "Location05",
+      "svgPath": "icons/location/location-05.svg",
+      "componentPath": "./components/icons/TwoTone/Location05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

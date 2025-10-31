@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "MainComponentOutline",
-      "svgPath": "icons/action/main-component-outline.svg",
-      "componentPath": "./components/icons/Outline/MainComponentOutline",
+      "componentName": "MainComponent01",
+      "svgPath": "icons/action/main-component-01.svg",
+      "componentPath": "./components/icons/Outline/MainComponent01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

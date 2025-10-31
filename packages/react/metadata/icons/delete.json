@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Delete icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Delete01",
+      "svgPath": "icons/action/delete-01.svg",
+      "componentPath": "./components/icons/Outline/Delete01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "DeleteBroken",
-      "svgPath": "icons/action/Delete-broken.svg",
-      "componentPath": "./components/icons/Broken/DeleteBroken",
+      "componentName": "Delete02",
+      "svgPath": "icons/action/delete-02.svg",
+      "componentPath": "./components/icons/Broken/Delete02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "DeleteBulk",
-      "svgPath": "icons/action/Delete-bulk.svg",
-      "componentPath": "./components/icons/Bulk/DeleteBulk",
+      "componentName": "Delete03",
+      "svgPath": "icons/action/delete-03.svg",
+      "componentPath": "./components/icons/Bulk/Delete03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "DeleteLight",
-      "svgPath": "icons/action/Delete-light.svg",
-      "componentPath": "./components/icons/Light/DeleteLight",
+      "componentName": "Delete04",
+      "svgPath": "icons/action/delete-04.svg",
+      "componentPath": "./components/icons/Light/Delete04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "DeleteOutline",
-      "svgPath": "icons/action/Delete-outline.svg",
-      "componentPath": "./components/icons/Outline/DeleteOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "DeleteTwoTone",
-      "svgPath": "icons/action/Delete-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/DeleteTwoTone",
+      "componentName": "Delete05",
+      "svgPath": "icons/action/delete-05.svg",
+      "componentPath": "./components/icons/TwoTone/Delete05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

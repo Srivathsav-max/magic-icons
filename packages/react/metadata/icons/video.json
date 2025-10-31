@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Video icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Video01",
+      "svgPath": "icons/communication/video-01.svg",
+      "componentPath": "./components/icons/Outline/Video01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VideoBroken",
-      "svgPath": "icons/communication/Video-broken.svg",
-      "componentPath": "./components/icons/Broken/VideoBroken",
+      "componentName": "Video02",
+      "svgPath": "icons/communication/video-02.svg",
+      "componentPath": "./components/icons/Broken/Video02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VideoBulk",
-      "svgPath": "icons/communication/Video-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VideoBulk",
+      "componentName": "Video03",
+      "svgPath": "icons/communication/video-03.svg",
+      "componentPath": "./components/icons/Bulk/Video03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VideoLight",
-      "svgPath": "icons/communication/Video-light.svg",
-      "componentPath": "./components/icons/Light/VideoLight",
+      "componentName": "Video04",
+      "svgPath": "icons/communication/video-04.svg",
+      "componentPath": "./components/icons/Light/Video04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "VideoOutline",
-      "svgPath": "icons/communication/Video-outline.svg",
-      "componentPath": "./components/icons/Outline/VideoOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "VideoTwoTone",
-      "svgPath": "icons/communication/Video-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VideoTwoTone",
+      "componentName": "Video05",
+      "svgPath": "icons/communication/video-05.svg",
+      "componentPath": "./components/icons/TwoTone/Video05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

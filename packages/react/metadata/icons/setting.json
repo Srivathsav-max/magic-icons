@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Setting icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Setting01",
+      "svgPath": "icons/ui/setting-01.svg",
+      "componentPath": "./components/icons/Outline/Setting01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "SettingBroken",
-      "svgPath": "icons/ui/Setting-broken.svg",
-      "componentPath": "./components/icons/Broken/SettingBroken",
+      "componentName": "Setting02",
+      "svgPath": "icons/ui/setting-02.svg",
+      "componentPath": "./components/icons/Broken/Setting02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "SettingBulk",
-      "svgPath": "icons/ui/Setting-bulk.svg",
-      "componentPath": "./components/icons/Bulk/SettingBulk",
+      "componentName": "Setting03",
+      "svgPath": "icons/ui/setting-03.svg",
+      "componentPath": "./components/icons/Bulk/Setting03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "SettingLight",
-      "svgPath": "icons/ui/Setting-light.svg",
-      "componentPath": "./components/icons/Light/SettingLight",
+      "componentName": "Setting04",
+      "svgPath": "icons/ui/setting-04.svg",
+      "componentPath": "./components/icons/Light/Setting04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "SettingOutline",
-      "svgPath": "icons/ui/Setting-outline.svg",
-      "componentPath": "./components/icons/Outline/SettingOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "SettingTwoTone",
-      "svgPath": "icons/ui/Setting-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/SettingTwoTone",
+      "componentName": "Setting05",
+      "svgPath": "icons/ui/setting-05.svg",
+      "componentPath": "./components/icons/TwoTone/Setting05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

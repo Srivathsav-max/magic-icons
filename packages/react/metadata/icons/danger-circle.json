@@ -10,23 +10,23 @@
   "aliases": [],
   "description": "DangerCircle icon - Status & Indicators",
   "variants": {
-    "light": {
-      "available": true,
-      "componentName": "DangerCircleLight",
-      "svgPath": "icons/status/danger-circle-light.svg",
-      "componentPath": "./components/icons/Light/DangerCircleLight",
-      "supportsStrokeWidth": true,
-      "defaultStrokeWidth": 1,
-      "fillType": "stroke"
-    },
     "outline": {
       "available": true,
-      "componentName": "DangerCircleOutline",
-      "svgPath": "icons/status/danger-circle-outline.svg",
-      "componentPath": "./components/icons/Outline/DangerCircleOutline",
+      "componentName": "DangerCircle01",
+      "svgPath": "icons/status/danger-circle-01.svg",
+      "componentPath": "./components/icons/Outline/DangerCircle01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "DangerCircle04",
+      "svgPath": "icons/status/danger-circle-04.svg",
+      "componentPath": "./components/icons/Light/DangerCircle04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {

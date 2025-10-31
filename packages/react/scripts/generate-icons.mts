@@ -85,7 +85,7 @@ if (!fs.existsSync(METADATA_DIR)) {
 }
 
 // Utility to convert filename to component name
-function toComponentName(filename: string, variant: string): string {
+function toComponentName(filename: string, numericSuffix: string): string {
 	const name = filename.replace(".svg", "");
 
 	// Map numbers to their word equivalents
@@ -110,7 +110,8 @@ function toComponentName(filename: string, variant: string): string {
 		})
 		.join("");
 
-	return `${pascalCase}${variant}`;
+	// Return component name with numeric suffix (e.g., ArrowDown01, VideoTwo05)
+	return `${pascalCase}${numericSuffix}`;
 }
 
 function svgToReactComponent(
@@ -360,18 +361,48 @@ function generateIcons(): void {
 			const svgContent = fs.readFileSync(svgPath, "utf-8");
 
 			// Parse filename to extract icon name and variant
-			// Format: icon-name-variant.svg (e.g., arrow-up-outline.svg)
 			const fileName = file.replace(".svg", "");
+			
+			// Numeric suffix mapping
+			const numericToVariant: Record<string, string> = {
+				"01": "-outline",
+				"02": "-broken",
+				"03": "-bulk",
+				"04": "-light",
+				"05": "-two-tone",
+			};
 
-			// Find which variant suffix matches
 			let variantConfig: VariantConfig | undefined;
 			let iconNameWithoutVariant = fileName;
 
-			for (const variant of schema.variants) {
-				if (fileName.endsWith(variant.suffix)) {
-					variantConfig = variant;
-					iconNameWithoutVariant = fileName.slice(0, -variant.suffix.length);
-					break;
+			// Check for numeric suffix first (e.g., icon-01, icon-02)
+			let numericSuffix = "";
+			const numericMatch = fileName.match(/^(.+)-(\d{2})$/);
+			if (numericMatch) {
+				const [, baseName, suffix] = numericMatch;
+				numericSuffix = suffix;
+				const variantSuffix = numericToVariant[suffix];
+
+				if (variantSuffix) {
+					// Find the variant config by suffix
+					for (const variant of schema.variants) {
+						if (variant.suffix === variantSuffix) {
+							variantConfig = variant;
+							iconNameWithoutVariant = baseName;
+							break;
+						}
+					}
+				}
+			}
+
+			// If no numeric match, try named variant suffix
+			if (!variantConfig) {
+				for (const variant of schema.variants) {
+					if (fileName.endsWith(variant.suffix)) {
+						variantConfig = variant;
+						iconNameWithoutVariant = fileName.slice(0, -variant.suffix.length);
+						break;
+					}
 				}
 			}
 
@@ -395,7 +426,7 @@ function generateIcons(): void {
 			}
 
 			const baseName = toComponentName(iconNameWithoutVariant + ".svg", "");
-			const componentName = toComponentName(iconNameWithoutVariant + ".svg", variant);
+			const componentName = toComponentName(iconNameWithoutVariant + ".svg", numericSuffix);
 			const componentCode = svgToReactComponent(svgContent, componentName, variantConfig);
 
 			const outputPath = path.join(variantDir, `${componentName}.tsx`);

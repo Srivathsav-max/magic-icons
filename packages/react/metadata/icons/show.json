@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Show icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Show01",
+      "svgPath": "icons/ui/show-01.svg",
+      "componentPath": "./components/icons/Outline/Show01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ShowBroken",
-      "svgPath": "icons/ui/Show-broken.svg",
-      "componentPath": "./components/icons/Broken/ShowBroken",
+      "componentName": "Show02",
+      "svgPath": "icons/ui/show-02.svg",
+      "componentPath": "./components/icons/Broken/Show02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ShowBulk",
-      "svgPath": "icons/ui/Show-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ShowBulk",
+      "componentName": "Show03",
+      "svgPath": "icons/ui/show-03.svg",
+      "componentPath": "./components/icons/Bulk/Show03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ShowLight",
-      "svgPath": "icons/ui/Show-light.svg",
-      "componentPath": "./components/icons/Light/ShowLight",
+      "componentName": "Show04",
+      "svgPath": "icons/ui/show-04.svg",
+      "componentPath": "./components/icons/Light/Show04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ShowOutline",
-      "svgPath": "icons/ui/Show-outline.svg",
-      "componentPath": "./components/icons/Outline/ShowOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ShowTwoTone",
-      "svgPath": "icons/ui/Show-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ShowTwoTone",
+      "componentName": "Show05",
+      "svgPath": "icons/ui/show-05.svg",
+      "componentPath": "./components/icons/TwoTone/Show05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

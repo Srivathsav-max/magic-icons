@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Wallet icon - E-Commerce & Shopping",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Wallet01",
+      "svgPath": "icons/commerce/wallet-01.svg",
+      "componentPath": "./components/icons/Outline/Wallet01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "WalletBroken",
-      "svgPath": "icons/commerce/Wallet-broken.svg",
-      "componentPath": "./components/icons/Broken/WalletBroken",
+      "componentName": "Wallet02",
+      "svgPath": "icons/commerce/wallet-02.svg",
+      "componentPath": "./components/icons/Broken/Wallet02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "WalletBulk",
-      "svgPath": "icons/commerce/Wallet-bulk.svg",
-      "componentPath": "./components/icons/Bulk/WalletBulk",
+      "componentName": "Wallet03",
+      "svgPath": "icons/commerce/wallet-03.svg",
+      "componentPath": "./components/icons/Bulk/Wallet03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "WalletLight",
-      "svgPath": "icons/commerce/Wallet-light.svg",
-      "componentPath": "./components/icons/Light/WalletLight",
+      "componentName": "Wallet04",
+      "svgPath": "icons/commerce/wallet-04.svg",
+      "componentPath": "./components/icons/Light/Wallet04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "WalletOutline",
-      "svgPath": "icons/commerce/Wallet-outline.svg",
-      "componentPath": "./components/icons/Outline/WalletOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "WalletTwoTone",
-      "svgPath": "icons/commerce/Wallet-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/WalletTwoTone",
+      "componentName": "Wallet05",
+      "svgPath": "icons/commerce/wallet-05.svg",
+      "componentPath": "./components/icons/TwoTone/Wallet05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

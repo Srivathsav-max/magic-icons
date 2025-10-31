@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Login icon - Security & Authentication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Login01",
+      "svgPath": "icons/security/login-01.svg",
+      "componentPath": "./components/icons/Outline/Login01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "LoginBroken",
-      "svgPath": "icons/security/Login-broken.svg",
-      "componentPath": "./components/icons/Broken/LoginBroken",
+      "componentName": "Login02",
+      "svgPath": "icons/security/login-02.svg",
+      "componentPath": "./components/icons/Broken/Login02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "LoginBulk",
-      "svgPath": "icons/security/Login-bulk.svg",
-      "componentPath": "./components/icons/Bulk/LoginBulk",
+      "componentName": "Login03",
+      "svgPath": "icons/security/login-03.svg",
+      "componentPath": "./components/icons/Bulk/Login03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "LoginLight",
-      "svgPath": "icons/security/Login-light.svg",
-      "componentPath": "./components/icons/Light/LoginLight",
+      "componentName": "Login04",
+      "svgPath": "icons/security/login-04.svg",
+      "componentPath": "./components/icons/Light/Login04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "LoginOutline",
-      "svgPath": "icons/security/Login-outline.svg",
-      "componentPath": "./components/icons/Outline/LoginOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "LoginTwoTone",
-      "svgPath": "icons/security/Login-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/LoginTwoTone",
+      "componentName": "Login05",
+      "svgPath": "icons/security/login-05.svg",
+      "componentPath": "./components/icons/TwoTone/Login05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

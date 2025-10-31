@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Work icon - Work & Productivity",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Work01",
+      "svgPath": "icons/work/work-01.svg",
+      "componentPath": "./components/icons/Outline/Work01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "WorkBroken",
-      "svgPath": "icons/work/Work-broken.svg",
-      "componentPath": "./components/icons/Broken/WorkBroken",
+      "componentName": "Work02",
+      "svgPath": "icons/work/work-02.svg",
+      "componentPath": "./components/icons/Broken/Work02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "WorkBulk",
-      "svgPath": "icons/work/Work-bulk.svg",
-      "componentPath": "./components/icons/Bulk/WorkBulk",
+      "componentName": "Work03",
+      "svgPath": "icons/work/work-03.svg",
+      "componentPath": "./components/icons/Bulk/Work03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "WorkLight",
-      "svgPath": "icons/work/Work-light.svg",
-      "componentPath": "./components/icons/Light/WorkLight",
+      "componentName": "Work04",
+      "svgPath": "icons/work/work-04.svg",
+      "componentPath": "./components/icons/Light/Work04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "WorkOutline",
-      "svgPath": "icons/work/Work-outline.svg",
-      "componentPath": "./components/icons/Outline/WorkOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "WorkTwoTone",
-      "svgPath": "icons/work/Work-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/WorkTwoTone",
+      "componentName": "Work05",
+      "svgPath": "icons/work/work-05.svg",
+      "componentPath": "./components/icons/TwoTone/Work05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

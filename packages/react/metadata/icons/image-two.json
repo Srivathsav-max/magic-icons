@@ -12,9 +12,9 @@
   "variants": {
     "two-tone": {
       "available": true,
-      "componentName": "ImageTwoTwoTone",
-      "svgPath": "icons/media/image-two-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ImageTwoTwoTone",
+      "componentName": "ImageTwo05",
+      "svgPath": "icons/media/image-two-05.svg",
+      "componentPath": "./components/icons/TwoTone/ImageTwo05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LinkVerticalOutline",
-      "svgPath": "icons/action/link-vertical-outline.svg",
-      "componentPath": "./components/icons/Outline/LinkVerticalOutline",
+      "componentName": "LinkVertical01",
+      "svgPath": "icons/action/link-vertical-01.svg",
+      "componentPath": "./components/icons/Outline/LinkVertical01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

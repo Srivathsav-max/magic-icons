@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Chat icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Chat01",
+      "svgPath": "icons/communication/chat-01.svg",
+      "componentPath": "./components/icons/Outline/Chat01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ChatBroken",
-      "svgPath": "icons/communication/Chat-broken.svg",
-      "componentPath": "./components/icons/Broken/ChatBroken",
+      "componentName": "Chat02",
+      "svgPath": "icons/communication/chat-02.svg",
+      "componentPath": "./components/icons/Broken/Chat02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ChatBulk",
-      "svgPath": "icons/communication/Chat-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ChatBulk",
+      "componentName": "Chat03",
+      "svgPath": "icons/communication/chat-03.svg",
+      "componentPath": "./components/icons/Bulk/Chat03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ChatLight",
-      "svgPath": "icons/communication/Chat-light.svg",
-      "componentPath": "./components/icons/Light/ChatLight",
+      "componentName": "Chat04",
+      "svgPath": "icons/communication/chat-04.svg",
+      "componentPath": "./components/icons/Light/Chat04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ChatOutline",
-      "svgPath": "icons/communication/Chat-outline.svg",
-      "componentPath": "./components/icons/Outline/ChatOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ChatTwoTone",
-      "svgPath": "icons/communication/Chat-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ChatTwoTone",
+      "componentName": "Chat05",
+      "svgPath": "icons/communication/chat-05.svg",
+      "componentPath": "./components/icons/TwoTone/Chat05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

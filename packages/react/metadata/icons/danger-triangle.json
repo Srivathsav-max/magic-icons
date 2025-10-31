@@ -10,23 +10,23 @@
   "aliases": [],
   "description": "DangerTriangle icon - Status & Indicators",
   "variants": {
-    "light": {
-      "available": true,
-      "componentName": "DangerTriangleLight",
-      "svgPath": "icons/status/danger-triangle-light.svg",
-      "componentPath": "./components/icons/Light/DangerTriangleLight",
-      "supportsStrokeWidth": true,
-      "defaultStrokeWidth": 1,
-      "fillType": "stroke"
-    },
     "outline": {
       "available": true,
-      "componentName": "DangerTriangleOutline",
-      "svgPath": "icons/status/danger-triangle-outline.svg",
-      "componentPath": "./components/icons/Outline/DangerTriangleOutline",
+      "componentName": "DangerTriangle01",
+      "svgPath": "icons/status/danger-triangle-01.svg",
+      "componentPath": "./components/icons/Outline/DangerTriangle01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "DangerTriangle04",
+      "svgPath": "icons/status/danger-triangle-04.svg",
+      "componentPath": "./components/icons/Light/DangerTriangle04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {

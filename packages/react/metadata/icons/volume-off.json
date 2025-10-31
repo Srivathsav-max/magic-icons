@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "VolumeOff icon - Media & Entertainment",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "VolumeOff01",
+      "svgPath": "icons/media/volume-off-01.svg",
+      "componentPath": "./components/icons/Outline/VolumeOff01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VolumeOffBroken",
-      "svgPath": "icons/media/volume-off-broken.svg",
-      "componentPath": "./components/icons/Broken/VolumeOffBroken",
+      "componentName": "VolumeOff02",
+      "svgPath": "icons/media/volume-off-02.svg",
+      "componentPath": "./components/icons/Broken/VolumeOff02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VolumeOffBulk",
-      "svgPath": "icons/media/volume-off-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VolumeOffBulk",
+      "componentName": "VolumeOff03",
+      "svgPath": "icons/media/volume-off-03.svg",
+      "componentPath": "./components/icons/Bulk/VolumeOff03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VolumeOffLight",
-      "svgPath": "icons/media/volume-off-light.svg",
-      "componentPath": "./components/icons/Light/VolumeOffLight",
+      "componentName": "VolumeOff04",
+      "svgPath": "icons/media/volume-off-04.svg",
+      "componentPath": "./components/icons/Light/VolumeOff04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "VolumeOffOutline",
-      "svgPath": "icons/media/volume-off-outline.svg",
-      "componentPath": "./components/icons/Outline/VolumeOffOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "VolumeOffTwoTone",
-      "svgPath": "icons/media/volume-off-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VolumeOffTwoTone",
+      "componentName": "VolumeOff05",
+      "svgPath": "icons/media/volume-off-05.svg",
+      "componentPath": "./components/icons/TwoTone/VolumeOff05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

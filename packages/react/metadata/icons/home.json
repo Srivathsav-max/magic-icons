@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Home icon - Miscellaneous",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Home01",
+      "svgPath": "icons/misc/home-01.svg",
+      "componentPath": "./components/icons/Outline/Home01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "HomeBroken",
-      "svgPath": "icons/misc/Home-broken.svg",
-      "componentPath": "./components/icons/Broken/HomeBroken",
+      "componentName": "Home02",
+      "svgPath": "icons/misc/home-02.svg",
+      "componentPath": "./components/icons/Broken/Home02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "HomeBulk",
-      "svgPath": "icons/misc/Home-bulk.svg",
-      "componentPath": "./components/icons/Bulk/HomeBulk",
+      "componentName": "Home03",
+      "svgPath": "icons/misc/home-03.svg",
+      "componentPath": "./components/icons/Bulk/Home03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "HomeLight",
-      "svgPath": "icons/misc/Home-light.svg",
-      "componentPath": "./components/icons/Light/HomeLight",
+      "componentName": "Home04",
+      "svgPath": "icons/misc/home-04.svg",
+      "componentPath": "./components/icons/Light/Home04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "HomeOutline",
-      "svgPath": "icons/misc/Home-outline.svg",
-      "componentPath": "./components/icons/Outline/HomeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "HomeTwoTone",
-      "svgPath": "icons/misc/Home-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/HomeTwoTone",
+      "componentName": "Home05",
+      "svgPath": "icons/misc/home-05.svg",
+      "componentPath": "./components/icons/TwoTone/Home05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

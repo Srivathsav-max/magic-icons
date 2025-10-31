@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Message icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Message01",
+      "svgPath": "icons/communication/message-01.svg",
+      "componentPath": "./components/icons/Outline/Message01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "MessageBroken",
-      "svgPath": "icons/communication/Message-broken.svg",
-      "componentPath": "./components/icons/Broken/MessageBroken",
+      "componentName": "Message02",
+      "svgPath": "icons/communication/message-02.svg",
+      "componentPath": "./components/icons/Broken/Message02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "MessageBulk",
-      "svgPath": "icons/communication/Message-bulk.svg",
-      "componentPath": "./components/icons/Bulk/MessageBulk",
+      "componentName": "Message03",
+      "svgPath": "icons/communication/message-03.svg",
+      "componentPath": "./components/icons/Bulk/Message03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "MessageLight",
-      "svgPath": "icons/communication/Message-light.svg",
-      "componentPath": "./components/icons/Light/MessageLight",
+      "componentName": "Message04",
+      "svgPath": "icons/communication/message-04.svg",
+      "componentPath": "./components/icons/Light/Message04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "MessageOutline",
-      "svgPath": "icons/communication/Message-outline.svg",
-      "componentPath": "./components/icons/Outline/MessageOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "MessageTwoTone",
-      "svgPath": "icons/communication/Message-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/MessageTwoTone",
+      "componentName": "Message05",
+      "svgPath": "icons/communication/message-05.svg",
+      "componentPath": "./components/icons/TwoTone/Message05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

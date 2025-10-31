@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Send icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Send01",
+      "svgPath": "icons/communication/send-01.svg",
+      "componentPath": "./components/icons/Outline/Send01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "SendBroken",
-      "svgPath": "icons/communication/Send-broken.svg",
-      "componentPath": "./components/icons/Broken/SendBroken",
+      "componentName": "Send02",
+      "svgPath": "icons/communication/send-02.svg",
+      "componentPath": "./components/icons/Broken/Send02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "SendBulk",
-      "svgPath": "icons/communication/Send-bulk.svg",
-      "componentPath": "./components/icons/Bulk/SendBulk",
+      "componentName": "Send03",
+      "svgPath": "icons/communication/send-03.svg",
+      "componentPath": "./components/icons/Bulk/Send03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "SendLight",
-      "svgPath": "icons/communication/Send-light.svg",
-      "componentPath": "./components/icons/Light/SendLight",
+      "componentName": "Send04",
+      "svgPath": "icons/communication/send-04.svg",
+      "componentPath": "./components/icons/Light/Send04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "SendOutline",
-      "svgPath": "icons/communication/Send-outline.svg",
-      "componentPath": "./components/icons/Outline/SendOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "SendTwoTone",
-      "svgPath": "icons/communication/Send-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/SendTwoTone",
+      "componentName": "Send05",
+      "svgPath": "icons/communication/send-05.svg",
+      "componentPath": "./components/icons/TwoTone/Send05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

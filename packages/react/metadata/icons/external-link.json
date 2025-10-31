@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "ExternalLinkOutline",
-      "svgPath": "icons/action/external-link-outline.svg",
-      "componentPath": "./components/icons/Outline/ExternalLinkOutline",
+      "componentName": "ExternalLink01",
+      "svgPath": "icons/action/external-link-01.svg",
+      "componentPath": "./components/icons/Outline/ExternalLink01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

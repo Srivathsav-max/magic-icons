@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "GiftOutline",
-      "svgPath": "icons/action/gift-outline.svg",
-      "componentPath": "./components/icons/Outline/GiftOutline",
+      "componentName": "Gift01",
+      "svgPath": "icons/action/gift-01.svg",
+      "componentPath": "./components/icons/Outline/Gift01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Game icon - Miscellaneous",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Game01",
+      "svgPath": "icons/misc/game-01.svg",
+      "componentPath": "./components/icons/Outline/Game01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "GameBroken",
-      "svgPath": "icons/misc/Game-broken.svg",
-      "componentPath": "./components/icons/Broken/GameBroken",
+      "componentName": "Game02",
+      "svgPath": "icons/misc/game-02.svg",
+      "componentPath": "./components/icons/Broken/Game02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "GameBulk",
-      "svgPath": "icons/misc/Game-bulk.svg",
-      "componentPath": "./components/icons/Bulk/GameBulk",
+      "componentName": "Game03",
+      "svgPath": "icons/misc/game-03.svg",
+      "componentPath": "./components/icons/Bulk/Game03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "GameLight",
-      "svgPath": "icons/misc/Game-light.svg",
-      "componentPath": "./components/icons/Light/GameLight",
+      "componentName": "Game04",
+      "svgPath": "icons/misc/game-04.svg",
+      "componentPath": "./components/icons/Light/Game04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "GameOutline",
-      "svgPath": "icons/misc/Game-outline.svg",
-      "componentPath": "./components/icons/Outline/GameOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "GameTwoTone",
-      "svgPath": "icons/misc/Game-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/GameTwoTone",
+      "componentName": "Game05",
+      "svgPath": "icons/misc/game-05.svg",
+      "componentPath": "./components/icons/TwoTone/Game05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

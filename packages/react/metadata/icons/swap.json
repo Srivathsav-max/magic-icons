@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Swap icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Swap01",
+      "svgPath": "icons/action/swap-01.svg",
+      "componentPath": "./components/icons/Outline/Swap01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "SwapBroken",
-      "svgPath": "icons/action/Swap-broken.svg",
-      "componentPath": "./components/icons/Broken/SwapBroken",
+      "componentName": "Swap02",
+      "svgPath": "icons/action/swap-02.svg",
+      "componentPath": "./components/icons/Broken/Swap02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "SwapBulk",
-      "svgPath": "icons/action/Swap-bulk.svg",
-      "componentPath": "./components/icons/Bulk/SwapBulk",
+      "componentName": "Swap03",
+      "svgPath": "icons/action/swap-03.svg",
+      "componentPath": "./components/icons/Bulk/Swap03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "SwapLight",
-      "svgPath": "icons/action/Swap-light.svg",
-      "componentPath": "./components/icons/Light/SwapLight",
+      "componentName": "Swap04",
+      "svgPath": "icons/action/swap-04.svg",
+      "componentPath": "./components/icons/Light/Swap04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "SwapOutline",
-      "svgPath": "icons/action/Swap-outline.svg",
-      "componentPath": "./components/icons/Outline/SwapOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "SwapTwoTone",
-      "svgPath": "icons/action/Swap-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/SwapTwoTone",
+      "componentName": "Swap05",
+      "svgPath": "icons/action/swap-05.svg",
+      "componentPath": "./components/icons/TwoTone/Swap05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

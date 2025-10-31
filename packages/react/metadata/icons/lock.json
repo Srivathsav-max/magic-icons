@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Lock icon - Security & Authentication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Lock01",
+      "svgPath": "icons/security/lock-01.svg",
+      "componentPath": "./components/icons/Outline/Lock01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "LockBroken",
-      "svgPath": "icons/security/Lock-broken.svg",
-      "componentPath": "./components/icons/Broken/LockBroken",
+      "componentName": "Lock02",
+      "svgPath": "icons/security/lock-02.svg",
+      "componentPath": "./components/icons/Broken/Lock02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "LockBulk",
-      "svgPath": "icons/security/Lock-bulk.svg",
-      "componentPath": "./components/icons/Bulk/LockBulk",
+      "componentName": "Lock03",
+      "svgPath": "icons/security/lock-03.svg",
+      "componentPath": "./components/icons/Bulk/Lock03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "LockLight",
-      "svgPath": "icons/security/Lock-light.svg",
-      "componentPath": "./components/icons/Light/LockLight",
+      "componentName": "Lock04",
+      "svgPath": "icons/security/lock-04.svg",
+      "componentPath": "./components/icons/Light/Lock04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "LockOutline",
-      "svgPath": "icons/security/Lock-outline.svg",
-      "componentPath": "./components/icons/Outline/LockOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "LockTwoTone",
-      "svgPath": "icons/security/Lock-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/LockTwoTone",
+      "componentName": "Lock05",
+      "svgPath": "icons/security/lock-05.svg",
+      "componentPath": "./components/icons/TwoTone/Lock05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "PaperUpload icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "PaperUpload01",
+      "svgPath": "icons/navigation/paper-upload-01.svg",
+      "componentPath": "./components/icons/Outline/PaperUpload01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperUploadBroken",
-      "svgPath": "icons/navigation/paper-upload-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperUploadBroken",
+      "componentName": "PaperUpload02",
+      "svgPath": "icons/navigation/paper-upload-02.svg",
+      "componentPath": "./components/icons/Broken/PaperUpload02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperUploadBulk",
-      "svgPath": "icons/navigation/paper-upload-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperUploadBulk",
+      "componentName": "PaperUpload03",
+      "svgPath": "icons/navigation/paper-upload-03.svg",
+      "componentPath": "./components/icons/Bulk/PaperUpload03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperUploadLight",
-      "svgPath": "icons/navigation/paper-upload-light.svg",
-      "componentPath": "./components/icons/Light/PaperUploadLight",
+      "componentName": "PaperUpload04",
+      "svgPath": "icons/navigation/paper-upload-04.svg",
+      "componentPath": "./components/icons/Light/PaperUpload04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperUploadOutline",
-      "svgPath": "icons/navigation/paper-upload-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperUploadOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperUploadTwoTone",
-      "svgPath": "icons/navigation/paper-upload-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperUploadTwoTone",
+      "componentName": "PaperUpload05",
+      "svgPath": "icons/navigation/paper-upload-05.svg",
+      "componentPath": "./components/icons/TwoTone/PaperUpload05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

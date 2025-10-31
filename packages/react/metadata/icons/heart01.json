@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "Heart01Outline",
-      "svgPath": "icons/action/heart-01-outline.svg",
-      "componentPath": "./components/icons/Outline/Heart01Outline",
+      "componentName": "Heart0101",
+      "svgPath": "icons/action/heart-01-01.svg",
+      "componentPath": "./components/icons/Outline/Heart0101",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

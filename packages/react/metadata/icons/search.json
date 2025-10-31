@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Search icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Search01",
+      "svgPath": "icons/ui/search-01.svg",
+      "componentPath": "./components/icons/Outline/Search01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "SearchBroken",
-      "svgPath": "icons/ui/Search-broken.svg",
-      "componentPath": "./components/icons/Broken/SearchBroken",
+      "componentName": "Search02",
+      "svgPath": "icons/ui/search-02.svg",
+      "componentPath": "./components/icons/Broken/Search02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "SearchBulk",
-      "svgPath": "icons/ui/Search-bulk.svg",
-      "componentPath": "./components/icons/Bulk/SearchBulk",
+      "componentName": "Search03",
+      "svgPath": "icons/ui/search-03.svg",
+      "componentPath": "./components/icons/Bulk/Search03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "SearchLight",
-      "svgPath": "icons/ui/Search-light.svg",
-      "componentPath": "./components/icons/Light/SearchLight",
+      "componentName": "Search04",
+      "svgPath": "icons/ui/search-04.svg",
+      "componentPath": "./components/icons/Light/Search04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "SearchOutline",
-      "svgPath": "icons/ui/Search-outline.svg",
-      "componentPath": "./components/icons/Outline/SearchOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "SearchTwoTone",
-      "svgPath": "icons/ui/Search-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/SearchTwoTone",
+      "componentName": "Search05",
+      "svgPath": "icons/ui/search-05.svg",
+      "componentPath": "./components/icons/TwoTone/Search05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

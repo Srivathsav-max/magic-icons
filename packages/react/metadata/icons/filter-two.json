@@ -12,9 +12,9 @@
   "variants": {
     "bulk": {
       "available": true,
-      "componentName": "FilterTwoBulk",
-      "svgPath": "icons/action/filter-two-bulk.svg",
-      "componentPath": "./components/icons/Bulk/FilterTwoBulk",
+      "componentName": "FilterTwo03",
+      "svgPath": "icons/action/filter-two-03.svg",
+      "componentPath": "./components/icons/Bulk/FilterTwo03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

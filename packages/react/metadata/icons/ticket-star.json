@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "TicketStar icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TicketStar01",
+      "svgPath": "icons/file/ticket-star-01.svg",
+      "componentPath": "./components/icons/Outline/TicketStar01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "TicketStarBroken",
-      "svgPath": "icons/file/ticket-star-broken.svg",
-      "componentPath": "./components/icons/Broken/TicketStarBroken",
+      "componentName": "TicketStar02",
+      "svgPath": "icons/file/ticket-star-02.svg",
+      "componentPath": "./components/icons/Broken/TicketStar02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "TicketStarBulk",
-      "svgPath": "icons/file/ticket-star-bulk.svg",
-      "componentPath": "./components/icons/Bulk/TicketStarBulk",
+      "componentName": "TicketStar03",
+      "svgPath": "icons/file/ticket-star-03.svg",
+      "componentPath": "./components/icons/Bulk/TicketStar03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "TicketStarLight",
-      "svgPath": "icons/file/ticket-star-light.svg",
-      "componentPath": "./components/icons/Light/TicketStarLight",
+      "componentName": "TicketStar04",
+      "svgPath": "icons/file/ticket-star-04.svg",
+      "componentPath": "./components/icons/Light/TicketStar04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "TicketStarOutline",
-      "svgPath": "icons/file/ticket-star-outline.svg",
-      "componentPath": "./components/icons/Outline/TicketStarOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "TicketStarTwoTone",
-      "svgPath": "icons/file/ticket-star-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/TicketStarTwoTone",
+      "componentName": "TicketStar05",
+      "svgPath": "icons/file/ticket-star-05.svg",
+      "componentPath": "./components/icons/TwoTone/TicketStar05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

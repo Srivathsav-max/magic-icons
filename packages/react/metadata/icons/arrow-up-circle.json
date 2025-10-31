@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "ArrowUpCircle icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUpCircle01",
+      "svgPath": "icons/navigation/arrow-up-circle-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowUpCircle01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowUpCircleBroken",
-      "svgPath": "icons/navigation/arrow-up-circle-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowUpCircleBroken",
+      "componentName": "ArrowUpCircle02",
+      "svgPath": "icons/navigation/arrow-up-circle-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowUpCircle02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowUpCircleBulk",
-      "svgPath": "icons/navigation/arrow-up-circle-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowUpCircleBulk",
+      "componentName": "ArrowUpCircle03",
+      "svgPath": "icons/navigation/arrow-up-circle-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowUpCircle03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowUpCircleLight",
-      "svgPath": "icons/navigation/arrow-up-circle-light.svg",
-      "componentPath": "./components/icons/Light/ArrowUpCircleLight",
+      "componentName": "ArrowUpCircle04",
+      "svgPath": "icons/navigation/arrow-up-circle-04.svg",
+      "componentPath": "./components/icons/Light/ArrowUpCircle04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowUpCircleOutline",
-      "svgPath": "icons/navigation/arrow-up-circle-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowUpCircleOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowUpCircleTwoTone",
-      "svgPath": "icons/navigation/arrow-up-circle-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowUpCircleTwoTone",
+      "componentName": "ArrowUpCircle05",
+      "svgPath": "icons/navigation/arrow-up-circle-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowUpCircle05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

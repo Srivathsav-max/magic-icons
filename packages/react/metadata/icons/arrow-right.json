@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "ArrowRight icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowRight01",
+      "svgPath": "icons/navigation/arrow-right-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowRight01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowRightBroken",
-      "svgPath": "icons/navigation/arrow-right-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowRightBroken",
+      "componentName": "ArrowRight02",
+      "svgPath": "icons/navigation/arrow-right-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowRight02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowRightBulk",
-      "svgPath": "icons/navigation/arrow-right-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowRightBulk",
+      "componentName": "ArrowRight03",
+      "svgPath": "icons/navigation/arrow-right-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowRight03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowRightLight",
-      "svgPath": "icons/navigation/arrow-right-light.svg",
-      "componentPath": "./components/icons/Light/ArrowRightLight",
+      "componentName": "ArrowRight04",
+      "svgPath": "icons/navigation/arrow-right-04.svg",
+      "componentPath": "./components/icons/Light/ArrowRight04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowRightOutline",
-      "svgPath": "icons/navigation/arrow-right-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowRightOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowRightTwoTone",
-      "svgPath": "icons/navigation/arrow-right-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowRightTwoTone",
+      "componentName": "ArrowRight05",
+      "svgPath": "icons/navigation/arrow-right-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowRight05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

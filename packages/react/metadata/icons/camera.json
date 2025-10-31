@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Camera icon - Media & Entertainment",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Camera01",
+      "svgPath": "icons/media/camera-01.svg",
+      "componentPath": "./components/icons/Outline/Camera01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "CameraBroken",
-      "svgPath": "icons/media/Camera-broken.svg",
-      "componentPath": "./components/icons/Broken/CameraBroken",
+      "componentName": "Camera02",
+      "svgPath": "icons/media/camera-02.svg",
+      "componentPath": "./components/icons/Broken/Camera02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "CameraBulk",
-      "svgPath": "icons/media/Camera-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CameraBulk",
+      "componentName": "Camera03",
+      "svgPath": "icons/media/camera-03.svg",
+      "componentPath": "./components/icons/Bulk/Camera03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "CameraLight",
-      "svgPath": "icons/media/Camera-light.svg",
-      "componentPath": "./components/icons/Light/CameraLight",
+      "componentName": "Camera04",
+      "svgPath": "icons/media/camera-04.svg",
+      "componentPath": "./components/icons/Light/Camera04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "CameraOutline",
-      "svgPath": "icons/media/Camera-outline.svg",
-      "componentPath": "./components/icons/Outline/CameraOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "CameraTwoTone",
-      "svgPath": "icons/media/Camera-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CameraTwoTone",
+      "componentName": "Camera05",
+      "svgPath": "icons/media/camera-05.svg",
+      "componentPath": "./components/icons/TwoTone/Camera05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

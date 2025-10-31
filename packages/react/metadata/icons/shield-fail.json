@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "ShieldFail icon - Security & Authentication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ShieldFail01",
+      "svgPath": "icons/security/shield-fail-01.svg",
+      "componentPath": "./components/icons/Outline/ShieldFail01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ShieldFailBroken",
-      "svgPath": "icons/security/shield-fail-broken.svg",
-      "componentPath": "./components/icons/Broken/ShieldFailBroken",
+      "componentName": "ShieldFail02",
+      "svgPath": "icons/security/shield-fail-02.svg",
+      "componentPath": "./components/icons/Broken/ShieldFail02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ShieldFailBulk",
-      "svgPath": "icons/security/shield-fail-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ShieldFailBulk",
+      "componentName": "ShieldFail03",
+      "svgPath": "icons/security/shield-fail-03.svg",
+      "componentPath": "./components/icons/Bulk/ShieldFail03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ShieldFailLight",
-      "svgPath": "icons/security/shield-fail-light.svg",
-      "componentPath": "./components/icons/Light/ShieldFailLight",
+      "componentName": "ShieldFail04",
+      "svgPath": "icons/security/shield-fail-04.svg",
+      "componentPath": "./components/icons/Light/ShieldFail04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ShieldFailOutline",
-      "svgPath": "icons/security/shield-fail-outline.svg",
-      "componentPath": "./components/icons/Outline/ShieldFailOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ShieldFailTwoTone",
-      "svgPath": "icons/security/shield-fail-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ShieldFailTwoTone",
+      "componentName": "ShieldFail05",
+      "svgPath": "icons/security/shield-fail-05.svg",
+      "componentPath": "./components/icons/TwoTone/ShieldFail05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "ShoppingCart02Outline",
-      "svgPath": "icons/action/shopping-cart-02-outline.svg",
-      "componentPath": "./components/icons/Outline/ShoppingCart02Outline",
+      "componentName": "ShoppingCart0201",
+      "svgPath": "icons/action/shopping-cart-02-01.svg",
+      "componentPath": "./components/icons/Outline/ShoppingCart0201",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

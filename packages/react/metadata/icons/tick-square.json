@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "TickSquare icon - Status & Indicators",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TickSquare01",
+      "svgPath": "icons/status/tick-square-01.svg",
+      "componentPath": "./components/icons/Outline/TickSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "TickSquareBroken",
-      "svgPath": "icons/status/tick-square-broken.svg",
-      "componentPath": "./components/icons/Broken/TickSquareBroken",
+      "componentName": "TickSquare02",
+      "svgPath": "icons/status/tick-square-02.svg",
+      "componentPath": "./components/icons/Broken/TickSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "TickSquareBulk",
-      "svgPath": "icons/status/tick-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/TickSquareBulk",
+      "componentName": "TickSquare03",
+      "svgPath": "icons/status/tick-square-03.svg",
+      "componentPath": "./components/icons/Bulk/TickSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "TickSquareLight",
-      "svgPath": "icons/status/tick-square-light.svg",
-      "componentPath": "./components/icons/Light/TickSquareLight",
+      "componentName": "TickSquare04",
+      "svgPath": "icons/status/tick-square-04.svg",
+      "componentPath": "./components/icons/Light/TickSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "TickSquareOutline",
-      "svgPath": "icons/status/tick-square-outline.svg",
-      "componentPath": "./components/icons/Outline/TickSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "TickSquareTwoTone",
-      "svgPath": "icons/status/tick-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/TickSquareTwoTone",
+      "componentName": "TickSquare05",
+      "svgPath": "icons/status/tick-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/TickSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

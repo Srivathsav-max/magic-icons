@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "ThreeUser icon - User & Profile",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ThreeUser01",
+      "svgPath": "icons/user/three-user-01.svg",
+      "componentPath": "./components/icons/Outline/ThreeUser01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ThreeUserBroken",
-      "svgPath": "icons/user/three-user-broken.svg",
-      "componentPath": "./components/icons/Broken/ThreeUserBroken",
+      "componentName": "ThreeUser02",
+      "svgPath": "icons/user/three-user-02.svg",
+      "componentPath": "./components/icons/Broken/ThreeUser02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ThreeUserBulk",
-      "svgPath": "icons/user/three-user-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ThreeUserBulk",
+      "componentName": "ThreeUser03",
+      "svgPath": "icons/user/three-user-03.svg",
+      "componentPath": "./components/icons/Bulk/ThreeUser03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ThreeUserLight",
-      "svgPath": "icons/user/three-user-light.svg",
-      "componentPath": "./components/icons/Light/ThreeUserLight",
+      "componentName": "ThreeUser04",
+      "svgPath": "icons/user/three-user-04.svg",
+      "componentPath": "./components/icons/Light/ThreeUser04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ThreeUserOutline",
-      "svgPath": "icons/user/three-user-outline.svg",
-      "componentPath": "./components/icons/Outline/ThreeUserOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ThreeUserTwoTone",
-      "svgPath": "icons/user/three-user-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ThreeUserTwoTone",
+      "componentName": "ThreeUser05",
+      "svgPath": "icons/user/three-user-05.svg",
+      "componentPath": "./components/icons/TwoTone/ThreeUser05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

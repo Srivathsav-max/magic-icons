@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Image icon - Media & Entertainment",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Image01",
+      "svgPath": "icons/media/image-01.svg",
+      "componentPath": "./components/icons/Outline/Image01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ImageBroken",
-      "svgPath": "icons/media/Image-broken.svg",
-      "componentPath": "./components/icons/Broken/ImageBroken",
+      "componentName": "Image02",
+      "svgPath": "icons/media/image-02.svg",
+      "componentPath": "./components/icons/Broken/Image02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ImageBulk",
-      "svgPath": "icons/media/Image-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ImageBulk",
+      "componentName": "Image03",
+      "svgPath": "icons/media/image-03.svg",
+      "componentPath": "./components/icons/Bulk/Image03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ImageLight",
-      "svgPath": "icons/media/Image-light.svg",
-      "componentPath": "./components/icons/Light/ImageLight",
+      "componentName": "Image04",
+      "svgPath": "icons/media/image-04.svg",
+      "componentPath": "./components/icons/Light/Image04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ImageOutline",
-      "svgPath": "icons/media/Image-outline.svg",
-      "componentPath": "./components/icons/Outline/ImageOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ImageTwoTone",
-      "svgPath": "icons/media/Image-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ImageTwoTone",
+      "componentName": "Image05",
+      "svgPath": "icons/media/image-05.svg",
+      "componentPath": "./components/icons/TwoTone/Image05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

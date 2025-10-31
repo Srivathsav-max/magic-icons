@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Calendar icon - Time & Calendar",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Calendar01",
+      "svgPath": "icons/time/calendar-01.svg",
+      "componentPath": "./components/icons/Outline/Calendar01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "CalendarBroken",
-      "svgPath": "icons/time/Calendar-broken.svg",
-      "componentPath": "./components/icons/Broken/CalendarBroken",
+      "componentName": "Calendar02",
+      "svgPath": "icons/time/calendar-02.svg",
+      "componentPath": "./components/icons/Broken/Calendar02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "CalendarBulk",
-      "svgPath": "icons/time/Calendar-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CalendarBulk",
+      "componentName": "Calendar03",
+      "svgPath": "icons/time/calendar-03.svg",
+      "componentPath": "./components/icons/Bulk/Calendar03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "CalendarLight",
-      "svgPath": "icons/time/Calendar-light.svg",
-      "componentPath": "./components/icons/Light/CalendarLight",
+      "componentName": "Calendar04",
+      "svgPath": "icons/time/calendar-04.svg",
+      "componentPath": "./components/icons/Light/Calendar04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "CalendarOutline",
-      "svgPath": "icons/time/Calendar-outline.svg",
-      "componentPath": "./components/icons/Outline/CalendarOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "CalendarTwoTone",
-      "svgPath": "icons/time/Calendar-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CalendarTwoTone",
+      "componentName": "Calendar05",
+      "svgPath": "icons/time/calendar-05.svg",
+      "componentPath": "./components/icons/TwoTone/Calendar05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

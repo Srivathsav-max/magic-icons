@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LinkHorizontalOutline",
-      "svgPath": "icons/action/link-horizontal-outline.svg",
-      "componentPath": "./components/icons/Outline/LinkHorizontalOutline",
+      "componentName": "LinkHorizontal01",
+      "svgPath": "icons/action/link-horizontal-01.svg",
+      "componentPath": "./components/icons/Outline/LinkHorizontal01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

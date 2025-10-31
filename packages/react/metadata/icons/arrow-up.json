@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "ArrowUp icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUp01",
+      "svgPath": "icons/navigation/arrow-up-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowUp01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowUpBroken",
-      "svgPath": "icons/navigation/arrow-up-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowUpBroken",
+      "componentName": "ArrowUp02",
+      "svgPath": "icons/navigation/arrow-up-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowUp02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowUpBulk",
-      "svgPath": "icons/navigation/arrow-up-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowUpBulk",
+      "componentName": "ArrowUp03",
+      "svgPath": "icons/navigation/arrow-up-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowUp03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowUpLight",
-      "svgPath": "icons/navigation/arrow-up-light.svg",
-      "componentPath": "./components/icons/Light/ArrowUpLight",
+      "componentName": "ArrowUp04",
+      "svgPath": "icons/navigation/arrow-up-04.svg",
+      "componentPath": "./components/icons/Light/ArrowUp04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowUpOutline",
-      "svgPath": "icons/navigation/arrow-up-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowUpOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowUpTwoTone",
-      "svgPath": "icons/navigation/arrow-up-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowUpTwoTone",
+      "componentName": "ArrowUp05",
+      "svgPath": "icons/navigation/arrow-up-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowUp05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

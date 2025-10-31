@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Category icon - Miscellaneous",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Category01",
+      "svgPath": "icons/misc/category-01.svg",
+      "componentPath": "./components/icons/Outline/Category01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "CategoryBroken",
-      "svgPath": "icons/misc/Category-broken.svg",
-      "componentPath": "./components/icons/Broken/CategoryBroken",
+      "componentName": "Category02",
+      "svgPath": "icons/misc/category-02.svg",
+      "componentPath": "./components/icons/Broken/Category02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "CategoryBulk",
-      "svgPath": "icons/misc/Category-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CategoryBulk",
+      "componentName": "Category03",
+      "svgPath": "icons/misc/category-03.svg",
+      "componentPath": "./components/icons/Bulk/Category03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "CategoryLight",
-      "svgPath": "icons/misc/Category-light.svg",
-      "componentPath": "./components/icons/Light/CategoryLight",
+      "componentName": "Category04",
+      "svgPath": "icons/misc/category-04.svg",
+      "componentPath": "./components/icons/Light/Category04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "CategoryOutline",
-      "svgPath": "icons/misc/Category-outline.svg",
-      "componentPath": "./components/icons/Outline/CategoryOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "CategoryTwoTone",
-      "svgPath": "icons/misc/Category-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CategoryTwoTone",
+      "componentName": "Category05",
+      "svgPath": "icons/misc/category-05.svg",
+      "componentPath": "./components/icons/TwoTone/Category05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

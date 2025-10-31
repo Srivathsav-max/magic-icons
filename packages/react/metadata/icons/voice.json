@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Voice icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Voice01",
+      "svgPath": "icons/communication/voice-01.svg",
+      "componentPath": "./components/icons/Outline/Voice01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VoiceBroken",
-      "svgPath": "icons/communication/Voice-broken.svg",
-      "componentPath": "./components/icons/Broken/VoiceBroken",
+      "componentName": "Voice02",
+      "svgPath": "icons/communication/voice-02.svg",
+      "componentPath": "./components/icons/Broken/Voice02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VoiceBulk",
-      "svgPath": "icons/communication/Voice-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VoiceBulk",
+      "componentName": "Voice03",
+      "svgPath": "icons/communication/voice-03.svg",
+      "componentPath": "./components/icons/Bulk/Voice03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VoiceLight",
-      "svgPath": "icons/communication/Voice-light.svg",
-      "componentPath": "./components/icons/Light/VoiceLight",
+      "componentName": "Voice04",
+      "svgPath": "icons/communication/voice-04.svg",
+      "componentPath": "./components/icons/Light/Voice04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "VoiceOutline",
-      "svgPath": "icons/communication/Voice-outline.svg",
-      "componentPath": "./components/icons/Outline/VoiceOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "VoiceTwoTone",
-      "svgPath": "icons/communication/Voice-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VoiceTwoTone",
+      "componentName": "Voice05",
+      "svgPath": "icons/communication/voice-05.svg",
+      "componentPath": "./components/icons/TwoTone/Voice05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

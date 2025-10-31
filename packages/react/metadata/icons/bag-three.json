@@ -10,41 +10,41 @@
   "aliases": [],
   "description": "BagThree icon - E-Commerce & Shopping",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "BagThree01",
+      "svgPath": "icons/commerce/bag-three-01.svg",
+      "componentPath": "./components/icons/Outline/BagThree01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "BagThreeBroken",
-      "svgPath": "icons/commerce/bag-three-broken.svg",
-      "componentPath": "./components/icons/Broken/BagThreeBroken",
+      "componentName": "BagThree02",
+      "svgPath": "icons/commerce/bag-three-02.svg",
+      "componentPath": "./components/icons/Broken/BagThree02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "BagThreeBulk",
-      "svgPath": "icons/commerce/bag-three-bulk.svg",
-      "componentPath": "./components/icons/Bulk/BagThreeBulk",
+      "componentName": "BagThree03",
+      "svgPath": "icons/commerce/bag-three-03.svg",
+      "componentPath": "./components/icons/Bulk/BagThree03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "BagThreeLight",
-      "svgPath": "icons/commerce/bag-three-light.svg",
-      "componentPath": "./components/icons/Light/BagThreeLight",
+      "componentName": "BagThree04",
+      "svgPath": "icons/commerce/bag-three-04.svg",
+      "componentPath": "./components/icons/Light/BagThree04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "BagThreeOutline",
-      "svgPath": "icons/commerce/bag-three-outline.svg",
-      "componentPath": "./components/icons/Outline/BagThreeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
     }
   },
   "metadata": {

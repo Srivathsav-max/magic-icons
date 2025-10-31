@@ -12,9 +12,9 @@
   "variants": {
     "two-tone": {
       "available": true,
-      "componentName": "BagTwoTwoTone",
-      "svgPath": "icons/commerce/bag-two-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/BagTwoTwoTone",
+      "componentName": "BagTwo05",
+      "svgPath": "icons/commerce/bag-two-05.svg",
+      "componentPath": "./components/icons/TwoTone/BagTwo05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

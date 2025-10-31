@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Edit icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Edit01",
+      "svgPath": "icons/action/edit-01.svg",
+      "componentPath": "./components/icons/Outline/Edit01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "EditBroken",
-      "svgPath": "icons/action/Edit-broken.svg",
-      "componentPath": "./components/icons/Broken/EditBroken",
+      "componentName": "Edit02",
+      "svgPath": "icons/action/edit-02.svg",
+      "componentPath": "./components/icons/Broken/Edit02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "EditBulk",
-      "svgPath": "icons/action/Edit-bulk.svg",
-      "componentPath": "./components/icons/Bulk/EditBulk",
+      "componentName": "Edit03",
+      "svgPath": "icons/action/edit-03.svg",
+      "componentPath": "./components/icons/Bulk/Edit03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "EditLight",
-      "svgPath": "icons/action/Edit-light.svg",
-      "componentPath": "./components/icons/Light/EditLight",
+      "componentName": "Edit04",
+      "svgPath": "icons/action/edit-04.svg",
+      "componentPath": "./components/icons/Light/Edit04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "EditOutline",
-      "svgPath": "icons/action/Edit-outline.svg",
-      "componentPath": "./components/icons/Outline/EditOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "EditTwoTone",
-      "svgPath": "icons/action/Edit-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/EditTwoTone",
+      "componentName": "Edit05",
+      "svgPath": "icons/action/edit-05.svg",
+      "componentPath": "./components/icons/TwoTone/Edit05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

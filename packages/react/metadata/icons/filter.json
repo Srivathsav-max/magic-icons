@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Filter icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Filter01",
+      "svgPath": "icons/action/filter-01.svg",
+      "componentPath": "./components/icons/Outline/Filter01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "FilterBroken",
-      "svgPath": "icons/action/Filter-broken.svg",
-      "componentPath": "./components/icons/Broken/FilterBroken",
+      "componentName": "Filter02",
+      "svgPath": "icons/action/filter-02.svg",
+      "componentPath": "./components/icons/Broken/Filter02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "FilterBulk",
-      "svgPath": "icons/action/Filter-bulk.svg",
-      "componentPath": "./components/icons/Bulk/FilterBulk",
+      "componentName": "Filter03",
+      "svgPath": "icons/action/filter-03.svg",
+      "componentPath": "./components/icons/Bulk/Filter03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "FilterLight",
-      "svgPath": "icons/action/Filter-light.svg",
-      "componentPath": "./components/icons/Light/FilterLight",
+      "componentName": "Filter04",
+      "svgPath": "icons/action/filter-04.svg",
+      "componentPath": "./components/icons/Light/Filter04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "FilterOutline",
-      "svgPath": "icons/action/Filter-outline.svg",
-      "componentPath": "./components/icons/Outline/FilterOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "FilterTwoTone",
-      "svgPath": "icons/action/Filter-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/FilterTwoTone",
+      "componentName": "Filter05",
+      "svgPath": "icons/action/filter-05.svg",
+      "componentPath": "./components/icons/TwoTone/Filter05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

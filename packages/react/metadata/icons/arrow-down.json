@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "ArrowDown icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDown01",
+      "svgPath": "icons/navigation/arrow-down-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowDown01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowDownBroken",
-      "svgPath": "icons/navigation/arrow-down-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowDownBroken",
+      "componentName": "ArrowDown02",
+      "svgPath": "icons/navigation/arrow-down-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowDown02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowDownBulk",
-      "svgPath": "icons/navigation/arrow-down-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowDownBulk",
+      "componentName": "ArrowDown03",
+      "svgPath": "icons/navigation/arrow-down-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowDown03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowDownLight",
-      "svgPath": "icons/navigation/arrow-down-light.svg",
-      "componentPath": "./components/icons/Light/ArrowDownLight",
+      "componentName": "ArrowDown04",
+      "svgPath": "icons/navigation/arrow-down-04.svg",
+      "componentPath": "./components/icons/Light/ArrowDown04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowDownOutline",
-      "svgPath": "icons/navigation/arrow-down-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowDownOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowDownTwoTone",
-      "svgPath": "icons/navigation/arrow-down-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowDownTwoTone",
+      "componentName": "ArrowDown05",
+      "svgPath": "icons/navigation/arrow-down-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowDown05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

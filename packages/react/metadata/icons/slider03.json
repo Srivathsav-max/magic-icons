@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "Slider03Outline",
-      "svgPath": "icons/action/slider-03-outline.svg",
-      "componentPath": "./components/icons/Outline/Slider03Outline",
+      "componentName": "Slider0301",
+      "svgPath": "icons/action/slider-03-01.svg",
+      "componentPath": "./components/icons/Outline/Slider0301",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

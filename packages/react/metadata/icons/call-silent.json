@@ -12,18 +12,18 @@
   "variants": {
     "light": {
       "available": true,
-      "componentName": "CallSilentLight",
-      "svgPath": "icons/communication/call-silent-light.svg",
-      "componentPath": "./components/icons/Light/CallSilentLight",
+      "componentName": "CallSilent04",
+      "svgPath": "icons/communication/call-silent-04.svg",
+      "componentPath": "./components/icons/Light/CallSilent04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
     "two-tone": {
       "available": true,
-      "componentName": "CallSilentTwoTone",
-      "svgPath": "icons/communication/call-silent-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CallSilentTwoTone",
+      "componentName": "CallSilent05",
+      "svgPath": "icons/communication/call-silent-05.svg",
+      "componentPath": "./components/icons/TwoTone/CallSilent05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

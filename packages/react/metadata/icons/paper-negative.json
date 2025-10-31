@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "PaperNegative icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "PaperNegative01",
+      "svgPath": "icons/file/paper-negative-01.svg",
+      "componentPath": "./components/icons/Outline/PaperNegative01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperNegativeBroken",
-      "svgPath": "icons/file/paper-negative-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperNegativeBroken",
+      "componentName": "PaperNegative02",
+      "svgPath": "icons/file/paper-negative-02.svg",
+      "componentPath": "./components/icons/Broken/PaperNegative02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperNegativeBulk",
-      "svgPath": "icons/file/paper-negative-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperNegativeBulk",
+      "componentName": "PaperNegative03",
+      "svgPath": "icons/file/paper-negative-03.svg",
+      "componentPath": "./components/icons/Bulk/PaperNegative03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperNegativeLight",
-      "svgPath": "icons/file/paper-negative-light.svg",
-      "componentPath": "./components/icons/Light/PaperNegativeLight",
+      "componentName": "PaperNegative04",
+      "svgPath": "icons/file/paper-negative-04.svg",
+      "componentPath": "./components/icons/Light/PaperNegative04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperNegativeOutline",
-      "svgPath": "icons/file/paper-negative-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperNegativeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperNegativeTwoTone",
-      "svgPath": "icons/file/paper-negative-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperNegativeTwoTone",
+      "componentName": "PaperNegative05",
+      "svgPath": "icons/file/paper-negative-05.svg",
+      "componentPath": "./components/icons/TwoTone/PaperNegative05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

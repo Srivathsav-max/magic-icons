@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "Unlock icon - Security & Authentication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Unlock01",
+      "svgPath": "icons/security/unlock-01.svg",
+      "componentPath": "./components/icons/Outline/Unlock01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "UnlockBroken",
-      "svgPath": "icons/security/Unlock-broken.svg",
-      "componentPath": "./components/icons/Broken/UnlockBroken",
+      "componentName": "Unlock02",
+      "svgPath": "icons/security/unlock-02.svg",
+      "componentPath": "./components/icons/Broken/Unlock02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "UnlockBulk",
-      "svgPath": "icons/security/Unlock-bulk.svg",
-      "componentPath": "./components/icons/Bulk/UnlockBulk",
+      "componentName": "Unlock03",
+      "svgPath": "icons/security/unlock-03.svg",
+      "componentPath": "./components/icons/Bulk/Unlock03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "UnlockLight",
-      "svgPath": "icons/security/Unlock-light.svg",
-      "componentPath": "./components/icons/Light/UnlockLight",
+      "componentName": "Unlock04",
+      "svgPath": "icons/security/unlock-04.svg",
+      "componentPath": "./components/icons/Light/Unlock04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "UnlockOutline",
-      "svgPath": "icons/security/Unlock-outline.svg",
-      "componentPath": "./components/icons/Outline/UnlockOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "UnlockTwoTone",
-      "svgPath": "icons/security/Unlock-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/UnlockTwoTone",
+      "componentName": "Unlock05",
+      "svgPath": "icons/security/unlock-05.svg",
+      "componentPath": "./components/icons/TwoTone/Unlock05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

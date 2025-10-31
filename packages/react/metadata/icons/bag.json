@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Bag icon - E-Commerce & Shopping",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Bag01",
+      "svgPath": "icons/commerce/bag-01.svg",
+      "componentPath": "./components/icons/Outline/Bag01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "BagBroken",
-      "svgPath": "icons/commerce/Bag-broken.svg",
-      "componentPath": "./components/icons/Broken/BagBroken",
+      "componentName": "Bag02",
+      "svgPath": "icons/commerce/bag-02.svg",
+      "componentPath": "./components/icons/Broken/Bag02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "BagBulk",
-      "svgPath": "icons/commerce/Bag-bulk.svg",
-      "componentPath": "./components/icons/Bulk/BagBulk",
+      "componentName": "Bag03",
+      "svgPath": "icons/commerce/bag-03.svg",
+      "componentPath": "./components/icons/Bulk/Bag03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "BagLight",
-      "svgPath": "icons/commerce/Bag-light.svg",
-      "componentPath": "./components/icons/Light/BagLight",
+      "componentName": "Bag04",
+      "svgPath": "icons/commerce/bag-04.svg",
+      "componentPath": "./components/icons/Light/Bag04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "BagOutline",
-      "svgPath": "icons/commerce/Bag-outline.svg",
-      "componentPath": "./components/icons/Outline/BagOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "BagTwoTone",
-      "svgPath": "icons/commerce/Bag-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/BagTwoTone",
+      "componentName": "Bag05",
+      "svgPath": "icons/commerce/bag-05.svg",
+      "componentPath": "./components/icons/TwoTone/Bag05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

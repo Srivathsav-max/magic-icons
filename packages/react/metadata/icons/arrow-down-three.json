@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "ArrowDownThree icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDownThree01",
+      "svgPath": "icons/navigation/arrow-down-three-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowDownThree01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowDownThreeBroken",
-      "svgPath": "icons/navigation/arrow-down-three-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowDownThreeBroken",
+      "componentName": "ArrowDownThree02",
+      "svgPath": "icons/navigation/arrow-down-three-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowDownThree02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowDownThreeBulk",
-      "svgPath": "icons/navigation/arrow-down-three-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowDownThreeBulk",
+      "componentName": "ArrowDownThree03",
+      "svgPath": "icons/navigation/arrow-down-three-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowDownThree03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowDownThreeLight",
-      "svgPath": "icons/navigation/arrow-down-three-light.svg",
-      "componentPath": "./components/icons/Light/ArrowDownThreeLight",
+      "componentName": "ArrowDownThree04",
+      "svgPath": "icons/navigation/arrow-down-three-04.svg",
+      "componentPath": "./components/icons/Light/ArrowDownThree04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowDownThreeOutline",
-      "svgPath": "icons/navigation/arrow-down-three-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowDownThreeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowDownThreeTwoTone",
-      "svgPath": "icons/navigation/arrow-down-three-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowDownThreeTwoTone",
+      "componentName": "ArrowDownThree05",
+      "svgPath": "icons/navigation/arrow-down-three-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowDownThree05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

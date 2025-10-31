@@ -12,9 +12,9 @@
   "variants": {
     "light": {
       "available": true,
-      "componentName": "CallMissedLight",
-      "svgPath": "icons/communication/call-missed-light.svg",
-      "componentPath": "./components/icons/Light/CallMissedLight",
+      "componentName": "CallMissed04",
+      "svgPath": "icons/communication/call-missed-04.svg",
+      "componentPath": "./components/icons/Light/CallMissed04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"

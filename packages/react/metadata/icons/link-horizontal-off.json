@@ -13,9 +13,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LinkHorizontalOffOutline",
-      "svgPath": "icons/action/link-horizontal-off-outline.svg",
-      "componentPath": "./components/icons/Outline/LinkHorizontalOffOutline",
+      "componentName": "LinkHorizontalOff01",
+      "svgPath": "icons/action/link-horizontal-off-01.svg",
+      "componentPath": "./components/icons/Outline/LinkHorizontalOff01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

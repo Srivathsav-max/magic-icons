@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LinkOutline",
-      "svgPath": "icons/action/link-outline.svg",
-      "componentPath": "./components/icons/Outline/LinkOutline",
+      "componentName": "Link01",
+      "svgPath": "icons/action/link-01.svg",
+      "componentPath": "./components/icons/Outline/Link01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

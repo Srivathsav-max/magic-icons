@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Document icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Document01",
+      "svgPath": "icons/file/document-01.svg",
+      "componentPath": "./components/icons/Outline/Document01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "DocumentBroken",
-      "svgPath": "icons/file/Document-broken.svg",
-      "componentPath": "./components/icons/Broken/DocumentBroken",
+      "componentName": "Document02",
+      "svgPath": "icons/file/document-02.svg",
+      "componentPath": "./components/icons/Broken/Document02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "DocumentBulk",
-      "svgPath": "icons/file/Document-bulk.svg",
-      "componentPath": "./components/icons/Bulk/DocumentBulk",
+      "componentName": "Document03",
+      "svgPath": "icons/file/document-03.svg",
+      "componentPath": "./components/icons/Bulk/Document03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "DocumentLight",
-      "svgPath": "icons/file/Document-light.svg",
-      "componentPath": "./components/icons/Light/DocumentLight",
+      "componentName": "Document04",
+      "svgPath": "icons/file/document-04.svg",
+      "componentPath": "./components/icons/Light/Document04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "DocumentOutline",
-      "svgPath": "icons/file/Document-outline.svg",
-      "componentPath": "./components/icons/Outline/DocumentOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "DocumentTwoTone",
-      "svgPath": "icons/file/Document-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/DocumentTwoTone",
+      "componentName": "Document05",
+      "svgPath": "icons/file/document-05.svg",
+      "componentPath": "./components/icons/TwoTone/Document05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -9,38 +9,38 @@
   "aliases": [],
   "description": "Plus icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Plus01",
+      "svgPath": "icons/action/plus-01.svg",
+      "componentPath": "./components/icons/Outline/Plus01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PlusBroken",
-      "svgPath": "icons/action/Plus-broken.svg",
-      "componentPath": "./components/icons/Broken/PlusBroken",
+      "componentName": "Plus02",
+      "svgPath": "icons/action/plus-02.svg",
+      "componentPath": "./components/icons/Broken/Plus02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PlusBulk",
-      "svgPath": "icons/action/Plus-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PlusBulk",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "PlusOutline",
-      "svgPath": "icons/action/Plus-outline.svg",
-      "componentPath": "./components/icons/Outline/PlusOutline",
+      "componentName": "Plus03",
+      "svgPath": "icons/action/plus-03.svg",
+      "componentPath": "./components/icons/Bulk/Plus03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "two-tone": {
       "available": true,
-      "componentName": "PlusTwoTone",
-      "svgPath": "icons/action/Plus-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PlusTwoTone",
+      "componentName": "Plus05",
+      "svgPath": "icons/action/plus-05.svg",
+      "componentPath": "./components/icons/TwoTone/Plus05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

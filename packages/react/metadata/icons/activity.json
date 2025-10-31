@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Activity icon - Data & Analytics",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Activity01",
+      "svgPath": "icons/data/activity-01.svg",
+      "componentPath": "./components/icons/Outline/Activity01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ActivityBroken",
-      "svgPath": "icons/data/Activity-broken.svg",
-      "componentPath": "./components/icons/Broken/ActivityBroken",
+      "componentName": "Activity02",
+      "svgPath": "icons/data/activity-02.svg",
+      "componentPath": "./components/icons/Broken/Activity02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ActivityBulk",
-      "svgPath": "icons/data/Activity-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ActivityBulk",
+      "componentName": "Activity03",
+      "svgPath": "icons/data/activity-03.svg",
+      "componentPath": "./components/icons/Bulk/Activity03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ActivityLight",
-      "svgPath": "icons/data/Activity-light.svg",
-      "componentPath": "./components/icons/Light/ActivityLight",
+      "componentName": "Activity04",
+      "svgPath": "icons/data/activity-04.svg",
+      "componentPath": "./components/icons/Light/Activity04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ActivityOutline",
-      "svgPath": "icons/data/Activity-outline.svg",
-      "componentPath": "./components/icons/Outline/ActivityOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ActivityTwoTone",
-      "svgPath": "icons/data/Activity-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ActivityTwoTone",
+      "componentName": "Activity05",
+      "svgPath": "icons/data/activity-05.svg",
+      "componentPath": "./components/icons/TwoTone/Activity05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

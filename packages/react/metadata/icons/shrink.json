@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "ShrinkOutline",
-      "svgPath": "icons/action/shrink-outline.svg",
-      "componentPath": "./components/icons/Outline/ShrinkOutline",
+      "componentName": "Shrink01",
+      "svgPath": "icons/action/shrink-01.svg",
+      "componentPath": "./components/icons/Outline/Shrink01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

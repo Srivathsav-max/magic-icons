@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "PaperFail icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "PaperFail01",
+      "svgPath": "icons/file/paper-fail-01.svg",
+      "componentPath": "./components/icons/Outline/PaperFail01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperFailBroken",
-      "svgPath": "icons/file/paper-fail-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperFailBroken",
+      "componentName": "PaperFail02",
+      "svgPath": "icons/file/paper-fail-02.svg",
+      "componentPath": "./components/icons/Broken/PaperFail02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperFailBulk",
-      "svgPath": "icons/file/paper-fail-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperFailBulk",
+      "componentName": "PaperFail03",
+      "svgPath": "icons/file/paper-fail-03.svg",
+      "componentPath": "./components/icons/Bulk/PaperFail03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperFailLight",
-      "svgPath": "icons/file/paper-fail-light.svg",
-      "componentPath": "./components/icons/Light/PaperFailLight",
+      "componentName": "PaperFail04",
+      "svgPath": "icons/file/paper-fail-04.svg",
+      "componentPath": "./components/icons/Light/PaperFail04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperFailOutline",
-      "svgPath": "icons/file/paper-fail-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperFailOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperFailTwoTone",
-      "svgPath": "icons/file/paper-fail-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperFailTwoTone",
+      "componentName": "PaperFail05",
+      "svgPath": "icons/file/paper-fail-05.svg",
+      "componentPath": "./components/icons/TwoTone/PaperFail05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "VolumeDown icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "VolumeDown01",
+      "svgPath": "icons/navigation/volume-down-01.svg",
+      "componentPath": "./components/icons/Outline/VolumeDown01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VolumeDownBroken",
-      "svgPath": "icons/navigation/volume-down-broken.svg",
-      "componentPath": "./components/icons/Broken/VolumeDownBroken",
+      "componentName": "VolumeDown02",
+      "svgPath": "icons/navigation/volume-down-02.svg",
+      "componentPath": "./components/icons/Broken/VolumeDown02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VolumeDownBulk",
-      "svgPath": "icons/navigation/volume-down-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VolumeDownBulk",
+      "componentName": "VolumeDown03",
+      "svgPath": "icons/navigation/volume-down-03.svg",
+      "componentPath": "./components/icons/Bulk/VolumeDown03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VolumeDownLight",
-      "svgPath": "icons/navigation/volume-down-light.svg",
-      "componentPath": "./components/icons/Light/VolumeDownLight",
+      "componentName": "VolumeDown04",
+      "svgPath": "icons/navigation/volume-down-04.svg",
+      "componentPath": "./components/icons/Light/VolumeDown04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "VolumeDownOutline",
-      "svgPath": "icons/navigation/volume-down-outline.svg",
-      "componentPath": "./components/icons/Outline/VolumeDownOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "VolumeDownTwoTone",
-      "svgPath": "icons/navigation/volume-down-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VolumeDownTwoTone",
+      "componentName": "VolumeDown05",
+      "svgPath": "icons/navigation/volume-down-05.svg",
+      "componentPath": "./components/icons/TwoTone/VolumeDown05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

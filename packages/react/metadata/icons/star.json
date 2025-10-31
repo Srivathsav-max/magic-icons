@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Star icon - Miscellaneous",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Star01",
+      "svgPath": "icons/misc/star-01.svg",
+      "componentPath": "./components/icons/Outline/Star01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "StarBroken",
-      "svgPath": "icons/misc/Star-broken.svg",
-      "componentPath": "./components/icons/Broken/StarBroken",
+      "componentName": "Star02",
+      "svgPath": "icons/misc/star-02.svg",
+      "componentPath": "./components/icons/Broken/Star02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "StarBulk",
-      "svgPath": "icons/misc/Star-bulk.svg",
-      "componentPath": "./components/icons/Bulk/StarBulk",
+      "componentName": "Star03",
+      "svgPath": "icons/misc/star-03.svg",
+      "componentPath": "./components/icons/Bulk/Star03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "StarLight",
-      "svgPath": "icons/misc/Star-light.svg",
-      "componentPath": "./components/icons/Light/StarLight",
+      "componentName": "Star04",
+      "svgPath": "icons/misc/star-04.svg",
+      "componentPath": "./components/icons/Light/Star04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "StarOutline",
-      "svgPath": "icons/misc/Star-outline.svg",
-      "componentPath": "./components/icons/Outline/StarOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "StarTwoTone",
-      "svgPath": "icons/misc/Star-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/StarTwoTone",
+      "componentName": "Star05",
+      "svgPath": "icons/misc/star-05.svg",
+      "componentPath": "./components/icons/TwoTone/Star05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

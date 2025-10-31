@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "InfoSquare icon - Status & Indicators",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "InfoSquare01",
+      "svgPath": "icons/status/info-square-01.svg",
+      "componentPath": "./components/icons/Outline/InfoSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "InfoSquareBroken",
-      "svgPath": "icons/status/info-square-broken.svg",
-      "componentPath": "./components/icons/Broken/InfoSquareBroken",
+      "componentName": "InfoSquare02",
+      "svgPath": "icons/status/info-square-02.svg",
+      "componentPath": "./components/icons/Broken/InfoSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "InfoSquareBulk",
-      "svgPath": "icons/status/info-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/InfoSquareBulk",
+      "componentName": "InfoSquare03",
+      "svgPath": "icons/status/info-square-03.svg",
+      "componentPath": "./components/icons/Bulk/InfoSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "InfoSquareLight",
-      "svgPath": "icons/status/info-square-light.svg",
-      "componentPath": "./components/icons/Light/InfoSquareLight",
+      "componentName": "InfoSquare04",
+      "svgPath": "icons/status/info-square-04.svg",
+      "componentPath": "./components/icons/Light/InfoSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "InfoSquareOutline",
-      "svgPath": "icons/status/info-square-outline.svg",
-      "componentPath": "./components/icons/Outline/InfoSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "InfoSquareTwoTone",
-      "svgPath": "icons/status/info-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/InfoSquareTwoTone",
+      "componentName": "InfoSquare05",
+      "svgPath": "icons/status/info-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/InfoSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

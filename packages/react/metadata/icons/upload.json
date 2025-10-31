@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "Upload icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Upload01",
+      "svgPath": "icons/navigation/upload-01.svg",
+      "componentPath": "./components/icons/Outline/Upload01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "UploadBroken",
-      "svgPath": "icons/navigation/Upload-broken.svg",
-      "componentPath": "./components/icons/Broken/UploadBroken",
+      "componentName": "Upload02",
+      "svgPath": "icons/navigation/upload-02.svg",
+      "componentPath": "./components/icons/Broken/Upload02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "UploadBulk",
-      "svgPath": "icons/navigation/Upload-bulk.svg",
-      "componentPath": "./components/icons/Bulk/UploadBulk",
+      "componentName": "Upload03",
+      "svgPath": "icons/navigation/upload-03.svg",
+      "componentPath": "./components/icons/Bulk/Upload03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "UploadLight",
-      "svgPath": "icons/navigation/Upload-light.svg",
-      "componentPath": "./components/icons/Light/UploadLight",
+      "componentName": "Upload04",
+      "svgPath": "icons/navigation/upload-04.svg",
+      "componentPath": "./components/icons/Light/Upload04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "UploadOutline",
-      "svgPath": "icons/navigation/Upload-outline.svg",
-      "componentPath": "./components/icons/Outline/UploadOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "UploadTwoTone",
-      "svgPath": "icons/navigation/Upload-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/UploadTwoTone",
+      "componentName": "Upload05",
+      "svgPath": "icons/navigation/upload-05.svg",
+      "componentPath": "./components/icons/TwoTone/Upload05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

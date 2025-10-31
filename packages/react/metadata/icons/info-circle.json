@@ -12,27 +12,27 @@
   "variants": {
     "broken": {
       "available": true,
-      "componentName": "InfoCircleBroken",
-      "svgPath": "icons/status/info-circle-broken.svg",
-      "componentPath": "./components/icons/Broken/InfoCircleBroken",
+      "componentName": "InfoCircle02",
+      "svgPath": "icons/status/info-circle-02.svg",
+      "componentPath": "./components/icons/Broken/InfoCircle02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "InfoCircleBulk",
-      "svgPath": "icons/status/info-circle-bulk.svg",
-      "componentPath": "./components/icons/Bulk/InfoCircleBulk",
+      "componentName": "InfoCircle03",
+      "svgPath": "icons/status/info-circle-03.svg",
+      "componentPath": "./components/icons/Bulk/InfoCircle03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "two-tone": {
       "available": true,
-      "componentName": "InfoCircleTwoTone",
-      "svgPath": "icons/status/info-circle-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/InfoCircleTwoTone",
+      "componentName": "InfoCircle05",
+      "svgPath": "icons/status/info-circle-05.svg",
+      "componentPath": "./components/icons/TwoTone/InfoCircle05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "TimeCircle icon - Time & Calendar",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TimeCircle01",
+      "svgPath": "icons/time/time-circle-01.svg",
+      "componentPath": "./components/icons/Outline/TimeCircle01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "TimeCircleBroken",
-      "svgPath": "icons/time/time-circle-broken.svg",
-      "componentPath": "./components/icons/Broken/TimeCircleBroken",
+      "componentName": "TimeCircle02",
+      "svgPath": "icons/time/time-circle-02.svg",
+      "componentPath": "./components/icons/Broken/TimeCircle02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "TimeCircleBulk",
-      "svgPath": "icons/time/time-circle-bulk.svg",
-      "componentPath": "./components/icons/Bulk/TimeCircleBulk",
+      "componentName": "TimeCircle03",
+      "svgPath": "icons/time/time-circle-03.svg",
+      "componentPath": "./components/icons/Bulk/TimeCircle03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "TimeCircleLight",
-      "svgPath": "icons/time/time-circle-light.svg",
-      "componentPath": "./components/icons/Light/TimeCircleLight",
+      "componentName": "TimeCircle04",
+      "svgPath": "icons/time/time-circle-04.svg",
+      "componentPath": "./components/icons/Light/TimeCircle04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "TimeCircleOutline",
-      "svgPath": "icons/time/time-circle-outline.svg",
-      "componentPath": "./components/icons/Outline/TimeCircleOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "TimeCircleTwoTone",
-      "svgPath": "icons/time/time-circle-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/TimeCircleTwoTone",
+      "componentName": "TimeCircle05",
+      "svgPath": "icons/time/time-circle-05.svg",
+      "componentPath": "./components/icons/TwoTone/TimeCircle05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

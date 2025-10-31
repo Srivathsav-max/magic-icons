@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "MoreCircle icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MoreCircle01",
+      "svgPath": "icons/ui/more-circle-01.svg",
+      "componentPath": "./components/icons/Outline/MoreCircle01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "MoreCircleBroken",
-      "svgPath": "icons/ui/more-circle-broken.svg",
-      "componentPath": "./components/icons/Broken/MoreCircleBroken",
+      "componentName": "MoreCircle02",
+      "svgPath": "icons/ui/more-circle-02.svg",
+      "componentPath": "./components/icons/Broken/MoreCircle02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "MoreCircleBulk",
-      "svgPath": "icons/ui/more-circle-bulk.svg",
-      "componentPath": "./components/icons/Bulk/MoreCircleBulk",
+      "componentName": "MoreCircle03",
+      "svgPath": "icons/ui/more-circle-03.svg",
+      "componentPath": "./components/icons/Bulk/MoreCircle03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "MoreCircleLight",
-      "svgPath": "icons/ui/more-circle-light.svg",
-      "componentPath": "./components/icons/Light/MoreCircleLight",
+      "componentName": "MoreCircle04",
+      "svgPath": "icons/ui/more-circle-04.svg",
+      "componentPath": "./components/icons/Light/MoreCircle04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "MoreCircleOutline",
-      "svgPath": "icons/ui/more-circle-outline.svg",
-      "componentPath": "./components/icons/Outline/MoreCircleOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "MoreCircleTwoTone",
-      "svgPath": "icons/ui/more-circle-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/MoreCircleTwoTone",
+      "componentName": "MoreCircle05",
+      "svgPath": "icons/ui/more-circle-05.svg",
+      "componentPath": "./components/icons/TwoTone/MoreCircle05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "UnfoldLessOutline",
-      "svgPath": "icons/action/unfold-less-outline.svg",
-      "componentPath": "./components/icons/Outline/UnfoldLessOutline",
+      "componentName": "UnfoldLess01",
+      "svgPath": "icons/action/unfold-less-01.svg",
+      "componentPath": "./components/icons/Outline/UnfoldLess01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

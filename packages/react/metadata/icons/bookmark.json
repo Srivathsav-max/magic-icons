@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Bookmark icon - Miscellaneous",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Bookmark01",
+      "svgPath": "icons/misc/bookmark-01.svg",
+      "componentPath": "./components/icons/Outline/Bookmark01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "BookmarkBroken",
-      "svgPath": "icons/misc/Bookmark-broken.svg",
-      "componentPath": "./components/icons/Broken/BookmarkBroken",
+      "componentName": "Bookmark02",
+      "svgPath": "icons/misc/bookmark-02.svg",
+      "componentPath": "./components/icons/Broken/Bookmark02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "BookmarkBulk",
-      "svgPath": "icons/misc/Bookmark-bulk.svg",
-      "componentPath": "./components/icons/Bulk/BookmarkBulk",
+      "componentName": "Bookmark03",
+      "svgPath": "icons/misc/bookmark-03.svg",
+      "componentPath": "./components/icons/Bulk/Bookmark03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "BookmarkLight",
-      "svgPath": "icons/misc/Bookmark-light.svg",
-      "componentPath": "./components/icons/Light/BookmarkLight",
+      "componentName": "Bookmark04",
+      "svgPath": "icons/misc/bookmark-04.svg",
+      "componentPath": "./components/icons/Light/Bookmark04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "BookmarkOutline",
-      "svgPath": "icons/misc/Bookmark-outline.svg",
-      "componentPath": "./components/icons/Outline/BookmarkOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "BookmarkTwoTone",
-      "svgPath": "icons/misc/Bookmark-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/BookmarkTwoTone",
+      "componentName": "Bookmark05",
+      "svgPath": "icons/misc/bookmark-05.svg",
+      "componentPath": "./components/icons/TwoTone/Bookmark05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

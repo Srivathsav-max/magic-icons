@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "TrendingDownOutline",
-      "svgPath": "icons/action/trending-down-outline.svg",
-      "componentPath": "./components/icons/Outline/TrendingDownOutline",
+      "componentName": "TrendingDown01",
+      "svgPath": "icons/action/trending-down-01.svg",
+      "componentPath": "./components/icons/Outline/TrendingDown01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

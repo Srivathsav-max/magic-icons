@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Notification icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Notification01",
+      "svgPath": "icons/ui/notification-01.svg",
+      "componentPath": "./components/icons/Outline/Notification01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "NotificationBroken",
-      "svgPath": "icons/ui/Notification-broken.svg",
-      "componentPath": "./components/icons/Broken/NotificationBroken",
+      "componentName": "Notification02",
+      "svgPath": "icons/ui/notification-02.svg",
+      "componentPath": "./components/icons/Broken/Notification02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "NotificationBulk",
-      "svgPath": "icons/ui/Notification-bulk.svg",
-      "componentPath": "./components/icons/Bulk/NotificationBulk",
+      "componentName": "Notification03",
+      "svgPath": "icons/ui/notification-03.svg",
+      "componentPath": "./components/icons/Bulk/Notification03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "NotificationLight",
-      "svgPath": "icons/ui/Notification-light.svg",
-      "componentPath": "./components/icons/Light/NotificationLight",
+      "componentName": "Notification04",
+      "svgPath": "icons/ui/notification-04.svg",
+      "componentPath": "./components/icons/Light/Notification04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "NotificationOutline",
-      "svgPath": "icons/ui/Notification-outline.svg",
-      "componentPath": "./components/icons/Outline/NotificationOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "NotificationTwoTone",
-      "svgPath": "icons/ui/Notification-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/NotificationTwoTone",
+      "componentName": "Notification05",
+      "svgPath": "icons/ui/notification-05.svg",
+      "componentPath": "./components/icons/TwoTone/Notification05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

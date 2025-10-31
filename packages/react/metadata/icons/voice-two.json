@@ -12,9 +12,9 @@
   "variants": {
     "two-tone": {
       "available": true,
-      "componentName": "VoiceTwoTwoTone",
-      "svgPath": "icons/communication/voice-two-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VoiceTwoTwoTone",
+      "componentName": "VoiceTwo05",
+      "svgPath": "icons/communication/voice-two-05.svg",
+      "componentPath": "./components/icons/TwoTone/VoiceTwo05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

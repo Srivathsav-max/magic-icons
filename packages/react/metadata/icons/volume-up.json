@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "VolumeUp icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "VolumeUp01",
+      "svgPath": "icons/navigation/volume-up-01.svg",
+      "componentPath": "./components/icons/Outline/VolumeUp01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VolumeUpBroken",
-      "svgPath": "icons/navigation/volume-up-broken.svg",
-      "componentPath": "./components/icons/Broken/VolumeUpBroken",
+      "componentName": "VolumeUp02",
+      "svgPath": "icons/navigation/volume-up-02.svg",
+      "componentPath": "./components/icons/Broken/VolumeUp02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VolumeUpBulk",
-      "svgPath": "icons/navigation/volume-up-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VolumeUpBulk",
+      "componentName": "VolumeUp03",
+      "svgPath": "icons/navigation/volume-up-03.svg",
+      "componentPath": "./components/icons/Bulk/VolumeUp03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VolumeUpLight",
-      "svgPath": "icons/navigation/volume-up-light.svg",
-      "componentPath": "./components/icons/Light/VolumeUpLight",
+      "componentName": "VolumeUp04",
+      "svgPath": "icons/navigation/volume-up-04.svg",
+      "componentPath": "./components/icons/Light/VolumeUp04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "VolumeUpOutline",
-      "svgPath": "icons/navigation/volume-up-outline.svg",
-      "componentPath": "./components/icons/Outline/VolumeUpOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "VolumeUpTwoTone",
-      "svgPath": "icons/navigation/volume-up-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/VolumeUpTwoTone",
+      "componentName": "VolumeUp05",
+      "svgPath": "icons/navigation/volume-up-05.svg",
+      "componentPath": "./components/icons/TwoTone/VolumeUp05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

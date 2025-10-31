@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "SwichtRightOutline",
-      "svgPath": "icons/action/swicht-right-outline.svg",
-      "componentPath": "./components/icons/Outline/SwichtRightOutline",
+      "componentName": "SwichtRight01",
+      "svgPath": "icons/action/swicht-right-01.svg",
+      "componentPath": "./components/icons/Outline/SwichtRight01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

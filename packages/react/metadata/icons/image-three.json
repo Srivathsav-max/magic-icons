@@ -10,41 +10,41 @@
   "aliases": [],
   "description": "ImageThree icon - Media & Entertainment",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ImageThree01",
+      "svgPath": "icons/media/image-three-01.svg",
+      "componentPath": "./components/icons/Outline/ImageThree01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ImageThreeBroken",
-      "svgPath": "icons/media/image-three-broken.svg",
-      "componentPath": "./components/icons/Broken/ImageThreeBroken",
+      "componentName": "ImageThree02",
+      "svgPath": "icons/media/image-three-02.svg",
+      "componentPath": "./components/icons/Broken/ImageThree02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ImageThreeBulk",
-      "svgPath": "icons/media/image-three-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ImageThreeBulk",
+      "componentName": "ImageThree03",
+      "svgPath": "icons/media/image-three-03.svg",
+      "componentPath": "./components/icons/Bulk/ImageThree03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ImageThreeLight",
-      "svgPath": "icons/media/image-three-light.svg",
-      "componentPath": "./components/icons/Light/ImageThreeLight",
+      "componentName": "ImageThree04",
+      "svgPath": "icons/media/image-three-04.svg",
+      "componentPath": "./components/icons/Light/ImageThree04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "ImageThreeOutline",
-      "svgPath": "icons/media/image-three-outline.svg",
-      "componentPath": "./components/icons/Outline/ImageThreeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
     }
   },
   "metadata": {

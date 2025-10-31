@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "EditSquare icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "EditSquare01",
+      "svgPath": "icons/action/edit-square-01.svg",
+      "componentPath": "./components/icons/Outline/EditSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "EditSquareBroken",
-      "svgPath": "icons/action/edit-square-broken.svg",
-      "componentPath": "./components/icons/Broken/EditSquareBroken",
+      "componentName": "EditSquare02",
+      "svgPath": "icons/action/edit-square-02.svg",
+      "componentPath": "./components/icons/Broken/EditSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "EditSquareBulk",
-      "svgPath": "icons/action/edit-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/EditSquareBulk",
+      "componentName": "EditSquare03",
+      "svgPath": "icons/action/edit-square-03.svg",
+      "componentPath": "./components/icons/Bulk/EditSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "EditSquareLight",
-      "svgPath": "icons/action/edit-square-light.svg",
-      "componentPath": "./components/icons/Light/EditSquareLight",
+      "componentName": "EditSquare04",
+      "svgPath": "icons/action/edit-square-04.svg",
+      "componentPath": "./components/icons/Light/EditSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "EditSquareOutline",
-      "svgPath": "icons/action/edit-square-outline.svg",
-      "componentPath": "./components/icons/Outline/EditSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "EditSquareTwoTone",
-      "svgPath": "icons/action/edit-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/EditSquareTwoTone",
+      "componentName": "EditSquare05",
+      "svgPath": "icons/action/edit-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/EditSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

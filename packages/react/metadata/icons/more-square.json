@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "MoreSquare icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MoreSquare01",
+      "svgPath": "icons/ui/more-square-01.svg",
+      "componentPath": "./components/icons/Outline/MoreSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "MoreSquareBroken",
-      "svgPath": "icons/ui/more-square-broken.svg",
-      "componentPath": "./components/icons/Broken/MoreSquareBroken",
+      "componentName": "MoreSquare02",
+      "svgPath": "icons/ui/more-square-02.svg",
+      "componentPath": "./components/icons/Broken/MoreSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "MoreSquareBulk",
-      "svgPath": "icons/ui/more-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/MoreSquareBulk",
+      "componentName": "MoreSquare03",
+      "svgPath": "icons/ui/more-square-03.svg",
+      "componentPath": "./components/icons/Bulk/MoreSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "MoreSquareLight",
-      "svgPath": "icons/ui/more-square-light.svg",
-      "componentPath": "./components/icons/Light/MoreSquareLight",
+      "componentName": "MoreSquare04",
+      "svgPath": "icons/ui/more-square-04.svg",
+      "componentPath": "./components/icons/Light/MoreSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "MoreSquareOutline",
-      "svgPath": "icons/ui/more-square-outline.svg",
-      "componentPath": "./components/icons/Outline/MoreSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "MoreSquareTwoTone",
-      "svgPath": "icons/ui/more-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/MoreSquareTwoTone",
+      "componentName": "MoreSquare05",
+      "svgPath": "icons/ui/more-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/MoreSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "SuitcaseOutline",
-      "svgPath": "icons/action/suitcase-outline.svg",
-      "componentPath": "./components/icons/Outline/SuitcaseOutline",
+      "componentName": "Suitcase01",
+      "svgPath": "icons/action/suitcase-01.svg",
+      "componentPath": "./components/icons/Outline/Suitcase01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

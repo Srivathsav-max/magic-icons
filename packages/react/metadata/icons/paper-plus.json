@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "PaperPlus icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "PaperPlus01",
+      "svgPath": "icons/file/paper-plus-01.svg",
+      "componentPath": "./components/icons/Outline/PaperPlus01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperPlusBroken",
-      "svgPath": "icons/file/paper-plus-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperPlusBroken",
+      "componentName": "PaperPlus02",
+      "svgPath": "icons/file/paper-plus-02.svg",
+      "componentPath": "./components/icons/Broken/PaperPlus02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperPlusBulk",
-      "svgPath": "icons/file/paper-plus-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperPlusBulk",
+      "componentName": "PaperPlus03",
+      "svgPath": "icons/file/paper-plus-03.svg",
+      "componentPath": "./components/icons/Bulk/PaperPlus03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperPlusLight",
-      "svgPath": "icons/file/paper-plus-light.svg",
-      "componentPath": "./components/icons/Light/PaperPlusLight",
+      "componentName": "PaperPlus04",
+      "svgPath": "icons/file/paper-plus-04.svg",
+      "componentPath": "./components/icons/Light/PaperPlus04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperPlusOutline",
-      "svgPath": "icons/file/paper-plus-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperPlusOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperPlusTwoTone",
-      "svgPath": "icons/file/paper-plus-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperPlusTwoTone",
+      "componentName": "PaperPlus05",
+      "svgPath": "icons/file/paper-plus-05.svg",
+      "componentPath": "./components/icons/TwoTone/PaperPlus05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "TwoUser icon - User & Profile",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TwoUser01",
+      "svgPath": "icons/user/two-user-01.svg",
+      "componentPath": "./components/icons/Outline/TwoUser01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "TwoUserBroken",
-      "svgPath": "icons/user/two-user-broken.svg",
-      "componentPath": "./components/icons/Broken/TwoUserBroken",
+      "componentName": "TwoUser02",
+      "svgPath": "icons/user/two-user-02.svg",
+      "componentPath": "./components/icons/Broken/TwoUser02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "TwoUserBulk",
-      "svgPath": "icons/user/two-user-bulk.svg",
-      "componentPath": "./components/icons/Bulk/TwoUserBulk",
+      "componentName": "TwoUser03",
+      "svgPath": "icons/user/two-user-03.svg",
+      "componentPath": "./components/icons/Bulk/TwoUser03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "TwoUserLight",
-      "svgPath": "icons/user/two-user-light.svg",
-      "componentPath": "./components/icons/Light/TwoUserLight",
+      "componentName": "TwoUser04",
+      "svgPath": "icons/user/two-user-04.svg",
+      "componentPath": "./components/icons/Light/TwoUser04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "TwoUserOutline",
-      "svgPath": "icons/user/two-user-outline.svg",
-      "componentPath": "./components/icons/Outline/TwoUserOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "TwoUserTwoTone",
-      "svgPath": "icons/user/two-user-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/TwoUserTwoTone",
+      "componentName": "TwoUser05",
+      "svgPath": "icons/user/two-user-05.svg",
+      "componentPath": "./components/icons/TwoTone/TwoUser05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

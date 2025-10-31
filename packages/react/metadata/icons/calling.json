@@ -10,38 +10,38 @@
   "aliases": [],
   "description": "Calling icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Calling01",
+      "svgPath": "icons/communication/calling-01.svg",
+      "componentPath": "./components/icons/Outline/Calling01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "bulk": {
       "available": true,
-      "componentName": "CallingBulk",
-      "svgPath": "icons/communication/Calling-bulk.svg",
-      "componentPath": "./components/icons/Bulk/CallingBulk",
+      "componentName": "Calling03",
+      "svgPath": "icons/communication/calling-03.svg",
+      "componentPath": "./components/icons/Bulk/Calling03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "CallingLight",
-      "svgPath": "icons/communication/Calling-light.svg",
-      "componentPath": "./components/icons/Light/CallingLight",
+      "componentName": "Calling04",
+      "svgPath": "icons/communication/calling-04.svg",
+      "componentPath": "./components/icons/Light/Calling04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "CallingOutline",
-      "svgPath": "icons/communication/Calling-outline.svg",
-      "componentPath": "./components/icons/Outline/CallingOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "CallingTwoTone",
-      "svgPath": "icons/communication/Calling-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CallingTwoTone",
+      "componentName": "Calling05",
+      "svgPath": "icons/communication/calling-05.svg",
+      "componentPath": "./components/icons/TwoTone/Calling05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Discount icon - E-Commerce & Shopping",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Discount01",
+      "svgPath": "icons/commerce/discount-01.svg",
+      "componentPath": "./components/icons/Outline/Discount01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "DiscountBroken",
-      "svgPath": "icons/commerce/Discount-broken.svg",
-      "componentPath": "./components/icons/Broken/DiscountBroken",
+      "componentName": "Discount02",
+      "svgPath": "icons/commerce/discount-02.svg",
+      "componentPath": "./components/icons/Broken/Discount02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "DiscountBulk",
-      "svgPath": "icons/commerce/Discount-bulk.svg",
-      "componentPath": "./components/icons/Bulk/DiscountBulk",
+      "componentName": "Discount03",
+      "svgPath": "icons/commerce/discount-03.svg",
+      "componentPath": "./components/icons/Bulk/Discount03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "DiscountLight",
-      "svgPath": "icons/commerce/Discount-light.svg",
-      "componentPath": "./components/icons/Light/DiscountLight",
+      "componentName": "Discount04",
+      "svgPath": "icons/commerce/discount-04.svg",
+      "componentPath": "./components/icons/Light/Discount04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "DiscountOutline",
-      "svgPath": "icons/commerce/Discount-outline.svg",
-      "componentPath": "./components/icons/Outline/DiscountOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "DiscountTwoTone",
-      "svgPath": "icons/commerce/Discount-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/DiscountTwoTone",
+      "componentName": "Discount05",
+      "svgPath": "icons/commerce/discount-05.svg",
+      "componentPath": "./components/icons/TwoTone/Discount05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

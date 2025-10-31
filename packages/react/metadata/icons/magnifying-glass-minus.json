@@ -13,9 +13,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "MagnifyingGlassMinusOutline",
-      "svgPath": "icons/action/magnifying-glass-minus-outline.svg",
-      "componentPath": "./components/icons/Outline/MagnifyingGlassMinusOutline",
+      "componentName": "MagnifyingGlassMinus01",
+      "svgPath": "icons/action/magnifying-glass-minus-01.svg",
+      "componentPath": "./components/icons/Outline/MagnifyingGlassMinus01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

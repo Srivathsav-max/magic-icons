@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Logout icon - Security & Authentication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Logout01",
+      "svgPath": "icons/security/logout-01.svg",
+      "componentPath": "./components/icons/Outline/Logout01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "LogoutBroken",
-      "svgPath": "icons/security/Logout-broken.svg",
-      "componentPath": "./components/icons/Broken/LogoutBroken",
+      "componentName": "Logout02",
+      "svgPath": "icons/security/logout-02.svg",
+      "componentPath": "./components/icons/Broken/Logout02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "LogoutBulk",
-      "svgPath": "icons/security/Logout-bulk.svg",
-      "componentPath": "./components/icons/Bulk/LogoutBulk",
+      "componentName": "Logout03",
+      "svgPath": "icons/security/logout-03.svg",
+      "componentPath": "./components/icons/Bulk/Logout03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "LogoutLight",
-      "svgPath": "icons/security/Logout-light.svg",
-      "componentPath": "./components/icons/Light/LogoutLight",
+      "componentName": "Logout04",
+      "svgPath": "icons/security/logout-04.svg",
+      "componentPath": "./components/icons/Light/Logout04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "LogoutOutline",
-      "svgPath": "icons/security/Logout-outline.svg",
-      "componentPath": "./components/icons/Outline/LogoutOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "LogoutTwoTone",
-      "svgPath": "icons/security/Logout-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/LogoutTwoTone",
+      "componentName": "Logout05",
+      "svgPath": "icons/security/logout-05.svg",
+      "componentPath": "./components/icons/TwoTone/Logout05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "OptionOutline",
-      "svgPath": "icons/action/option-outline.svg",
-      "componentPath": "./components/icons/Outline/OptionOutline",
+      "componentName": "Option01",
+      "svgPath": "icons/action/option-01.svg",
+      "componentPath": "./components/icons/Outline/Option01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

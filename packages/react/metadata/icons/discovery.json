@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Discovery icon - Location & Maps",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Discovery01",
+      "svgPath": "icons/location/discovery-01.svg",
+      "componentPath": "./components/icons/Outline/Discovery01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "DiscoveryBroken",
-      "svgPath": "icons/location/Discovery-broken.svg",
-      "componentPath": "./components/icons/Broken/DiscoveryBroken",
+      "componentName": "Discovery02",
+      "svgPath": "icons/location/discovery-02.svg",
+      "componentPath": "./components/icons/Broken/Discovery02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "DiscoveryBulk",
-      "svgPath": "icons/location/Discovery-bulk.svg",
-      "componentPath": "./components/icons/Bulk/DiscoveryBulk",
+      "componentName": "Discovery03",
+      "svgPath": "icons/location/discovery-03.svg",
+      "componentPath": "./components/icons/Bulk/Discovery03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "DiscoveryLight",
-      "svgPath": "icons/location/Discovery-light.svg",
-      "componentPath": "./components/icons/Light/DiscoveryLight",
+      "componentName": "Discovery04",
+      "svgPath": "icons/location/discovery-04.svg",
+      "componentPath": "./components/icons/Light/Discovery04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "DiscoveryOutline",
-      "svgPath": "icons/location/Discovery-outline.svg",
-      "componentPath": "./components/icons/Outline/DiscoveryOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "DiscoveryTwoTone",
-      "svgPath": "icons/location/Discovery-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/DiscoveryTwoTone",
+      "componentName": "Discovery05",
+      "svgPath": "icons/location/discovery-05.svg",
+      "componentPath": "./components/icons/TwoTone/Discovery05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "DragVerticalOutline",
-      "svgPath": "icons/action/drag-vertical-outline.svg",
-      "componentPath": "./components/icons/Outline/DragVerticalOutline",
+      "componentName": "DragVertical01",
+      "svgPath": "icons/action/drag-vertical-01.svg",
+      "componentPath": "./components/icons/Outline/DragVertical01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

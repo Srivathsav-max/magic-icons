@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "ArrowDownSquare icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDownSquare01",
+      "svgPath": "icons/navigation/arrow-down-square-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowDownSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowDownSquareBroken",
-      "svgPath": "icons/navigation/arrow-down-square-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowDownSquareBroken",
+      "componentName": "ArrowDownSquare02",
+      "svgPath": "icons/navigation/arrow-down-square-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowDownSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowDownSquareBulk",
-      "svgPath": "icons/navigation/arrow-down-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowDownSquareBulk",
+      "componentName": "ArrowDownSquare03",
+      "svgPath": "icons/navigation/arrow-down-square-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowDownSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowDownSquareLight",
-      "svgPath": "icons/navigation/arrow-down-square-light.svg",
-      "componentPath": "./components/icons/Light/ArrowDownSquareLight",
+      "componentName": "ArrowDownSquare04",
+      "svgPath": "icons/navigation/arrow-down-square-04.svg",
+      "componentPath": "./components/icons/Light/ArrowDownSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowDownSquareOutline",
-      "svgPath": "icons/navigation/arrow-down-square-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowDownSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowDownSquareTwoTone",
-      "svgPath": "icons/navigation/arrow-down-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowDownSquareTwoTone",
+      "componentName": "ArrowDownSquare05",
+      "svgPath": "icons/navigation/arrow-down-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowDownSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

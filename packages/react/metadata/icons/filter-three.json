@@ -10,38 +10,38 @@
   "aliases": [],
   "description": "FilterThree icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "FilterThree01",
+      "svgPath": "icons/action/filter-three-01.svg",
+      "componentPath": "./components/icons/Outline/FilterThree01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "FilterThreeBroken",
-      "svgPath": "icons/action/filter-three-broken.svg",
-      "componentPath": "./components/icons/Broken/FilterThreeBroken",
+      "componentName": "FilterThree02",
+      "svgPath": "icons/action/filter-three-02.svg",
+      "componentPath": "./components/icons/Broken/FilterThree02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "FilterThreeLight",
-      "svgPath": "icons/action/filter-three-light.svg",
-      "componentPath": "./components/icons/Light/FilterThreeLight",
+      "componentName": "FilterThree04",
+      "svgPath": "icons/action/filter-three-04.svg",
+      "componentPath": "./components/icons/Light/FilterThree04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "FilterThreeOutline",
-      "svgPath": "icons/action/filter-three-outline.svg",
-      "componentPath": "./components/icons/Outline/FilterThreeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "FilterThreeTwoTone",
-      "svgPath": "icons/action/filter-three-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/FilterThreeTwoTone",
+      "componentName": "FilterThree05",
+      "svgPath": "icons/action/filter-three-05.svg",
+      "componentPath": "./components/icons/TwoTone/FilterThree05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

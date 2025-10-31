@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Folder icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Folder01",
+      "svgPath": "icons/file/folder-01.svg",
+      "componentPath": "./components/icons/Outline/Folder01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "FolderBroken",
-      "svgPath": "icons/file/Folder-broken.svg",
-      "componentPath": "./components/icons/Broken/FolderBroken",
+      "componentName": "Folder02",
+      "svgPath": "icons/file/folder-02.svg",
+      "componentPath": "./components/icons/Broken/Folder02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "FolderBulk",
-      "svgPath": "icons/file/Folder-bulk.svg",
-      "componentPath": "./components/icons/Bulk/FolderBulk",
+      "componentName": "Folder03",
+      "svgPath": "icons/file/folder-03.svg",
+      "componentPath": "./components/icons/Bulk/Folder03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "FolderLight",
-      "svgPath": "icons/file/Folder-light.svg",
-      "componentPath": "./components/icons/Light/FolderLight",
+      "componentName": "Folder04",
+      "svgPath": "icons/file/folder-04.svg",
+      "componentPath": "./components/icons/Light/Folder04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "FolderOutline",
-      "svgPath": "icons/file/Folder-outline.svg",
-      "componentPath": "./components/icons/Outline/FolderOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "FolderTwoTone",
-      "svgPath": "icons/file/Folder-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/FolderTwoTone",
+      "componentName": "Folder05",
+      "svgPath": "icons/file/folder-05.svg",
+      "componentPath": "./components/icons/TwoTone/Folder05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

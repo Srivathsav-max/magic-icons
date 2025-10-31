@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "TagOutline",
-      "svgPath": "icons/action/tag-outline.svg",
-      "componentPath": "./components/icons/Outline/TagOutline",
+      "componentName": "Tag01",
+      "svgPath": "icons/action/tag-01.svg",
+      "componentPath": "./components/icons/Outline/Tag01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

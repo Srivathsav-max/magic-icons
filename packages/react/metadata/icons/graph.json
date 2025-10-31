@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Graph icon - Data & Analytics",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Graph01",
+      "svgPath": "icons/data/graph-01.svg",
+      "componentPath": "./components/icons/Outline/Graph01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "GraphBroken",
-      "svgPath": "icons/data/Graph-broken.svg",
-      "componentPath": "./components/icons/Broken/GraphBroken",
+      "componentName": "Graph02",
+      "svgPath": "icons/data/graph-02.svg",
+      "componentPath": "./components/icons/Broken/Graph02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "GraphBulk",
-      "svgPath": "icons/data/Graph-bulk.svg",
-      "componentPath": "./components/icons/Bulk/GraphBulk",
+      "componentName": "Graph03",
+      "svgPath": "icons/data/graph-03.svg",
+      "componentPath": "./components/icons/Bulk/Graph03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "GraphLight",
-      "svgPath": "icons/data/Graph-light.svg",
-      "componentPath": "./components/icons/Light/GraphLight",
+      "componentName": "Graph04",
+      "svgPath": "icons/data/graph-04.svg",
+      "componentPath": "./components/icons/Light/Graph04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "GraphOutline",
-      "svgPath": "icons/data/Graph-outline.svg",
-      "componentPath": "./components/icons/Outline/GraphOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "GraphTwoTone",
-      "svgPath": "icons/data/Graph-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/GraphTwoTone",
+      "componentName": "Graph05",
+      "svgPath": "icons/data/graph-05.svg",
+      "componentPath": "./components/icons/TwoTone/Graph05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

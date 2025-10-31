@@ -10,47 +10,47 @@
   "aliases": [],
   "description": "TimeSquare icon - Time & Calendar",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "TimeSquare01",
+      "svgPath": "icons/time/time-square-01.svg",
+      "componentPath": "./components/icons/Outline/TimeSquare01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "TimeSquareBroken",
-      "svgPath": "icons/time/time-square-broken.svg",
-      "componentPath": "./components/icons/Broken/TimeSquareBroken",
+      "componentName": "TimeSquare02",
+      "svgPath": "icons/time/time-square-02.svg",
+      "componentPath": "./components/icons/Broken/TimeSquare02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "TimeSquareBulk",
-      "svgPath": "icons/time/time-square-bulk.svg",
-      "componentPath": "./components/icons/Bulk/TimeSquareBulk",
+      "componentName": "TimeSquare03",
+      "svgPath": "icons/time/time-square-03.svg",
+      "componentPath": "./components/icons/Bulk/TimeSquare03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "TimeSquareLight",
-      "svgPath": "icons/time/time-square-light.svg",
-      "componentPath": "./components/icons/Light/TimeSquareLight",
+      "componentName": "TimeSquare04",
+      "svgPath": "icons/time/time-square-04.svg",
+      "componentPath": "./components/icons/Light/TimeSquare04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "TimeSquareOutline",
-      "svgPath": "icons/time/time-square-outline.svg",
-      "componentPath": "./components/icons/Outline/TimeSquareOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "TimeSquareTwoTone",
-      "svgPath": "icons/time/time-square-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/TimeSquareTwoTone",
+      "componentName": "TimeSquare05",
+      "svgPath": "icons/time/time-square-05.svg",
+      "componentPath": "./components/icons/TwoTone/TimeSquare05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

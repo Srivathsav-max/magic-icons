@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Paper icon - Files & Documents",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Paper01",
+      "svgPath": "icons/file/paper-01.svg",
+      "componentPath": "./components/icons/Outline/Paper01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperBroken",
-      "svgPath": "icons/file/Paper-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperBroken",
+      "componentName": "Paper02",
+      "svgPath": "icons/file/paper-02.svg",
+      "componentPath": "./components/icons/Broken/Paper02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperBulk",
-      "svgPath": "icons/file/Paper-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperBulk",
+      "componentName": "Paper03",
+      "svgPath": "icons/file/paper-03.svg",
+      "componentPath": "./components/icons/Bulk/Paper03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperLight",
-      "svgPath": "icons/file/Paper-light.svg",
-      "componentPath": "./components/icons/Light/PaperLight",
+      "componentName": "Paper04",
+      "svgPath": "icons/file/paper-04.svg",
+      "componentPath": "./components/icons/Light/Paper04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperOutline",
-      "svgPath": "icons/file/Paper-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperTwoTone",
-      "svgPath": "icons/file/Paper-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperTwoTone",
+      "componentName": "Paper05",
+      "svgPath": "icons/file/paper-05.svg",
+      "componentPath": "./components/icons/TwoTone/Paper05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

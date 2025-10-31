@@ -11,27 +11,27 @@
   "variants": {
     "broken": {
       "available": true,
-      "componentName": "DangerBroken",
-      "svgPath": "icons/status/Danger-broken.svg",
-      "componentPath": "./components/icons/Broken/DangerBroken",
+      "componentName": "Danger02",
+      "svgPath": "icons/status/danger-02.svg",
+      "componentPath": "./components/icons/Broken/Danger02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "DangerBulk",
-      "svgPath": "icons/status/Danger-bulk.svg",
-      "componentPath": "./components/icons/Bulk/DangerBulk",
+      "componentName": "Danger03",
+      "svgPath": "icons/status/danger-03.svg",
+      "componentPath": "./components/icons/Bulk/Danger03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "two-tone": {
       "available": true,
-      "componentName": "DangerTwoTone",
-      "svgPath": "icons/status/Danger-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/DangerTwoTone",
+      "componentName": "Danger05",
+      "svgPath": "icons/status/danger-05.svg",
+      "componentPath": "./components/icons/TwoTone/Danger05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

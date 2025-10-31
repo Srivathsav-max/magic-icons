@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LinkBreakOutline",
-      "svgPath": "icons/action/link-break-outline.svg",
-      "componentPath": "./components/icons/Outline/LinkBreakOutline",
+      "componentName": "LinkBreak01",
+      "svgPath": "icons/action/link-break-01.svg",
+      "componentPath": "./components/icons/Outline/LinkBreak01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

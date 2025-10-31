@@ -10,41 +10,41 @@
   "aliases": [],
   "description": "VoiceThree icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "VoiceThree01",
+      "svgPath": "icons/communication/voice-three-01.svg",
+      "componentPath": "./components/icons/Outline/VoiceThree01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "VoiceThreeBroken",
-      "svgPath": "icons/communication/voice-three-broken.svg",
-      "componentPath": "./components/icons/Broken/VoiceThreeBroken",
+      "componentName": "VoiceThree02",
+      "svgPath": "icons/communication/voice-three-02.svg",
+      "componentPath": "./components/icons/Broken/VoiceThree02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "VoiceThreeBulk",
-      "svgPath": "icons/communication/voice-three-bulk.svg",
-      "componentPath": "./components/icons/Bulk/VoiceThreeBulk",
+      "componentName": "VoiceThree03",
+      "svgPath": "icons/communication/voice-three-03.svg",
+      "componentPath": "./components/icons/Bulk/VoiceThree03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "VoiceThreeLight",
-      "svgPath": "icons/communication/voice-three-light.svg",
-      "componentPath": "./components/icons/Light/VoiceThreeLight",
+      "componentName": "VoiceThree04",
+      "svgPath": "icons/communication/voice-three-04.svg",
+      "componentPath": "./components/icons/Light/VoiceThree04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
-    },
-    "outline": {
-      "available": true,
-      "componentName": "VoiceThreeOutline",
-      "svgPath": "icons/communication/voice-three-outline.svg",
-      "componentPath": "./components/icons/Outline/VoiceThreeOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
     }
   },
   "metadata": {

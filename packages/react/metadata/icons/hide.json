@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Hide icon - UI Elements",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Hide01",
+      "svgPath": "icons/ui/hide-01.svg",
+      "componentPath": "./components/icons/Outline/Hide01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "HideBroken",
-      "svgPath": "icons/ui/Hide-broken.svg",
-      "componentPath": "./components/icons/Broken/HideBroken",
+      "componentName": "Hide02",
+      "svgPath": "icons/ui/hide-02.svg",
+      "componentPath": "./components/icons/Broken/Hide02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "HideBulk",
-      "svgPath": "icons/ui/Hide-bulk.svg",
-      "componentPath": "./components/icons/Bulk/HideBulk",
+      "componentName": "Hide03",
+      "svgPath": "icons/ui/hide-03.svg",
+      "componentPath": "./components/icons/Bulk/Hide03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "HideLight",
-      "svgPath": "icons/ui/Hide-light.svg",
-      "componentPath": "./components/icons/Light/HideLight",
+      "componentName": "Hide04",
+      "svgPath": "icons/ui/hide-04.svg",
+      "componentPath": "./components/icons/Light/Hide04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "HideOutline",
-      "svgPath": "icons/ui/Hide-outline.svg",
-      "componentPath": "./components/icons/Outline/HideOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "HideTwoTone",
-      "svgPath": "icons/ui/Hide-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/HideTwoTone",
+      "componentName": "Hide05",
+      "svgPath": "icons/ui/hide-05.svg",
+      "componentPath": "./components/icons/TwoTone/Hide05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

@@ -12,9 +12,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "DragHorizontalOutline",
-      "svgPath": "icons/action/drag-horizontal-outline.svg",
-      "componentPath": "./components/icons/Outline/DragHorizontalOutline",
+      "componentName": "DragHorizontal01",
+      "svgPath": "icons/action/drag-horizontal-01.svg",
+      "componentPath": "./components/icons/Outline/DragHorizontal01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Chart icon - Data & Analytics",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Chart01",
+      "svgPath": "icons/data/chart-01.svg",
+      "componentPath": "./components/icons/Outline/Chart01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ChartBroken",
-      "svgPath": "icons/data/Chart-broken.svg",
-      "componentPath": "./components/icons/Broken/ChartBroken",
+      "componentName": "Chart02",
+      "svgPath": "icons/data/chart-02.svg",
+      "componentPath": "./components/icons/Broken/Chart02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ChartBulk",
-      "svgPath": "icons/data/Chart-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ChartBulk",
+      "componentName": "Chart03",
+      "svgPath": "icons/data/chart-03.svg",
+      "componentPath": "./components/icons/Bulk/Chart03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ChartLight",
-      "svgPath": "icons/data/Chart-light.svg",
-      "componentPath": "./components/icons/Light/ChartLight",
+      "componentName": "Chart04",
+      "svgPath": "icons/data/chart-04.svg",
+      "componentPath": "./components/icons/Light/Chart04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ChartOutline",
-      "svgPath": "icons/data/Chart-outline.svg",
-      "componentPath": "./components/icons/Outline/ChartOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ChartTwoTone",
-      "svgPath": "icons/data/Chart-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ChartTwoTone",
+      "componentName": "Chart05",
+      "svgPath": "icons/data/chart-05.svg",
+      "componentPath": "./components/icons/TwoTone/Chart05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

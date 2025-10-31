@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "LabelOutline",
-      "svgPath": "icons/action/label-outline.svg",
-      "componentPath": "./components/icons/Outline/LabelOutline",
+      "componentName": "Label01",
+      "svgPath": "icons/action/label-01.svg",
+      "componentPath": "./components/icons/Outline/Label01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

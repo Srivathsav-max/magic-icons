@@ -11,9 +11,9 @@
   "variants": {
     "outline": {
       "available": true,
-      "componentName": "ExpandOutline",
-      "svgPath": "icons/action/expand-outline.svg",
-      "componentPath": "./components/icons/Outline/ExpandOutline",
+      "componentName": "Expand01",
+      "svgPath": "icons/action/expand-01.svg",
+      "componentPath": "./components/icons/Outline/Expand01",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"

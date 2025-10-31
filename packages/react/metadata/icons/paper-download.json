@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "PaperDownload icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "PaperDownload01",
+      "svgPath": "icons/navigation/paper-download-01.svg",
+      "componentPath": "./components/icons/Outline/PaperDownload01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PaperDownloadBroken",
-      "svgPath": "icons/navigation/paper-download-broken.svg",
-      "componentPath": "./components/icons/Broken/PaperDownloadBroken",
+      "componentName": "PaperDownload02",
+      "svgPath": "icons/navigation/paper-download-02.svg",
+      "componentPath": "./components/icons/Broken/PaperDownload02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PaperDownloadBulk",
-      "svgPath": "icons/navigation/paper-download-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PaperDownloadBulk",
+      "componentName": "PaperDownload03",
+      "svgPath": "icons/navigation/paper-download-03.svg",
+      "componentPath": "./components/icons/Bulk/PaperDownload03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PaperDownloadLight",
-      "svgPath": "icons/navigation/paper-download-light.svg",
-      "componentPath": "./components/icons/Light/PaperDownloadLight",
+      "componentName": "PaperDownload04",
+      "svgPath": "icons/navigation/paper-download-04.svg",
+      "componentPath": "./components/icons/Light/PaperDownload04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PaperDownloadOutline",
-      "svgPath": "icons/navigation/paper-download-outline.svg",
-      "componentPath": "./components/icons/Outline/PaperDownloadOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PaperDownloadTwoTone",
-      "svgPath": "icons/navigation/paper-download-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PaperDownloadTwoTone",
+      "componentName": "PaperDownload05",
+      "svgPath": "icons/navigation/paper-download-05.svg",
+      "componentPath": "./components/icons/TwoTone/PaperDownload05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

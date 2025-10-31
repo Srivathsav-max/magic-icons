@@ -11,47 +11,47 @@
   "aliases": [],
   "description": "ArrowRightTwo icon - Navigation & Arrows",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowRightTwo01",
+      "svgPath": "icons/navigation/arrow-right-two-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowRightTwo01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "ArrowRightTwoBroken",
-      "svgPath": "icons/navigation/arrow-right-two-broken.svg",
-      "componentPath": "./components/icons/Broken/ArrowRightTwoBroken",
+      "componentName": "ArrowRightTwo02",
+      "svgPath": "icons/navigation/arrow-right-two-02.svg",
+      "componentPath": "./components/icons/Broken/ArrowRightTwo02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "ArrowRightTwoBulk",
-      "svgPath": "icons/navigation/arrow-right-two-bulk.svg",
-      "componentPath": "./components/icons/Bulk/ArrowRightTwoBulk",
+      "componentName": "ArrowRightTwo03",
+      "svgPath": "icons/navigation/arrow-right-two-03.svg",
+      "componentPath": "./components/icons/Bulk/ArrowRightTwo03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "ArrowRightTwoLight",
-      "svgPath": "icons/navigation/arrow-right-two-light.svg",
-      "componentPath": "./components/icons/Light/ArrowRightTwoLight",
+      "componentName": "ArrowRightTwo04",
+      "svgPath": "icons/navigation/arrow-right-two-04.svg",
+      "componentPath": "./components/icons/Light/ArrowRightTwo04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "ArrowRightTwoOutline",
-      "svgPath": "icons/navigation/arrow-right-two-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowRightTwoOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "ArrowRightTwoTwoTone",
-      "svgPath": "icons/navigation/arrow-right-two-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/ArrowRightTwoTwoTone",
+      "componentName": "ArrowRightTwo05",
+      "svgPath": "icons/navigation/arrow-right-two-05.svg",
+      "componentPath": "./components/icons/TwoTone/ArrowRightTwo05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

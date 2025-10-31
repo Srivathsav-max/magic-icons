@@ -9,47 +9,47 @@
   "aliases": [],
   "description": "Play icon - Media & Entertainment",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Play01",
+      "svgPath": "icons/media/play-01.svg",
+      "componentPath": "./components/icons/Outline/Play01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "broken": {
       "available": true,
-      "componentName": "PlayBroken",
-      "svgPath": "icons/media/Play-broken.svg",
-      "componentPath": "./components/icons/Broken/PlayBroken",
+      "componentName": "Play02",
+      "svgPath": "icons/media/play-02.svg",
+      "componentPath": "./components/icons/Broken/Play02",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "bulk": {
       "available": true,
-      "componentName": "PlayBulk",
-      "svgPath": "icons/media/Play-bulk.svg",
-      "componentPath": "./components/icons/Bulk/PlayBulk",
+      "componentName": "Play03",
+      "svgPath": "icons/media/play-03.svg",
+      "componentPath": "./components/icons/Bulk/Play03",
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
     "light": {
       "available": true,
-      "componentName": "PlayLight",
-      "svgPath": "icons/media/Play-light.svg",
-      "componentPath": "./components/icons/Light/PlayLight",
+      "componentName": "Play04",
+      "svgPath": "icons/media/play-04.svg",
+      "componentPath": "./components/icons/Light/Play04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
-    "outline": {
-      "available": true,
-      "componentName": "PlayOutline",
-      "svgPath": "icons/media/Play-outline.svg",
-      "componentPath": "./components/icons/Outline/PlayOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
-    },
     "two-tone": {
       "available": true,
-      "componentName": "PlayTwoTone",
-      "svgPath": "icons/media/Play-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/PlayTwoTone",
+      "componentName": "Play05",
+      "svgPath": "icons/media/play-05.svg",
+      "componentPath": "./components/icons/TwoTone/Play05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"

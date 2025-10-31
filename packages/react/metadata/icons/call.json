@@ -11,18 +11,18 @@
   "variants": {
     "light": {
       "available": true,
-      "componentName": "CallLight",
-      "svgPath": "icons/communication/Call-light.svg",
-      "componentPath": "./components/icons/Light/CallLight",
+      "componentName": "Call04",
+      "svgPath": "icons/communication/call-04.svg",
+      "componentPath": "./components/icons/Light/Call04",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1,
       "fillType": "stroke"
     },
     "two-tone": {
       "available": true,
-      "componentName": "CallTwoTone",
-      "svgPath": "icons/communication/Call-two-tone.svg",
-      "componentPath": "./components/icons/TwoTone/CallTwoTone",
+      "componentName": "Call05",
+      "svgPath": "icons/communication/call-05.svg",
+      "componentPath": "./components/icons/TwoTone/Call05",
       "supportsStrokeWidth": true,
       "defaultStrokeWidth": 1.5,
       "fillType": "mixed"
