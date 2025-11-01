@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "import",
+  "category": "arrows",
+  "tags": [
+    "import",
+    "arrows"
+  ],
+  "description": "import icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

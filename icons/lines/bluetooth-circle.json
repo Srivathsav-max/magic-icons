@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bluetooth-circle",
+  "category": "electronics",
+  "tags": [
+    "bluetooth-circle",
+    "electronics"
+  ],
+  "description": "bluetooth-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

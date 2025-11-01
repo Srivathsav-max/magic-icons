@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "device-message",
+  "category": "communication",
+  "tags": [
+    "device-message",
+    "communication"
+  ],
+  "description": "device-message icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

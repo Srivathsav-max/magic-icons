@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "heart-circle",
+  "category": "essentials",
+  "tags": [
+    "heart-circle",
+    "essentials"
+  ],
+  "description": "heart-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

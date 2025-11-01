@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "paperclip",
+  "category": "content",
+  "tags": [
+    "paperclip",
+    "content"
+  ],
+  "description": "paperclip icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

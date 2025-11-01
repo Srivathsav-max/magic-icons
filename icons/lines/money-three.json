@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "money-three",
+  "category": "money",
+  "tags": [
+    "money-three",
+    "money"
+  ],
+  "description": "money-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

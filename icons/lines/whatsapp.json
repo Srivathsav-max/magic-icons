@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "whatsapp",
+  "category": "brands",
+  "tags": [
+    "whatsapp",
+    "brands"
+  ],
+  "description": "whatsapp icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

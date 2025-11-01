@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "sticker",
+  "category": "essentials",
+  "tags": [
+    "sticker",
+    "essentials"
+  ],
+  "description": "sticker icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

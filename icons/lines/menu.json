@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "menu",
+  "category": "essentials",
+  "tags": [
+    "menu",
+    "essentials"
+  ],
+  "description": "menu icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

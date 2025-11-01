@@ -2,7 +2,7 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
 	entry: {
-		index: "src/components/icons/index.ts",
+		index: "icons/index.ts",
 		metadata: "src/metadata.ts",
 	},
 	format: ["cjs", "esm"],

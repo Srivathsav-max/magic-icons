@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "level",
+  "category": "essentials",
+  "tags": [
+    "level",
+    "essentials"
+  ],
+  "description": "level icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

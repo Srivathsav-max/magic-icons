@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "call-minus",
+  "category": "essentials",
+  "tags": [
+    "call-minus",
+    "essentials"
+  ],
+  "description": "call-minus icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

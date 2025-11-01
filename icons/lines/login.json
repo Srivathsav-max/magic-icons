@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "login",
+  "category": "arrows",
+  "tags": [
+    "login",
+    "arrows"
+  ],
+  "description": "login icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "uieight",
+  "category": "tools",
+  "tags": [
+    "uieight",
+    "tools"
+  ],
+  "description": "uieight icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

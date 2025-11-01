@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "add-square",
+  "category": "essentials",
+  "tags": [
+    "add-square",
+    "essentials"
+  ],
+  "description": "add-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

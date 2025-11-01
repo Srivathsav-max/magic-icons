@@ -8,10 +8,12 @@ import { cn } from "@/lib/utils";
 interface IconCardProps {
 	icon: {
 		name: string;
-		originalName: string;
-		variant: string;
+		componentName: string;
 		category: string;
-		supportsStrokeWidth: boolean;
+		tags: string[];
+		description: string;
+		aliases: string[];
+		deprecated: boolean;
 	};
 	size: number;
 	color: string | undefined;
@@ -28,7 +30,7 @@ const IconCard = memo(({ icon, size, color, strokeWidth, onClick }: IconCardProp
 			strokeWidth?: number;
 		}>
 	>;
-	const IconComponent = iconsMap[icon.name];
+	const IconComponent = iconsMap[icon.componentName];
 
 	if (!IconComponent) {
 		return null;
@@ -47,13 +49,13 @@ const IconCard = memo(({ icon, size, color, strokeWidth, onClick }: IconCardProp
 					<IconComponent
 						size={size}
 						{...(color !== undefined ? { color } : {})}
-						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+						strokeWidth={strokeWidth}
 					/>
 				</div>
 
 				<div className="text-center w-full">
-					<h3 className="text-sm font-medium text-foreground truncate">{icon.originalName}</h3>
-					<span className="text-xs text-muted-foreground">{icon.variant}</span>
+					<h3 className="text-sm font-medium text-foreground truncate">{icon.componentName}</h3>
+					<span className="text-xs text-muted-foreground capitalize">{icon.category}</span>
 				</div>
 			</CardContent>
 		</Card>

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "convertshape",
+  "category": "grid",
+  "tags": [
+    "convertshape",
+    "grid"
+  ],
+  "description": "convertshape icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

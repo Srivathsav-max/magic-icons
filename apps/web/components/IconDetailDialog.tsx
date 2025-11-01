@@ -13,7 +13,7 @@ import {
 	TabsTrigger,
 } from "@magic-icons/ui";
 import * as Icons from "magic-icons";
-import { Check01, Copy01 } from "magic-icons";
+import { Check, Copy } from "magic-icons";
 import type React from "react";
 import { Suspense, useState } from "react";
 import { cn } from "@/lib/utils";
@@ -21,10 +21,12 @@ import { cn } from "@/lib/utils";
 interface IconDetailDialogProps {
 	icon: {
 		name: string;
-		originalName: string;
-		variant: string;
+		componentName: string;
 		category: string;
-		supportsStrokeWidth: boolean;
+		tags: string[];
+		description: string;
+		aliases: string[];
+		deprecated: boolean;
 	} | null;
 	open: boolean;
 	onOpenChange: (open: boolean) => void;
@@ -77,7 +79,9 @@ const IconDetailDialog = ({
 
 	if (!icon) return null;
 
-	const IconComponent = getIconComponent(icon.name);
+	const IconComponent = getIconComponent(icon.componentName);
+	
+	if (!IconComponent) return null;
 
 	const getCode = (framework: string) => {
 		const colorProp = color ? ` color="${color}"` : "";
@@ -85,21 +89,21 @@ const IconDetailDialog = ({
 
 		switch (framework) {
 			case "react":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "preact":
-				return `import { ${icon.name} } from 'magic-icons';\n\nexport default function App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nexport default function App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}`;
 			case "vue":
-				return `<template>${colorComment ? `\n  <!-- ${colorComment.trim()} -->` : ""}\n  <${icon.name} :size="24"${colorProp} />\n</template>\n\n<script setup>\nimport { ${icon.name} } from 'magic-icons';\n</script>`;
+				return `<template>${colorComment ? `\n  <!-- ${colorComment.trim()} -->` : ""}\n  <${icon.componentName} :size="24"${colorProp} />\n</template>\n\n<script setup>\nimport { ${icon.componentName} } from 'magic-icons';\n</script>`;
 			case "svelte":
-				return `<script>\n  import { ${icon.name} } from 'magic-icons';\n</script>\n${colorComment ? `\n<!-- ${colorComment.trim()} -->` : ""}\n<${icon.name} size={24}${colorProp} />`;
+				return `<script>\n  import { ${icon.componentName} } from 'magic-icons';\n</script>\n${colorComment ? `\n<!-- ${colorComment.trim()} -->` : ""}\n<${icon.componentName} size={24}${colorProp} />`;
 			case "solid":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.name} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "angular":
-				return `import { ${icon.name} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\n@Component({\n  selector: 'app-root',\n  template: '<${icon.name} [size]="24"${colorProp} />'\n})\nexport class AppComponent {}`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\n@Component({\n  selector: 'app-root',\n  template: '<${icon.componentName} [size]="24"${colorProp} />'\n})\nexport class AppComponent {}`;
 			case "vanilla":
-				return `import { ${icon.name} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\nconst icon = ${icon.name}({ size: 24${color ? `, color: '${color}'` : ""} });\ndocument.body.appendChild(icon);`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\nconst icon = ${icon.componentName}({ size: 24${color ? `, color: '${color}'` : ""} });\ndocument.body.appendChild(icon);`;
 			default:
-				return `import { ${icon.name} } from 'magic-icons';`;
+				return `import { ${icon.componentName} } from 'magic-icons';`;
 		}
 	};
 
@@ -110,7 +114,7 @@ const IconDetailDialog = ({
 		document.body.appendChild(container);
 
 		try {
-			const IconComponentForSvg = getIconComponent(icon.name);
+			const IconComponentForSvg = getIconComponent(icon.componentName);
 
 			const { createRoot } = await import("react-dom/client");
 			const root = createRoot(container);
@@ -120,7 +124,7 @@ const IconDetailDialog = ({
 					<IconComponentForSvg
 						size={size}
 						{...(color !== undefined ? { color } : {})}
-						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+						strokeWidth={strokeWidth}
 					/>,
 				);
 				setTimeout(resolve, 100);
@@ -138,11 +142,11 @@ const IconDetailDialog = ({
 			}
 
 			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- ${icon.originalName} - ${icon.variant} variant -->\n</svg>`;
+			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!--  -->\n</svg>`;
 		} catch (error) {
 			console.error("Error generating SVG:", error);
 			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- ${icon.originalName} - ${icon.variant} variant -->\n</svg>`;
+			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!--  -->\n</svg>`;
 		}
 	};
 
@@ -161,13 +165,13 @@ const IconDetailDialog = ({
 		}
 	};
 
-	const tags = ["letter", "font size", "text", "formatting"];
+	const tags = icon.tags;
 
 	return (
 		<Dialog open={open} onOpenChange={onOpenChange}>
 			<DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
 				<DialogHeader>
-					<DialogTitle className="text-2xl">{icon.originalName}</DialogTitle>
+					<DialogTitle className="text-2xl">{icon.componentName}</DialogTitle>
 					<div className="flex gap-2 mt-2">
 						{tags.map((tag) => (
 							<Badge key={tag} variant="secondary" className="text-xs">
@@ -197,7 +201,7 @@ const IconDetailDialog = ({
 									handleCopy(svg, "svg");
 								}}
 							>
-								{copiedSvg ? <Check01 className="h-4 w-4" /> : <Copy01 className="h-4 w-4" />}
+								{copiedSvg ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
 								Copy SVG
 							</Button>
 							<Button
@@ -205,7 +209,7 @@ const IconDetailDialog = ({
 								className="gap-2"
 								onClick={() => handleCopy(getCode(selectedFramework), "jsx")}
 							>
-								{copiedJsx ? <Check01 className="h-4 w-4" /> : <Copy01 className="h-4 w-4" />}
+								{copiedJsx ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
 								Copy JSX
 							</Button>
 						</div>
@@ -247,7 +251,7 @@ const IconDetailDialog = ({
 										<IconComponent
 											size={size * 2}
 											{...(color !== undefined ? { color } : {})}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -256,7 +260,7 @@ const IconDetailDialog = ({
 										<IconComponent
 											size={size}
 											{...(color !== undefined ? { color } : {})}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -265,7 +269,7 @@ const IconDetailDialog = ({
 										<IconComponent
 											size={size / 1.5}
 											{...(color !== undefined ? { color } : {})}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -274,9 +278,9 @@ const IconDetailDialog = ({
 							<div className="col-span-3 flex items-center justify-center p-12 border border-border rounded-lg bg-background">
 								<Suspense fallback={<div>Loading...</div>}>
 									<IconComponent
-										size={size * 4}
+										size={size * 2}
 										{...(color !== undefined ? { color } : {})}
-										{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+										strokeWidth={strokeWidth}
 									/>
 								</Suspense>
 							</div>
@@ -288,7 +292,7 @@ const IconDetailDialog = ({
 									<span className="font-medium">Version:</span> v0.0.2
 								</div>
 								<div>
-									<span className="font-medium">Variant:</span> {icon.variant}
+									<span className="font-medium">Category:</span> <span className="capitalize">{icon.category}</span>
 								</div>
 								<div className="col-span-2">
 									<span className="font-medium">Contributor:</span>

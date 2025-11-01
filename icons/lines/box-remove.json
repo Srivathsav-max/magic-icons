@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "box-remove",
+  "category": "delivery",
+  "tags": [
+    "box-remove",
+    "delivery"
+  ],
+  "description": "box-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

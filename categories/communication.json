@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "icon": "communication",
+  "title": "Communication",
+  "description": "",
+  "weight": 0
+}

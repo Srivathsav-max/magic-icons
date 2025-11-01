@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "backward-five-seconds",
+  "category": "communication",
+  "tags": [
+    "backward-five-seconds",
+    "communication"
+  ],
+  "description": "backward-five-seconds icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "brifecase-cross",
+  "category": "school",
+  "tags": [
+    "brifecase-cross",
+    "school"
+  ],
+  "description": "brifecase-cross icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

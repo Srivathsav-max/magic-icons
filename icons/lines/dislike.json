@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "dislike",
+  "category": "essentials",
+  "tags": [
+    "dislike",
+    "essentials"
+  ],
+  "description": "dislike icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

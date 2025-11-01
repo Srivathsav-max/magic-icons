@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "search-zoom-in-three",
+  "category": "essentials",
+  "tags": [
+    "search-zoom-in-three",
+    "essentials"
+  ],
+  "description": "search-zoom-in-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

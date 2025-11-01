@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "close-square",
+  "category": "essentials",
+  "tags": [
+    "close-square",
+    "essentials"
+  ],
+  "description": "close-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

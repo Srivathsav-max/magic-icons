@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "sms-edit",
+  "category": "communication",
+  "tags": [
+    "sms-edit",
+    "communication"
+  ],
+  "description": "sms-edit icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

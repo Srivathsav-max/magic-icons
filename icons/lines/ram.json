@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "ram",
+  "category": "electronics",
+  "tags": [
+    "ram",
+    "electronics"
+  ],
+  "description": "ram icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

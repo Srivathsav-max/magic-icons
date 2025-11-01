@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "message-remove",
+  "category": "communication",
+  "tags": [
+    "message-remove",
+    "communication"
+  ],
+  "description": "message-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

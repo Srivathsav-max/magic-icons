@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "airplane-square",
+  "category": "transportation",
+  "tags": [
+    "airplane-square",
+    "transportation"
+  ],
+  "description": "airplane-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "voice-cricle",
+  "category": "communication",
+  "tags": [
+    "voice-cricle",
+    "communication"
+  ],
+  "description": "voice-cricle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

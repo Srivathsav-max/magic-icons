@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "airplane",
+  "category": "transportation",
+  "tags": [
+    "airplane",
+    "transportation"
+  ],
+  "description": "airplane icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

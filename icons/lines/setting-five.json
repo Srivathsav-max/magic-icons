@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "setting-five",
+  "category": "essentials",
+  "tags": [
+    "setting-five",
+    "essentials"
+  ],
+  "description": "setting-five icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

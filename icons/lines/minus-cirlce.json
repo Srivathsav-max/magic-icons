@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "minus-cirlce",
+  "category": "essentials",
+  "tags": [
+    "minus-cirlce",
+    "essentials"
+  ],
+  "description": "minus-cirlce icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

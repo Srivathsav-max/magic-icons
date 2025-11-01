@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "grammerly",
+  "category": "essentials",
+  "tags": [
+    "grammerly",
+    "essentials"
+  ],
+  "description": "grammerly icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

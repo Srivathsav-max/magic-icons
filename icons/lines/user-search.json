@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "user-search",
+  "category": "users",
+  "tags": [
+    "user-search",
+    "users"
+  ],
+  "description": "user-search icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

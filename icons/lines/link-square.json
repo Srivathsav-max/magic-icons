@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "link-square",
+  "category": "content",
+  "tags": [
+    "link-square",
+    "content"
+  ],
+  "description": "link-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

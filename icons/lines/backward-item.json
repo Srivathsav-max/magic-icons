@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "backward-item",
+  "category": "tools",
+  "tags": [
+    "backward-item",
+    "tools"
+  ],
+  "description": "backward-item icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "photoshop",
+  "category": "brands",
+  "tags": [
+    "photoshop",
+    "brands"
+  ],
+  "description": "photoshop icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

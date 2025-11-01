@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "security-safe",
+  "category": "security",
+  "tags": [
+    "security-safe",
+    "security"
+  ],
+  "description": "security-safe icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

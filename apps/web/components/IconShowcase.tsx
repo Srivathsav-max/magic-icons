@@ -9,8 +9,7 @@ import {
 	PopoverTrigger,
 	ScrollArea,
 } from "@magic-icons/ui";
-import { Settings } from "lucide-react";
-import { ArrowLeftTwo01, Close01, Moon01, Search01, Setting01, Sun01 } from "magic-icons";
+import { ArrowLeftTwo, Cross, Moon, Search, Setting, Sun } from "magic-icons";
 import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
@@ -20,47 +19,26 @@ import Sidebar from "@/components/Sidebar";
 
 interface IconData {
 	name: string;
-	originalName: string;
-	baseName: string;
-	path: string;
-	variant: string;
+	componentName: string;
 	category: string;
-	supportsStrokeWidth: boolean;
-	defaultStrokeWidth: number;
-	fillType: string;
+	tags: string[];
+	description: string;
+	aliases: string[];
+	deprecated: boolean;
 }
 
 interface VariantConfig {
 	id: string;
 	name: string;
-	suffix: string;
 	description: string;
 	defaultStrokeWidth: number;
 	supportsStrokeWidth: boolean;
 	fillType: string;
-	order: number;
-	recommended: boolean;
-}
-
-interface CategoryData {
-	label: string;
-	keywords: string[];
 }
 
 interface MetadataType {
+	variant: VariantConfig;
 	icons: IconData[];
-	variants: VariantConfig[];
-	categories: Record<string, CategoryData>;
-	defaultSettings: {
-		size: number;
-		color: string;
-		strokeWidth: number;
-	};
-	stats: {
-		total: number;
-		byVariant: Record<string, number>;
-		byCategory: Record<string, number>;
-	};
 }
 
 const IconShowcase = () => {
@@ -68,7 +46,6 @@ const IconShowcase = () => {
 	const [mounted, setMounted] = useState(false);
 	const [searchTerm, setSearchTerm] = useState("");
 	const [selectedCategory, setSelectedCategory] = useState<string>("all");
-	const [selectedVariant, setSelectedVariant] = useState<string>("all");
 	const [size, setSize] = useState(32);
 	const [color, setColor] = useState<string | undefined>(undefined);
 	const [strokeWidth, setStrokeWidth] = useState(2);
@@ -84,11 +61,9 @@ const IconShowcase = () => {
 		setMounted(true);
 		const params = new URLSearchParams(window.location.search);
 		const category = params.get("category");
-		const variant = params.get("variant");
 		const search = params.get("search");
 
 		if (category) setSelectedCategory(category);
-		if (variant) setSelectedVariant(variant);
 		if (search) setSearchTerm(search);
 	}, []);
 
@@ -97,30 +72,21 @@ const IconShowcase = () => {
 
 		const params = new URLSearchParams();
 		if (selectedCategory !== "all") params.set("category", selectedCategory);
-		if (selectedVariant !== "all") params.set("variant", selectedVariant);
 		if (searchTerm) params.set("search", searchTerm);
 
 		const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname;
 		window.history.replaceState({}, "", newUrl);
-	}, [selectedCategory, selectedVariant, searchTerm, mounted]);
+	}, [mounted, selectedCategory, searchTerm]);
 
 	const filteredIcons = useMemo(() => {
-		let icons = typedMetadata.icons;
-
-		if (selectedVariant !== "all") {
-			const normalizeVariant = (v: string) =>
-				v
-					.toLowerCase()
-					.replace(/([a-z])([A-Z])/g, "$1-$2")
-					.toLowerCase();
-			icons = icons.filter(
-				(icon) => normalizeVariant(icon.variant) === normalizeVariant(selectedVariant),
-			);
-		}
+		let icons = [...typedMetadata.icons];
 
 		if (searchTerm) {
-			icons = icons.filter((icon) =>
-				icon.originalName.toLowerCase().includes(searchTerm.toLowerCase()),
+			icons = icons.filter(
+				(icon) =>
+					icon.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+					icon.componentName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+					icon.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase())),
 			);
 		}
 
@@ -128,26 +94,23 @@ const IconShowcase = () => {
 			icons = icons.filter((icon) => icon.category === selectedCategory);
 		}
 
-		return icons.sort((a, b) => a.originalName.localeCompare(b.originalName));
-	}, [searchTerm, selectedCategory, selectedVariant, typedMetadata.icons]);
+		return icons.sort((a, b) => a.name.localeCompare(b.name));
+	}, [searchTerm, selectedCategory, typedMetadata.icons]);
 
-	const categories = Object.entries(typedMetadata.categories).map(([key, value]) => ({
-		key,
-		label: value.label,
-		count: typedMetadata.stats.byCategory[key] || 0,
-	}));
-
-	const variants = useMemo(
-		() => [
-			{ id: "all", name: "All", count: typedMetadata.stats.total },
-			...typedMetadata.variants.map((v) => ({
-				id: v.id,
-				name: v.name,
-				count: typedMetadata.stats.byVariant[v.name] || 0,
-			})),
-		],
-		[typedMetadata],
-	);
+	// Get unique categories from icons
+	const categories = useMemo(() => {
+		const categoryMap = new Map<string, number>();
+		typedMetadata.icons.forEach((icon) => {
+			categoryMap.set(icon.category, (categoryMap.get(icon.category) || 0) + 1);
+		});
+		return Array.from(categoryMap.entries())
+			.map(([key, count]) => ({
+				key,
+				label: key.charAt(0).toUpperCase() + key.slice(1),
+				count,
+			}))
+			.sort((a, b) => a.label.localeCompare(b.label));
+	}, [typedMetadata.icons]);
 
 	const handleIconClick = (icon: IconData) => {
 		setSelectedIcon(icon);
@@ -183,7 +146,7 @@ const IconShowcase = () => {
 							onClick={() => window.location.reload()}
 							className="shrink-0"
 						>
-							<ArrowLeftTwo01 className="h-5 w-5" />
+							<ArrowLeftTwo className="h-5 w-5" />
 						</Button>
 						<div className="flex-1" />
 						<Button
@@ -193,9 +156,9 @@ const IconShowcase = () => {
 							className="shrink-0"
 						>
 							{mounted && theme === "dark" ? (
-								<Sun01 className="h-5 w-5" />
+								<Sun className="h-5 w-5" />
 							) : (
-								<Moon01 className="h-5 w-5" />
+								<Moon className="h-5 w-5" />
 							)}
 						</Button>
 					</div>
@@ -206,7 +169,7 @@ const IconShowcase = () => {
 						<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 gap-4">
 							{filteredIcons.map((icon) => (
 								<IconCard
-									key={`${icon.variant}-${icon.name}`}
+									key={icon.name}
 									icon={icon}
 									size={size}
 									color={color}
@@ -239,7 +202,7 @@ const IconShowcase = () => {
 			{/* Floating Search Bar at Bottom */}
 			<div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50">
 				<div className="bg-background/95 rounded-full border border-border shadow-2xl px-2 py-2 flex items-center gap-2 min-w-[500px]">
-					<Search01 className="h-5 w-5 text-muted-foreground ml-3" />
+					<Search className="h-5 w-5 text-muted-foreground ml-3" />
 					<Input
 						type="text"
 						placeholder={`Search icons...`}
@@ -254,39 +217,14 @@ const IconShowcase = () => {
 							onClick={() => setSearchTerm("")}
 							className="h-8 w-8 rounded-full"
 						>
-							<Close01 className="h-4 w-4" />
+							<Cross className="h-4 w-4" />
 						</Button>
 					)}
-					<Popover>
-						<PopoverTrigger>
-							<Button variant="ghost" size="icon" className="h-10 w-10 rounded-full">
-								<Setting01 className="h-5 w-5" />
-							</Button>
-						</PopoverTrigger>
-						<PopoverContent className="w-80 mb-2" align="end">
-							<div className="space-y-4">
-								<div>
-									<h4 className="font-semibold mb-3">Filter by Variant</h4>
-									<div className="flex flex-wrap gap-2">
-										{variants.map((variant) => (
-											<Button
-												key={variant.id}
-												variant={selectedVariant === variant.id ? "default" : "outline"}
-												size="sm"
-												onClick={() => setSelectedVariant(variant.id)}
-												className="rounded-full"
-											>
-												{variant.name}
-												<Badge variant="secondary" className="ml-2 text-xs">
-													{variant.count}
-												</Badge>
-											</Button>
-										))}
-									</div>
-								</div>
-							</div>
-						</PopoverContent>
-					</Popover>
+					<div className="px-3">
+						<Badge variant="secondary" className="text-xs">
+							{filteredIcons.length} icons
+						</Badge>
+					</div>
 				</div>
 			</div>
 

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "format-circle",
+  "category": "grid",
+  "tags": [
+    "format-circle",
+    "grid"
+  ],
+  "description": "format-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

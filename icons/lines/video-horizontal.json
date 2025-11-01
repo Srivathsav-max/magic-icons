@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "video-horizontal",
+  "category": "communication",
+  "tags": [
+    "video-horizontal",
+    "communication"
+  ],
+  "description": "video-horizontal icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

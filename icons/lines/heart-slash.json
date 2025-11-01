@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "heart-slash",
+  "category": "essentials",
+  "tags": [
+    "heart-slash",
+    "essentials"
+  ],
+  "description": "heart-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

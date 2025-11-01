@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "music-play",
+  "category": "electronics",
+  "tags": [
+    "music-play",
+    "electronics"
+  ],
+  "description": "music-play icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

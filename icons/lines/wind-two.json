@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "wind-two",
+  "category": "weather",
+  "tags": [
+    "wind-two",
+    "weather"
+  ],
+  "description": "wind-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

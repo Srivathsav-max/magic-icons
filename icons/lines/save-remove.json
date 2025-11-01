@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "save-remove",
+  "category": "essentials",
+  "tags": [
+    "save-remove",
+    "essentials"
+  ],
+  "description": "save-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

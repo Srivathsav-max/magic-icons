@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "search-favorite-one",
+  "category": "essentials",
+  "tags": [
+    "search-favorite-one",
+    "essentials"
+  ],
+  "description": "search-favorite-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

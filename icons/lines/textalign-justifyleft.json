@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "textalign-justifyleft",
+  "category": "content",
+  "tags": [
+    "textalign-justifyleft",
+    "content"
+  ],
+  "description": "textalign-justifyleft icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

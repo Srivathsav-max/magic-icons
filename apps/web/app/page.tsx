@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@magic-icons/ui";
-import { ArrowRightTwo01, Check01, Copy01, Github04, Moon01, Sun01 } from "magic-icons";
+import { ArrowRightTwo, Check, Copy, Github, Moon, Sun } from "magic-icons";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import IconShowcase from "@/components/IconShowcase";
@@ -41,11 +41,7 @@ export default function Home() {
 					size="icon"
 					onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
 				>
-					{mounted && theme === "dark" ? (
-						<Sun01 className="h-5 w-5" />
-					) : (
-						<Moon01 className="h-5 w-5" />
-					)}
+					{mounted && theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
 				</Button>
 			</div>
 
@@ -85,7 +81,7 @@ export default function Home() {
 							size="icon"
 							className="h-12 w-12 shrink-0"
 						>
-							{copied ? <Check01 className="h-5 w-5" /> : <Copy01 className="h-5 w-5" />}
+							{copied ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
 						</Button>
 					</div>
 				</div>
@@ -94,7 +90,7 @@ export default function Home() {
 				<div className="flex items-center justify-center gap-4 flex-wrap">
 					<Button onClick={() => setShowShowcase(true)} size="lg" className="gap-2 text-base px-8">
 						Browse Icons
-						<ArrowRightTwo01 className="h-5 w-5" />
+						<ArrowRightTwo className="h-5 w-5" />
 					</Button>
 					<Button
 						variant="outline"
@@ -102,7 +98,7 @@ export default function Home() {
 						className="gap-2 text-base px-8"
 						onClick={() => window.open("https://github.com/srivathsav-max/magic-icons", "_blank")}
 					>
-						<Github04 className="h-5 w-5" />
+						<Github className="h-5 w-5" />
 						View on GitHub
 					</Button>
 				</div>

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "archive-minus",
+  "category": "essentials",
+  "tags": [
+    "archive-minus",
+    "essentials"
+  ],
+  "description": "archive-minus icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

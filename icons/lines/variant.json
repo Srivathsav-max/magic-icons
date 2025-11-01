@@ -1,0 +1,9 @@
+{
+	"$schema": "../../variant.schema.json",
+	"id": "lines",
+	"name": "Lines",
+	"description": "Clean line-based icons with stroke",
+	"defaultStrokeWidth": 2,
+	"supportsStrokeWidth": true,
+	"fillType": "stroke"
+}

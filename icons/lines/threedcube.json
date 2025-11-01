@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "threedcube",
+  "category": "essentials",
+  "tags": [
+    "threedcube",
+    "essentials"
+  ],
+  "description": "threedcube icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

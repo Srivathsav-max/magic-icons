@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "calendar-remove",
+  "category": "essentials",
+  "tags": [
+    "calendar-remove",
+    "essentials"
+  ],
+  "description": "calendar-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

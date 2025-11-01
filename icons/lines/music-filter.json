@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "music-filter",
+  "category": "communication",
+  "tags": [
+    "music-filter",
+    "communication"
+  ],
+  "description": "music-filter icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

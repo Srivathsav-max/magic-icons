@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "folder-connection",
+  "category": "electronics",
+  "tags": [
+    "folder-connection",
+    "electronics"
+  ],
+  "description": "folder-connection icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

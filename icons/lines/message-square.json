@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "message-square",
+  "category": "communication",
+  "tags": [
+    "message-square",
+    "communication"
+  ],
+  "description": "message-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "logout-one",
+  "category": "arrows",
+  "tags": [
+    "logout-one",
+    "arrows"
+  ],
+  "description": "logout-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

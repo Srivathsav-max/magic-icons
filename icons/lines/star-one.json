@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "star-one",
+  "category": "essentials",
+  "tags": [
+    "star-one",
+    "essentials"
+  ],
+  "description": "star-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

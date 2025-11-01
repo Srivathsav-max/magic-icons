@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "threesquare",
+  "category": "grid",
+  "tags": [
+    "threesquare",
+    "grid"
+  ],
+  "description": "threesquare icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

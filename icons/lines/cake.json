@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "cake",
+  "category": "essentials",
+  "tags": [
+    "cake",
+    "essentials"
+  ],
+  "description": "cake icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

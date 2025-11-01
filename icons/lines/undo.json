@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "undo",
+  "category": "arrows",
+  "tags": [
+    "undo",
+    "arrows"
+  ],
+  "description": "undo icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

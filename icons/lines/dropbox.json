@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "dropbox",
+  "category": "brands",
+  "tags": [
+    "dropbox",
+    "brands"
+  ],
+  "description": "dropbox icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

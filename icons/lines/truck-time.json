@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "truck-time",
+  "category": "delivery",
+  "tags": [
+    "truck-time",
+    "delivery"
+  ],
+  "description": "truck-time icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

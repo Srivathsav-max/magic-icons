@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "notification-status",
+  "category": "essentials",
+  "tags": [
+    "notification-status",
+    "essentials"
+  ],
+  "description": "notification-status icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

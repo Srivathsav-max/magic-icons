@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "layer",
+  "category": "tools",
+  "tags": [
+    "layer",
+    "tools"
+  ],
+  "description": "layer icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

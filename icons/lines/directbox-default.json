@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "directbox-default",
+  "category": "communication",
+  "tags": [
+    "directbox-default",
+    "communication"
+  ],
+  "description": "directbox-default icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

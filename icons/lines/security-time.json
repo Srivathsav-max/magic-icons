@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "security-time",
+  "category": "essentials",
+  "tags": [
+    "security-time",
+    "essentials"
+  ],
+  "description": "security-time icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

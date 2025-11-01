@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "search-status",
+  "category": "essentials",
+  "tags": [
+    "search-status",
+    "essentials"
+  ],
+  "description": "search-status icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

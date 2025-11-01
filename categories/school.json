@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "icon": "school",
+  "title": "School",
+  "description": "",
+  "weight": 0
+}

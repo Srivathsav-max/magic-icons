@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "add",
+  "category": "essentials",
+  "tags": [
+    "add",
+    "essentials"
+  ],
+  "description": "add icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

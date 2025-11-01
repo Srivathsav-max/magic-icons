@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "wallet-remove",
+  "category": "money",
+  "tags": [
+    "wallet-remove",
+    "money"
+  ],
+  "description": "wallet-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

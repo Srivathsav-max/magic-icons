@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "truck-remove",
+  "category": "delivery",
+  "tags": [
+    "truck-remove",
+    "delivery"
+  ],
+  "description": "truck-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

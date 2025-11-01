@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "keyboard-open",
+  "category": "electronics",
+  "tags": [
+    "keyboard-open",
+    "electronics"
+  ],
+  "description": "keyboard-open icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

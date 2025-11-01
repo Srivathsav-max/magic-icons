@@ -1,7 +1,7 @@
 "use client";
 
 import { Select as SelectPrimitive } from "@base-ui-components/react/select";
-import { ArrowDown01, ArrowDownUp01, ArrowUp01 } from "magic-icons";
+import { ArrowDown, ArrowThree, ArrowUp } from "magic-icons";
 
 import { cn } from "../../lib/utils";
 
@@ -28,7 +28,7 @@ function SelectTrigger({
 		>
 			{children}
 			<SelectPrimitive.Icon data-slot="select-icon">
-				<ArrowDownUp01 className="-me-1 size-4 opacity-72" />
+				<ArrowThree className="-me-1 size-4 opacity-72" />
 			</SelectPrimitive.Icon>
 		</SelectPrimitive.Trigger>
 	);
@@ -71,7 +71,7 @@ function SelectPopup({
 						className="top-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:top-px before:h-[200%] before:rounded-t-[calc(var(--radius-lg)-1px)] before:bg-gradient-to-b before:from-popover before:from-50%"
 						data-slot="select-scroll-up-arrow"
 					>
-						<ArrowUp01 className="relative size-4" />
+						<ArrowUp className="relative size-4" />
 					</SelectPrimitive.ScrollUpArrow>
 					<span className="relative block h-full rounded-lg border bg-popover bg-clip-padding before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--radius-lg)-1px)] before:shadow-lg dark:not-in-data-[slot=group]:bg-clip-border">
 						<SelectPrimitive.List
@@ -88,7 +88,7 @@ function SelectPopup({
 						className="bottom-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:bottom-px before:h-[200%] before:rounded-b-[calc(var(--radius-lg)-1px)] before:bg-gradient-to-t before:from-popover before:from-50%"
 						data-slot="select-scroll-down-arrow"
 					>
-						<ArrowDown01 className="relative size-4" />
+						<ArrowDown className="relative size-4" />
 					</SelectPrimitive.ScrollDownArrow>
 				</SelectPrimitive.Popup>
 			</SelectPrimitive.Positioner>

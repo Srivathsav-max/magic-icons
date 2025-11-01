@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "clipboard",
+  "category": "school",
+  "tags": [
+    "clipboard",
+    "school"
+  ],
+  "description": "clipboard icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "shield-tick",
+  "category": "security",
+  "tags": [
+    "shield-tick",
+    "security"
+  ],
+  "description": "shield-tick icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

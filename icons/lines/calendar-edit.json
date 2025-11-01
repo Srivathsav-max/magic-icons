@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "calendar-edit",
+  "category": "essentials",
+  "tags": [
+    "calendar-edit",
+    "essentials"
+  ],
+  "description": "calendar-edit icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

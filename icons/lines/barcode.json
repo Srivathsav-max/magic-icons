@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "barcode",
+  "category": "shop",
+  "tags": [
+    "barcode",
+    "shop"
+  ],
+  "description": "barcode icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

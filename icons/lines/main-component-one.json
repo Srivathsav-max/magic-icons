@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "main-component-one",
+  "category": "tools",
+  "tags": [
+    "main-component-one",
+    "tools"
+  ],
+  "description": "main-component-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

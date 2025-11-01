@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "hashtag-up",
+  "category": "programing",
+  "tags": [
+    "hashtag-up",
+    "programing"
+  ],
+  "description": "hashtag-up icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

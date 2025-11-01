@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "align-bottom",
+  "category": "grid",
+  "tags": [
+    "align-bottom",
+    "grid"
+  ],
+  "description": "align-bottom icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "maximize-two",
+  "category": "grid",
+  "tags": [
+    "maximize-two",
+    "grid"
+  ],
+  "description": "maximize-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

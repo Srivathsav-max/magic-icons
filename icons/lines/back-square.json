@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "back-square",
+  "category": "arrows",
+  "tags": [
+    "back-square",
+    "arrows"
+  ],
+  "description": "back-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

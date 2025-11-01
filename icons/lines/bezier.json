@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bezier",
+  "category": "tools",
+  "tags": [
+    "bezier",
+    "tools"
+  ],
+  "description": "bezier icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

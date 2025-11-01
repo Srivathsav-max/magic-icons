@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "hierarchy-three",
+  "category": "programing",
+  "tags": [
+    "hierarchy-three",
+    "programing"
+  ],
+  "description": "hierarchy-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

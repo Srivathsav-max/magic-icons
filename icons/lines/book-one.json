@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "book-one",
+  "category": "school",
+  "tags": [
+    "book-one",
+    "school"
+  ],
+  "description": "book-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

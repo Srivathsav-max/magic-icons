@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "folder-open",
+  "category": "files",
+  "tags": [
+    "folder-open",
+    "files"
+  ],
+  "description": "folder-open icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

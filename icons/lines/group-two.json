@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "group-two",
+  "category": "tools",
+  "tags": [
+    "group-two",
+    "tools"
+  ],
+  "description": "group-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

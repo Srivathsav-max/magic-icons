@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "archive-slash",
+  "category": "essentials",
+  "tags": [
+    "archive-slash",
+    "essentials"
+  ],
+  "description": "archive-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

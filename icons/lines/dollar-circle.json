@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "dollar-circle",
+  "category": "money",
+  "tags": [
+    "dollar-circle",
+    "money"
+  ],
+  "description": "dollar-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

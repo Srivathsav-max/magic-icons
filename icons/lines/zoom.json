@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "zoom",
+  "category": "brands",
+  "tags": [
+    "zoom",
+    "brands"
+  ],
+  "description": "zoom icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

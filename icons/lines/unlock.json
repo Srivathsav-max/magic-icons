@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "unlock",
+  "category": "security",
+  "tags": [
+    "unlock",
+    "security"
+  ],
+  "description": "unlock icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

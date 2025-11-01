@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "wallet-check",
+  "category": "money",
+  "tags": [
+    "wallet-check",
+    "money"
+  ],
+  "description": "wallet-check icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

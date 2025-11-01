@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "arrow-right",
+  "category": "arrows",
+  "tags": [
+    "arrow-right",
+    "arrows"
+  ],
+  "description": "arrow-right icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

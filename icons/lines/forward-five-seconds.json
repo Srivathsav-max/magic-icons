@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "forward-five-seconds",
+  "category": "communication",
+  "tags": [
+    "forward-five-seconds",
+    "communication"
+  ],
+  "description": "forward-five-seconds icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

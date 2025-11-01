@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "candle",
+  "category": "essentials",
+  "tags": [
+    "candle",
+    "essentials"
+  ],
+  "description": "candle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

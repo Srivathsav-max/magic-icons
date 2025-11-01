@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "grid-nine",
+  "category": "grid",
+  "tags": [
+    "grid-nine",
+    "grid"
+  ],
+  "description": "grid-nine icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

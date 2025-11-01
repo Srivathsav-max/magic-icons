@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "brush-three",
+  "category": "tools",
+  "tags": [
+    "brush-three",
+    "tools"
+  ],
+  "description": "brush-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

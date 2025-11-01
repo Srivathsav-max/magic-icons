@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "pause-circle",
+  "category": "communication",
+  "tags": [
+    "pause-circle",
+    "communication"
+  ],
+  "description": "pause-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

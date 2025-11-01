@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "flash-slash",
+  "category": "essentials",
+  "tags": [
+    "flash-slash",
+    "essentials"
+  ],
+  "description": "flash-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

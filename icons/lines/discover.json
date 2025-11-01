@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "discover",
+  "category": "location",
+  "tags": [
+    "discover",
+    "location"
+  ],
+  "description": "discover icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -12,15 +12,14 @@
 	"scripts": {
 		"dev": "turbo run dev",
 		"dev:web": "turbo run dev --filter=web",
-		"build:icons": "turbo run build:icons --filter=magic-icons",
+		"dev:studio": "turbo run dev --filter=studio",
+		"generate:icons": "bun run scripts/generate-icons.mts",
+		"build:icons": "bun run generate:icons && turbo run build --filter=magic-icons",
 		"build:lib": "turbo run build --filter=magic-icons",
 		"build:web": "turbo run build --filter=web",
 		"build": "turbo run build",
 		"lint": "turbo run lint",
-		"start:web": "turbo run start --filter=web",
-		"icons:analyze": "node scripts/analyze-icon-variants.js",
-		"icons:sync-stroke": "node scripts/sync-stroke-variants.js && bun run build:icons",
-		"icons:fix-stroke": "node scripts/fix-stroke-widths.js && bun run build:icons"
+		"start:web": "turbo run start --filter=web"
 	},
 	"author": "Jaya Raj Srivathsav Adari",
 	"license": "MIT",

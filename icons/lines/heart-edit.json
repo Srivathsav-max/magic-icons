@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "heart-edit",
+  "category": "essentials",
+  "tags": [
+    "heart-edit",
+    "essentials"
+  ],
+  "description": "heart-edit icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "text-bold",
+  "category": "content",
+  "tags": [
+    "text-bold",
+    "content"
+  ],
+  "description": "text-bold icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

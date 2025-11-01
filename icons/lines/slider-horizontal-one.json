@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "slider-horizontal-one",
+  "category": "grid",
+  "tags": [
+    "slider-horizontal-one",
+    "grid"
+  ],
+  "description": "slider-horizontal-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

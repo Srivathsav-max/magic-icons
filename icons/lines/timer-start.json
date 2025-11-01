@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "timer-start",
+  "category": "essentials",
+  "tags": [
+    "timer-start",
+    "essentials"
+  ],
+  "description": "timer-start icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

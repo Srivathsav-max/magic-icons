@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "notification-one",
+  "category": "essentials",
+  "tags": [
+    "notification-one",
+    "essentials"
+  ],
+  "description": "notification-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

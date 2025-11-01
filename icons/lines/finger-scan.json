@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "finger-scan",
+  "category": "security",
+  "tags": [
+    "finger-scan",
+    "security"
+  ],
+  "description": "finger-scan icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

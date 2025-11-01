@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "arrow-square-down",
+  "category": "arrows",
+  "tags": [
+    "arrow-square-down",
+    "arrows"
+  ],
+  "description": "arrow-square-down icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

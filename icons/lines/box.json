@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "box",
+  "category": "delivery",
+  "tags": [
+    "box",
+    "delivery"
+  ],
+  "description": "box icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "toggle-off-circle",
+  "category": "essentials",
+  "tags": [
+    "toggle-off-circle",
+    "essentials"
+  ],
+  "description": "toggle-off-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

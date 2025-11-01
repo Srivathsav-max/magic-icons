@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "tag-right",
+  "category": "essentials",
+  "tags": [
+    "tag-right",
+    "essentials"
+  ],
+  "description": "tag-right icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

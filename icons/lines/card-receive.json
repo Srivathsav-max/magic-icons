@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "card-receive",
+  "category": "money",
+  "tags": [
+    "card-receive",
+    "money"
+  ],
+  "description": "card-receive icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

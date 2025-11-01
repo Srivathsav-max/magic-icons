@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "lamp-slash",
+  "category": "essentials",
+  "tags": [
+    "lamp-slash",
+    "essentials"
+  ],
+  "description": "lamp-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

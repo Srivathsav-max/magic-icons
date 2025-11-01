@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "driver-refresh",
+  "category": "electronics",
+  "tags": [
+    "driver-refresh",
+    "electronics"
+  ],
+  "description": "driver-refresh icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

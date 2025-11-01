@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "smileys",
+  "category": "essentials",
+  "tags": [
+    "smileys",
+    "essentials"
+  ],
+  "description": "smileys icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

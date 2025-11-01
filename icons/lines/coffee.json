@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "coffee",
+  "category": "essentials",
+  "tags": [
+    "coffee",
+    "essentials"
+  ],
+  "description": "coffee icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

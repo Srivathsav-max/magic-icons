@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "cloud-cross",
+  "category": "weather",
+  "tags": [
+    "cloud-cross",
+    "weather"
+  ],
+  "description": "cloud-cross icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

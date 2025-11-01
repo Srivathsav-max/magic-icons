@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "receive-square-two",
+  "category": "arrows",
+  "tags": [
+    "receive-square-two",
+    "arrows"
+  ],
+  "description": "receive-square-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

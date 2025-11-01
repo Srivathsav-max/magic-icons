@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "export-three",
+  "category": "arrows",
+  "tags": [
+    "export-three",
+    "arrows"
+  ],
+  "description": "export-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

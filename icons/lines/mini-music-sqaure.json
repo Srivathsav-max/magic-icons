@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "mini-music-sqaure",
+  "category": "communication",
+  "tags": [
+    "mini-music-sqaure",
+    "communication"
+  ],
+  "description": "mini-music-sqaure icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

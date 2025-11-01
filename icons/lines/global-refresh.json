@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "global-refresh",
+  "category": "location",
+  "tags": [
+    "global-refresh",
+    "location"
+  ],
+  "description": "global-refresh icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

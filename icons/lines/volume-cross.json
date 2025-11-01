@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "volume-cross",
+  "category": "communication",
+  "tags": [
+    "volume-cross",
+    "communication"
+  ],
+  "description": "volume-cross icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

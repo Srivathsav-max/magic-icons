@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "toggle-off",
+  "category": "essentials",
+  "tags": [
+    "toggle-off",
+    "essentials"
+  ],
+  "description": "toggle-off icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

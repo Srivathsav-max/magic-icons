@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "quote-down-square",
+  "category": "content",
+  "tags": [
+    "quote-down-square",
+    "content"
+  ],
+  "description": "quote-down-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

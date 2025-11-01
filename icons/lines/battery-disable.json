@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "battery-disable",
+  "category": "essentials",
+  "tags": [
+    "battery-disable",
+    "essentials"
+  ],
+  "description": "battery-disable icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

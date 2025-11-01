@@ -1,0 +1,42 @@
+{
+	"$id": "https://magicicons.dev/variant.schema.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Magic Icons variant configuration",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["$schema", "id", "name"],
+	"properties": {
+		"$schema": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string",
+			"description": "Unique identifier for the variant"
+		},
+		"name": {
+			"type": "string",
+			"description": "Display name of the variant"
+		},
+		"description": {
+			"type": "string",
+			"description": "Description of the variant style"
+		},
+		"defaultStrokeWidth": {
+			"type": "number",
+			"default": 2,
+			"description": "Default stroke width for this variant"
+		},
+		"supportsStrokeWidth": {
+			"type": "boolean",
+			"default": true,
+			"description": "Whether this variant supports customizable stroke width"
+		},
+		"fillType": {
+			"type": "string",
+			"enum": ["fill", "stroke", "mixed"],
+			"default": "stroke",
+			"description": "How the icon uses fill and stroke"
+		}
+	},
+	"description": "A JSON Schema for variant configuration in Magic Icons."
+}

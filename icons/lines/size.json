@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "size",
+  "category": "tools",
+  "tags": [
+    "size",
+    "tools"
+  ],
+  "description": "size icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

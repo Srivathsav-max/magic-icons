@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "music-circle",
+  "category": "communication",
+  "tags": [
+    "music-circle",
+    "communication"
+  ],
+  "description": "music-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "camera",
+  "category": "communication",
+  "tags": [
+    "camera",
+    "communication"
+  ],
+  "description": "camera icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

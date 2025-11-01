@@ -1,6 +1,6 @@
 import { mergeProps } from "@base-ui-components/react/merge-props";
 import { useRender } from "@base-ui-components/react/use-render";
-import { ArrowRightTwo01, MoreHorizontal01 } from "magic-icons";
+import { ArrowRightTwo, More } from "magic-icons";
 import type * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -66,7 +66,7 @@ function BreadcrumbSeparator({ children, className, ...props }: React.ComponentP
 			className={cn("opacity-72 [&>svg]:size-4", className)}
 			{...props}
 		>
-			{children ?? <ArrowRightTwo01 />}
+			{children ?? <ArrowRightTwo />}
 		</li>
 	);
 }
@@ -80,7 +80,7 @@ function BreadcrumbEllipsis({ className, ...props }: React.ComponentProps<"span"
 			className={className}
 			{...props}
 		>
-			<MoreHorizontal01 className="size-4" />
+			<More className="size-4" />
 			<span className="sr-only">More</span>
 		</span>
 	);

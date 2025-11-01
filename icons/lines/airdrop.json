@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "airdrop",
+  "category": "electronics",
+  "tags": [
+    "airdrop",
+    "electronics"
+  ],
+  "description": "airdrop icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

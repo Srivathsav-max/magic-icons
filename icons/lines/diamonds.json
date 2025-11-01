@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "diamonds",
+  "category": "essentials",
+  "tags": [
+    "diamonds",
+    "essentials"
+  ],
+  "description": "diamonds icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

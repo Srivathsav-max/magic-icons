@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "radar-two",
+  "category": "location",
+  "tags": [
+    "radar-two",
+    "location"
+  ],
+  "description": "radar-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

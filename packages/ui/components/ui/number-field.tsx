@@ -1,7 +1,7 @@
 "use client";
 
 import { NumberField as NumberFieldPrimitive } from "@base-ui-components/react/number-field";
-import { Minus01, Plus01 } from "magic-icons";
+import { Add, Minus } from "magic-icons";
 import * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -58,7 +58,7 @@ function NumberFieldDecrement({ className, ...props }: NumberFieldPrimitive.Decr
 			data-slot="number-field-decrement"
 			{...props}
 		>
-			<Minus01 />
+			<Minus />
 		</NumberFieldPrimitive.Decrement>
 	);
 }
@@ -73,7 +73,7 @@ function NumberFieldIncrement({ className, ...props }: NumberFieldPrimitive.Incr
 			data-slot="number-field-increment"
 			{...props}
 		>
-			<Plus01 />
+			<Add />
 		</NumberFieldPrimitive.Increment>
 	);
 }

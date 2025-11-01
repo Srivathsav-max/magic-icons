@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "play-circle",
+  "category": "communication",
+  "tags": [
+    "play-circle",
+    "communication"
+  ],
+  "description": "play-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

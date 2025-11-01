@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "gallery-slash",
+  "category": "communication",
+  "tags": [
+    "gallery-slash",
+    "communication"
+  ],
+  "description": "gallery-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

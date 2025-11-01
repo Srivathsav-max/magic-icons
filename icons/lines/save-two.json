@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "save-two",
+  "category": "essentials",
+  "tags": [
+    "save-two",
+    "essentials"
+  ],
+  "description": "save-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

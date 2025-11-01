@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "play-add",
+  "category": "communication",
+  "tags": [
+    "play-add",
+    "communication"
+  ],
+  "description": "play-add icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

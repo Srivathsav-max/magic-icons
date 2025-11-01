@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "status-up",
+  "category": "business",
+  "tags": [
+    "status-up",
+    "business"
+  ],
+  "description": "status-up icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

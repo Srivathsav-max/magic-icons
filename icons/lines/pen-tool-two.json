@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "pen-tool-two",
+  "category": "tools",
+  "tags": [
+    "pen-tool-two",
+    "tools"
+  ],
+  "description": "pen-tool-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

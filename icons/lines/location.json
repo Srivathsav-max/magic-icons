@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "location",
+  "category": "location",
+  "tags": [
+    "location",
+    "location"
+  ],
+  "description": "location icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "textalign-center",
+  "category": "content",
+  "tags": [
+    "textalign-center",
+    "content"
+  ],
+  "description": "textalign-center icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

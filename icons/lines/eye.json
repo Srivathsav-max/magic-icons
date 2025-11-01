@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "eye",
+  "category": "security",
+  "tags": [
+    "eye",
+    "security"
+  ],
+  "description": "eye icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

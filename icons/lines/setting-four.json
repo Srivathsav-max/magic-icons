@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "setting-four",
+  "category": "essentials",
+  "tags": [
+    "setting-four",
+    "essentials"
+  ],
+  "description": "setting-four icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

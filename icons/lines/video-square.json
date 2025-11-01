@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "video-square",
+  "category": "communication",
+  "tags": [
+    "video-square",
+    "communication"
+  ],
+  "description": "video-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

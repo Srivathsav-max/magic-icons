@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "element-plus",
+  "category": "grid",
+  "tags": [
+    "element-plus",
+    "grid"
+  ],
+  "description": "element-plus icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

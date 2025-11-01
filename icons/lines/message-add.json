@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "message-add",
+  "category": "communication",
+  "tags": [
+    "message-add",
+    "communication"
+  ],
+  "description": "message-add icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

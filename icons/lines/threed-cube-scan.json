@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "threed-cube-scan",
+  "category": "delivery",
+  "tags": [
+    "threed-cube-scan",
+    "delivery"
+  ],
+  "description": "threed-cube-scan icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

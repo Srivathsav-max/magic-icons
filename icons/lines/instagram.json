@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "instagram",
+  "category": "essentials",
+  "tags": [
+    "instagram",
+    "essentials"
+  ],
+  "description": "instagram icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

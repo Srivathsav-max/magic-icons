@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "lock-circle",
+  "category": "security",
+  "tags": [
+    "lock-circle",
+    "security"
+  ],
+  "description": "lock-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

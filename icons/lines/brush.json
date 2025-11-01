@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "brush",
+  "category": "tools",
+  "tags": [
+    "brush",
+    "tools"
+  ],
+  "description": "brush icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

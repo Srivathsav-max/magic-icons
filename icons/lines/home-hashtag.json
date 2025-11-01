@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "home-hashtag",
+  "category": "business",
+  "tags": [
+    "home-hashtag",
+    "business"
+  ],
+  "description": "home-hashtag icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "info-circle",
+  "category": "essentials",
+  "tags": [
+    "info-circle",
+    "essentials"
+  ],
+  "description": "info-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

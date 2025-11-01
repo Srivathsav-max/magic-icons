@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "message-search",
+  "category": "communication",
+  "tags": [
+    "message-search",
+    "communication"
+  ],
+  "description": "message-search icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

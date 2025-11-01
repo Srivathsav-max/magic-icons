@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "warning-2",
+  "category": "essentials",
+  "tags": [
+    "warning-2",
+    "essentials"
+  ],
+  "description": "warning-2 icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

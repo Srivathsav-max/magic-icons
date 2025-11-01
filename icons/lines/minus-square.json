@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "minus-square",
+  "category": "essentials",
+  "tags": [
+    "minus-square",
+    "essentials"
+  ],
+  "description": "minus-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

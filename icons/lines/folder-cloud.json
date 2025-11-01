@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "folder-cloud",
+  "category": "files",
+  "tags": [
+    "folder-cloud",
+    "files"
+  ],
+  "description": "folder-cloud icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

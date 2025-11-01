@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "align-vertically",
+  "category": "grid",
+  "tags": [
+    "align-vertically",
+    "grid"
+  ],
+  "description": "align-vertically icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

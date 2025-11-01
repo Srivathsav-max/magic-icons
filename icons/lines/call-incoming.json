@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "call-incoming",
+  "category": "essentials",
+  "tags": [
+    "call-incoming",
+    "essentials"
+  ],
+  "description": "call-incoming icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

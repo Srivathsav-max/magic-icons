@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "image",
+  "category": "communication",
+  "tags": [
+    "image",
+    "communication"
+  ],
+  "description": "image icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

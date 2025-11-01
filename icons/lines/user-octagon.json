@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "user-octagon",
+  "category": "users",
+  "tags": [
+    "user-octagon",
+    "users"
+  ],
+  "description": "user-octagon icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

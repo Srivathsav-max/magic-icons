@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "box-2",
+  "category": "essentials",
+  "tags": [
+    "box-2",
+    "essentials"
+  ],
+  "description": "box-2 icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

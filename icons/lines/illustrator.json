@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "illustrator",
+  "category": "brands",
+  "tags": [
+    "illustrator",
+    "brands"
+  ],
+  "description": "illustrator icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

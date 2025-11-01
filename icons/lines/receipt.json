@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "receipt",
+  "category": "money",
+  "tags": [
+    "receipt",
+    "money"
+  ],
+  "description": "receipt icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

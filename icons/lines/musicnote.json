@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "musicnote",
+  "category": "communication",
+  "tags": [
+    "musicnote",
+    "communication"
+  ],
+  "description": "musicnote icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "percentage-square",
+  "category": "money",
+  "tags": [
+    "percentage-square",
+    "money"
+  ],
+  "description": "percentage-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

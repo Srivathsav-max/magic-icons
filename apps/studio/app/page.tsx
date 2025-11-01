@@ -1,189 +1,173 @@
 "use client";
 
-import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from "@magic-icons/ui";
+import { Badge, Button, Card, CardContent } from "@magic-icons/ui";
+import { ArrowLeft, Check, Import } from "magic-icons";
 import { useState } from "react";
-import { IconList } from "@/components/icon-list";
-import { IconUpload } from "@/components/icon-upload";
-import { MetadataCreator } from "@/components/metadata-creator";
-import { MetadataEditor } from "@/components/metadata-editor";
-import { BulkUploadManager } from "@/components/bulk-upload-manager";
+import CategorySelector from "./components/CategorySelector";
+import IconLibrary from "./components/IconLibrary";
+import IconUploader from "./components/IconUploader";
+import VariantSelector from "./components/VariantSelector";
 
-export default function Home() {
-	const [selectedIconId, setSelectedIconId] = useState<string | undefined>();
-	const [selectedCategory, setSelectedCategory] = useState<string | undefined>();
-	const [refreshTrigger, setRefreshTrigger] = useState(0);
-	const [activeTab, setActiveTab] = useState<"upload" | "bulk" | "edit">("upload");
-	const [showMetadataForm, setShowMetadataForm] = useState(false);
-	const [uploadedIconId, setUploadedIconId] = useState<string | undefined>();
-	const [building, setBuilding] = useState(false);
-	const [buildMessage, setBuildMessage] = useState("");
+type View = "library" | "upload";
+type Step = "variant" | "category" | "upload";
 
-	const handleRefresh = () => {
-		setRefreshTrigger((prev) => prev + 1);
+export default function StudioPage() {
+	const [view, setView] = useState<View>("library");
+	const [step, setStep] = useState<Step>("variant");
+	const [selectedVariant, setSelectedVariant] = useState<string>("");
+	const [selectedCategory, setSelectedCategory] = useState<string>("");
+
+	const handleVariantSelect = (variant: string) => {
+		setSelectedVariant(variant);
+		setStep("category");
 	};
 
-	const handleUploadSuccess = (iconId?: string) => {
-		setUploadedIconId(iconId);
-		setShowMetadataForm(true);
-		handleRefresh();
+	const handleCategorySelect = (category: string) => {
+		setSelectedCategory(category);
+		setStep("upload");
 	};
 
-	const handleMetadataSuccess = () => {
-		setShowMetadataForm(false);
-		setUploadedIconId(undefined);
-		handleRefresh();
-	};
-
-	const handleBuild = async () => {
-		setBuilding(true);
-		setBuildMessage("Building icons...");
-
-		try {
-			const response = await fetch("/api/build", { method: "POST" });
-			const data = await response.json();
-
-			if (data.success) {
-				setBuildMessage("✅ Icons built successfully!");
-			} else {
-				setBuildMessage(`❌ Build failed: ${data.error}`);
-			}
-		} catch (error) {
-			setBuildMessage("❌ Failed to build icons");
-			console.error(error);
-		} finally {
-			setBuilding(false);
-			setTimeout(() => setBuildMessage(""), 5000);
+	const handleBack = () => {
+		if (step === "upload") {
+			setStep("category");
+		} else if (step === "category") {
+			setStep("variant");
+			setSelectedVariant("");
 		}
 	};
 
+	const startUpload = () => {
+		setView("upload");
+		setStep("variant");
+	};
+
+	const backToLibrary = () => {
+		setView("library");
+		setStep("variant");
+		setSelectedVariant("");
+		setSelectedCategory("");
+	};
+
 	return (
-		<div className="min-h-screen bg-background font-sans">
-			<header className="border-b border-border bg-card">
-				<div className="mx-auto max-w-7xl px-4 py-6">
-					<div className="flex items-center justify-between">
-						<div>
-							<h1 className="text-3xl font-bold">Magic Icons Studio</h1>
-							<p className="mt-2 text-muted-foreground">
-								Manage SVG icons and metadata for your icon library
-							</p>
+		<div className="min-h-screen bg-background">
+			<div className="container mx-auto px-4 py-8">
+				{/* Header */}
+				<Card className="mb-8">
+					<CardContent className="p-6">
+						<div className="flex items-center justify-between">
+							<div>
+								<h1 className="text-3xl font-bold text-foreground mb-2">Magic Icons Studio</h1>
+								<p className="text-muted-foreground">
+									{view === "library" ? "Manage your icon library" : "Create and upload new icons"}
+								</p>
+							</div>
+							<div className="flex gap-3">
+								{view === "upload" && (
+									<Button variant="outline" onClick={backToLibrary} className="gap-2">
+										<ArrowLeft className="h-4 w-4" />
+										Back to Library
+									</Button>
+								)}
+								{view === "library" && (
+									<Button onClick={startUpload} className="gap-2">
+										<Import className="h-4 w-4" />
+										Upload New Icons
+									</Button>
+								)}
+							</div>
 						</div>
-						<div className="flex flex-col items-end gap-2">
-							<Button
-								type="button"
-								onClick={handleBuild}
-								disabled={building}
-								size="lg"
-							>
-								{building ? "Building..." : "🔨 Build Icons"}
-							</Button>
-							{buildMessage && (
-								<p className="text-sm font-medium">{buildMessage}</p>
+					</CardContent>
+				</Card>
+
+				{/* Progress Steps - Only show during upload */}
+				{view === "upload" && (
+					<Card className="mb-8">
+						<CardContent className="p-6">
+							<div className="flex items-center justify-center space-x-4">
+								<StepIndicator
+									number={1}
+									label="Variant"
+									active={step === "variant"}
+									completed={step === "category" || step === "upload"}
+								/>
+								<div className="h-px w-16 bg-border" />
+								<StepIndicator
+									number={2}
+									label="Category"
+									active={step === "category"}
+									completed={step === "upload"}
+								/>
+								<div className="h-px w-16 bg-border" />
+								<StepIndicator
+									number={3}
+									label="Upload"
+									active={step === "upload"}
+									completed={false}
+								/>
+							</div>
+						</CardContent>
+					</Card>
+				)}
+
+				{/* Content */}
+				<div className="max-w-7xl mx-auto">
+					{view === "library" && <IconLibrary />}
+
+					{view === "upload" && (
+						<>
+							{step === "variant" && <VariantSelector onSelect={handleVariantSelect} />}
+
+							{step === "category" && (
+								<CategorySelector
+									variant={selectedVariant}
+									onSelect={handleCategorySelect}
+									onBack={handleBack}
+								/>
 							)}
-						</div>
-					</div>
+
+							{step === "upload" && (
+								<IconUploader
+									variant={selectedVariant}
+									category={selectedCategory}
+									onBack={handleBack}
+								/>
+							)}
+						</>
+					)}
 				</div>
-			</header>
+			</div>
+		</div>
+	);
+}
 
-			<main className="mx-auto max-w-7xl px-4 py-8">
-				{/* Tab Navigation */}
-				<Card className="mb-6">
-					<CardContent className="pt-6">
-						<div className="flex gap-2">
-							<Button
-								type="button"
-								variant={activeTab === "upload" ? "default" : "outline"}
-								onClick={() => setActiveTab("upload")}
-							>
-								Upload
-							</Button>
-							<Button
-								type="button"
-								variant={activeTab === "bulk" ? "default" : "outline"}
-								onClick={() => setActiveTab("bulk")}
-							>
-								Bulk Upload
-							</Button>
-							<Button
-								type="button"
-								variant={activeTab === "edit" ? "default" : "outline"}
-								onClick={() => setActiveTab("edit")}
-							>
-								Edit
-							</Button>
-						</div>
-					</CardContent>
-				</Card>
-
-				{/* Upload Tab */}
-				{activeTab === "upload" && (
-					<div className="grid gap-6 lg:grid-cols-2">
-						<IconUpload onUploadSuccess={handleUploadSuccess} />
-						{showMetadataForm && (
-							<MetadataCreator iconId={uploadedIconId} onCreateSuccess={handleMetadataSuccess} />
-						)}
-					</div>
-				)}
-
-				{/* Bulk Upload Tab */}
-				{activeTab === "bulk" && <BulkUploadManager onComplete={handleRefresh} />}
-
-				{/* Edit Tab */}
-				{activeTab === "edit" && (
-					<div className="grid gap-6 lg:grid-cols-3">
-						<div>
-							<IconList
-								onSelectIcon={(id, category) => {
-									setSelectedIconId(id);
-									setSelectedCategory(category);
-								}}
-								refreshTrigger={refreshTrigger}
-							/>
-						</div>
-						<div className="lg:col-span-2 space-y-6">
-							<MetadataEditor iconId={selectedIconId} onSaveSuccess={handleRefresh} />
-						</div>
-					</div>
-				)}
-
-				<Card className="mt-8">
-					<CardHeader>
-						<CardTitle>Quick Guide</CardTitle>
-						<CardDescription>Learn how to use the studio</CardDescription>
-					</CardHeader>
-					<CardContent>
-						<div className="space-y-3 text-sm">
-							<div>
-								<strong className="text-foreground">Upload Icon:</strong>
-								<span className="text-muted-foreground">
-									{" "}
-									Upload SVG files for your icons. Choose the category and variant type.
-								</span>
-							</div>
-							<div>
-								<strong className="text-foreground">Create Metadata:</strong>
-								<span className="text-muted-foreground">
-									{" "}
-									Create metadata entries for new icons with all necessary information.
-								</span>
-							</div>
-							<div>
-								<strong className="text-foreground">Edit Metadata:</strong>
-								<span className="text-muted-foreground">
-									{" "}
-									Select an icon from the list to edit its metadata, tags, and properties.
-								</span>
-							</div>
-							<div>
-								<strong className="text-foreground">Icon ID Format:</strong>
-								<span className="text-muted-foreground">
-									{" "}
-									Use kebab-case (e.g., arrow-up, user-profile).
-								</span>
-							</div>
-						</div>
-					</CardContent>
-				</Card>
-			</main>
+function StepIndicator({
+	number,
+	label,
+	active,
+	completed,
+}: {
+	number: number;
+	label: string;
+	active: boolean;
+	completed: boolean;
+}) {
+	return (
+		<div className="flex flex-col items-center">
+			<Badge
+				variant={completed || active ? "default" : "secondary"}
+				className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold transition-all ${
+					active ? "ring-4 ring-primary/20 scale-110" : ""
+				}`}
+			>
+				{completed ? <Check className="h-4 w-4" /> : number}
+			</Badge>
+			<span
+				className={`mt-2 text-sm font-medium ${
+					active ? "text-foreground" : "text-muted-foreground"
+				}`}
+			>
+				{label}
+			</span>
 		</div>
 	);
 }

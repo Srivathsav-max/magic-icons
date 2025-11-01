@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bluetooth",
+  "category": "electronics",
+  "tags": [
+    "bluetooth",
+    "electronics"
+  ],
+  "description": "bluetooth icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

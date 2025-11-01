@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bluetooth-two",
+  "category": "electronics",
+  "tags": [
+    "bluetooth-two",
+    "electronics"
+  ],
+  "description": "bluetooth-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

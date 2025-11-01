@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "profile-circle",
+  "category": "users",
+  "tags": [
+    "profile-circle",
+    "users"
+  ],
+  "description": "profile-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

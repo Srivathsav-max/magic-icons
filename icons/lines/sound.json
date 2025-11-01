@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "sound",
+  "category": "essentials",
+  "tags": [
+    "sound",
+    "essentials"
+  ],
+  "description": "sound icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

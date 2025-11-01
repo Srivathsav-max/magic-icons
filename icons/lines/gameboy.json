@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "gameboy",
+  "category": "electronics",
+  "tags": [
+    "gameboy",
+    "electronics"
+  ],
+  "description": "gameboy icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

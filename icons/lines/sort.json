@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "sort",
+  "category": "essentials",
+  "tags": [
+    "sort",
+    "essentials"
+  ],
+  "description": "sort icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

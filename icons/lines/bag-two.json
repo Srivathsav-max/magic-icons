@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bag-two",
+  "category": "shop",
+  "tags": [
+    "bag-two",
+    "shop"
+  ],
+  "description": "bag-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

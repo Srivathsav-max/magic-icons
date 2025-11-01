@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "user-remove",
+  "category": "users",
+  "tags": [
+    "user-remove",
+    "users"
+  ],
+  "description": "user-remove icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

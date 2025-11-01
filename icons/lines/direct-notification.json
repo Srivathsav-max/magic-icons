@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "direct-notification",
+  "category": "communication",
+  "tags": [
+    "direct-notification",
+    "communication"
+  ],
+  "description": "direct-notification icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

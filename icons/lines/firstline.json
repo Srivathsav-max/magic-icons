@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "firstline",
+  "category": "content",
+  "tags": [
+    "firstline",
+    "content"
+  ],
+  "description": "firstline icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

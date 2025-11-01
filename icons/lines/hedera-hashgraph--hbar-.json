@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "hedera-hashgraph--hbar-",
+  "category": "brands",
+  "tags": [
+    "hedera-hashgraph--hbar-",
+    "brands"
+  ],
+  "description": "hedera-hashgraph--hbar- icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

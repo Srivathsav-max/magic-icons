@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "mobile-programming",
+  "category": "programing",
+  "tags": [
+    "mobile-programming",
+    "programing"
+  ],
+  "description": "mobile-programming icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "speedometer",
+  "category": "essentials",
+  "tags": [
+    "speedometer",
+    "essentials"
+  ],
+  "description": "speedometer icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

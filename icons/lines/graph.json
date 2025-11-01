@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "graph",
+  "category": "business",
+  "tags": [
+    "graph",
+    "business"
+  ],
+  "description": "graph icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

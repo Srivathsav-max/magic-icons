@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "record",
+  "category": "communication",
+  "tags": [
+    "record",
+    "communication"
+  ],
+  "description": "record icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

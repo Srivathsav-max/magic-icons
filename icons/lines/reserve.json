@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "reserve",
+  "category": "essentials",
+  "tags": [
+    "reserve",
+    "essentials"
+  ],
+  "description": "reserve icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

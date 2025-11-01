@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "paintbucket",
+  "category": "tools",
+  "tags": [
+    "paintbucket",
+    "tools"
+  ],
+  "description": "paintbucket icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

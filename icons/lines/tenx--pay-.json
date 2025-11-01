@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "tenx--pay-",
+  "category": "brands",
+  "tags": [
+    "tenx--pay-",
+    "brands"
+  ],
+  "description": "tenx--pay- icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

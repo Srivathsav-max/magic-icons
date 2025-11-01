@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "sms-tracking",
+  "category": "communication",
+  "tags": [
+    "sms-tracking",
+    "communication"
+  ],
+  "description": "sms-tracking icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

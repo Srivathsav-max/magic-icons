@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "gallery-edit",
+  "category": "communication",
+  "tags": [
+    "gallery-edit",
+    "communication"
+  ],
+  "description": "gallery-edit icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

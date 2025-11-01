@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "group",
+  "category": "money",
+  "tags": [
+    "group",
+    "money"
+  ],
+  "description": "group icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "house-two",
+  "category": "buildings",
+  "tags": [
+    "house-two",
+    "buildings"
+  ],
+  "description": "house-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

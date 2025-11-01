@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "video-tick",
+  "category": "communication",
+  "tags": [
+    "video-tick",
+    "communication"
+  ],
+  "description": "video-tick icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "folder-minus",
+  "category": "files",
+  "tags": [
+    "folder-minus",
+    "files"
+  ],
+  "description": "folder-minus icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "tether--usdt-",
+  "category": "brands",
+  "tags": [
+    "tether--usdt-",
+    "brands"
+  ],
+  "description": "tether--usdt- icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

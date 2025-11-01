@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "search-zoom-out-three",
+  "category": "essentials",
+  "tags": [
+    "search-zoom-out-three",
+    "essentials"
+  ],
+  "description": "search-zoom-out-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "like-one",
+  "category": "essentials",
+  "tags": [
+    "like-one",
+    "essentials"
+  ],
+  "description": "like-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

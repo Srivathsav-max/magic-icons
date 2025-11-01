@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "ranking",
+  "category": "essentials",
+  "tags": [
+    "ranking",
+    "essentials"
+  ],
+  "description": "ranking icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

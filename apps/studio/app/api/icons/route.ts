@@ -3,8 +3,7 @@ import path from "node:path";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
-const ICONS_BASE_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "icons");
-const METADATA_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "metadata", "icons");
+const ICONS_DIR = path.join(process.cwd(), "..", "..", "icons", "lines");
 
 // GET: List all icons with their metadata
 export async function GET(request: NextRequest) {
@@ -12,13 +11,27 @@ export async function GET(request: NextRequest) {
 		const searchParams = request.nextUrl.searchParams;
 		const category = searchParams.get("category");
 
-		// Read all metadata files
-		const metadataFiles = fs.readdirSync(METADATA_DIR).filter((file) => file.endsWith(".json"));
+		// Read all JSON metadata files from icons/lines (excluding variant.json)
+		const files = fs.readdirSync(ICONS_DIR);
+		const metadataFiles = files.filter((file) => file.endsWith(".json") && file !== "variant.json");
 
 		const icons = metadataFiles.map((file) => {
-			const filePath = path.join(METADATA_DIR, file);
+			const filePath = path.join(ICONS_DIR, file);
+			const svgPath = path.join(ICONS_DIR, file.replace(".json", ".svg"));
 			const content = fs.readFileSync(filePath, "utf-8");
-			return JSON.parse(content);
+			const metadata = JSON.parse(content);
+
+			// Load SVG content if exists
+			let svgContent = "";
+			if (fs.existsSync(svgPath)) {
+				svgContent = fs.readFileSync(svgPath, "utf-8");
+			}
+
+			return {
+				...metadata,
+				id: metadata.name,
+				svgContent,
+			};
 		});
 
 		// Filter by category if provided
@@ -40,52 +53,40 @@ export async function POST(request: NextRequest) {
 		const formData = await request.formData();
 		const iconId = formData.get("iconId") as string;
 		const category = formData.get("category") as string;
-		const variant = formData.get("variant") as string;
 		const svgFile = formData.get("svgFile") as File;
 
-		if (!iconId || !category || !variant || !svgFile) {
+		if (!iconId || !category || !svgFile) {
 			return NextResponse.json(
 				{ success: false, error: "Missing required fields" },
 				{ status: 400 },
 			);
 		}
 
-		const categoryDir = path.join(ICONS_BASE_DIR, category);
-		if (!fs.existsSync(categoryDir)) {
-			fs.mkdirSync(categoryDir, { recursive: true });
+		// Ensure icons directory exists
+		if (!fs.existsSync(ICONS_DIR)) {
+			fs.mkdirSync(ICONS_DIR, { recursive: true });
 		}
 
-		const variantToNumeric: Record<string, string> = {
-			outline: "01",
-			broken: "02",
-			bulk: "03",
-			light: "04",
-			"two-tone": "05",
-		};
-
-		const numericSuffix = variantToNumeric[variant] || "01";
-
-		// Save SVG file with numeric suffix
+		// Save SVG file
 		const svgContent = await svgFile.text();
-		const fileName = `${iconId}-${numericSuffix}.svg`;
-		const svgPath = path.join(categoryDir, fileName);
+		const svgPath = path.join(ICONS_DIR, `${iconId}.svg`);
 		fs.writeFileSync(svgPath, svgContent);
 
-		// Create icon metadata JSON file with numeric suffix
-		const iconMetadataFileName = `${iconId}-${numericSuffix}.json`;
-		const iconMetadataPath = path.join(categoryDir, iconMetadataFileName);
-
+		// Create icon metadata JSON file
+		const metadataPath = path.join(ICONS_DIR, `${iconId}.json`);
 		const iconMetadata = {
-			$schema: "../icon.schema.json",
-			variant: variant,
-			contributors: ["Jaya Raj Srivathsav Adari"],
-			tags: [iconId],
-			categories: [category],
+			$schema: "../../icon.schema.json",
+			name: iconId,
+			category: category,
+			tags: [iconId, category],
+			description: `${iconId} icon`,
+			variant: "lines",
+			strokeWidth: 2,
 			aliases: [],
 			deprecated: false,
 		};
 
-		fs.writeFileSync(iconMetadataPath, JSON.stringify(iconMetadata, null, "\t"));
+		fs.writeFileSync(metadataPath, JSON.stringify(iconMetadata, null, 2));
 
 		return NextResponse.json({
 			success: true,

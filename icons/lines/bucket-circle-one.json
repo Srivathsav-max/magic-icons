@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "bucket-circle-one",
+  "category": "tools",
+  "tags": [
+    "bucket-circle-one",
+    "tools"
+  ],
+  "description": "bucket-circle-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

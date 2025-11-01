@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "smart-home",
+  "category": "essentials",
+  "tags": [
+    "smart-home",
+    "essentials"
+  ],
+  "description": "smart-home icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

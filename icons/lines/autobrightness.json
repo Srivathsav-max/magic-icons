@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "autobrightness",
+  "category": "essentials",
+  "tags": [
+    "autobrightness",
+    "essentials"
+  ],
+  "description": "autobrightness icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

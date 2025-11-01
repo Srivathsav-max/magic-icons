@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "code",
+  "category": "programing",
+  "tags": [
+    "code",
+    "programing"
+  ],
+  "description": "code icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "chart-success",
+  "category": "business",
+  "tags": [
+    "chart-success",
+    "business"
+  ],
+  "description": "chart-success icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

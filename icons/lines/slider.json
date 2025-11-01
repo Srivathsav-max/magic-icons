@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "slider",
+  "category": "essentials",
+  "tags": [
+    "slider",
+    "essentials"
+  ],
+  "description": "slider icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "blur-one",
+  "category": "tools",
+  "tags": [
+    "blur-one",
+    "tools"
+  ],
+  "description": "blur-one icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

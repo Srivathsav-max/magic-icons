@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "link-two",
+  "category": "content",
+  "tags": [
+    "link-two",
+    "content"
+  ],
+  "description": "link-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

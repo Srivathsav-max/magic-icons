@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "card",
+  "category": "money",
+  "tags": [
+    "card",
+    "money"
+  ],
+  "description": "card icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

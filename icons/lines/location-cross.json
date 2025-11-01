@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "location-cross",
+  "category": "location",
+  "tags": [
+    "location-cross",
+    "location"
+  ],
+  "description": "location-cross icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

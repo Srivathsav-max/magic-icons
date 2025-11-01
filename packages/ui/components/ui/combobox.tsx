@@ -1,7 +1,7 @@
 "use client";
 
 import { Combobox as ComboboxPrimitive } from "@base-ui-components/react/combobox";
-import { ArrowDownTwo01, Close01 } from "magic-icons";
+import { ArrowDownTwo, Cross } from "magic-icons";
 import * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -80,7 +80,7 @@ function ComboboxInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<ArrowDownTwo01 />
+					<ArrowDownTwo />
 				</ComboboxTrigger>
 			)}
 			{showClear && (
@@ -90,7 +90,7 @@ function ComboboxInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<Close01 />
+					<Cross />
 				</ComboboxClear>
 			)}
 		</div>
@@ -283,7 +283,7 @@ function ComboboxChipRemove(props: ComboboxPrimitive.ChipRemove.Props) {
 			aria-label="Remove"
 			{...props}
 		>
-			<Close01 />
+			<Cross />
 		</ComboboxPrimitive.ChipRemove>
 	);
 }

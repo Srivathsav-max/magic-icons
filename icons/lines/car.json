@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "car",
+  "category": "transportation",
+  "tags": [
+    "car",
+    "transportation"
+  ],
+  "description": "car icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

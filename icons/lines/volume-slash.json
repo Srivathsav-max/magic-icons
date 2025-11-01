@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "volume-slash",
+  "category": "communication",
+  "tags": [
+    "volume-slash",
+    "communication"
+  ],
+  "description": "volume-slash icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "danger",
+  "category": "essentials",
+  "tags": [
+    "danger",
+    "essentials"
+  ],
+  "description": "danger icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "text-italic",
+  "category": "content",
+  "tags": [
+    "text-italic",
+    "content"
+  ],
+  "description": "text-italic icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

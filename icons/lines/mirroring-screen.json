@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "mirroring-screen",
+  "category": "electronics",
+  "tags": [
+    "mirroring-screen",
+    "electronics"
+  ],
+  "description": "mirroring-screen icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

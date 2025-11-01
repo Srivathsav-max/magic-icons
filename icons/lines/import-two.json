@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "import-two",
+  "category": "arrows",
+  "tags": [
+    "import-two",
+    "arrows"
+  ],
+  "description": "import-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

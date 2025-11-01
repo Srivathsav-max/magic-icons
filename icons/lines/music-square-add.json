@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "music-square-add",
+  "category": "communication",
+  "tags": [
+    "music-square-add",
+    "communication"
+  ],
+  "description": "music-square-add icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

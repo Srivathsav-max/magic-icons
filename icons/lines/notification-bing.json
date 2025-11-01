@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "notification-bing",
+  "category": "essentials",
+  "tags": [
+    "notification-bing",
+    "essentials"
+  ],
+  "description": "notification-bing icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "chrome",
+  "category": "essentials",
+  "tags": [
+    "chrome",
+    "essentials"
+  ],
+  "description": "chrome icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

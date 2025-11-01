@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "cpu-setting",
+  "category": "electronics",
+  "tags": [
+    "cpu-setting",
+    "electronics"
+  ],
+  "description": "cpu-setting icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}
