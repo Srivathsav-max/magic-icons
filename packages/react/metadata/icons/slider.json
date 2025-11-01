@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Slider icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Slider01",
+      "svgPath": "icons/action/slider-01.svg",
+      "componentPath": "./components/icons/Outline/Slider01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Slider04",

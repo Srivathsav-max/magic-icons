@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Copy icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Copy01",
+      "svgPath": "icons/action/copy-01.svg",
+      "componentPath": "./components/icons/Outline/Copy01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Copy04",

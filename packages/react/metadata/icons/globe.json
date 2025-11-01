@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Globe icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Globe01",
+      "svgPath": "icons/action/globe-01.svg",
+      "componentPath": "./components/icons/Outline/Globe01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Globe04",

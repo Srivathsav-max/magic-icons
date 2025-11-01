@@ -12,6 +12,15 @@
   "aliases": [],
   "description": "ArrowSubUpLeft icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowSubUpLeft01",
+      "svgPath": "icons/action/arrow-sub-up-left-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowSubUpLeft01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ArrowSubUpLeft04",

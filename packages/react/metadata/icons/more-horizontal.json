@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "MoreHorizontal icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MoreHorizontal01",
+      "svgPath": "icons/action/more-horizontal-01.svg",
+      "componentPath": "./components/icons/Outline/MoreHorizontal01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MoreHorizontal04",

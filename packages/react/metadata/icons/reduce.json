@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Reduce icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Reduce01",
+      "svgPath": "icons/action/reduce-01.svg",
+      "componentPath": "./components/icons/Outline/Reduce01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Reduce04",

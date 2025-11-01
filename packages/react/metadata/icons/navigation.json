@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Navigation icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Navigation01",
+      "svgPath": "icons/action/navigation-01.svg",
+      "componentPath": "./components/icons/Outline/Navigation01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Navigation04",

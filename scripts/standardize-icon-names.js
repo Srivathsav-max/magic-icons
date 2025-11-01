@@ -1,4 +1,4 @@
-import { readdirSync, statSync, renameSync, existsSync } from "node:fs";
+import { existsSync, readdirSync, renameSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const ICONS_DIR = "./packages/react/icons";
@@ -41,7 +41,7 @@ function getAllSvgFiles(dir) {
 
 function parseFilename(filename) {
 	const name = filename.replace(".svg", "");
-	
+
 	// Check if already has numeric suffix
 	const numericMatch = name.match(/^(.+)-(\d{2})$/);
 	if (numericMatch) {
@@ -51,7 +51,7 @@ function parseFilename(filename) {
 			isNumeric: true,
 		};
 	}
-	
+
 	// Check for variant name suffix
 	for (const [variantName] of Object.entries(VARIANT_TO_NUMBER)) {
 		if (name.endsWith(`-${variantName}`)) {
@@ -62,7 +62,7 @@ function parseFilename(filename) {
 			};
 		}
 	}
-	
+
 	return null;
 }
 
@@ -85,31 +85,31 @@ function generateNewFilename(baseName, variant) {
 
 function standardizeIcons() {
 	console.log("🔍 Scanning for icons to standardize...\n");
-	
+
 	const allSvgFiles = getAllSvgFiles(ICONS_DIR);
 	const changes = [];
 	const duplicates = new Map(); // Track potential duplicates
-	
+
 	// First pass: analyze all files
 	for (const filePath of allSvgFiles) {
 		const pathParts = filePath.split(/[\\/]/);
 		const filename = pathParts.pop();
 		const dir = pathParts.join("\\"); // Use backslash for Windows
-		
+
 		const parsed = parseFilename(filename);
 		if (!parsed) {
 			console.log(`  ⚠ Skipping ${filename}: no variant detected`);
 			continue;
 		}
-		
+
 		const newFilename = generateNewFilename(parsed.baseName, parsed.variant);
 		const newPath = `${dir}\\${newFilename}`;
-		
+
 		// Check if already standardized
 		if (filename === newFilename) {
 			continue;
 		}
-		
+
 		// Check for potential conflicts
 		const key = `${dir}/${newFilename}`;
 		if (duplicates.has(key)) {
@@ -118,7 +118,7 @@ function standardizeIcons() {
 		} else {
 			duplicates.set(key, [filePath]);
 		}
-		
+
 		changes.push({
 			oldPath: filePath,
 			newPath,
@@ -129,14 +129,14 @@ function standardizeIcons() {
 			needsRename: !parsed.isNumeric,
 		});
 	}
-	
+
 	if (changes.length === 0) {
 		console.log("✅ All icons are already standardized!");
 		return;
 	}
-	
+
 	console.log(`Found ${changes.length} icons to standardize:\n`);
-	
+
 	// Group by category for better output
 	const byCategory = {};
 	for (const change of changes) {
@@ -146,7 +146,7 @@ function standardizeIcons() {
 		}
 		byCategory[category].push(change);
 	}
-	
+
 	// Display changes
 	for (const [category, items] of Object.entries(byCategory)) {
 		console.log(`\n📁 ${category}:`);
@@ -158,15 +158,15 @@ function standardizeIcons() {
 			}
 		}
 	}
-	
+
 	// Perform renames
 	console.log("\n🔄 Applying changes...\n");
 	let renamed = 0;
 	let errors = 0;
-	
+
 	for (const change of changes) {
 		if (!change.needsRename) continue;
-		
+
 		try {
 			// Check if target already exists
 			if (existsSync(change.newPath)) {
@@ -174,17 +174,17 @@ function standardizeIcons() {
 				errors++;
 				continue;
 			}
-			
+
 			// Rename SVG file
 			renameSync(change.oldPath, change.newPath);
-			
+
 			// Rename corresponding JSON file if it exists
 			const oldJsonPath = change.oldPath.replace(".svg", ".json");
 			const newJsonPath = change.newPath.replace(".svg", ".json");
 			if (existsSync(oldJsonPath)) {
 				renameSync(oldJsonPath, newJsonPath);
 			}
-			
+
 			console.log(`  ✓ Renamed: ${change.oldFilename} → ${change.newFilename}`);
 			renamed++;
 		} catch (error) {
@@ -192,7 +192,7 @@ function standardizeIcons() {
 			errors++;
 		}
 	}
-	
+
 	console.log(`\n✅ Standardization complete!`);
 	console.log(`   Renamed: ${renamed} files`);
 	if (errors > 0) {

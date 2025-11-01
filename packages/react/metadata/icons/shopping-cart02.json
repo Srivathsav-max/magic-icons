@@ -18,6 +18,15 @@
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "ShoppingCart0204",
+      "svgPath": "icons/action/shopping-cart-02-04.svg",
+      "componentPath": "./components/icons/Light/ShoppingCart0204",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {

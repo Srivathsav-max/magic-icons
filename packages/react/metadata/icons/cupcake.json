@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Cupcake icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Cupcake01",
+      "svgPath": "icons/action/cupcake-01.svg",
+      "componentPath": "./components/icons/Outline/Cupcake01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Cupcake04",

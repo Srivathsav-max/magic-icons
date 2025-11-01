@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "ArrowLeftRight icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowLeftRight01",
+      "svgPath": "icons/action/arrow-left-right-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowLeftRight01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ArrowLeftRight04",

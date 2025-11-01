@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Book icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Book01",
+      "svgPath": "icons/action/book-01.svg",
+      "componentPath": "./components/icons/Outline/Book01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Book04",

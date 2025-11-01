@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Leaf icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Leaf01",
+      "svgPath": "icons/action/leaf-01.svg",
+      "componentPath": "./components/icons/Outline/Leaf01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Leaf04",

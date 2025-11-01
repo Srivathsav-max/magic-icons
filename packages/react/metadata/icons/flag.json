@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Flag icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Flag01",
+      "svgPath": "icons/action/flag-01.svg",
+      "componentPath": "./components/icons/Outline/Flag01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Flag04",

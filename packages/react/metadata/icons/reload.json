@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Reload icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Reload01",
+      "svgPath": "icons/action/reload-01.svg",
+      "componentPath": "./components/icons/Outline/Reload01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Reload04",

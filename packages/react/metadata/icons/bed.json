@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Bed icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Bed01",
+      "svgPath": "icons/action/bed-01.svg",
+      "componentPath": "./components/icons/Outline/Bed01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Bed04",

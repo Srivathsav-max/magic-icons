@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Pil icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Pil01",
+      "svgPath": "icons/action/pil-01.svg",
+      "componentPath": "./components/icons/Outline/Pil01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Pil04",

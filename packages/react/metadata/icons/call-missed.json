@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "CallMissed icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CallMissed01",
+      "svgPath": "icons/communication/call-missed-01.svg",
+      "componentPath": "./components/icons/Outline/CallMissed01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "CallMissed04",

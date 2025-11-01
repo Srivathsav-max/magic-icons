@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "MenuAlt icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MenuAlt01",
+      "svgPath": "icons/action/menu-alt-01.svg",
+      "componentPath": "./components/icons/Outline/MenuAlt01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MenuAlt04",

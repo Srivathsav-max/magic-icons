@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Puzzle icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Puzzle01",
+      "svgPath": "icons/action/puzzle-01.svg",
+      "componentPath": "./components/icons/Outline/Puzzle01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Puzzle04",

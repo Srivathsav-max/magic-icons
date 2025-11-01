@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Rainbow icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Rainbow01",
+      "svgPath": "icons/action/rainbow-01.svg",
+      "componentPath": "./components/icons/Outline/Rainbow01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Rainbow04",

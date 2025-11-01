@@ -17,6 +17,15 @@
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "Heart01104",
+      "svgPath": "icons/action/heart-01-1-04.svg",
+      "componentPath": "./components/icons/Light/Heart01104",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {

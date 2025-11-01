@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "MessageLight icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MessageLight01",
+      "svgPath": "icons/action/message-light-01.svg",
+      "componentPath": "./components/icons/Outline/MessageLight01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MessageLight04",

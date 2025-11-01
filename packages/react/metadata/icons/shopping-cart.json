@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "ShoppingCart icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ShoppingCart01",
+      "svgPath": "icons/action/shopping-cart-01.svg",
+      "componentPath": "./components/icons/Outline/ShoppingCart01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ShoppingCart04",

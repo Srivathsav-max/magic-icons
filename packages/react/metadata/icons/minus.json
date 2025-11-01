@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Minus icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Minus01",
+      "svgPath": "icons/action/minus-01.svg",
+      "componentPath": "./components/icons/Outline/Minus01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Minus04",

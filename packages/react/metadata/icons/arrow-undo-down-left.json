@@ -12,6 +12,15 @@
   "aliases": [],
   "description": "ArrowUndoDownLeft icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowUndoDownLeft01",
+      "svgPath": "icons/action/arrow-undo-down-left-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowUndoDownLeft01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ArrowUndoDownLeft04",

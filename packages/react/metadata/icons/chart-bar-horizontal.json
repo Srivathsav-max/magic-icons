@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "ChartBarHorizontal icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChartBarHorizontal01",
+      "svgPath": "icons/action/chart-bar-horizontal-01.svg",
+      "componentPath": "./components/icons/Outline/ChartBarHorizontal01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ChartBarHorizontal04",

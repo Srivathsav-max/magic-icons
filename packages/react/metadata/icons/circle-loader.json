@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "CircleLoader icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CircleLoader01",
+      "svgPath": "icons/action/circle-loader-01.svg",
+      "componentPath": "./components/icons/Outline/CircleLoader01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "CircleLoader04",

@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Moon icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Moon01",
+      "svgPath": "icons/action/moon-01.svg",
+      "componentPath": "./components/icons/Outline/Moon01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Moon04",

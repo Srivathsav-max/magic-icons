@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "MessageOpenLight icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MessageOpenLight01",
+      "svgPath": "icons/action/message-open-light-01.svg",
+      "componentPath": "./components/icons/Outline/MessageOpenLight01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MessageOpenLight04",

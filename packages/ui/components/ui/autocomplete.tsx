@@ -1,7 +1,7 @@
 "use client";
 
 import { Autocomplete as AutocompletePrimitive } from "@base-ui-components/react/autocomplete";
-import { ArrowDownTwo04, Close04 } from "magic-icons";
+import { ArrowDownTwo01, Close01 } from "magic-icons";
 
 import { cn } from "../../lib/utils";
 import { Input } from "./input";
@@ -42,7 +42,7 @@ function AutocompleteInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<ArrowDownTwo04 />
+					<ArrowDownTwo01 />
 				</AutocompleteTrigger>
 			)}
 			{showClear && (
@@ -52,7 +52,7 @@ function AutocompleteInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<Close04 />
+					<Close01 />
 				</AutocompleteClear>
 			)}
 		</div>
@@ -177,7 +177,7 @@ function AutocompleteClear({ className, ...props }: AutocompletePrimitive.Clear.
 			)}
 			{...props}
 		>
-			<Close04 />
+			<Close01 />
 		</AutocompletePrimitive.Clear>
 	);
 }

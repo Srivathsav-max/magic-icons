@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "CallSilent icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CallSilent01",
+      "svgPath": "icons/communication/call-silent-01.svg",
+      "componentPath": "./components/icons/Outline/CallSilent01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "CallSilent04",

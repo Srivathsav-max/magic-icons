@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "FullScreenCorner icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "FullScreenCorner01",
+      "svgPath": "icons/action/full-screen-corner-01.svg",
+      "componentPath": "./components/icons/Outline/FullScreenCorner01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "FullScreenCorner04",

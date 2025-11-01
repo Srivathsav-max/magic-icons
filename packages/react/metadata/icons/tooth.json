@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Tooth icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Tooth01",
+      "svgPath": "icons/action/tooth-01.svg",
+      "componentPath": "./components/icons/Outline/Tooth01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Tooth04",

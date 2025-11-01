@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "CheckAll icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CheckAll01",
+      "svgPath": "icons/action/check-all-01.svg",
+      "componentPath": "./components/icons/Outline/CheckAll01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "CheckAll04",

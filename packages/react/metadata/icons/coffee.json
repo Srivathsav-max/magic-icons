@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Coffee icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Coffee01",
+      "svgPath": "icons/action/coffee-01.svg",
+      "componentPath": "./components/icons/Outline/Coffee01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Coffee04",

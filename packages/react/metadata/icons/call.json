@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Call icon - Communication",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Call01",
+      "svgPath": "icons/communication/call-01.svg",
+      "componentPath": "./components/icons/Outline/Call01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Call04",

@@ -17,7 +17,10 @@
 		"build:web": "turbo run build --filter=web",
 		"build": "turbo run build",
 		"lint": "turbo run lint",
-		"start:web": "turbo run start --filter=web"
+		"start:web": "turbo run start --filter=web",
+		"icons:analyze": "node scripts/analyze-icon-variants.js",
+		"icons:sync-stroke": "node scripts/sync-stroke-variants.js && bun run build:icons",
+		"icons:fix-stroke": "node scripts/fix-stroke-widths.js && bun run build:icons"
 	},
 	"author": "Jaya Raj Srivathsav Adari",
 	"license": "MIT",

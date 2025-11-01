@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "MapPin icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MapPin01",
+      "svgPath": "icons/action/map-pin-01.svg",
+      "componentPath": "./components/icons/Outline/MapPin01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MapPin04",

@@ -1,7 +1,7 @@
 "use client";
 
 import { Toast } from "@base-ui-components/react/toast";
-import { Check04, CircleAlert01, CircleLoader04, InfoSquare01, TriangleAlert01 } from "magic-icons";
+import { Check01, CircleAlert01, CircleLoader01, InfoSquare01, TriangleAlert01 } from "magic-icons";
 
 import { cn } from "../../lib/utils";
 import { buttonVariants } from "./button";
@@ -9,8 +9,8 @@ import { buttonVariants } from "./button";
 const toastManager = Toast.createToastManager();
 
 const TOAST_ICONS = {
-	loading: CircleLoader04,
-	success: Check04,
+	loading: CircleLoader01,
+	success: Check01,
 	error: CircleAlert01,
 	info: InfoSquare01,
 	warning: TriangleAlert01,

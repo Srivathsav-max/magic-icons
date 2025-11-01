@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Sun icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Sun01",
+      "svgPath": "icons/action/sun-01.svg",
+      "componentPath": "./components/icons/Outline/Sun01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Sun04",

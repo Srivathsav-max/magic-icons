@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "ChevronLeftDuo icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChevronLeftDuo01",
+      "svgPath": "icons/action/chevron-left-duo-01.svg",
+      "componentPath": "./components/icons/Outline/ChevronLeftDuo01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ChevronLeftDuo04",

@@ -12,6 +12,15 @@
   "aliases": [],
   "description": "ArrowCircleUpLeft icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowCircleUpLeft01",
+      "svgPath": "icons/action/arrow-circle-up-left-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowCircleUpLeft01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ArrowCircleUpLeft04",

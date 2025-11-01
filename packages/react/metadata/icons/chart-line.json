@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "ChartLine icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ChartLine01",
+      "svgPath": "icons/action/chart-line-01.svg",
+      "componentPath": "./components/icons/Outline/ChartLine01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ChartLine04",

@@ -1,6 +1,6 @@
 import { mergeProps } from "@base-ui-components/react/merge-props";
 import { useRender } from "@base-ui-components/react/use-render";
-import { ChevronLeftDuo04, ChevronRightDuo04, MoreHorizontal04 } from "magic-icons";
+import { ChevronLeftDuo01, ChevronRightDuo01, MoreHorizontal01 } from "magic-icons";
 import type * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -73,7 +73,7 @@ function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof
 			className={cn("max-sm:aspect-square max-sm:p-0", className)}
 			{...props}
 		>
-			<ChevronLeftDuo04 className="sm:-ms-1" />
+			<ChevronLeftDuo01 className="sm:-ms-1" />
 			<span className="max-sm:hidden">Previous</span>
 		</PaginationLink>
 	);
@@ -88,7 +88,7 @@ function PaginationNext({ className, ...props }: React.ComponentProps<typeof Pag
 			{...props}
 		>
 			<span className="max-sm:hidden">Next</span>
-			<ChevronRightDuo04 className="sm:-me-1" />
+			<ChevronRightDuo01 className="sm:-me-1" />
 		</PaginationLink>
 	);
 }
@@ -101,7 +101,7 @@ function PaginationEllipsis({ className, ...props }: React.ComponentProps<"span"
 			className={cn("flex min-w-7 justify-center", className)}
 			{...props}
 		>
-			<MoreHorizontal04 className="size-4" />
+			<MoreHorizontal01 className="size-4" />
 			<span className="sr-only">More pages</span>
 		</span>
 	);

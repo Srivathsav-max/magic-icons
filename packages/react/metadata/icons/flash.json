@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Flash icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Flash01",
+      "svgPath": "icons/action/flash-01.svg",
+      "componentPath": "./components/icons/Outline/Flash01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Flash04",

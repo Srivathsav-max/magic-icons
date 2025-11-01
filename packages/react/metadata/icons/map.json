@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Map icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Map01",
+      "svgPath": "icons/action/map-01.svg",
+      "componentPath": "./components/icons/Outline/Map01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Map04",

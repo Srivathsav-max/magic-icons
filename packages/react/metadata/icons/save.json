@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Save icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Save01",
+      "svgPath": "icons/action/save-01.svg",
+      "componentPath": "./components/icons/Outline/Save01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Save04",

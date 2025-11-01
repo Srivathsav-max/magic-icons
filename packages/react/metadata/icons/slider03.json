@@ -17,6 +17,15 @@
       "supportsStrokeWidth": false,
       "defaultStrokeWidth": 0,
       "fillType": "fill"
+    },
+    "light": {
+      "available": true,
+      "componentName": "Slider0304",
+      "svgPath": "icons/action/slider-03-04.svg",
+      "componentPath": "./components/icons/Light/Slider0304",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {

@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "FirstAid icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "FirstAid01",
+      "svgPath": "icons/action/first-aid-01.svg",
+      "componentPath": "./components/icons/Outline/FirstAid01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "FirstAid04",

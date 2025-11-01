@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Bulb icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Bulb01",
+      "svgPath": "icons/action/bulb-01.svg",
+      "componentPath": "./components/icons/Outline/Bulb01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Bulb04",

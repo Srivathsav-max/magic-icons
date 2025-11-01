@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "CreditCard icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "CreditCard01",
+      "svgPath": "icons/action/credit-card-01.svg",
+      "componentPath": "./components/icons/Outline/CreditCard01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "CreditCard04",

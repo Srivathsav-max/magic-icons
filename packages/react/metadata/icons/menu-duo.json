@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "MenuDuo icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "MenuDuo01",
+      "svgPath": "icons/action/menu-duo-01.svg",
+      "componentPath": "./components/icons/Outline/MenuDuo01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "MenuDuo04",

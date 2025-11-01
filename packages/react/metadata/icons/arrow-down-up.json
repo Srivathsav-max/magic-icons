@@ -11,6 +11,15 @@
   "aliases": [],
   "description": "ArrowDownUp icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "ArrowDownUp01",
+      "svgPath": "icons/action/arrow-down-up-01.svg",
+      "componentPath": "./components/icons/Outline/ArrowDownUp01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "ArrowDownUp04",

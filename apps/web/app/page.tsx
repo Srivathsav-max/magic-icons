@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@magic-icons/ui";
-import { ArrowRightTwo04, Check04, Copy04, Github04, Moon04, Sun04 } from "magic-icons";
+import { ArrowRightTwo01, Check01, Copy01, Github04, Moon01, Sun01 } from "magic-icons";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import IconShowcase from "@/components/IconShowcase";
@@ -42,9 +42,9 @@ export default function Home() {
 					onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
 				>
 					{mounted && theme === "dark" ? (
-						<Sun04 className="h-5 w-5" />
+						<Sun01 className="h-5 w-5" />
 					) : (
-						<Moon04 className="h-5 w-5" />
+						<Moon01 className="h-5 w-5" />
 					)}
 				</Button>
 			</div>
@@ -85,7 +85,7 @@ export default function Home() {
 							size="icon"
 							className="h-12 w-12 shrink-0"
 						>
-							{copied ? <Check04 className="h-5 w-5" /> : <Copy04 className="h-5 w-5" />}
+							{copied ? <Check01 className="h-5 w-5" /> : <Copy01 className="h-5 w-5" />}
 						</Button>
 					</div>
 				</div>
@@ -94,7 +94,7 @@ export default function Home() {
 				<div className="flex items-center justify-center gap-4 flex-wrap">
 					<Button onClick={() => setShowShowcase(true)} size="lg" className="gap-2 text-base px-8">
 						Browse Icons
-						<ArrowRightTwo04 className="h-5 w-5" />
+						<ArrowRightTwo01 className="h-5 w-5" />
 					</Button>
 					<Button
 						variant="outline"

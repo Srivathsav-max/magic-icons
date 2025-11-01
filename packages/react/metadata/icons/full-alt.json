@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "FullAlt icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "FullAlt01",
+      "svgPath": "icons/action/full-alt-01.svg",
+      "componentPath": "./components/icons/Outline/FullAlt01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "FullAlt04",

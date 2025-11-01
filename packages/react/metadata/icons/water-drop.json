@@ -10,6 +10,15 @@
   "aliases": [],
   "description": "WaterDrop icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "WaterDrop01",
+      "svgPath": "icons/action/water-drop-01.svg",
+      "componentPath": "./components/icons/Outline/WaterDrop01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "WaterDrop04",

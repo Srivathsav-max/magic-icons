@@ -13,7 +13,7 @@ import {
 	TabsTrigger,
 } from "@magic-icons/ui";
 import * as Icons from "magic-icons";
-import { Check04, Copy04 } from "magic-icons";
+import { Check01, Copy01 } from "magic-icons";
 import type React from "react";
 import { Suspense, useState } from "react";
 import { cn } from "@/lib/utils";
@@ -197,7 +197,7 @@ const IconDetailDialog = ({
 									handleCopy(svg, "svg");
 								}}
 							>
-								{copiedSvg ? <Check04 className="h-4 w-4" /> : <Copy04 className="h-4 w-4" />}
+								{copiedSvg ? <Check01 className="h-4 w-4" /> : <Copy01 className="h-4 w-4" />}
 								Copy SVG
 							</Button>
 							<Button
@@ -205,7 +205,7 @@ const IconDetailDialog = ({
 								className="gap-2"
 								onClick={() => handleCopy(getCode(selectedFramework), "jsx")}
 							>
-								{copiedJsx ? <Check04 className="h-4 w-4" /> : <Copy04 className="h-4 w-4" />}
+								{copiedJsx ? <Check01 className="h-4 w-4" /> : <Copy01 className="h-4 w-4" />}
 								Copy JSX
 							</Button>
 						</div>

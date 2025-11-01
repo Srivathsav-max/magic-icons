@@ -9,6 +9,15 @@
   "aliases": [],
   "description": "Github icon - Actions & Operations",
   "variants": {
+    "outline": {
+      "available": true,
+      "componentName": "Github01",
+      "svgPath": "icons/action/github-01.svg",
+      "componentPath": "./components/icons/Outline/Github01",
+      "supportsStrokeWidth": false,
+      "defaultStrokeWidth": 0,
+      "fillType": "fill"
+    },
     "light": {
       "available": true,
       "componentName": "Github04",
