@@ -1,9 +1,0 @@
-{
-	"$schema": "../icon.schema.json",
-	"variant": "light",
-	"contributors": ["Jaya Raj Srivathsav Adari"],
-	"tags": ["call", "missed"],
-	"categories": ["communication"],
-	"aliases": [],
-	"deprecated": false
-}

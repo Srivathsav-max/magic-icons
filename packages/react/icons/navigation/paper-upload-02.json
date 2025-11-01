@@ -1,9 +1,0 @@
-{
-	"$schema": "../icon.schema.json",
-	"variant": "broken",
-	"contributors": ["Jaya Raj Srivathsav Adari"],
-	"tags": ["up", "paper", "upload"],
-	"categories": ["navigation", "file"],
-	"aliases": [],
-	"deprecated": false
-}

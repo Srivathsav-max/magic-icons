@@ -1,9 +1,0 @@
-{
-	"$schema": "../icon.schema.json",
-	"variant": "two-tone",
-	"contributors": ["Jaya Raj Srivathsav Adari"],
-	"tags": ["discovery"],
-	"categories": ["location", "misc"],
-	"aliases": [],
-	"deprecated": false
-}
