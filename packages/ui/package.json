@@ -24,6 +24,7 @@
 		"lint:fix": "biome check --write ."
 	},
 	"devDependencies": {
+		"magic-icons": "workspace:*",
 		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
 		"@types/react": "^19",
