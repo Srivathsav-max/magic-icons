@@ -9,7 +9,7 @@ import {
 	PopoverTrigger,
 	ScrollArea,
 } from "@magic-icons/ui";
-import { ArrowLeft, Moon, Search, Settings, Sun, X } from "lucide-react";
+import { ArrowLeftTwo04, Close04, Moon04, Search04, Setting04, Sun04 } from "magic-icons";
 import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
@@ -81,13 +81,40 @@ const IconShowcase = () => {
 
 	useEffect(() => {
 		setMounted(true);
+		const params = new URLSearchParams(window.location.search);
+		const category = params.get("category");
+		const variant = params.get("variant");
+		const search = params.get("search");
+
+		if (category) setSelectedCategory(category);
+		if (variant) setSelectedVariant(variant);
+		if (search) setSearchTerm(search);
 	}, []);
+
+	useEffect(() => {
+		if (!mounted) return;
+
+		const params = new URLSearchParams();
+		if (selectedCategory !== "all") params.set("category", selectedCategory);
+		if (selectedVariant !== "all") params.set("variant", selectedVariant);
+		if (searchTerm) params.set("search", searchTerm);
+
+		const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname;
+		window.history.replaceState({}, "", newUrl);
+	}, [selectedCategory, selectedVariant, searchTerm, mounted]);
 
 	const filteredIcons = useMemo(() => {
 		let icons = typedMetadata.icons;
 
 		if (selectedVariant !== "all") {
-			icons = icons.filter((icon) => icon.variant.toLowerCase() === selectedVariant.toLowerCase());
+			const normalizeVariant = (v: string) =>
+				v
+					.toLowerCase()
+					.replace(/([a-z])([A-Z])/g, "$1-$2")
+					.toLowerCase();
+			icons = icons.filter(
+				(icon) => normalizeVariant(icon.variant) === normalizeVariant(selectedVariant),
+			);
 		}
 
 		if (searchTerm) {
@@ -155,7 +182,7 @@ const IconShowcase = () => {
 							onClick={() => window.location.reload()}
 							className="shrink-0"
 						>
-							<ArrowLeft className="h-5 w-5" />
+							<ArrowLeftTwo04 className="h-5 w-5" />
 						</Button>
 						<div className="flex-1" />
 						<Button
@@ -165,9 +192,9 @@ const IconShowcase = () => {
 							className="shrink-0"
 						>
 							{mounted && theme === "dark" ? (
-								<Sun className="h-5 w-5" />
+								<Sun04 className="h-5 w-5" />
 							) : (
-								<Moon className="h-5 w-5" />
+								<Moon04 className="h-5 w-5" />
 							)}
 						</Button>
 					</div>
@@ -211,7 +238,7 @@ const IconShowcase = () => {
 			{/* Floating Search Bar at Bottom */}
 			<div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50">
 				<div className="bg-background/95 rounded-full border border-border shadow-2xl px-2 py-2 flex items-center gap-2 min-w-[500px]">
-					<Search className="h-5 w-5 text-muted-foreground ml-3" />
+					<Search04 className="h-5 w-5 text-muted-foreground ml-3" />
 					<Input
 						type="text"
 						placeholder={`Search icons...`}
@@ -226,13 +253,13 @@ const IconShowcase = () => {
 							onClick={() => setSearchTerm("")}
 							className="h-8 w-8 rounded-full"
 						>
-							<X className="h-4 w-4" />
+							<Close04 className="h-4 w-4" />
 						</Button>
 					)}
 					<Popover>
 						<PopoverTrigger>
 							<Button variant="ghost" size="icon" className="h-10 w-10 rounded-full">
-								<Settings className="h-5 w-5" />
+								<Setting04 className="h-5 w-5" />
 							</Button>
 						</PopoverTrigger>
 						<PopoverContent className="w-80 mb-2" align="end">

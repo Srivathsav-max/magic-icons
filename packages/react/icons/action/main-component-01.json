@@ -1,15 +1,9 @@
 {
 	"$schema": "../icon.schema.json",
 	"variant": "outline",
-	"contributors": [
-		"Admin"
-	],
-	"tags": [
-		"main-component"
-	],
-	"categories": [
-		"action"
-	],
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["main-component"],
+	"categories": ["action"],
 	"aliases": [],
 	"deprecated": false
 }

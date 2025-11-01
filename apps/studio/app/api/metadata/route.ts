@@ -6,14 +6,27 @@ import { NextResponse } from "next/server";
 const METADATA_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "metadata", "icons");
 const ICONS_BASE_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "icons");
 
-// GET: Get metadata for a specific icon
 export async function GET(request: NextRequest) {
 	try {
 		const searchParams = request.nextUrl.searchParams;
 		const iconId = searchParams.get("iconId");
 
 		if (!iconId) {
-			return NextResponse.json({ success: false, error: "Icon ID is required" }, { status: 400 });
+			if (!fs.existsSync(METADATA_DIR)) {
+				return NextResponse.json({});
+			}
+
+			const files = fs.readdirSync(METADATA_DIR);
+			const iconIds: Record<string, boolean> = {};
+
+			for (const file of files) {
+				if (file.endsWith(".json")) {
+					const id = file.replace(".json", "");
+					iconIds[id] = true;
+				}
+			}
+
+			return NextResponse.json(iconIds);
 		}
 
 		const metadataPath = path.join(METADATA_DIR, `${iconId}.json`);
@@ -121,7 +134,7 @@ export async function PUT(request: NextRequest) {
 						const iconMetadata = {
 							$schema: "../icon.schema.json",
 							variant: variantKey,
-							contributors: [updatedMetadata.metadata?.author || "Admin"],
+							contributors: [updatedMetadata.metadata?.author || "Jaya Raj Srivathsav Adari"],
 							tags: updatedMetadata.tags || [],
 							categories: [updatedMetadata.category],
 							aliases: updatedMetadata.aliases || [],

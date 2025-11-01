@@ -35,7 +35,6 @@ export async function GET(request: NextRequest) {
 	}
 }
 
-// POST: Create new icon or upload SVG
 export async function POST(request: NextRequest) {
 	try {
 		const formData = await request.formData();
@@ -51,32 +50,41 @@ export async function POST(request: NextRequest) {
 			);
 		}
 
-		// Create category directory if it doesn't exist
 		const categoryDir = path.join(ICONS_BASE_DIR, category);
 		if (!fs.existsSync(categoryDir)) {
 			fs.mkdirSync(categoryDir, { recursive: true });
 		}
 
-		// Save SVG file
+		const variantToNumeric: Record<string, string> = {
+			outline: "01",
+			broken: "02",
+			bulk: "03",
+			light: "04",
+			"two-tone": "05",
+		};
+
+		const numericSuffix = variantToNumeric[variant] || "01";
+
+		// Save SVG file with numeric suffix
 		const svgContent = await svgFile.text();
-		const fileName = `${iconId}-${variant}.svg`;
+		const fileName = `${iconId}-${numericSuffix}.svg`;
 		const svgPath = path.join(categoryDir, fileName);
 		fs.writeFileSync(svgPath, svgContent);
 
-		// Create icon metadata JSON file
-		const iconMetadataFileName = `${iconId}-${variant}.json`;
+		// Create icon metadata JSON file with numeric suffix
+		const iconMetadataFileName = `${iconId}-${numericSuffix}.json`;
 		const iconMetadataPath = path.join(categoryDir, iconMetadataFileName);
-		
+
 		const iconMetadata = {
-			"$schema": "../icon.schema.json",
+			$schema: "../icon.schema.json",
 			variant: variant,
-			contributors: ["Admin"],
+			contributors: ["Jaya Raj Srivathsav Adari"],
 			tags: [iconId],
 			categories: [category],
 			aliases: [],
 			deprecated: false,
 		};
-		
+
 		fs.writeFileSync(iconMetadataPath, JSON.stringify(iconMetadata, null, "\t"));
 
 		return NextResponse.json({

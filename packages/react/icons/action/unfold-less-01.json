@@ -1,15 +1,9 @@
 {
 	"$schema": "../icon.schema.json",
 	"variant": "outline",
-	"contributors": [
-		"Admin"
-	],
-	"tags": [
-		"unfold-less"
-	],
-	"categories": [
-		"action"
-	],
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["unfold-less"],
+	"categories": ["action"],
 	"aliases": [],
 	"deprecated": false
 }

@@ -1,0 +1,9 @@
+{
+	"$schema": "../icon.schema.json",
+	"variant": "light",
+	"contributors": ["Jaya Raj Srivathsav Adari"],
+	"tags": ["cupcake"],
+	"categories": ["action"],
+	"aliases": [],
+	"deprecated": false
+}

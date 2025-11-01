@@ -1,0 +1,38 @@
+{
+  "id": "building",
+  "name": "Building",
+  "componentBaseName": "Building",
+  "category": "action",
+  "tags": [
+    "building"
+  ],
+  "aliases": [],
+  "description": "Building icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "Building04",
+      "svgPath": "icons/action/building-04.svg",
+      "componentPath": "./components/icons/Light/Building04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { BuildingTwoTone } from 'magic-icons';\n\n<BuildingTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "building",
+    "title": "Building"
+  }
+}

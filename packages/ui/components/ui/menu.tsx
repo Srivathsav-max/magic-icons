@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu as MenuPrimitive } from "@base-ui-components/react/menu";
-import { CheckIcon, ChevronRightIcon } from "lucide-react";
+import { ArrowRight04, Check04 } from "magic-icons";
 import type * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -90,7 +90,7 @@ function MenuCheckboxItem({
 			{...props}
 		>
 			<MenuPrimitive.CheckboxItemIndicator className="col-start-1">
-				<CheckIcon />
+				<Check04 />
 			</MenuPrimitive.CheckboxItemIndicator>
 			<span className="col-start-2">{children}</span>
 		</MenuPrimitive.CheckboxItem>
@@ -112,7 +112,7 @@ function MenuRadioItem({ className, children, ...props }: MenuPrimitive.RadioIte
 			{...props}
 		>
 			<MenuPrimitive.RadioItemIndicator className="col-start-1">
-				<CheckIcon />
+				<Check04 />
 			</MenuPrimitive.RadioItemIndicator>
 			<span className="col-start-2">{children}</span>
 		</MenuPrimitive.RadioItem>
@@ -182,7 +182,7 @@ function MenuSubTrigger({
 			{...props}
 		>
 			{children}
-			<ChevronRightIcon className="ms-auto" />
+			<ArrowRight04 className="ms-auto" />
 		</MenuPrimitive.SubmenuTrigger>
 	);
 }

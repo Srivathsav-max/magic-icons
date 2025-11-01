@@ -9,19 +9,19 @@
   "aliases": [],
   "description": "Book icon - Actions & Operations",
   "variants": {
-    "outline": {
+    "light": {
       "available": true,
-      "componentName": "BookOutline",
-      "svgPath": "icons/action/book-outline.svg",
-      "componentPath": "./components/icons/Outline/BookOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
+      "componentName": "Book04",
+      "svgPath": "icons/action/book-04.svg",
+      "componentPath": "./components/icons/Light/Book04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {
-    "addedDate": "2025-10-31",
-    "lastModified": "2025-10-31",
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
     "version": "0.0.2",
     "author": "Jaya Raj Srivathsav Adari",
     "popularity": 0,

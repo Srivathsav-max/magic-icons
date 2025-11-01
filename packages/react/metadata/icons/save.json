@@ -1,0 +1,38 @@
+{
+  "id": "save",
+  "name": "Save",
+  "componentBaseName": "Save",
+  "category": "action",
+  "tags": [
+    "save"
+  ],
+  "aliases": [],
+  "description": "Save icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "Save04",
+      "svgPath": "icons/action/save-04.svg",
+      "componentPath": "./components/icons/Light/Save04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { SaveTwoTone } from 'magic-icons';\n\n<SaveTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "save",
+    "title": "Save"
+  }
+}

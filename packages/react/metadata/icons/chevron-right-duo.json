@@ -11,19 +11,19 @@
   "aliases": [],
   "description": "ChevronRightDuo icon - Actions & Operations",
   "variants": {
-    "outline": {
+    "light": {
       "available": true,
-      "componentName": "ChevronRightDuoOutline",
-      "svgPath": "icons/action/chevron-right-duo-outline.svg",
-      "componentPath": "./components/icons/Outline/ChevronRightDuoOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
+      "componentName": "ChevronRightDuo04",
+      "svgPath": "icons/action/chevron-right-duo-04.svg",
+      "componentPath": "./components/icons/Light/ChevronRightDuo04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {
-    "addedDate": "2025-10-31",
-    "lastModified": "2025-10-31",
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
     "version": "0.0.2",
     "author": "Jaya Raj Srivathsav Adari",
     "popularity": 0,

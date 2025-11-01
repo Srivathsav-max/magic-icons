@@ -85,40 +85,97 @@ export function BulkUploadManager({ onComplete }: BulkUploadManagerProps) {
 		await processFiles(selectedFiles);
 	};
 
+	// Fetch existing icons from metadata
+	const fetchExistingIcons = async (): Promise<Set<string>> => {
+		try {
+			const response = await fetch("/api/metadata");
+			if (response.ok) {
+				const data = await response.json();
+				return new Set(Object.keys(data));
+			}
+		} catch (error) {
+			console.error("Failed to fetch existing icons:", error);
+		}
+		return new Set();
+	};
+
 	const processFiles = async (files: File[]) => {
 		const newIcons: UploadedIcon[] = [];
+		const existingIcons = await fetchExistingIcons();
+
+		// Numeric suffix mapping
+		const numericToVariant: Record<string, string> = {
+			"01": "outline",
+			"02": "broken",
+			"03": "bulk",
+			"04": "light",
+			"05": "two-tone",
+		};
+
+		// Track icon name usage for duplicate handling
+		const iconNameCount = new Map<string, number>();
 
 		for (const file of files) {
 			const content = await file.text();
 			const processed = processSvgContent(content);
 
-			// Extract icon name from filename (remove .svg and any variant suffix)
-			const fileName = file.name.replace(".svg", "");
+			// Extract icon name from filename (remove .svg)
+			let fileName = file.name.replace(".svg", "");
 
 			// Try to detect variant from filename
 			const knownVariants = ["outline", "broken", "bulk", "light", "two-tone", "twoTone"];
 			let detectedVariant = globalVariant;
 			let iconName = fileName;
 
-			// Check if filename ends with a known variant
-			for (const variant of knownVariants) {
-				if (fileName.toLowerCase().endsWith(`-${variant.toLowerCase()}`)) {
-					detectedVariant = variant === "twoTone" ? "two-tone" : variant;
-					iconName = fileName.slice(0, -(variant.length + 1));
-					break;
+			// Check for numeric suffix first (e.g., bulb-01, bulb-02)
+			const numericMatch = fileName.match(/^(.+)-(\d{2})$/);
+			if (numericMatch) {
+				const [, baseName, numericSuffix] = numericMatch;
+				if (numericToVariant[numericSuffix]) {
+					detectedVariant = numericToVariant[numericSuffix];
+					iconName = baseName;
 				}
 			}
 
-			// Convert to kebab-case and sanitize
+			// If no numeric match, check for variant name suffix
+			if (!numericMatch) {
+				for (const variant of knownVariants) {
+					if (fileName.toLowerCase().endsWith(`-${variant.toLowerCase()}`)) {
+						detectedVariant = variant === "twoTone" ? "two-tone" : variant;
+						iconName = fileName.slice(0, -(variant.length + 1));
+						break;
+					}
+				}
+			}
+
+			// Sanitize icon name: remove all numbers and clean up
 			iconName = iconName
+				.replace(/\d+/g, "") // Remove all numbers
 				.replace(/([A-Z])/g, "-$1") // PascalCase to kebab-case
 				.toLowerCase()
 				.replace(/^-/, "") // Remove leading dash
 				.replace(/\s+/g, "-") // Spaces to dashes
 				.replace(/_/g, "-") // Underscores to dashes
-				.replace(/[^a-z0-9-]/g, "") // Remove invalid characters
+				.replace(/[^a-z-]/g, "") // Remove invalid characters (only letters and dashes)
 				.replace(/-+/g, "-") // Multiple dashes to single dash
 				.replace(/^-|-$/g, ""); // Remove leading/trailing dashes
+
+			// Check if this icon already exists
+			if (existingIcons.has(iconName)) {
+				// Icon exists - find next available variant suffix
+				const baseIconName = iconName;
+				const count = iconNameCount.get(baseIconName) || 0;
+				iconNameCount.set(baseIconName, count + 1);
+
+				// Generate suffix: one, two, three, etc.
+				const suffixes = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+				if (count > 0 && count <= suffixes.length) {
+					iconName = `${baseIconName}-${suffixes[count - 1]}`;
+				}
+			} else {
+				// Track this as a new icon
+				iconNameCount.set(iconName, 1);
+			}
 
 			newIcons.push({
 				file,

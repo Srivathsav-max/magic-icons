@@ -1,7 +1,7 @@
 "use client";
 
 import { Combobox as ComboboxPrimitive } from "@base-ui-components/react/combobox";
-import { ChevronsUpDownIcon, XIcon } from "lucide-react";
+import { ArrowDownTwo04, Close04 } from "magic-icons";
 import * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -80,7 +80,7 @@ function ComboboxInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<ChevronsUpDownIcon />
+					<ArrowDownTwo04 />
 				</ComboboxTrigger>
 			)}
 			{showClear && (
@@ -90,7 +90,7 @@ function ComboboxInput({
 						sizeValue === "sm" ? "end-0" : "end-0.5",
 					)}
 				>
-					<XIcon />
+					<Close04 />
 				</ComboboxClear>
 			)}
 		</div>
@@ -283,7 +283,7 @@ function ComboboxChipRemove(props: ComboboxPrimitive.ChipRemove.Props) {
 			aria-label="Remove"
 			{...props}
 		>
-			<XIcon />
+			<Close04 />
 		</ComboboxPrimitive.ChipRemove>
 	);
 }

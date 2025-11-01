@@ -1,0 +1,39 @@
+{
+  "id": "circle-loader",
+  "name": "CircleLoader",
+  "componentBaseName": "CircleLoader",
+  "category": "action",
+  "tags": [
+    "circle",
+    "loader"
+  ],
+  "aliases": [],
+  "description": "CircleLoader icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "CircleLoader04",
+      "svgPath": "icons/action/circle-loader-04.svg",
+      "componentPath": "./components/icons/Light/CircleLoader04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CircleLoaderTwoTone } from 'magic-icons';\n\n<CircleLoaderTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "circle loader",
+    "title": "CircleLoader"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cookie",
+  "name": "Cookie",
+  "componentBaseName": "Cookie",
+  "category": "action",
+  "tags": [
+    "cookie"
+  ],
+  "aliases": [],
+  "description": "Cookie icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "Cookie04",
+      "svgPath": "icons/action/cookie-04.svg",
+      "componentPath": "./components/icons/Light/Cookie04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CookieTwoTone } from 'magic-icons';\n\n<CookieTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "cookie",
+    "title": "Cookie"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "map-pin",
+  "name": "MapPin",
+  "componentBaseName": "MapPin",
+  "category": "action",
+  "tags": [
+    "map",
+    "pin"
+  ],
+  "aliases": [],
+  "description": "MapPin icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "MapPin04",
+      "svgPath": "icons/action/map-pin-04.svg",
+      "componentPath": "./components/icons/Light/MapPin04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { MapPinTwoTone } from 'magic-icons';\n\n<MapPinTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "map pin",
+    "title": "MapPin"
+  }
+}

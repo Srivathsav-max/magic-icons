@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Label, ScrollArea, Separator, Slider, Switch } from "@magic-icons/ui";
-import { RefreshCw } from "lucide-react";
+import { Reload04 } from "magic-icons";
 import { cn } from "@/lib/utils";
 
 interface SidebarProps {
@@ -50,7 +50,7 @@ const Sidebar = ({
 				<div className="flex items-center justify-between mb-4">
 					<h2 className="text-lg font-semibold text-sidebar-foreground">Magic Icons</h2>
 					<Button variant="ghost" size="icon" onClick={handleReset} className="h-8 w-8">
-						<RefreshCw className="h-4 w-4" />
+						<Reload04 className="h-4 w-4" />
 					</Button>
 				</div>
 

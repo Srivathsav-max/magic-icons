@@ -12,19 +12,19 @@
   "aliases": [],
   "description": "ArrowSubRightDown icon - Actions & Operations",
   "variants": {
-    "outline": {
+    "light": {
       "available": true,
-      "componentName": "ArrowSubRightDownOutline",
-      "svgPath": "icons/action/arrow-sub-right-down-outline.svg",
-      "componentPath": "./components/icons/Outline/ArrowSubRightDownOutline",
-      "supportsStrokeWidth": false,
-      "defaultStrokeWidth": 0,
-      "fillType": "fill"
+      "componentName": "ArrowSubRightDown04",
+      "svgPath": "icons/action/arrow-sub-right-down-04.svg",
+      "componentPath": "./components/icons/Light/ArrowSubRightDown04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
     }
   },
   "metadata": {
-    "addedDate": "2025-10-31",
-    "lastModified": "2025-10-31",
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
     "version": "0.0.2",
     "author": "Jaya Raj Srivathsav Adari",
     "popularity": 0,

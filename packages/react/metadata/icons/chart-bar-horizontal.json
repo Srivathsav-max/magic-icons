@@ -1,0 +1,40 @@
+{
+  "id": "chart-bar-horizontal",
+  "name": "ChartBarHorizontal",
+  "componentBaseName": "ChartBarHorizontal",
+  "category": "action",
+  "tags": [
+    "chart",
+    "bar",
+    "horizontal"
+  ],
+  "aliases": [],
+  "description": "ChartBarHorizontal icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "ChartBarHorizontal04",
+      "svgPath": "icons/action/chart-bar-horizontal-04.svg",
+      "componentPath": "./components/icons/Light/ChartBarHorizontal04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { ChartBarHorizontalTwoTone } from 'magic-icons';\n\n<ChartBarHorizontalTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "chart bar horizontal",
+    "title": "ChartBarHorizontal"
+  }
+}

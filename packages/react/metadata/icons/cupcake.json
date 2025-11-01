@@ -1,0 +1,38 @@
+{
+  "id": "cupcake",
+  "name": "Cupcake",
+  "componentBaseName": "Cupcake",
+  "category": "action",
+  "tags": [
+    "cupcake"
+  ],
+  "aliases": [],
+  "description": "Cupcake icon - Actions & Operations",
+  "variants": {
+    "light": {
+      "available": true,
+      "componentName": "Cupcake04",
+      "svgPath": "icons/action/cupcake-04.svg",
+      "componentPath": "./components/icons/Light/Cupcake04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    }
+  },
+  "metadata": {
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
+    "version": "0.0.2",
+    "author": "Jaya Raj Srivathsav Adari",
+    "popularity": 0,
+    "isDeprecated": false
+  },
+  "usage": {
+    "recommended": [],
+    "codeExample": "import { CupcakeTwoTone } from 'magic-icons';\n\n<CupcakeTwoTone size={24} color=\"currentColor\" />"
+  },
+  "accessibility": {
+    "ariaLabel": "cupcake",
+    "title": "Cupcake"
+  }
+}

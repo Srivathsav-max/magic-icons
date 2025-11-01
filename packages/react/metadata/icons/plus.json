@@ -36,6 +36,15 @@
       "defaultStrokeWidth": 0,
       "fillType": "fill"
     },
+    "light": {
+      "available": true,
+      "componentName": "Plus04",
+      "svgPath": "icons/action/plus-04.svg",
+      "componentPath": "./components/icons/Light/Plus04",
+      "supportsStrokeWidth": true,
+      "defaultStrokeWidth": 1,
+      "fillType": "stroke"
+    },
     "two-tone": {
       "available": true,
       "componentName": "Plus05",
@@ -47,8 +56,8 @@
     }
   },
   "metadata": {
-    "addedDate": "2025-10-31",
-    "lastModified": "2025-10-31",
+    "addedDate": "2025-11-01",
+    "lastModified": "2025-11-01",
     "version": "0.0.2",
     "author": "Jaya Raj Srivathsav Adari",
     "popularity": 0,

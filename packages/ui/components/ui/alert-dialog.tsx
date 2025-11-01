@@ -50,7 +50,7 @@ function AlertDialogPopup({ className, ...props }: AlertDialogPrimitive.Popup.Pr
 	);
 }
 
-function AlertDialogHeader({ className, ...props }: React.ComponentProps<"div">) {
+function AlertDialogHeader({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
 	return (
 		<div
 			data-slot="alert-dialog-header"
@@ -60,7 +60,7 @@ function AlertDialogHeader({ className, ...props }: React.ComponentProps<"div">)
 	);
 }
 
-function AlertDialogFooter({ className, ...props }: React.ComponentProps<"div">) {
+function AlertDialogFooter({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
 	return (
 		<div
 			data-slot="alert-dialog-footer"
