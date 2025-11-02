@@ -16,8 +16,8 @@ interface MetadataType {
 const calculateRows = (height: number, width: number) => {
 	const diagonalDistance = Math.sqrt(height ** 2 + width ** 2);
 	const rowSpacing = 200;
-	const neededRows = Math.ceil(diagonalDistance / rowSpacing) + 8;
-	return Math.max(12, neededRows);
+	const neededRows = Math.ceil(diagonalDistance / rowSpacing) + 18;
+	return Math.max(20, neededRows);
 };
 
 export default function DiagonalIconsBackground() {
@@ -55,7 +55,7 @@ export default function DiagonalIconsBackground() {
 	const rows = useMemo(() => {
 		return Array.from({ length: rowCount }, (_, index) => {
 			const isEvenRow = index % 2 === 0;
-			const topPosition = -800 + index * 200;
+			const topPosition = -1600 + index * 200;
 			const iconStartIndex = (index * 100) % backgroundIcons.length;
 			const iconEndIndex = Math.min(iconStartIndex + 100, backgroundIcons.length);
 			const rowIcons = backgroundIcons.slice(iconStartIndex, iconEndIndex);
@@ -78,8 +78,8 @@ export default function DiagonalIconsBackground() {
 					style={{
 						transform: "rotate(-35deg)",
 						top: `${row.topPosition}px`,
-						left: "-800px",
-						width: "250%",
+						left: "-1400px",
+						width: "350%",
 					}}
 				>
 					<div className="flex gap-12 whitespace-nowrap">
