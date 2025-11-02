@@ -35,7 +35,6 @@ apps/web/components/icons/
 coverage/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
