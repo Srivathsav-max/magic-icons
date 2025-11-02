@@ -1,7 +1,25 @@
 "use client";
 
-import { Button, Label, ScrollArea, Separator, Slider, Switch } from "@magic-icons/ui";
+import {
+	Button,
+	ColorPicker,
+	ColorPickerAlpha,
+	ColorPickerEyeDropper,
+	ColorPickerFormat,
+	ColorPickerHue,
+	ColorPickerOutput,
+	ColorPickerSelection,
+	Label,
+	Popover,
+	PopoverContent,
+	PopoverTrigger,
+	ScrollArea,
+	Separator,
+	Slider,
+} from "@magic-icons/ui";
+import Color from "color";
 import { RefreshTwo } from "magic-icons";
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface SidebarProps {
@@ -29,19 +47,18 @@ const Sidebar = ({
 	onStrokeWidthChange,
 	size,
 	onSizeChange,
-	absoluteStrokeWidth,
-	onAbsoluteStrokeWidthChange,
 	view,
 	onViewChange,
 	selectedCategory,
 	onCategoryChange,
 	categories,
 }: SidebarProps) => {
+	const [popoverOpen, setPopoverOpen] = useState(false);
+
 	const handleReset = () => {
 		onColorChange(undefined);
 		onStrokeWidthChange(2);
-		onSizeChange(32);
-		onAbsoluteStrokeWidthChange(false);
+		onSizeChange(24);
 	};
 
 	return (
@@ -57,27 +74,80 @@ const Sidebar = ({
 				<div className="space-y-6">
 					{/* Color */}
 					<div className="space-y-2">
-						<div className="flex items-center justify-between">
-							<Label htmlFor="color" className="text-sm text-sidebar-foreground">
-								Custom Color
-							</Label>
-							<Switch
-								checked={color !== undefined}
-								onCheckedChange={(checked) => onColorChange(checked ? "#000000" : undefined)}
+						<Label className="text-sm text-sidebar-foreground">Colour</Label>
+						<div className="flex items-center gap-2 w-full px-2 py-1 rounded border border-sidebar-border bg-sidebar-accent/50">
+							<Popover open={popoverOpen} onOpenChange={setPopoverOpen}>
+								<PopoverTrigger>
+									<button type="button" className="shrink-0 hover:opacity-80 transition-opacity">
+										<div
+											className="w-5 h-5 rounded border border-sidebar-border"
+											style={{ backgroundColor: color || "#000000" }}
+										/>
+									</button>
+								</PopoverTrigger>
+								<PopoverContent className="w-80 p-4">
+									<div
+										onPointerDown={(e) => {
+											// Prevent popover from closing when interacting with color picker
+											e.stopPropagation();
+										}}
+									>
+										<ColorPicker
+											value={color}
+											onChange={(value) => {
+												console.log("ColorPicker onChange:", value);
+												if (Array.isArray(value) && value.length >= 3) {
+													const newColor = Color.rgb(
+														value[0] as number,
+														value[1] as number,
+														value[2] as number,
+													);
+													const hexColor = newColor.hex();
+													console.log("Converted to hex:", hexColor);
+													onColorChange(hexColor);
+												}
+											}}
+										>
+											<div className="space-y-3">
+												<ColorPickerSelection className="h-32 w-full" />
+												<div className="space-y-2">
+													<label className="text-xs text-muted-foreground font-medium">Hue</label>
+													<ColorPickerHue />
+												</div>
+												<div className="space-y-2">
+													<label className="text-xs text-muted-foreground font-medium">
+														Opacity
+													</label>
+													<ColorPickerAlpha />
+												</div>
+												<div className="space-y-2">
+													<label className="text-xs text-muted-foreground font-medium">
+														Format
+													</label>
+													<ColorPickerFormat />
+												</div>
+												<ColorPickerOutput className="w-full" />
+												<ColorPickerEyeDropper className="w-full" />
+											</div>
+										</ColorPicker>
+									</div>
+								</PopoverContent>
+							</Popover>
+							<input
+								type="text"
+								value={color || ""}
+								onChange={(e) => {
+									const value = e.target.value;
+									if (value === "") {
+										onColorChange(undefined);
+									} else {
+										onColorChange(value);
+									}
+								}}
+								placeholder="Default"
+								className="flex-1 bg-transparent text-xs text-sidebar-foreground font-mono outline-none border-none focus:ring-0 min-w-0"
 							/>
 						</div>
-						{color !== undefined && (
-							<div className="flex items-center gap-2">
-								<input
-									id="color"
-									type="color"
-									value={color}
-									onChange={(e) => onColorChange(e.target.value)}
-									className="h-8 w-12 rounded border border-sidebar-border cursor-pointer"
-								/>
-								<span className="text-xs text-sidebar-foreground/70">{color}</span>
-							</div>
-						)}
 					</div>
 
 					{/* Stroke Width */}
@@ -123,18 +193,6 @@ const Sidebar = ({
 							className="w-full"
 						/>
 					</div>
-
-					{/* Absolute Stroke Width */}
-					<div className="flex items-center justify-between">
-						<Label htmlFor="absolute-stroke" className="text-sm text-sidebar-foreground">
-							Absolute Stroke width
-						</Label>
-						<Switch
-							id="absolute-stroke"
-							checked={absoluteStrokeWidth}
-							onCheckedChange={onAbsoluteStrokeWidthChange}
-						/>
-					</div>
 				</div>
 			</div>
 
@@ -167,10 +225,13 @@ const Sidebar = ({
 						<div className="pt-2">
 							<button
 								type="button"
-								onClick={() => onViewChange("categories")}
+								onClick={() => {
+									onViewChange("categories");
+									onCategoryChange("categories");
+								}}
 								className={cn(
 									"w-full text-left px-3 py-2 rounded-md text-sm transition-colors",
-									view === "categories" && selectedCategory === "all"
+									selectedCategory === "categories"
 										? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
 										: "text-sidebar-foreground/70 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground",
 								)}
@@ -178,26 +239,27 @@ const Sidebar = ({
 								Categories
 							</button>
 
-							{view === "categories" && (
-								<div className="ml-2 mt-1 space-y-1">
-									{categories.map((category) => (
-										<button
-											key={category.key}
-											type="button"
-											onClick={() => onCategoryChange(category.key)}
-											className={cn(
-												"w-full text-left px-3 py-1.5 rounded-md text-sm transition-colors flex items-center justify-between",
-												selectedCategory === category.key
-													? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
-													: "text-sidebar-foreground/60 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground",
-											)}
-										>
-											<span>{category.label}</span>
-											<span className="text-xs opacity-60">{category.count}</span>
-										</button>
-									))}
-								</div>
-							)}
+							<div className="ml-2 mt-1 space-y-1">
+								{categories.map((category) => (
+									<button
+										key={category.key}
+										type="button"
+										onClick={() => {
+											onViewChange("categories");
+											onCategoryChange(category.key);
+										}}
+										className={cn(
+											"w-full text-left px-3 py-1.5 rounded-md text-sm transition-colors flex items-center justify-between",
+											selectedCategory === category.key && view === "categories"
+												? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
+												: "text-sidebar-foreground/60 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground",
+										)}
+									>
+										<span>{category.label}</span>
+										<span className="text-xs opacity-60">{category.count}</span>
+									</button>
+								))}
+							</div>
 						</div>
 					</div>
 				</ScrollArea>

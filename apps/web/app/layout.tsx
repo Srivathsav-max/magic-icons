@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
 	title: "Magic Icons",
-	description: "A comprehensive React icon library - perfect for modern web applications",
+	description: "A comprehensive icon library - perfect for modern web applications",
 };
 
 export default function RootLayout({

@@ -282,7 +282,18 @@ export {
 	TooltipProvider,
 	TooltipTrigger,
 } from "./components/ui/tooltip";
+// Color Picker
+export {
+	ColorPicker,
+	ColorPickerAlpha,
+	ColorPickerEyeDropper,
+	ColorPickerFormat,
+	ColorPickerHue,
+	ColorPickerOutput,
+	ColorPickerSelection,
+} from "./components/color-picker";
 // Fonts
 export { waldenburg } from "./lib/fonts";
 // Utilities
 export { cn } from "./lib/utils";
+

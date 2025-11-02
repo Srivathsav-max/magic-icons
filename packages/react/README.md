@@ -1,6 +1,6 @@
 # Magic Icons ✨
 
-A comprehensive React icon library with **500 customizable icons** across 5 beautiful variants. Built with TypeScript and designed for modern React applications including Next.js.
+A comprehensive icon library with **500 customizable icons** across 5 beautiful variants. Built with TypeScript and designed for modern React applications including Next.js.
 
 [![npm version](https://img.shields.io/npm/v/magic-icons.svg)](https://www.npmjs.com/package/magic-icons)
 [![npm downloads](https://img.shields.io/npm/dm/magic-icons.svg)](https://www.npmjs.com/package/magic-icons)

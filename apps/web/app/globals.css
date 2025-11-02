@@ -2,3 +2,30 @@
 
 /* Tell Tailwind to scan UI package from node_modules */
 @source "../../packages/ui";
+
+/* Diagonal scrolling animations */
+@keyframes diagonal-scroll-1 {
+	0% {
+		transform: rotate(-35deg) translateX(0);
+	}
+	100% {
+		transform: rotate(-35deg) translateX(-50%);
+	}
+}
+
+@keyframes diagonal-scroll-2 {
+	0% {
+		transform: rotate(-35deg) translateX(-50%);
+	}
+	100% {
+		transform: rotate(-35deg) translateX(0);
+	}
+}
+
+.animate-diagonal-scroll-1 {
+	animation: diagonal-scroll-1 60s linear infinite;
+}
+
+.animate-diagonal-scroll-2 {
+	animation: diagonal-scroll-2 60s linear infinite;
+}
