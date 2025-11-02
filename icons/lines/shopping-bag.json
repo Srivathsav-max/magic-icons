@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "shopping-bag",
-  "category": "shop",
-  "tags": [
-    "shopping-bag",
-    "shop"
-  ],
-  "description": "shopping-bag icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "shopping-bag",
+	"category": "shop",
+	"tags": ["shopping-bag", "shop"],
+	"description": "shopping-bag icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

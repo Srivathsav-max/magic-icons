@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "search-zoom-out-two",
-  "category": "essentials",
-  "tags": [
-    "search-zoom-out-two",
-    "essentials"
-  ],
-  "description": "search-zoom-out-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "search-zoom-out-two",
+	"category": "essentials",
+	"tags": ["search-zoom-out-two", "essentials"],
+	"description": "search-zoom-out-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "blend",
-  "category": "tools",
-  "tags": [
-    "blend",
-    "tools"
-  ],
-  "description": "blend icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "blend",
+	"category": "tools",
+	"tags": ["blend", "tools"],
+	"description": "blend icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

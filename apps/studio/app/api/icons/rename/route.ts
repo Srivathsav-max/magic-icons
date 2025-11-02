@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
 		if (!oldId || !newId || !category) {
 			return NextResponse.json(
 				{ success: false, error: "Missing required fields" },
-				{ status: 400 }
+				{ status: 400 },
 			);
 		}
 
@@ -22,17 +22,17 @@ export async function POST(request: NextRequest) {
 		if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(newId)) {
 			return NextResponse.json(
 				{ success: false, error: "Icon ID must be in kebab-case format" },
-				{ status: 400 }
+				{ status: 400 },
 			);
 		}
 
 		const categoryDir = path.join(ICONS_BASE_DIR, category);
-		
+
 		// Check if category directory exists
 		if (!fs.existsSync(categoryDir)) {
 			return NextResponse.json(
 				{ success: false, error: "Category directory not found" },
-				{ status: 404 }
+				{ status: 404 },
 			);
 		}
 
@@ -41,10 +41,7 @@ export async function POST(request: NextRequest) {
 		const iconFiles = files.filter((file) => file.startsWith(`${oldId}-`) && file.endsWith(".svg"));
 
 		if (iconFiles.length === 0) {
-			return NextResponse.json(
-				{ success: false, error: "No icon files found" },
-				{ status: 404 }
-			);
+			return NextResponse.json({ success: false, error: "No icon files found" }, { status: 404 });
 		}
 
 		// Rename all variant files
@@ -52,7 +49,7 @@ export async function POST(request: NextRequest) {
 			const oldPath = path.join(categoryDir, file);
 			const newFileName = file.replace(`${oldId}-`, `${newId}-`);
 			const newPath = path.join(categoryDir, newFileName);
-			
+
 			fs.renameSync(oldPath, newPath);
 		}
 
@@ -63,22 +60,22 @@ export async function POST(request: NextRequest) {
 		if (fs.existsSync(oldMetadataPath)) {
 			const metadataContent = fs.readFileSync(oldMetadataPath, "utf-8");
 			const metadata = JSON.parse(metadataContent);
-			
+
 			// Update metadata with new ID
 			metadata.id = newId;
-			
+
 			// Update variant SVG paths
 			if (metadata.variants) {
 				for (const variant of Object.keys(metadata.variants)) {
 					if (metadata.variants[variant].svgPath) {
 						metadata.variants[variant].svgPath = metadata.variants[variant].svgPath.replace(
 							`${oldId}-`,
-							`${newId}-`
+							`${newId}-`,
 						);
 					}
 				}
 			}
-			
+
 			fs.writeFileSync(newMetadataPath, JSON.stringify(metadata, null, "\t"));
 			fs.unlinkSync(oldMetadataPath);
 		}
@@ -90,9 +87,6 @@ export async function POST(request: NextRequest) {
 		});
 	} catch (error) {
 		console.error("Error renaming icon:", error);
-		return NextResponse.json(
-			{ success: false, error: "Failed to rename icon" },
-			{ status: 500 }
-		);
+		return NextResponse.json({ success: false, error: "Failed to rename icon" }, { status: 500 });
 	}
 }

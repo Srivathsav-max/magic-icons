@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "crown-1",
-  "category": "essentials",
-  "tags": [
-    "crown-1",
-    "essentials"
-  ],
-  "description": "crown-1 icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "crown-1",
+	"category": "essentials",
+	"tags": ["crown-1", "essentials"],
+	"description": "crown-1 icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

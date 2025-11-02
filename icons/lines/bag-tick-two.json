@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "bag-tick-two",
-  "category": "shop",
-  "tags": [
-    "bag-tick-two",
-    "shop"
-  ],
-  "description": "bag-tick-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "bag-tick-two",
+	"category": "shop",
+	"tags": ["bag-tick-two", "shop"],
+	"description": "bag-tick-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

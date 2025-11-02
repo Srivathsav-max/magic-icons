@@ -29,7 +29,10 @@ export async function GET() {
 		});
 	} catch (error) {
 		console.error("Error fetching variants:", error);
-		return NextResponse.json({ success: false, error: "Failed to fetch variants" }, { status: 500 });
+		return NextResponse.json(
+			{ success: false, error: "Failed to fetch variants" },
+			{ status: 500 },
+		);
 	}
 }
 
@@ -40,13 +43,19 @@ export async function POST(request: Request) {
 		const { id, name, description, defaultStrokeWidth, supportsStrokeWidth, fillType } = body;
 
 		if (!id || !name) {
-			return NextResponse.json({ success: false, error: "Missing required fields" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Missing required fields" },
+				{ status: 400 },
+			);
 		}
 
 		const variantDir = path.join(ICONS_BASE_DIR, id);
 
 		if (fs.existsSync(variantDir)) {
-			return NextResponse.json({ success: false, error: "Variant already exists" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Variant already exists" },
+				{ status: 400 },
+			);
 		}
 
 		fs.mkdirSync(variantDir, { recursive: true });
@@ -69,6 +78,9 @@ export async function POST(request: Request) {
 		});
 	} catch (error) {
 		console.error("Error creating variant:", error);
-		return NextResponse.json({ success: false, error: "Failed to create variant" }, { status: 500 });
+		return NextResponse.json(
+			{ success: false, error: "Failed to create variant" },
+			{ status: 500 },
+		);
 	}
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "money-tick",
-  "category": "money",
-  "tags": [
-    "money-tick",
-    "money"
-  ],
-  "description": "money-tick icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "money-tick",
+	"category": "money",
+	"tags": ["money-tick", "money"],
+	"description": "money-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

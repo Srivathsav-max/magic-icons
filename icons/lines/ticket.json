@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "ticket",
-  "category": "money",
-  "tags": [
-    "ticket",
-    "money"
-  ],
-  "description": "ticket icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "ticket",
+	"category": "money",
+	"tags": ["ticket", "money"],
+	"description": "ticket icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

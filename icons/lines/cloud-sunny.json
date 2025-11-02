@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cloud-sunny",
-  "category": "weather",
-  "tags": [
-    "cloud-sunny",
-    "weather"
-  ],
-  "description": "cloud-sunny icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-sunny",
+	"category": "weather",
+	"tags": ["cloud-sunny", "weather"],
+	"description": "cloud-sunny icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

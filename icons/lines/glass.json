@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "glass",
-  "category": "tools",
-  "tags": [
-    "glass",
-    "tools"
-  ],
-  "description": "glass icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "glass",
+	"category": "tools",
+	"tags": ["glass", "tools"],
+	"description": "glass icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -42,7 +42,10 @@ export async function POST(request: NextRequest) {
 		const variantDir = path.join(ICONS_BASE_DIR, variant);
 
 		if (!fs.existsSync(variantDir)) {
-			return NextResponse.json({ success: false, error: "Variant does not exist" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Variant does not exist" },
+				{ status: 400 },
+			);
 		}
 
 		const uploadedIcons = [];

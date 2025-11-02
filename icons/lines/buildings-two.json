@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "buildings-two",
-  "category": "buildings",
-  "tags": [
-    "buildings-two",
-    "buildings"
-  ],
-  "description": "buildings-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "buildings-two",
+	"category": "buildings",
+	"tags": ["buildings-two", "buildings"],
+	"description": "buildings-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

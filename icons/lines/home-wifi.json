@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "home-wifi",
-  "category": "essentials",
-  "tags": [
-    "home-wifi",
-    "essentials"
-  ],
-  "description": "home-wifi icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "home-wifi",
+	"category": "essentials",
+	"tags": ["home-wifi", "essentials"],
+	"description": "home-wifi icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

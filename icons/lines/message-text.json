@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "message-text",
-  "category": "communication",
-  "tags": [
-    "message-text",
-    "communication"
-  ],
-  "description": "message-text icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "message-text",
+	"category": "communication",
+	"tags": ["message-text", "communication"],
+	"description": "message-text icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

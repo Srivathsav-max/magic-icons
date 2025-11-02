@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "wallet-minus",
-  "category": "money",
-  "tags": [
-    "wallet-minus",
-    "money"
-  ],
-  "description": "wallet-minus icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "wallet-minus",
+	"category": "money",
+	"tags": ["wallet-minus", "money"],
+	"description": "wallet-minus icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "key",
-  "category": "security",
-  "tags": [
-    "key",
-    "security"
-  ],
-  "description": "key icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "key",
+	"category": "security",
+	"tags": ["key", "security"],
+	"description": "key icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

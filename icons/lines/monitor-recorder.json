@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "monitor-recorder",
-  "category": "electronics",
-  "tags": [
-    "monitor-recorder",
-    "electronics"
-  ],
-  "description": "monitor-recorder icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "monitor-recorder",
+	"category": "electronics",
+	"tags": ["monitor-recorder", "electronics"],
+	"description": "monitor-recorder icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

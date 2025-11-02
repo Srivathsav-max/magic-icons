@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "security-user",
-  "category": "security",
-  "tags": [
-    "security-user",
-    "security"
-  ],
-  "description": "security-user icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "security-user",
+	"category": "security",
+	"tags": ["security-user", "security"],
+	"description": "security-user icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

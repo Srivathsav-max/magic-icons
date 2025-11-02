@@ -13,7 +13,10 @@ export async function GET(request: NextRequest) {
 		const type = searchParams.get("type"); // 'svg' or 'metadata'
 
 		if (!variant || !name || !type) {
-			return NextResponse.json({ success: false, error: "Missing required parameters" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Missing required parameters" },
+				{ status: 400 },
+			);
 		}
 
 		const fileName = type === "svg" ? `${name}.svg` : `${name}.json`;
@@ -48,7 +51,10 @@ export async function PUT(request: NextRequest) {
 		const { variant, name, type, content } = body;
 
 		if (!variant || !name || !type || !content) {
-			return NextResponse.json({ success: false, error: "Missing required fields" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Missing required fields" },
+				{ status: 400 },
+			);
 		}
 
 		const fileName = type === "svg" ? `${name}.svg` : `${name}.json`;

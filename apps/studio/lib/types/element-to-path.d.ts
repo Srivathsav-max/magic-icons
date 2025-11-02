@@ -1,4 +1,4 @@
-declare module 'element-to-path' {
-  function toPath(element: unknown): string;
-  export = toPath;
+declare module "element-to-path" {
+	function toPath(element: unknown): string;
+	export = toPath;
 }

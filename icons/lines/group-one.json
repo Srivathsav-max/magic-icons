@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "group-one",
-  "category": "money",
-  "tags": [
-    "group-one",
-    "money"
-  ],
-  "description": "group-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "group-one",
+	"category": "money",
+	"tags": ["group-one", "money"],
+	"description": "group-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "call-add",
-  "category": "essentials",
-  "tags": [
-    "call-add",
-    "essentials"
-  ],
-  "description": "call-add icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "call-add",
+	"category": "essentials",
+	"tags": ["call-add", "essentials"],
+	"description": "call-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

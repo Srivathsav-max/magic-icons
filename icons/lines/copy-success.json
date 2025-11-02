@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "copy-success",
-  "category": "tools",
-  "tags": [
-    "copy-success",
-    "tools"
-  ],
-  "description": "copy-success icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "copy-success",
+	"category": "tools",
+	"tags": ["copy-success", "tools"],
+	"description": "copy-success icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "rotate-left",
-  "category": "grid",
-  "tags": [
-    "rotate-left",
-    "grid"
-  ],
-  "description": "rotate-left icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "rotate-left",
+	"category": "grid",
+	"tags": ["rotate-left", "grid"],
+	"description": "rotate-left icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

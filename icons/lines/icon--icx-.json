@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "icon--icx-",
-  "category": "brands",
-  "tags": [
-    "icon--icx-",
-    "brands"
-  ],
-  "description": "icon--icx- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "icon--icx-",
+	"category": "brands",
+	"tags": ["icon--icx-", "brands"],
+	"description": "icon--icx- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

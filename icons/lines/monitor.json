@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "monitor",
-  "category": "electronics",
-  "tags": [
-    "monitor",
-    "electronics"
-  ],
-  "description": "monitor icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "monitor",
+	"category": "electronics",
+	"tags": ["monitor", "electronics"],
+	"description": "monitor icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

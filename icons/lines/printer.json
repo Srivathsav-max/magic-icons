@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "printer",
-  "category": "electronics",
-  "tags": [
-    "printer",
-    "electronics"
-  ],
-  "description": "printer icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "printer",
+	"category": "electronics",
+	"tags": ["printer", "electronics"],
+	"description": "printer icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

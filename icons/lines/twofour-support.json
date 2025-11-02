@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "twofour-support",
-  "category": "essentials",
-  "tags": [
-    "twofour-support",
-    "essentials"
-  ],
-  "description": "twofour-support icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "twofour-support",
+	"category": "essentials",
+	"tags": ["twofour-support", "essentials"],
+	"description": "twofour-support icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

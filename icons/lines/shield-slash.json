@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "shield-slash",
-  "category": "security",
-  "tags": [
-    "shield-slash",
-    "security"
-  ],
-  "description": "shield-slash icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "shield-slash",
+	"category": "security",
+	"tags": ["shield-slash", "security"],
+	"description": "shield-slash icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

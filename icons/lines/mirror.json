@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "mirror",
-  "category": "essentials",
-  "tags": [
-    "mirror",
-    "essentials"
-  ],
-  "description": "mirror icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "mirror",
+	"category": "essentials",
+	"tags": ["mirror", "essentials"],
+	"description": "mirror icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

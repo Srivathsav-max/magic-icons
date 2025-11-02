@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "unlimited",
-  "category": "essentials",
-  "tags": [
-    "unlimited",
-    "essentials"
-  ],
-  "description": "unlimited icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "unlimited",
+	"category": "essentials",
+	"tags": ["unlimited", "essentials"],
+	"description": "unlimited icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

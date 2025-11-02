@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "record-circle",
-  "category": "communication",
-  "tags": [
-    "record-circle",
-    "communication"
-  ],
-  "description": "record-circle icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "record-circle",
+	"category": "communication",
+	"tags": ["record-circle", "communication"],
+	"description": "record-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

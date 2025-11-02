@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "empty-wallet-tick",
-  "category": "money",
-  "tags": [
-    "empty-wallet-tick",
-    "money"
-  ],
-  "description": "empty-wallet-tick icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "empty-wallet-tick",
+	"category": "money",
+	"tags": ["empty-wallet-tick", "money"],
+	"description": "empty-wallet-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

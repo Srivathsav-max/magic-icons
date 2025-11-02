@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "bucket-square",
-  "category": "tools",
-  "tags": [
-    "bucket-square",
-    "tools"
-  ],
-  "description": "bucket-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "bucket-square",
+	"category": "tools",
+	"tags": ["bucket-square", "tools"],
+	"description": "bucket-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

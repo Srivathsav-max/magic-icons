@@ -8,17 +8,11 @@ export async function GET(request: NextRequest) {
 		const filePath = searchParams.get("path");
 
 		if (!filePath) {
-			return NextResponse.json(
-				{ success: false, error: "File path is required" },
-				{ status: 400 }
-			);
+			return NextResponse.json({ success: false, error: "File path is required" }, { status: 400 });
 		}
 
 		if (!fs.existsSync(filePath)) {
-			return NextResponse.json(
-				{ success: false, error: "File not found" },
-				{ status: 404 }
-			);
+			return NextResponse.json({ success: false, error: "File not found" }, { status: 404 });
 		}
 
 		const content = fs.readFileSync(filePath, "utf-8");
@@ -42,9 +36,6 @@ export async function GET(request: NextRequest) {
 		});
 	} catch (error) {
 		console.error("Error fetching file:", error);
-		return NextResponse.json(
-			{ success: false, error: "Failed to fetch file" },
-			{ status: 500 }
-		);
+		return NextResponse.json({ success: false, error: "Failed to fetch file" }, { status: 500 });
 	}
 }

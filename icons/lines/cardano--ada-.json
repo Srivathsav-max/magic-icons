@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cardano--ada-",
-  "category": "brands",
-  "tags": [
-    "cardano--ada-",
-    "brands"
-  ],
-  "description": "cardano--ada- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cardano--ada-",
+	"category": "brands",
+	"tags": ["cardano--ada-", "brands"],
+	"description": "cardano--ada- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

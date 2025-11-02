@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "video-add",
-  "category": "communication",
-  "tags": [
-    "video-add",
-    "communication"
-  ],
-  "description": "video-add icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "video-add",
+	"category": "communication",
+	"tags": ["video-add", "communication"],
+	"description": "video-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

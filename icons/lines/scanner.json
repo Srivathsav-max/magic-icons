@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "scanner",
-  "category": "security",
-  "tags": [
-    "scanner",
-    "security"
-  ],
-  "description": "scanner icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "scanner",
+	"category": "security",
+	"tags": ["scanner", "security"],
+	"description": "scanner icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

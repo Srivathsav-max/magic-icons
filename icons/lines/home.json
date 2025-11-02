@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "home",
-  "category": "essentials",
-  "tags": [
-    "home",
-    "essentials"
-  ],
-  "description": "home icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "home",
+	"category": "essentials",
+	"tags": ["home", "essentials"],
+	"description": "home icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

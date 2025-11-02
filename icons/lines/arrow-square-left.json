@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "arrow-square-left",
-  "category": "arrows",
-  "tags": [
-    "arrow-square-left",
-    "arrows"
-  ],
-  "description": "arrow-square-left icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "arrow-square-left",
+	"category": "arrows",
+	"tags": ["arrow-square-left", "arrows"],
+	"description": "arrow-square-left icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

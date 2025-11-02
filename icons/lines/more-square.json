@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "more-square",
-  "category": "essentials",
-  "tags": [
-    "more-square",
-    "essentials"
-  ],
-  "description": "more-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "more-square",
+	"category": "essentials",
+	"tags": ["more-square", "essentials"],
+	"description": "more-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

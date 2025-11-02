@@ -1,7 +1,7 @@
 {
-  "$schema": "../category.schema.json",
-  "icon": "weather",
-  "title": "Weather",
-  "description": "",
-  "weight": 0
+	"$schema": "../category.schema.json",
+	"icon": "weather",
+	"title": "Weather",
+	"description": "",
+	"weight": 0
 }

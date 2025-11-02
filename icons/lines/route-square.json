@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "route-square",
-  "category": "location",
-  "tags": [
-    "route-square",
-    "location"
-  ],
-  "description": "route-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "route-square",
+	"category": "location",
+	"tags": ["route-square", "location"],
+	"description": "route-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

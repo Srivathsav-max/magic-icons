@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "user-tag",
-  "category": "users",
-  "tags": [
-    "user-tag",
-    "users"
-  ],
-  "description": "user-tag icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "user-tag",
+	"category": "users",
+	"tags": ["user-tag", "users"],
+	"description": "user-tag icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

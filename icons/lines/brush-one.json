@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "brush-one",
-  "category": "tools",
-  "tags": [
-    "brush-one",
-    "tools"
-  ],
-  "description": "brush-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "brush-one",
+	"category": "tools",
+	"tags": ["brush-one", "tools"],
+	"description": "brush-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

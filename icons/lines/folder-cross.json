@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "folder-cross",
-  "category": "files",
-  "tags": [
-    "folder-cross",
-    "files"
-  ],
-  "description": "folder-cross icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "folder-cross",
+	"category": "files",
+	"tags": ["folder-cross", "files"],
+	"description": "folder-cross icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

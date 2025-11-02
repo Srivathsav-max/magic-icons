@@ -29,7 +29,7 @@ async function optimizeFile(filePath: string, variant: string, stats: OptimizeSt
 
 		await fs.writeFile(filePath, `${optimized.trim()}\n`);
 		stats.optimized += 1;
-		
+
 		const fileName = path.basename(filePath);
 		console.log(`   ✓ Optimized: ${fileName}`);
 	} catch (error) {

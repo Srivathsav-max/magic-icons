@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "filter-tick",
-  "category": "essentials",
-  "tags": [
-    "filter-tick",
-    "essentials"
-  ],
-  "description": "filter-tick icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "filter-tick",
+	"category": "essentials",
+	"tags": ["filter-tick", "essentials"],
+	"description": "filter-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

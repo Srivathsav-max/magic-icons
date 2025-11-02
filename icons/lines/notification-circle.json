@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "notification-circle",
-  "category": "essentials",
-  "tags": [
-    "notification-circle",
-    "essentials"
-  ],
-  "description": "notification-circle icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "notification-circle",
+	"category": "essentials",
+	"tags": ["notification-circle", "essentials"],
+	"description": "notification-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

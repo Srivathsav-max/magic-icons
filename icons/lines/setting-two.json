@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "setting-two",
-  "category": "essentials",
-  "tags": [
-    "setting-two",
-    "essentials"
-  ],
-  "description": "setting-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "setting-two",
+	"category": "essentials",
+	"tags": ["setting-two", "essentials"],
+	"description": "setting-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "export-two",
-  "category": "arrows",
-  "tags": [
-    "export-two",
-    "arrows"
-  ],
-  "description": "export-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "export-two",
+	"category": "arrows",
+	"tags": ["export-two", "arrows"],
+	"description": "export-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

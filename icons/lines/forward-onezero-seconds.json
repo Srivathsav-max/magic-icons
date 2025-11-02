@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "forward-onezero-seconds",
-  "category": "communication",
-  "tags": [
-    "forward-onezero-seconds",
-    "communication"
-  ],
-  "description": "forward-onezero-seconds icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "forward-onezero-seconds",
+	"category": "communication",
+	"tags": ["forward-onezero-seconds", "communication"],
+	"description": "forward-onezero-seconds icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

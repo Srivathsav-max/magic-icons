@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "thorchain--rune-",
-  "category": "brands",
-  "tags": [
-    "thorchain--rune-",
-    "brands"
-  ],
-  "description": "thorchain--rune- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "thorchain--rune-",
+	"category": "brands",
+	"tags": ["thorchain--rune-", "brands"],
+	"description": "thorchain--rune- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

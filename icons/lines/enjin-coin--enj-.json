@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "enjin-coin--enj-",
-  "category": "brands",
-  "tags": [
-    "enjin-coin--enj-",
-    "brands"
-  ],
-  "description": "enjin-coin--enj- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "enjin-coin--enj-",
+	"category": "brands",
+	"tags": ["enjin-coin--enj-", "brands"],
+	"description": "enjin-coin--enj- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

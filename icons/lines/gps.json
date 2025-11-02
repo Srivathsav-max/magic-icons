@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "gps",
-  "category": "location",
-  "tags": [
-    "gps",
-    "location"
-  ],
-  "description": "gps icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "gps",
+	"category": "location",
+	"tags": ["gps", "location"],
+	"description": "gps icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

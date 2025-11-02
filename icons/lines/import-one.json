@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "import-one",
-  "category": "arrows",
-  "tags": [
-    "import-one",
-    "arrows"
-  ],
-  "description": "import-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "import-one",
+	"category": "arrows",
+	"tags": ["import-one", "arrows"],
+	"description": "import-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

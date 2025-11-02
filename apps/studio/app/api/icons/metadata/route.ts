@@ -7,7 +7,10 @@ export async function PUT(request: Request) {
 		const { path, metadata } = body;
 
 		if (!path || !metadata) {
-			return NextResponse.json({ success: false, error: "Missing required fields" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Missing required fields" },
+				{ status: 400 },
+			);
 		}
 
 		// Write metadata to file
@@ -19,6 +22,9 @@ export async function PUT(request: Request) {
 		});
 	} catch (error) {
 		console.error("Error updating metadata:", error);
-		return NextResponse.json({ success: false, error: "Failed to update metadata" }, { status: 500 });
+		return NextResponse.json(
+			{ success: false, error: "Failed to update metadata" },
+			{ status: 500 },
+		);
 	}
 }

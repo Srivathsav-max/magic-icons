@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cloud-plus",
-  "category": "weather",
-  "tags": [
-    "cloud-plus",
-    "weather"
-  ],
-  "description": "cloud-plus icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-plus",
+	"category": "weather",
+	"tags": ["cloud-plus", "weather"],
+	"description": "cloud-plus icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

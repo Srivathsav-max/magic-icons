@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "printer-slash",
-  "category": "electronics",
-  "tags": [
-    "printer-slash",
-    "electronics"
-  ],
-  "description": "printer-slash icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "printer-slash",
+	"category": "electronics",
+	"tags": ["printer-slash", "electronics"],
+	"description": "printer-slash icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

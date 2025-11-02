@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "trend-down",
-  "category": "business",
-  "tags": [
-    "trend-down",
-    "business"
-  ],
-  "description": "trend-down icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "trend-down",
+	"category": "business",
+	"tags": ["trend-down", "business"],
+	"description": "trend-down icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

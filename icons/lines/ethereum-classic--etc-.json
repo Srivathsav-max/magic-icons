@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "ethereum-classic--etc-",
-  "category": "brands",
-  "tags": [
-    "ethereum-classic--etc-",
-    "brands"
-  ],
-  "description": "ethereum-classic--etc- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "ethereum-classic--etc-",
+	"category": "brands",
+	"tags": ["ethereum-classic--etc-", "brands"],
+	"description": "ethereum-classic--etc- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

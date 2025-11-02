@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "close-circle",
-  "category": "essentials",
-  "tags": [
-    "close-circle",
-    "essentials"
-  ],
-  "description": "close-circle icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "close-circle",
+	"category": "essentials",
+	"tags": ["close-circle", "essentials"],
+	"description": "close-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

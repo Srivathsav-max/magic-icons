@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "arrow-up-two",
-  "category": "arrows",
-  "tags": [
-    "arrow-up-two",
-    "arrows"
-  ],
-  "description": "arrow-up-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "arrow-up-two",
+	"category": "arrows",
+	"tags": ["arrow-up-two", "arrows"],
+	"description": "arrow-up-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

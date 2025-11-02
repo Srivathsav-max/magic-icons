@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "snapchat",
-  "category": "brands",
-  "tags": [
-    "snapchat",
-    "brands"
-  ],
-  "description": "snapchat icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "snapchat",
+	"category": "brands",
+	"tags": ["snapchat", "brands"],
+	"description": "snapchat icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

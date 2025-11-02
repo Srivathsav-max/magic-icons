@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "music-square-search",
-  "category": "communication",
-  "tags": [
-    "music-square-search",
-    "communication"
-  ],
-  "description": "music-square-search icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "music-square-search",
+	"category": "communication",
+	"tags": ["music-square-search", "communication"],
+	"description": "music-square-search icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

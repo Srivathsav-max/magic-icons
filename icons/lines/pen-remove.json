@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "pen-remove",
-  "category": "tools",
-  "tags": [
-    "pen-remove",
-    "tools"
-  ],
-  "description": "pen-remove icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "pen-remove",
+	"category": "tools",
+	"tags": ["pen-remove", "tools"],
+	"description": "pen-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

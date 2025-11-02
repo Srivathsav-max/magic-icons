@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "document",
-  "category": "money",
-  "tags": [
-    "document",
-    "money"
-  ],
-  "description": "document icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "document",
+	"category": "money",
+	"tags": ["document", "money"],
+	"description": "document icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

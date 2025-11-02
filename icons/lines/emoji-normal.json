@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "emoji-normal",
-  "category": "essentials",
-  "tags": [
-    "emoji-normal",
-    "essentials"
-  ],
-  "description": "emoji-normal icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "emoji-normal",
+	"category": "essentials",
+	"tags": ["emoji-normal", "essentials"],
+	"description": "emoji-normal icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

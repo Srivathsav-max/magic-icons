@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "save-minus",
-  "category": "essentials",
-  "tags": [
-    "save-minus",
-    "essentials"
-  ],
-  "description": "save-minus icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "save-minus",
+	"category": "essentials",
+	"tags": ["save-minus", "essentials"],
+	"description": "save-minus icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "heart-add",
-  "category": "essentials",
-  "tags": [
-    "heart-add",
-    "essentials"
-  ],
-  "description": "heart-add icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "heart-add",
+	"category": "essentials",
+	"tags": ["heart-add", "essentials"],
+	"description": "heart-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

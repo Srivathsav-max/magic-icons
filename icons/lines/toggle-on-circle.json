@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "toggle-on-circle",
-  "category": "essentials",
-  "tags": [
-    "toggle-on-circle",
-    "essentials"
-  ],
-  "description": "toggle-on-circle icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "toggle-on-circle",
+	"category": "essentials",
+	"tags": ["toggle-on-circle", "essentials"],
+	"description": "toggle-on-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

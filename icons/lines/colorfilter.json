@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "colorfilter",
-  "category": "tools",
-  "tags": [
-    "colorfilter",
-    "tools"
-  ],
-  "description": "colorfilter icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "colorfilter",
+	"category": "tools",
+	"tags": ["colorfilter", "tools"],
+	"description": "colorfilter icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

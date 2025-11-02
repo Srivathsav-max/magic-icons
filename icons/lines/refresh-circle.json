@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "refresh-circle",
-  "category": "arrows",
-  "tags": [
-    "refresh-circle",
-    "arrows"
-  ],
-  "description": "refresh-circle icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "refresh-circle",
+	"category": "arrows",
+	"tags": ["refresh-circle", "arrows"],
+	"description": "refresh-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

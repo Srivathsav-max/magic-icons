@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cloud-notif",
-  "category": "weather",
-  "tags": [
-    "cloud-notif",
-    "weather"
-  ],
-  "description": "cloud-notif icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-notif",
+	"category": "weather",
+	"tags": ["cloud-notif", "weather"],
+	"description": "cloud-notif icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

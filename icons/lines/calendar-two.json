@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "calendar-two",
-  "category": "essentials",
-  "tags": [
-    "calendar-two",
-    "essentials"
-  ],
-  "description": "calendar-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "calendar-two",
+	"category": "essentials",
+	"tags": ["calendar-two", "essentials"],
+	"description": "calendar-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

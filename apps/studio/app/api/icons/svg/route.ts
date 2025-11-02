@@ -7,7 +7,10 @@ export async function PUT(request: Request) {
 		const { path, content } = body;
 
 		if (!path || !content) {
-			return NextResponse.json({ success: false, error: "Missing required fields" }, { status: 400 });
+			return NextResponse.json(
+				{ success: false, error: "Missing required fields" },
+				{ status: 400 },
+			);
 		}
 
 		// Write SVG content to file

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "previous",
-  "category": "communication",
-  "tags": [
-    "previous",
-    "communication"
-  ],
-  "description": "previous icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "previous",
+	"category": "communication",
+	"tags": ["previous", "communication"],
+	"description": "previous icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

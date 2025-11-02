@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "game",
-  "category": "electronics",
-  "tags": [
-    "game",
-    "electronics"
-  ],
-  "description": "game icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "game",
+	"category": "electronics",
+	"tags": ["game", "electronics"],
+	"description": "game icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

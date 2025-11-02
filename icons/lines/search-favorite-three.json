@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "search-favorite-three",
-  "category": "essentials",
-  "tags": [
-    "search-favorite-three",
-    "essentials"
-  ],
-  "description": "search-favorite-three icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "search-favorite-three",
+	"category": "essentials",
+	"tags": ["search-favorite-three", "essentials"],
+	"description": "search-favorite-three icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

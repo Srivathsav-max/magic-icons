@@ -15,31 +15,28 @@ export async function DELETE(request: NextRequest) {
 		if (!iconId || !category) {
 			return NextResponse.json(
 				{ success: false, error: "Icon ID and category are required" },
-				{ status: 400 }
+				{ status: 400 },
 			);
 		}
 
 		const categoryDir = path.join(ICONS_BASE_DIR, category);
-		
+
 		// Check if category directory exists
 		if (!fs.existsSync(categoryDir)) {
 			return NextResponse.json(
 				{ success: false, error: "Category directory not found" },
-				{ status: 404 }
+				{ status: 404 },
 			);
 		}
 
 		// Get all files for this icon (all variants)
 		const files = fs.readdirSync(categoryDir);
-		const iconFiles = files.filter((file) => 
-			file.startsWith(`${iconId}-`) && (file.endsWith(".svg") || file.endsWith(".json"))
+		const iconFiles = files.filter(
+			(file) => file.startsWith(`${iconId}-`) && (file.endsWith(".svg") || file.endsWith(".json")),
 		);
 
 		if (iconFiles.length === 0) {
-			return NextResponse.json(
-				{ success: false, error: "No icon files found" },
-				{ status: 404 }
-			);
+			return NextResponse.json({ success: false, error: "No icon files found" }, { status: 404 });
 		}
 
 		// Delete all variant files (SVG and JSON)
@@ -61,9 +58,6 @@ export async function DELETE(request: NextRequest) {
 		});
 	} catch (error) {
 		console.error("Error deleting icon:", error);
-		return NextResponse.json(
-			{ success: false, error: "Failed to delete icon" },
-			{ status: 500 }
-		);
+		return NextResponse.json({ success: false, error: "Failed to delete icon" }, { status: 500 });
 	}
 }

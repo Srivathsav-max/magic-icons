@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "picture-frame",
-  "category": "location",
-  "tags": [
-    "picture-frame",
-    "location"
-  ],
-  "description": "picture-frame icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "picture-frame",
+	"category": "location",
+	"tags": ["picture-frame", "location"],
+	"description": "picture-frame icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

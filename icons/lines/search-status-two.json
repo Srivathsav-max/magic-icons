@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "search-status-two",
-  "category": "essentials",
-  "tags": [
-    "search-status-two",
-    "essentials"
-  ],
-  "description": "search-status-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "search-status-two",
+	"category": "essentials",
+	"tags": ["search-status-two", "essentials"],
+	"description": "search-status-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

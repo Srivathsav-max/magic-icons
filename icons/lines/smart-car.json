@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "smart-car",
-  "category": "transportation",
-  "tags": [
-    "smart-car",
-    "transportation"
-  ],
-  "description": "smart-car icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "smart-car",
+	"category": "transportation",
+	"tags": ["smart-car", "transportation"],
+	"description": "smart-car icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

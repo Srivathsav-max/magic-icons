@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "bag-cross-one",
-  "category": "shop",
-  "tags": [
-    "bag-cross-one",
-    "shop"
-  ],
-  "description": "bag-cross-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "bag-cross-one",
+	"category": "shop",
+	"tags": ["bag-cross-one", "shop"],
+	"description": "bag-cross-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

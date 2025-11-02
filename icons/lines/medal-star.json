@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "medal-star",
-  "category": "essentials",
-  "tags": [
-    "medal-star",
-    "essentials"
-  ],
-  "description": "medal-star icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "medal-star",
+	"category": "essentials",
+	"tags": ["medal-star", "essentials"],
+	"description": "medal-star icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

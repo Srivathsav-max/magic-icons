@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "ram-two",
-  "category": "electronics",
-  "tags": [
-    "ram-two",
-    "electronics"
-  ],
-  "description": "ram-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "ram-two",
+	"category": "electronics",
+	"tags": ["ram-two", "electronics"],
+	"description": "ram-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "quote-up-square",
-  "category": "content",
-  "tags": [
-    "quote-up-square",
-    "content"
-  ],
-  "description": "quote-up-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "quote-up-square",
+	"category": "content",
+	"tags": ["quote-up-square", "content"],
+	"description": "quote-up-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

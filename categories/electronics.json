@@ -1,7 +1,7 @@
 {
-  "$schema": "../category.schema.json",
-  "icon": "electronics",
-  "title": "Electronics",
-  "description": "",
-  "weight": 0
+	"$schema": "../category.schema.json",
+	"icon": "electronics",
+	"title": "Electronics",
+	"description": "",
+	"weight": 0
 }

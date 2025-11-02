@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "scissor",
-  "category": "communication",
-  "tags": [
-    "scissor",
-    "communication"
-  ],
-  "description": "scissor icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "scissor",
+	"category": "communication",
+	"tags": ["scissor", "communication"],
+	"description": "scissor icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "buliding",
-  "category": "buildings",
-  "tags": [
-    "buliding",
-    "buildings"
-  ],
-  "description": "buliding icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "buliding",
+	"category": "buildings",
+	"tags": ["buliding", "buildings"],
+	"description": "buliding icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

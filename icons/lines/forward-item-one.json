@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "forward-item-one",
-  "category": "tools",
-  "tags": [
-    "forward-item-one",
-    "tools"
-  ],
-  "description": "forward-item-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "forward-item-one",
+	"category": "tools",
+	"tags": ["forward-item-one", "tools"],
+	"description": "forward-item-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "note-square",
-  "category": "communication",
-  "tags": [
-    "note-square",
-    "communication"
-  ],
-  "description": "note-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "note-square",
+	"category": "communication",
+	"tags": ["note-square", "communication"],
+	"description": "note-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

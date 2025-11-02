@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "call",
-  "category": "essentials",
-  "tags": [
-    "call",
-    "essentials"
-  ],
-  "description": "call icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "call",
+	"category": "essentials",
+	"tags": ["call", "essentials"],
+	"description": "call icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

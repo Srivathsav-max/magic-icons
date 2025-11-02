@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "card-send",
-  "category": "money",
-  "tags": [
-    "card-send",
-    "money"
-  ],
-  "description": "card-send icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "card-send",
+	"category": "money",
+	"tags": ["card-send", "money"],
+	"description": "card-send icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

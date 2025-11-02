@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "grid-eight",
-  "category": "grid",
-  "tags": [
-    "grid-eight",
-    "grid"
-  ],
-  "description": "grid-eight icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "grid-eight",
+	"category": "grid",
+	"tags": ["grid-eight", "grid"],
+	"description": "grid-eight icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

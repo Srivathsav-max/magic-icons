@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "siacoin--sc-",
-  "category": "brands",
-  "tags": [
-    "siacoin--sc-",
-    "brands"
-  ],
-  "description": "siacoin--sc- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "siacoin--sc-",
+	"category": "brands",
+	"tags": ["siacoin--sc-", "brands"],
+	"description": "siacoin--sc- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

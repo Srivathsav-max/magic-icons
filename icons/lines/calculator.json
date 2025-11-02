@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "calculator",
-  "category": "school",
-  "tags": [
-    "calculator",
-    "school"
-  ],
-  "description": "calculator icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "calculator",
+	"category": "school",
+	"tags": ["calculator", "school"],
+	"description": "calculator icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cloud-add",
-  "category": "electronics",
-  "tags": [
-    "cloud-add",
-    "electronics"
-  ],
-  "description": "cloud-add icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-add",
+	"category": "electronics",
+	"tags": ["cloud-add", "electronics"],
+	"description": "cloud-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "box-tick",
-  "category": "delivery",
-  "tags": [
-    "box-tick",
-    "delivery"
-  ],
-  "description": "box-tick icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "box-tick",
+	"category": "delivery",
+	"tags": ["box-tick", "delivery"],
+	"description": "box-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

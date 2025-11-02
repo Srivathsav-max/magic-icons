@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "dollar-square",
-  "category": "money",
-  "tags": [
-    "dollar-square",
-    "money"
-  ],
-  "description": "dollar-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "dollar-square",
+	"category": "money",
+	"tags": ["dollar-square", "money"],
+	"description": "dollar-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

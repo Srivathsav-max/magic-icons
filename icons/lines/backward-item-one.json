@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "backward-item-one",
-  "category": "tools",
-  "tags": [
-    "backward-item-one",
-    "tools"
-  ],
-  "description": "backward-item-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "backward-item-one",
+	"category": "tools",
+	"tags": ["backward-item-one", "tools"],
+	"description": "backward-item-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

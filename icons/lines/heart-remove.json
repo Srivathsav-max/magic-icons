@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "heart-remove",
-  "category": "essentials",
-  "tags": [
-    "heart-remove",
-    "essentials"
-  ],
-  "description": "heart-remove icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "heart-remove",
+	"category": "essentials",
+	"tags": ["heart-remove", "essentials"],
+	"description": "heart-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

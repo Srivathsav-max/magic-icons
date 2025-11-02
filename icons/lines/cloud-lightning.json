@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "cloud-lightning",
-  "category": "weather",
-  "tags": [
-    "cloud-lightning",
-    "weather"
-  ],
-  "description": "cloud-lightning icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-lightning",
+	"category": "weather",
+	"tags": ["cloud-lightning", "weather"],
+	"description": "cloud-lightning icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

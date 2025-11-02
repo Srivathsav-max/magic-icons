@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "magic-star",
-  "category": "essentials",
-  "tags": [
-    "magic-star",
-    "essentials"
-  ],
-  "description": "magic-star icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "magic-star",
+	"category": "essentials",
+	"tags": ["magic-star", "essentials"],
+	"description": "magic-star icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

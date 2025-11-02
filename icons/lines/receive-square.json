@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "receive-square",
-  "category": "arrows",
-  "tags": [
-    "receive-square",
-    "arrows"
-  ],
-  "description": "receive-square icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "receive-square",
+	"category": "arrows",
+	"tags": ["receive-square", "arrows"],
+	"description": "receive-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

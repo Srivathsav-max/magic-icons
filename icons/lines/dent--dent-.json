@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "dent--dent-",
-  "category": "brands",
-  "tags": [
-    "dent--dent-",
-    "brands"
-  ],
-  "description": "dent--dent- icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "dent--dent-",
+	"category": "brands",
+	"tags": ["dent--dent-", "brands"],
+	"description": "dent--dent- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

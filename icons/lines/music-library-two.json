@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "music-library-two",
-  "category": "communication",
-  "tags": [
-    "music-library-two",
-    "communication"
-  ],
-  "description": "music-library-two icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "music-library-two",
+	"category": "communication",
+	"tags": ["music-library-two", "communication"],
+	"description": "music-library-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

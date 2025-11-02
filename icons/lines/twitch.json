@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "twitch",
-  "category": "brands",
-  "tags": [
-    "twitch",
-    "brands"
-  ],
-  "description": "twitch icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "twitch",
+	"category": "brands",
+	"tags": ["twitch", "brands"],
+	"description": "twitch icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

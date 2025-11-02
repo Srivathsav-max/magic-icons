@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "direct-send",
-  "category": "communication",
-  "tags": [
-    "direct-send",
-    "communication"
-  ],
-  "description": "direct-send icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "direct-send",
+	"category": "communication",
+	"tags": ["direct-send", "communication"],
+	"description": "direct-send icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }

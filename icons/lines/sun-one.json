@@ -1,14 +1,11 @@
 {
-  "$schema": "../../icon.schema.json",
-  "name": "sun-one",
-  "category": "weather",
-  "tags": [
-    "sun-one",
-    "weather"
-  ],
-  "description": "sun-one icon",
-  "variant": "lines",
-  "strokeWidth": 2,
-  "aliases": [],
-  "deprecated": false
+	"$schema": "../../icon.schema.json",
+	"name": "sun-one",
+	"category": "weather",
+	"tags": ["sun-one", "weather"],
+	"description": "sun-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
 }
