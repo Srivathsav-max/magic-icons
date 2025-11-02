@@ -27,6 +27,7 @@
 		"LICENSE"
 	],
 	"scripts": {
+		"prebuild": "cd ../.. && bun run generate:icons",
 		"build": "tsup",
 		"prepublishOnly": "bun run build"
 	},
