@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "slider-vertical-one",
+	"category": "grid",
+	"tags": ["slider-vertical-one", "grid"],
+	"description": "slider-vertical-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

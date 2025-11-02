@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "link-circle",
+	"category": "content",
+	"tags": ["link-circle", "content"],
+	"description": "link-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

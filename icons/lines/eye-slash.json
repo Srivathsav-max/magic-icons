@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "eye-slash",
+	"category": "security",
+	"tags": ["eye-slash", "security"],
+	"description": "eye-slash icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "code-circle",
+	"category": "programing",
+	"tags": ["code-circle", "programing"],
+	"description": "code-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

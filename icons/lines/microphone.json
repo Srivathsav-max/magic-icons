@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "microphone",
+	"category": "communication",
+	"tags": ["microphone", "communication"],
+	"description": "microphone icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

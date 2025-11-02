@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "sms-notification",
+	"category": "communication",
+	"tags": ["sms-notification", "communication"],
+	"description": "sms-notification icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

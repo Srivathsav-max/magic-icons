@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "sidebar-bottom",
+	"category": "programing",
+	"tags": ["sidebar-bottom", "programing"],
+	"description": "sidebar-bottom icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

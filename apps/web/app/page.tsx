@@ -1,10 +1,10 @@
 "use client";
 
-import { ArrowRight, Check, Copy, Github, Moon, Sun } from "lucide-react";
+import { Button } from "@magic-icons/ui";
+import { ArrowRightTwo, Check, Copy, Github, Moon, Sun } from "magic-icons";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import IconShowcase from "@/components/IconShowcase";
-import { Button } from "@/components/ui/button";
 
 export default function Home() {
 	const { theme, setTheme } = useTheme();
@@ -33,7 +33,7 @@ export default function Home() {
 	}
 
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 flex items-center justify-center p-6 relative">
+		<div className="min-h-screen from-background via-background to-muted/20 flex items-center justify-center p-6 relative">
 			{/* Theme Toggle */}
 			<div className="absolute top-6 right-6">
 				<Button
@@ -57,10 +57,7 @@ export default function Home() {
 					</div>
 
 					<h1 className="text-6xl md:text-7xl font-bold tracking-tight">
-						<span className="bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-							Magic Icons
-						</span>
-						<span className="block text-4xl md:text-5xl mt-2 text-muted-foreground">✨</span>
+						<span className="bg-foreground bg-clip-text text-transparent">Magic Icons</span>
 					</h1>
 
 					<p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
@@ -93,7 +90,7 @@ export default function Home() {
 				<div className="flex items-center justify-center gap-4 flex-wrap">
 					<Button onClick={() => setShowShowcase(true)} size="lg" className="gap-2 text-base px-8">
 						Browse Icons
-						<ArrowRight className="h-5 w-5" />
+						<ArrowRightTwo className="h-5 w-5" />
 					</Button>
 					<Button
 						variant="outline"

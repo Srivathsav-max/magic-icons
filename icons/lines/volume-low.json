@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "volume-low",
+	"category": "communication",
+	"tags": ["volume-low", "communication"],
+	"description": "volume-low icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

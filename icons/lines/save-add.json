@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "save-add",
+	"category": "essentials",
+	"tags": ["save-add", "essentials"],
+	"description": "save-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

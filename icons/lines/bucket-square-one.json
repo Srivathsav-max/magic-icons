@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "bucket-square-one",
+	"category": "tools",
+	"tags": ["bucket-square-one", "tools"],
+	"description": "bucket-square-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

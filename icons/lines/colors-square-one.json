@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "colors-square-one",
+	"category": "tools",
+	"tags": ["colors-square-one", "tools"],
+	"description": "colors-square-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

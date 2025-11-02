@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "document-code-two",
+	"category": "programing",
+	"tags": ["document-code-two", "programing"],
+	"description": "document-code-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "mask-two",
+	"category": "tools",
+	"tags": ["mask-two", "tools"],
+	"description": "mask-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

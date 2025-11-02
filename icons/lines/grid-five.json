@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "grid-five",
+	"category": "grid",
+	"tags": ["grid-five", "grid"],
+	"description": "grid-five icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

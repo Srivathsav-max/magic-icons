@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "arrow-bottom",
+	"category": "arrows",
+	"tags": ["arrow-bottom", "arrows"],
+	"description": "arrow-bottom icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

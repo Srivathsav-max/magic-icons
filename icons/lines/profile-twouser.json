@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "profile-twouser",
+	"category": "users",
+	"tags": ["profile-twouser", "users"],
+	"description": "profile-twouser icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

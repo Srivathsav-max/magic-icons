@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "search-normal-two",
+	"category": "essentials",
+	"tags": ["search-normal-two", "essentials"],
+	"description": "search-normal-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "play-remove",
+	"category": "communication",
+	"tags": ["play-remove", "communication"],
+	"description": "play-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

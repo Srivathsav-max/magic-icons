@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "recovery-convert",
+	"category": "tools",
+	"tags": ["recovery-convert", "tools"],
+	"description": "recovery-convert icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

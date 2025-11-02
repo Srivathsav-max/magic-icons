@@ -1,0 +1,70 @@
+{
+	"$id": "https://magicicons.dev/icons.schema.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$vocabulary": {
+		"https://json-schema.org/draft/2020-12/vocab/core": true,
+		"https://json-schema.org/draft/2020-12/vocab/applicator": true,
+		"https://json-schema.org/draft/2020-12/vocab/unevaluated": true,
+		"https://json-schema.org/draft/2020-12/vocab/validation": true,
+		"https://json-schema.org/draft/2020-12/vocab/meta-data": true,
+		"https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
+		"https://json-schema.org/draft/2020-12/vocab/content": true
+	},
+	"title": "Magic Icons icon schema",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["$schema", "name", "category", "tags"],
+	"properties": {
+		"$schema": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string",
+			"description": "The icon name in kebab-case"
+		},
+		"category": {
+			"type": "string",
+			"description": "The category this icon belongs to"
+		},
+		"aliases": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"uniqueItems": true,
+			"description": "Alternative names for this icon"
+		},
+		"tags": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"minItems": 1,
+			"uniqueItems": true,
+			"description": "Search tags for this icon"
+		},
+		"description": {
+			"type": "string",
+			"description": "Description of the icon"
+		},
+		"variant": {
+			"type": "string",
+			"enum": ["lines"],
+			"default": "lines",
+			"description": "Icon variant style"
+		},
+		"strokeWidth": {
+			"type": "number",
+			"default": 2,
+			"description": "Default stroke width for the icon"
+		},
+		"deprecated": {
+			"type": "boolean",
+			"default": false
+		},
+		"deprecationReason": {
+			"type": "string"
+		}
+	},
+	"description": "A JSON Schema for individual icon metadata files in Magic Icons."
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-change",
+	"category": "electronics",
+	"tags": ["cloud-change", "electronics"],
+	"description": "cloud-change icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

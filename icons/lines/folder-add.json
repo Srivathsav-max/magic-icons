@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "folder-add",
+	"category": "files",
+	"tags": ["folder-add", "files"],
+	"description": "folder-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

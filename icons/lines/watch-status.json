@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "watch-status",
+	"category": "electronics",
+	"tags": ["watch-status", "electronics"],
+	"description": "watch-status icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

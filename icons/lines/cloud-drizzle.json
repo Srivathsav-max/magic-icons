@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-drizzle",
+	"category": "weather",
+	"tags": ["cloud-drizzle", "weather"],
+	"description": "cloud-drizzle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

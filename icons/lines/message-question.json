@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "message-question",
+	"category": "essentials",
+	"tags": ["message-question", "essentials"],
+	"description": "message-question icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

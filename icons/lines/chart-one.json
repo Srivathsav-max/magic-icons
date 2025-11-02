@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "chart-one",
+	"category": "business",
+	"tags": ["chart-one", "business"],
+	"description": "chart-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

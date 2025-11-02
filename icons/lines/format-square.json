@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "format-square",
+	"category": "grid",
+	"tags": ["format-square", "grid"],
+	"description": "format-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

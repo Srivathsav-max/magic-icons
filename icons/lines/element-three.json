@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "element-three",
+	"category": "grid",
+	"tags": ["element-three", "grid"],
+	"description": "element-three icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

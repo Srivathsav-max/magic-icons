@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "refresh-two",
+	"category": "arrows",
+	"tags": ["refresh-two", "arrows"],
+	"description": "refresh-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

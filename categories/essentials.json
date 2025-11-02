@@ -1,0 +1,7 @@
+{
+	"$schema": "../category.schema.json",
+	"icon": "home",
+	"title": "Essentials",
+	"description": "Essential and commonly used icons",
+	"weight": 1
+}

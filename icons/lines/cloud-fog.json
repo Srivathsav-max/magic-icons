@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-fog",
+	"category": "weather",
+	"tags": ["cloud-fog", "weather"],
+	"description": "cloud-fog icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

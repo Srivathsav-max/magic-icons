@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "battery-full",
+	"category": "essentials",
+	"tags": ["battery-full", "essentials"],
+	"description": "battery-full icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

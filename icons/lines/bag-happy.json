@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "bag-happy",
+	"category": "shop",
+	"tags": ["bag-happy", "shop"],
+	"description": "bag-happy icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

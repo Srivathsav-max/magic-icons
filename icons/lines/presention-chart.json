@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "presention-chart",
+	"category": "business",
+	"tags": ["presention-chart", "business"],
+	"description": "presention-chart icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

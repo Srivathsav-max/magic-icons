@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "eraser-one",
+	"category": "tools",
+	"tags": ["eraser-one", "tools"],
+	"description": "eraser-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

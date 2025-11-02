@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "repeat",
+	"category": "arrows",
+	"tags": ["repeat", "arrows"],
+	"description": "repeat icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

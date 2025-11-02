@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "card-remove",
+	"category": "money",
+	"tags": ["card-remove", "money"],
+	"description": "card-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

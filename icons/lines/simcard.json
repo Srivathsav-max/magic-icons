@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "simcard",
+	"category": "electronics",
+	"tags": ["simcard", "electronics"],
+	"description": "simcard icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

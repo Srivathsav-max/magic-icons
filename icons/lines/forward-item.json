@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "forward-item",
+	"category": "tools",
+	"tags": ["forward-item", "tools"],
+	"description": "forward-item icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "airpods",
+	"category": "electronics",
+	"tags": ["airpods", "electronics"],
+	"description": "airpods icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

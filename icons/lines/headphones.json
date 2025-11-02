@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "headphones",
+	"category": "electronics",
+	"tags": ["headphones", "electronics"],
+	"description": "headphones icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

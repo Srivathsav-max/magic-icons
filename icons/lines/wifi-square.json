@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "wifi-square",
+	"category": "essentials",
+	"tags": ["wifi-square", "essentials"],
+	"description": "wifi-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

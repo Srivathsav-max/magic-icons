@@ -24,14 +24,6 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true
 	},
-	"include": ["src/components/icons/**/*"],
-	"exclude": [
-		"node_modules",
-		"dist",
-		"src/components/IconShowcase.tsx",
-		"src/components/IconCard.tsx",
-		"src/components/IconControls.tsx",
-		"src/App.tsx",
-		"src/main.tsx"
-	]
+	"include": ["icons/**/*", "src/**/*"],
+	"exclude": ["node_modules", "dist"]
 }

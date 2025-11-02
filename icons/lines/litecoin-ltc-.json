@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "litecoin-ltc-",
+	"category": "brands",
+	"tags": ["litecoin-ltc-", "brands"],
+	"description": "litecoin-ltc- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

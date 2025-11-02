@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "microscope",
+	"category": "electronics",
+	"tags": ["microscope", "electronics"],
+	"description": "microscope icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "smallcaps",
+	"category": "content",
+	"tags": ["smallcaps", "content"],
+	"description": "smallcaps icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

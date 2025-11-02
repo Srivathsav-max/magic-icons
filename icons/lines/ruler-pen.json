@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "ruler-pen",
+	"category": "tools",
+	"tags": ["ruler-pen", "tools"],
+	"description": "ruler-pen icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

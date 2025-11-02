@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "messages-one",
+	"category": "communication",
+	"tags": ["messages-one", "communication"],
+	"description": "messages-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

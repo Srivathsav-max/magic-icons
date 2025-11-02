@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "dribbble",
+	"category": "brands",
+	"tags": ["dribbble", "brands"],
+	"description": "dribbble icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

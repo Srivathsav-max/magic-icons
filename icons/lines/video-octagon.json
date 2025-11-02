@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "video-octagon",
+	"category": "communication",
+	"tags": ["video-octagon", "communication"],
+	"description": "video-octagon icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

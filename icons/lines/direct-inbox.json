@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "direct-inbox",
+	"category": "communication",
+	"tags": ["direct-inbox", "communication"],
+	"description": "direct-inbox icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

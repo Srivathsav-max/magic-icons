@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "cloud-remove",
+	"category": "electronics",
+	"tags": ["cloud-remove", "electronics"],
+	"description": "cloud-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

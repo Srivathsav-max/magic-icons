@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "notification-favorite",
+	"category": "essentials",
+	"tags": ["notification-favorite", "essentials"],
+	"description": "notification-favorite icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

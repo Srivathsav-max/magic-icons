@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "gps-slash",
+	"category": "location",
+	"tags": ["gps-slash", "location"],
+	"description": "gps-slash icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

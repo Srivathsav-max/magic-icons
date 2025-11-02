@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "dai--dai-",
+	"category": "brands",
+	"tags": ["dai--dai-", "brands"],
+	"description": "dai--dai- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

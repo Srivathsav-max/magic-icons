@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "arrange-circle",
+	"category": "arrows",
+	"tags": ["arrange-circle", "arrows"],
+	"description": "arrange-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

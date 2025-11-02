@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "facebook",
+	"category": "brands",
+	"tags": ["facebook", "brands"],
+	"description": "facebook icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

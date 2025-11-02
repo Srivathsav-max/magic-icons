@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "lamp",
+	"category": "electronics",
+	"tags": ["lamp", "electronics"],
+	"description": "lamp icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

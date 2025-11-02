@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "quote-up-circle",
+	"category": "content",
+	"tags": ["quote-up-circle", "content"],
+	"description": "quote-up-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

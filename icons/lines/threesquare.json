@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "threesquare",
+	"category": "arrows",
+	"tags": ["threesquare", "arrows"],
+	"description": "threesquare icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

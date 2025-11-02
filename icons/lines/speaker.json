@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "speaker",
+	"category": "electronics",
+	"tags": ["speaker", "electronics"],
+	"description": "speaker icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

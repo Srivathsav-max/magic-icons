@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "cpu",
+	"category": "electronics",
+	"tags": ["cpu", "electronics"],
+	"description": "cpu icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

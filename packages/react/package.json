@@ -1,6 +1,6 @@
 {
 	"name": "magic-icons",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"description": "A comprehensive React icon library - perfect for modern web applications",
 	"type": "module",
 	"main": "./dist/index.cjs",
@@ -13,6 +13,11 @@
 			"require": "./dist/index.cjs",
 			"default": "./dist/index.js"
 		},
+		"./metadata": {
+			"types": "./dist/metadata.d.ts",
+			"import": "./dist/metadata.js",
+			"default": "./dist/metadata.js"
+		},
 		"./package.json": "./package.json"
 	},
 	"sideEffects": false,
@@ -22,10 +27,9 @@
 		"LICENSE"
 	],
 	"scripts": {
-		"build:icons": "node scripts/generate-icons.js",
-		"build": "npm run build:icons && tsup",
-		"prepublishOnly": "npm run build",
-		"lint": "eslint ."
+		"prebuild": "cd ../.. && bun run generate:icons",
+		"build": "tsup",
+		"prepublishOnly": "bun run build"
 	},
 	"keywords": [
 		"react",

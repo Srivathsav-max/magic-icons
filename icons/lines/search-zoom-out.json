@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "search-zoom-out",
+	"category": "essentials",
+	"tags": ["search-zoom-out", "essentials"],
+	"description": "search-zoom-out icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

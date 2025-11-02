@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "shapes-two",
+	"category": "tools",
+	"tags": ["shapes-two", "tools"],
+	"description": "shapes-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

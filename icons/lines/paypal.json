@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "paypal",
+	"category": "brands",
+	"tags": ["paypal", "brands"],
+	"description": "paypal icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

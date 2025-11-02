@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "tick-circle",
+	"category": "essentials",
+	"tags": ["tick-circle", "essentials"],
+	"description": "tick-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "user-edit",
+	"category": "users",
+	"tags": ["user-edit", "users"],
+	"description": "user-edit icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

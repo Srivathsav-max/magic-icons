@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "call-slash",
+	"category": "essentials",
+	"tags": ["call-slash", "essentials"],
+	"description": "call-slash icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

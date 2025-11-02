@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "vuesax",
+	"category": "brands",
+	"tags": ["vuesax", "brands"],
+	"description": "vuesax icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

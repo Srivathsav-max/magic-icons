@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "ticket-star",
+	"category": "money",
+	"tags": ["ticket-star", "money"],
+	"description": "ticket-star icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

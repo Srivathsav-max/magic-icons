@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "google-play",
+	"category": "brands",
+	"tags": ["google-play", "brands"],
+	"description": "google-play icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

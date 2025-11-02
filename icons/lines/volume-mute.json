@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "volume-mute",
+	"category": "communication",
+	"tags": ["volume-mute", "communication"],
+	"description": "volume-mute icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

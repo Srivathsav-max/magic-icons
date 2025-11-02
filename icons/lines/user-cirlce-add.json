@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "user-cirlce-add",
+	"category": "users",
+	"tags": ["user-cirlce-add", "users"],
+	"description": "user-cirlce-add icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

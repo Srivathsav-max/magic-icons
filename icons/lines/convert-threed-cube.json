@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "convert-threed-cube",
+	"category": "delivery",
+	"tags": ["convert-threed-cube", "delivery"],
+	"description": "convert-threed-cube icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

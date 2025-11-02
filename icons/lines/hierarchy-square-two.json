@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "hierarchy-square-two",
+	"category": "programing",
+	"tags": ["hierarchy-square-two", "programing"],
+	"description": "hierarchy-square-two icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,7 @@
+{
+	"$schema": "../category.schema.json",
+	"icon": "grid",
+	"title": "Grid",
+	"description": "",
+	"weight": 0
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "send-square",
+	"category": "arrows",
+	"tags": ["send-square", "arrows"],
+	"description": "send-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "voice-square",
+	"category": "communication",
+	"tags": ["voice-square", "communication"],
+	"description": "voice-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

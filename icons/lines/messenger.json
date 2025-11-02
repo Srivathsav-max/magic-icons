@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "messenger",
+	"category": "brands",
+	"tags": ["messenger", "brands"],
+	"description": "messenger icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

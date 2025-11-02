@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "mouse-circle",
+	"category": "essentials",
+	"tags": ["mouse-circle", "essentials"],
+	"description": "mouse-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

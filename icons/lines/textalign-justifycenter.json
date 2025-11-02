@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "textalign-justifycenter",
+	"category": "content",
+	"tags": ["textalign-justifycenter", "content"],
+	"description": "textalign-justifycenter icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

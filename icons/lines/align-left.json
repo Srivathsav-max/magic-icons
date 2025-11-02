@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "align-left",
+	"category": "arrows",
+	"tags": ["align-left", "arrows"],
+	"description": "align-left icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

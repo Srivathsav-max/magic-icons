@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "message-programming",
+	"category": "programing",
+	"tags": ["message-programming", "programing"],
+	"description": "message-programming icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

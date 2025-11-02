@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "grid-edit",
+	"category": "grid",
+	"tags": ["grid-edit", "grid"],
+	"description": "grid-edit icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

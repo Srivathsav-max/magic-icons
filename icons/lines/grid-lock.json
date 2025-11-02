@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "grid-lock",
+	"category": "grid",
+	"tags": ["grid-lock", "grid"],
+	"description": "grid-lock icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "refresh-left-square",
+	"category": "arrows",
+	"tags": ["refresh-left-square", "arrows"],
+	"description": "refresh-left-square icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

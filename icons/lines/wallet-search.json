@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "wallet-search",
+	"category": "money",
+	"tags": ["wallet-search", "money"],
+	"description": "wallet-search icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

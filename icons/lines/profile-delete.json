@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "profile-delete",
+	"category": "users",
+	"tags": ["profile-delete", "users"],
+	"description": "profile-delete icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

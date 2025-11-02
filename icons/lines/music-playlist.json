@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "music-playlist",
+	"category": "communication",
+	"tags": ["music-playlist", "communication"],
+	"description": "music-playlist icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

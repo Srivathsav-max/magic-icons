@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "location-tick",
+	"category": "location",
+	"tags": ["location-tick", "location"],
+	"description": "location-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "gallery-tick",
+	"category": "communication",
+	"tags": ["gallery-tick", "communication"],
+	"description": "gallery-tick icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

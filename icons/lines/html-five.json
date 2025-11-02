@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "html-five",
+	"category": "brands",
+	"tags": ["html-five", "brands"],
+	"description": "html-five icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

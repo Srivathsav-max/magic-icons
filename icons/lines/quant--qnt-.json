@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "quant--qnt-",
+	"category": "brands",
+	"tags": ["quant--qnt-", "brands"],
+	"description": "quant--qnt- icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

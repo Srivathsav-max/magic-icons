@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "flash-circle-one",
+	"category": "tools",
+	"tags": ["flash-circle-one", "tools"],
+	"description": "flash-circle-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

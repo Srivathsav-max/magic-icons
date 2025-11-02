@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "volume-up",
+	"category": "communication",
+	"tags": ["volume-up", "communication"],
+	"description": "volume-up icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

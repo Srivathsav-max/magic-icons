@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "kanban",
+	"category": "grid",
+	"tags": ["kanban", "grid"],
+	"description": "kanban icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

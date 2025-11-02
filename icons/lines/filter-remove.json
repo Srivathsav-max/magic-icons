@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "filter-remove",
+	"category": "essentials",
+	"tags": ["filter-remove", "essentials"],
+	"description": "filter-remove icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

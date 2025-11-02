@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "ticket-expired",
+	"category": "money",
+	"tags": ["ticket-expired", "money"],
+	"description": "ticket-expired icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

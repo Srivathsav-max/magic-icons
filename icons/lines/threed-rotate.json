@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "threed-rotate",
+	"category": "delivery",
+	"tags": ["threed-rotate", "delivery"],
+	"description": "threed-rotate icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

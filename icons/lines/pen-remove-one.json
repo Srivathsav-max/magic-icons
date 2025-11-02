@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "pen-remove-one",
+	"category": "tools",
+	"tags": ["pen-remove-one", "tools"],
+	"description": "pen-remove-one icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "row-horizontal",
+	"category": "grid",
+	"tags": ["row-horizontal", "grid"],
+	"description": "row-horizontal icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

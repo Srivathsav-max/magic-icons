@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "like-shapes",
+	"category": "essentials",
+	"tags": ["like-shapes", "essentials"],
+	"description": "like-shapes icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

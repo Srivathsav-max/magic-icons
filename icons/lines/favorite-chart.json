@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "favorite-chart",
+	"category": "business",
+	"tags": ["favorite-chart", "business"],
+	"description": "favorite-chart icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

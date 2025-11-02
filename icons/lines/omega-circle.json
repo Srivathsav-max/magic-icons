@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "omega-circle",
+	"category": "tools",
+	"tags": ["omega-circle", "tools"],
+	"description": "omega-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

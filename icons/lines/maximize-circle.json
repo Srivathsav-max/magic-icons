@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "maximize-circle",
+	"category": "communication",
+	"tags": ["maximize-circle", "communication"],
+	"description": "maximize-circle icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

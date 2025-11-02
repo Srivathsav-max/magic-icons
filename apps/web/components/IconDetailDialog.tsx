@@ -1,27 +1,37 @@
 "use client";
 
-import { Check, Copy } from "lucide-react";
+import {
+	Badge,
+	Button,
+	Dialog,
+	DialogContent,
+	DialogHeader,
+	DialogTitle,
+	Tabs,
+	TabsContent,
+	TabsList,
+	TabsTrigger,
+} from "@magic-icons/ui";
 import * as Icons from "magic-icons";
+import { Check, Copy, Download } from "magic-icons";
 import type React from "react";
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 interface IconDetailDialogProps {
 	icon: {
 		name: string;
-		originalName: string;
-		variant: string;
+		componentName: string;
 		category: string;
-		supportsStrokeWidth: boolean;
+		tags: string[];
+		description: string;
+		aliases: string[];
+		deprecated: boolean;
 	} | null;
 	open: boolean;
 	onOpenChange: (open: boolean) => void;
 	size: number;
-	color: string;
+	color: string | undefined;
 	strokeWidth: number;
 }
 
@@ -39,15 +49,15 @@ const frameworks = [
 const getIconComponent = (
 	iconName: string,
 ): React.ComponentType<{
-	size: number;
-	color: string;
+	size?: number;
+	color?: string;
 	strokeWidth?: number;
 }> => {
 	const iconsMap = Icons as Record<
 		string,
 		React.ComponentType<{
-			size: number;
-			color: string;
+			size?: number;
+			color?: string;
 			strokeWidth?: number;
 		}>
 	>;
@@ -66,73 +76,97 @@ const IconDetailDialog = ({
 	const [copiedJsx, setCopiedJsx] = useState(false);
 	const [selectedFramework, setSelectedFramework] = useState("preact");
 	const [activeTab, setActiveTab] = useState("text");
+	const [sourceSvg, setSourceSvg] = useState<string | null>(null);
+
+	useEffect(() => {
+		if (!icon) return;
+
+		const loadSourceSvg = async () => {
+			try {
+				const response = await fetch(`/api/icons/source?name=${icon.name}&variant=lines`);
+				if (response.ok) {
+					const svgText = await response.text();
+					setSourceSvg(svgText);
+				}
+			} catch (error) {
+				console.error("Failed to load source SVG:", error);
+			}
+		};
+		loadSourceSvg();
+	}, [icon]);
 
 	if (!icon) return null;
 
-	const IconComponent = getIconComponent(icon.name);
+	const IconComponent = getIconComponent(icon.componentName);
+
+	if (!IconComponent) return null;
 
 	const getCode = (framework: string) => {
+		const colorProp = color ? ` color="${color}"` : "";
+		const colorComment = color ? "" : "\n";
+
 		switch (framework) {
 			case "react":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "preact":
-				return `import { ${icon.name} } from 'magic-icons';\n\nexport default function App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nexport default function App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}`;
 			case "vue":
-				return `<template>\n  <${icon.name} :size="24" color="#000" />\n</template>\n\n<script setup>\nimport { ${icon.name} } from 'magic-icons';\n</script>`;
+				return `<template>${colorComment ? `\n  <!-- ${colorComment.trim()} -->` : ""}\n  <${icon.componentName} :size="24"${colorProp} />\n</template>\n\n<script setup>\nimport { ${icon.componentName} } from 'magic-icons';\n</script>`;
 			case "svelte":
-				return `<script>\n  import { ${icon.name} } from 'magic-icons';\n</script>\n\n<${icon.name} size={24} color="#000" />`;
+				return `<script>\n  import { ${icon.componentName} } from 'magic-icons';\n</script>\n${colorComment ? `\n<!-- ${colorComment.trim()} -->` : ""}\n<${icon.componentName} size={24}${colorProp} />`;
 			case "solid":
-				return `import { ${icon.name} } from 'magic-icons';\n\nfunction App() {\n  return (\n    <${icon.name} size={24} color="#000" />\n  );\n}\n\nexport default App;`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n\nfunction App() {${colorComment}\n  return (\n    <${icon.componentName} size={24}${colorProp} />\n  );\n}\n\nexport default App;`;
 			case "angular":
-				return `import { ${icon.name} } from 'magic-icons';\n\n@Component({\n  selector: 'app-root',\n  template: '<${icon.name} [size]="24" color="#000" />'\n})\nexport class AppComponent {}`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\n@Component({\n  selector: 'app-root',\n  template: '<${icon.componentName} [size]="24"${colorProp} />'\n})\nexport class AppComponent {}`;
 			case "vanilla":
-				return `import { ${icon.name} } from 'magic-icons';\n\nconst icon = ${icon.name}({ size: 24, color: '#000' });\ndocument.body.appendChild(icon);`;
+				return `import { ${icon.componentName} } from 'magic-icons';\n${colorComment ? `\n// ${colorComment.trim()}` : ""}\nconst icon = ${icon.componentName}({ size: 24${color ? `, color: '${color}'` : ""} });\ndocument.body.appendChild(icon);`;
 			default:
-				return `import { ${icon.name} } from 'magic-icons';`;
+				return `import { ${icon.componentName} } from 'magic-icons';`;
 		}
 	};
 
 	const getSvgString = async () => {
-		const container = document.createElement("div");
-		container.style.position = "absolute";
-		container.style.left = "-9999px";
-		document.body.appendChild(container);
+		if (sourceSvg) {
+			const parser = new DOMParser();
+			const doc = parser.parseFromString(sourceSvg, "image/svg+xml");
+			const svgEl = doc.querySelector("svg");
 
-		try {
-			const IconComponentForSvg = getIconComponent(icon.name);
-
-			const { createRoot } = await import("react-dom/client");
-			const root = createRoot(container);
-
-			await new Promise<void>((resolve) => {
-				root.render(
-					<IconComponentForSvg
-						size={size}
-						color={color}
-						{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
-					/>,
-				);
-				setTimeout(resolve, 100);
-			});
-
-			const svgElement = container.querySelector("svg");
-			if (svgElement) {
-				const clonedSvg = svgElement.cloneNode(true) as SVGElement;
-				const svgString = clonedSvg.outerHTML;
-
-				root.unmount();
-				document.body.removeChild(container);
-
-				return svgString;
+			if (svgEl) {
+				svgEl.setAttribute("width", size.toString());
+				svgEl.setAttribute("height", size.toString());
+				if (color) {
+					svgEl.setAttribute("stroke", color);
+				}
+				svgEl.setAttribute("stroke-width", strokeWidth.toString());
+				return svgEl.outerHTML;
 			}
-
-			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- ${icon.originalName} - ${icon.variant} variant -->\n</svg>`;
-		} catch (error) {
-			console.error("Error generating SVG:", error);
-			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- ${icon.originalName} - ${icon.variant} variant -->\n</svg>`;
 		}
+
+		// Fallback: fetch from API if not loaded yet
+		try {
+			const response = await fetch(`/api/icons/source?name=${icon.name}&variant=lines`);
+			if (response.ok) {
+				const svgText = await response.text();
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(svgText, "image/svg+xml");
+				const svgEl = doc.querySelector("svg");
+
+				if (svgEl) {
+					svgEl.setAttribute("width", size.toString());
+					svgEl.setAttribute("height", size.toString());
+					if (color) {
+						svgEl.setAttribute("stroke", color);
+					}
+					svgEl.setAttribute("stroke-width", strokeWidth.toString());
+					return svgEl.outerHTML;
+				}
+			}
+		} catch (error) {
+			console.error("Error loading source SVG:", error);
+		}
+
+		// Final fallback: return a basic SVG template
+		return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- Icon: ${icon.name} -->\n</svg>`;
 	};
 
 	const handleCopy = async (text: string, type: "svg" | "jsx") => {
@@ -150,13 +184,30 @@ const IconDetailDialog = ({
 		}
 	};
 
-	const tags = ["letter", "font size", "text", "formatting"];
+	const handleDownloadSvg = async () => {
+		try {
+			const svg = sourceSvg || (await getSvgString());
+			const blob = new Blob([svg], { type: "image/svg+xml" });
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement("a");
+			a.href = url;
+			a.download = `${icon.name}.svg`;
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+			URL.revokeObjectURL(url);
+		} catch (error) {
+			console.error("Failed to download SVG:", error);
+		}
+	};
+
+	const tags = icon.tags;
 
 	return (
 		<Dialog open={open} onOpenChange={onOpenChange}>
 			<DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
 				<DialogHeader>
-					<DialogTitle className="text-2xl">{icon.originalName}</DialogTitle>
+					<DialogTitle className="text-2xl">{icon.componentName}</DialogTitle>
 					<div className="flex gap-2 mt-2">
 						{tags.map((tag) => (
 							<Badge key={tag} variant="secondary" className="text-xs">
@@ -182,12 +233,16 @@ const IconDetailDialog = ({
 								variant="outline"
 								className="gap-2"
 								onClick={async () => {
-									const svg = await getSvgString();
+									const svg = sourceSvg || (await getSvgString());
 									handleCopy(svg, "svg");
 								}}
 							>
 								{copiedSvg ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
 								Copy SVG
+							</Button>
+							<Button variant="outline" className="gap-2" onClick={handleDownloadSvg}>
+								<Download className="h-4 w-4" />
+								Download SVG
 							</Button>
 							<Button
 								variant="outline"
@@ -235,8 +290,8 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size * 2}
-											color={color}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											{...(color !== undefined ? { color } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -244,8 +299,8 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size}
-											color={color}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											{...(color !== undefined ? { color } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -253,8 +308,8 @@ const IconDetailDialog = ({
 									<Suspense fallback={<div>Loading...</div>}>
 										<IconComponent
 											size={size / 1.5}
-											color={color}
-											{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+											{...(color !== undefined ? { color } : {})}
+											strokeWidth={strokeWidth}
 										/>
 									</Suspense>
 								</div>
@@ -263,9 +318,9 @@ const IconDetailDialog = ({
 							<div className="col-span-3 flex items-center justify-center p-12 border border-border rounded-lg bg-background">
 								<Suspense fallback={<div>Loading...</div>}>
 									<IconComponent
-										size={size * 4}
-										color={color}
-										{...(icon.supportsStrokeWidth ? { strokeWidth } : {})}
+										size={size * 2}
+										{...(color !== undefined ? { color } : {})}
+										strokeWidth={strokeWidth}
 									/>
 								</Suspense>
 							</div>
@@ -277,7 +332,8 @@ const IconDetailDialog = ({
 									<span className="font-medium">Version:</span> v0.0.2
 								</div>
 								<div>
-									<span className="font-medium">Variant:</span> {icon.variant}
+									<span className="font-medium">Category:</span>{" "}
+									<span className="capitalize">{icon.category}</span>
 								</div>
 								<div className="col-span-2">
 									<span className="font-medium">Contributor:</span>

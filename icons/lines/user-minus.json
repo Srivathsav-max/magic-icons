@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "user-minus",
+	"category": "users",
+	"tags": ["user-minus", "users"],
+	"description": "user-minus icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}

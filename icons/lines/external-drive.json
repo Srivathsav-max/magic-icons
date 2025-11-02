@@ -1,0 +1,11 @@
+{
+	"$schema": "../../icon.schema.json",
+	"name": "external-drive",
+	"category": "electronics",
+	"tags": ["external-drive", "electronics"],
+	"description": "external-drive icon",
+	"variant": "lines",
+	"strokeWidth": 2,
+	"aliases": [],
+	"deprecated": false
+}
