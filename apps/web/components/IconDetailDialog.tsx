@@ -13,9 +13,9 @@ import {
 	TabsTrigger,
 } from "@magic-icons/ui";
 import * as Icons from "magic-icons";
-import { Check, Copy } from "magic-icons";
+import { Check, Copy, Download } from "magic-icons";
 import type React from "react";
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface IconDetailDialogProps {
@@ -76,11 +76,29 @@ const IconDetailDialog = ({
 	const [copiedJsx, setCopiedJsx] = useState(false);
 	const [selectedFramework, setSelectedFramework] = useState("preact");
 	const [activeTab, setActiveTab] = useState("text");
+	const [sourceSvg, setSourceSvg] = useState<string | null>(null);
+
+	useEffect(() => {
+		if (!icon) return;
+
+		const loadSourceSvg = async () => {
+			try {
+				const response = await fetch(`/api/icons/source?name=${icon.name}&variant=lines`);
+				if (response.ok) {
+					const svgText = await response.text();
+					setSourceSvg(svgText);
+				}
+			} catch (error) {
+				console.error("Failed to load source SVG:", error);
+			}
+		};
+		loadSourceSvg();
+	}, [icon]);
 
 	if (!icon) return null;
 
 	const IconComponent = getIconComponent(icon.componentName);
-	
+
 	if (!IconComponent) return null;
 
 	const getCode = (framework: string) => {
@@ -108,46 +126,47 @@ const IconDetailDialog = ({
 	};
 
 	const getSvgString = async () => {
-		const container = document.createElement("div");
-		container.style.position = "absolute";
-		container.style.left = "-9999px";
-		document.body.appendChild(container);
+		if (sourceSvg) {
+			const parser = new DOMParser();
+			const doc = parser.parseFromString(sourceSvg, "image/svg+xml");
+			const svgEl = doc.querySelector("svg");
 
-		try {
-			const IconComponentForSvg = getIconComponent(icon.componentName);
-
-			const { createRoot } = await import("react-dom/client");
-			const root = createRoot(container);
-
-			await new Promise<void>((resolve) => {
-				root.render(
-					<IconComponentForSvg
-						size={size}
-						{...(color !== undefined ? { color } : {})}
-						strokeWidth={strokeWidth}
-					/>,
-				);
-				setTimeout(resolve, 100);
-			});
-
-			const svgElement = container.querySelector("svg");
-			if (svgElement) {
-				const clonedSvg = svgElement.cloneNode(true) as SVGElement;
-				const svgString = clonedSvg.outerHTML;
-
-				root.unmount();
-				document.body.removeChild(container);
-
-				return svgString;
+			if (svgEl) {
+				svgEl.setAttribute("width", size.toString());
+				svgEl.setAttribute("height", size.toString());
+				if (color) {
+					svgEl.setAttribute("stroke", color);
+				}
+				svgEl.setAttribute("stroke-width", strokeWidth.toString());
+				return svgEl.outerHTML;
 			}
-
-			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!--  -->\n</svg>`;
-		} catch (error) {
-			console.error("Error generating SVG:", error);
-			document.body.removeChild(container);
-			return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!--  -->\n</svg>`;
 		}
+
+		// Fallback: fetch from API if not loaded yet
+		try {
+			const response = await fetch(`/api/icons/source?name=${icon.name}&variant=lines`);
+			if (response.ok) {
+				const svgText = await response.text();
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(svgText, "image/svg+xml");
+				const svgEl = doc.querySelector("svg");
+
+				if (svgEl) {
+					svgEl.setAttribute("width", size.toString());
+					svgEl.setAttribute("height", size.toString());
+					if (color) {
+						svgEl.setAttribute("stroke", color);
+					}
+					svgEl.setAttribute("stroke-width", strokeWidth.toString());
+					return svgEl.outerHTML;
+				}
+			}
+		} catch (error) {
+			console.error("Error loading source SVG:", error);
+		}
+
+		// Final fallback: return a basic SVG template
+		return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${strokeWidth}" stroke-linecap="round" stroke-linejoin="round">\n  <!-- Icon: ${icon.name} -->\n</svg>`;
 	};
 
 	const handleCopy = async (text: string, type: "svg" | "jsx") => {
@@ -162,6 +181,23 @@ const IconDetailDialog = ({
 			}
 		} catch (err) {
 			console.error("Failed to copy:", err);
+		}
+	};
+
+	const handleDownloadSvg = async () => {
+		try {
+			const svg = sourceSvg || (await getSvgString());
+			const blob = new Blob([svg], { type: "image/svg+xml" });
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement("a");
+			a.href = url;
+			a.download = `${icon.name}.svg`;
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+			URL.revokeObjectURL(url);
+		} catch (error) {
+			console.error("Failed to download SVG:", error);
 		}
 	};
 
@@ -197,12 +233,16 @@ const IconDetailDialog = ({
 								variant="outline"
 								className="gap-2"
 								onClick={async () => {
-									const svg = await getSvgString();
+									const svg = sourceSvg || (await getSvgString());
 									handleCopy(svg, "svg");
 								}}
 							>
 								{copiedSvg ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
 								Copy SVG
+							</Button>
+							<Button variant="outline" className="gap-2" onClick={handleDownloadSvg}>
+								<Download className="h-4 w-4" />
+								Download SVG
 							</Button>
 							<Button
 								variant="outline"
@@ -292,7 +332,8 @@ const IconDetailDialog = ({
 									<span className="font-medium">Version:</span> v0.0.2
 								</div>
 								<div>
-									<span className="font-medium">Category:</span> <span className="capitalize">{icon.category}</span>
+									<span className="font-medium">Category:</span>{" "}
+									<span className="capitalize">{icon.category}</span>
 								</div>
 								<div className="col-span-2">
 									<span className="font-medium">Contributor:</span>

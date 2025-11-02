@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M9.40994 15.95L7.01992 13.5601C6.21992 12.7601 6.21992 11.96 7.01992 11.17L11.0099 7.17999L15.3999 11.57C15.6199 11.79 15.6199 12.15 15.3999 12.37L11.8099 15.96C11.0099 16.75 10.2099 16.75 9.40994 15.95Z" stroke-miterlimit="10"/>
-  <path d="M10.21 6.38L11.01 7.17999" stroke-miterlimit="10"/>
-  <path d="M6.45996 12.33L15.49 11.94" stroke-miterlimit="10"/>
-  <path d="M16.4701 14.17C16.4701 14.17 15.3701 15.37 15.3701 16.1C15.3701 16.71 15.8701 17.2 16.4701 17.2C17.0801 17.2 17.5701 16.7 17.5701 16.1C17.5801 15.36 16.4701 14.17 16.4701 14.17Z"/>
-  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m11.01 7.18-3.99 3.99c-.8.79-.8 1.59 0 2.39l2.39 2.39c.8.8 1.6.8 2.4.01l3.59-3.59a.567.567 0 0 0 0-.8l-5.19-5.19" />
+  <path d="M16.47 14.17s-1.1 1.2-1.1 1.93a1.103 1.103 0 0 0 2.2 0c.01-.74-1.1-1.93-1.1-1.93" />
+  <path d="m6.46 12.33 9.03-.39" />
+  <circle cx="12" cy="12" r="10" />
+</svg>

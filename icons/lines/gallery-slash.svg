@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M3.37 20.1C2.43 18.97 2 17.31 2 15V9C2 4 4 2 9 2H15C17.19 2 18.8 2.38 19.92 3.23"/>
-  <path d="M21.97 7.98999C21.99 8.30999 22 8.64999 22 8.99999V15C22 20 20 22 15 22H8.99996C8.25996 22 7.57996 21.96 6.95996 21.86"/>
-  <path d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z"/>
-  <path d="M22 2L2 22"/>
-  <path d="M11.4302 16.45C11.7302 16.75 12.2202 16.75 12.5202 16.45L17.5502 11.41C18.3302 10.63 19.5902 10.63 20.3702 11.41L22.0002 13.05"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M11.43 16.45a.773.773 0 0 0 1.09 0l5.03-5.04a2 2 0 0 1 2.82 0L22 13.05" />
+  <path d="M21.97 7.99A16 16 0 0 1 22 9v6c0 5-2 7-7 7H9a13 13 0 0 1-2.04-.14" />
+  <path d="M22 2 2 22" />
+  <path d="M3.37 20.1C2.43 18.97 2 17.31 2 15V9c0-5 2-7 7-7h6c2.19 0 3.8.38 4.92 1.23" />
+  <circle cx="8" cy="8" r="2" />
+</svg>

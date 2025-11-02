@@ -1,6 +1,15 @@
 "use client";
 
-import { Badge, Button, Card, CardContent, Checkbox, Input, Label, Textarea } from "@magic-icons/ui";
+import {
+	Badge,
+	Button,
+	Card,
+	CardContent,
+	Checkbox,
+	Input,
+	Label,
+	Textarea,
+} from "@magic-icons/ui";
 import { ArrowLeft, Cross, Import } from "magic-icons";
 import { useState } from "react";
 
@@ -10,6 +19,7 @@ interface UploadedIcon {
 	svgPath: string;
 	metadataPath: string;
 	svgContent?: string;
+	originalSvgContent?: string;
 }
 
 interface IconMetadata {
@@ -48,6 +58,8 @@ export default function IconUploader({
 	const [building, setBuilding] = useState(false);
 	const [tagInput, setTagInput] = useState("");
 	const [aliasInput, setAliasInput] = useState("");
+	const [optimizing, setOptimizing] = useState(false);
+	const [showComparison, setShowComparison] = useState(false);
 
 	const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
 		const files = e.target.files;
@@ -128,6 +140,45 @@ export default function IconUploader({
 			}
 		} catch (error) {
 			console.error("Error saving metadata:", error);
+		}
+	};
+
+	const handleOptimizeSvg = async () => {
+		if (!selectedIcon) return;
+
+		setOptimizing(true);
+		try {
+			const res = await fetch("/api/icons/optimizer", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ path: selectedIcon.svgPath, variant }),
+			});
+			const data = await res.json();
+
+			if (data.success) {
+				const optimizedSvg = data.svg as string;
+				// Store original SVG before optimization
+				const originalSvg = selectedIcon.svgContent;
+				setSelectedIcon((prev) =>
+					prev ? { ...prev, svgContent: optimizedSvg, originalSvgContent: originalSvg } : prev,
+				);
+				setUploadedIcons((prev) =>
+					prev.map((icon) =>
+						icon.name === selectedIcon.name
+							? { ...icon, svgContent: optimizedSvg, originalSvgContent: originalSvg }
+							: icon,
+					),
+				);
+				setShowComparison(true);
+				alert("Icon optimized successfully!");
+			} else {
+				alert(data.error ?? "Failed to optimize icon");
+			}
+		} catch (error) {
+			console.error("Error optimizing icon:", error);
+			alert("Failed to optimize icon");
+		} finally {
+			setOptimizing(false);
 		}
 	};
 
@@ -241,9 +292,7 @@ export default function IconUploader({
 														dangerouslySetInnerHTML={{ __html: icon.svgContent || "" }}
 													/>
 													<div className="flex-1 min-w-0">
-														<p className="font-medium text-foreground truncate">
-															{icon.name}
-														</p>
+														<p className="font-medium text-foreground truncate">{icon.name}</p>
 														<p className="text-xs text-muted-foreground truncate">
 															{icon.originalName}
 														</p>
@@ -260,20 +309,96 @@ export default function IconUploader({
 								<div className="lg:col-span-2 space-y-6">
 									<div className="flex items-center justify-between">
 										<h3 className="font-semibold text-foreground">Edit Metadata</h3>
-										<Button onClick={handleSaveMetadata}>
-											Save Metadata
-										</Button>
+										<div className="flex gap-2">
+											<Button variant="outline" onClick={handleOptimizeSvg} disabled={optimizing}>
+												{optimizing ? "Optimizing..." : "Optimize SVG"}
+											</Button>
+											<Button onClick={handleSaveMetadata}>Save Metadata</Button>
+										</div>
 									</div>
 
-									{/* Preview */}
-									<Card>
-										<CardContent className="p-8 flex items-center justify-center">
-											<div
-												className="w-24 h-24"
-												dangerouslySetInnerHTML={{ __html: selectedIcon.svgContent || "" }}
-											/>
-										</CardContent>
-									</Card>
+									{/* Before/After Comparison */}
+									{showComparison && selectedIcon.originalSvgContent ? (
+										<div className="space-y-4">
+											<div className="flex items-center justify-between">
+												<h4 className="text-sm font-semibold text-foreground">
+													Optimization Comparison
+												</h4>
+												<Button variant="ghost" size="sm" onClick={() => setShowComparison(false)}>
+													<Cross className="h-4 w-4" />
+												</Button>
+											</div>
+											<div className="grid grid-cols-2 gap-4">
+												{/* Before */}
+												<div className="space-y-2">
+													<div className="flex items-center justify-between">
+														<Label className="text-xs font-semibold">Before Optimization</Label>
+														<Badge variant="secondary" className="text-xs">
+															{selectedIcon.originalSvgContent.length} chars
+														</Badge>
+													</div>
+													<Card>
+														<CardContent className="p-6 flex items-center justify-center bg-muted/30">
+															<div
+																className="w-20 h-20"
+																dangerouslySetInnerHTML={{
+																	__html: selectedIcon.originalSvgContent,
+																}}
+															/>
+														</CardContent>
+													</Card>
+													<Textarea
+														value={selectedIcon.originalSvgContent}
+														readOnly
+														className="font-mono text-xs h-48"
+													/>
+												</div>
+												{/* After */}
+												<div className="space-y-2">
+													<div className="flex items-center justify-between">
+														<Label className="text-xs font-semibold">After Optimization</Label>
+														<Badge variant="default" className="text-xs">
+															{selectedIcon.svgContent?.length || 0} chars
+															{selectedIcon.svgContent && (
+																<span className="ml-1 text-green-400">
+																	(-
+																	{Math.round(
+																		((selectedIcon.originalSvgContent.length -
+																			selectedIcon.svgContent.length) /
+																			selectedIcon.originalSvgContent.length) *
+																			100,
+																	)}
+																	%)
+																</span>
+															)}
+														</Badge>
+													</div>
+													<Card>
+														<CardContent className="p-6 flex items-center justify-center bg-muted/30">
+															<div
+																className="w-20 h-20"
+																dangerouslySetInnerHTML={{ __html: selectedIcon.svgContent || "" }}
+															/>
+														</CardContent>
+													</Card>
+													<Textarea
+														value={selectedIcon.svgContent || ""}
+														readOnly
+														className="font-mono text-xs h-48"
+													/>
+												</div>
+											</div>
+										</div>
+									) : (
+										<Card>
+											<CardContent className="p-8 flex items-center justify-center">
+												<div
+													className="w-24 h-24"
+													dangerouslySetInnerHTML={{ __html: selectedIcon.svgContent || "" }}
+												/>
+											</CardContent>
+										</Card>
+									)}
 
 									{/* Metadata Form */}
 									<div className="space-y-4">
@@ -387,7 +512,9 @@ export default function IconUploader({
 											<Checkbox
 												id="deprecated"
 												checked={metadata.deprecated}
-												onCheckedChange={(checked) => setMetadata({ ...metadata, deprecated: !!checked })}
+												onCheckedChange={(checked) =>
+													setMetadata({ ...metadata, deprecated: !!checked })
+												}
 											/>
 											<Label htmlFor="deprecated" className="cursor-pointer">
 												Mark as deprecated
@@ -402,12 +529,7 @@ export default function IconUploader({
 					{/* Build Button */}
 					{uploadedIcons.length > 0 && (
 						<div className="mt-8 pt-6 border-t">
-							<Button
-								onClick={handleBuild}
-								disabled={building}
-								className="w-full"
-								size="lg"
-							>
+							<Button onClick={handleBuild} disabled={building} className="w-full" size="lg">
 								{building ? "Building..." : "Build Icons & Generate React Components"}
 							</Button>
 						</div>

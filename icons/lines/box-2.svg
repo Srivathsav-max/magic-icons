@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M18.6699 18.67L20.8899 17.56V14.78M14.2199 9.78L11.9999 10.89L14.2199 9.78ZM11.9999 10.89L9.77986 9.78L11.9999 10.89ZM11.9999 10.89V13.67V10.89ZM20.8899 6.44L18.6699 7.55L20.8899 6.44ZM20.8899 6.44L18.6699 5.33L20.8899 6.44ZM20.8899 6.44V9.22V6.44ZM14.2199 3.11L11.9999 2L9.77986 3.11H14.2199ZM3.10986 6.44L5.32986 5.33L3.10986 6.44ZM3.10986 6.44L5.32986 7.55L3.10986 6.44ZM3.10986 6.44V9.22V6.44ZM11.9999 22L9.77986 20.89L11.9999 22ZM11.9999 22L14.2199 20.89L11.9999 22ZM11.9999 22V19.22V22ZM5.32986 18.67L3.10986 17.56V14.78L5.32986 18.67Z"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 13.67v-2.78l2.22-1.11" />
+  <path d="M12 19.22V22l2.22-1.11" />
+  <path d="M14.22 3.11 12 2 9.78 3.11z" />
+  <path d="m18.67 18.67 2.22-1.11v-2.78" />
+  <path d="m18.67 5.33 2.22 1.11-2.22 1.11" />
+  <path d="M20.89 9.22V6.44" />
+  <path d="M3.11 9.22V6.44l2.22-1.11" />
+  <path d="m5.33 18.67-2.22-1.11v-2.78z" />
+  <path d="M5.33 7.55 3.11 6.44" />
+  <path d="M9.78 20.89 12 22" />
+  <path d="M9.78 9.78 12 10.89" />
+</svg>

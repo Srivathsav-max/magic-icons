@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M6 9.85999V14.15"/>
-  <path d="M9 8.42999V15.57"/>
-  <path d="M12 7V17"/>
-  <path d="M15 8.42999V15.57"/>
-  <path d="M18 9.85999V14.15"/>
-  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 7v10" />
+  <path d="M15 8.43v7.14" />
+  <path d="M18 9.86v4.29" />
+  <path d="M6 9.86v4.29" />
+  <path d="M9 8.43v7.14" />
+  <circle cx="12" cy="12" r="10" />
+</svg>

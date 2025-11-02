@@ -114,6 +114,10 @@ function svgToReactComponent(
 		.replace(/stroke-linecap/g, "strokeLinecap")
 		.replace(/stroke-linejoin/g, "strokeLinejoin")
 		.replace(/stroke-miterlimit/g, "strokeMiterlimit")
+		.replace(/stroke-dasharray/g, "strokeDasharray")
+		.replace(/stroke-dashoffset/g, "strokeDashoffset")
+		.replace(/stroke-opacity/g, "strokeOpacity")
+		.replace(/fill-opacity/g, "fillOpacity")
 		.replace(/\s+style="[^"]*"/g, "");
 
 	// Handle fill/stroke based on variant type
@@ -121,13 +125,34 @@ function svgToReactComponent(
 		// Replace existing stroke attributes
 		reactContent = reactContent.replace(/stroke="(?!none)[^"]*"/g, 'stroke="currentColor"');
 		// Add stroke="currentColor" to path elements that don't have it
-		reactContent = reactContent.replace(/<path(?![^>]*stroke=)([^>]*)>/g, '<path stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<circle(?![^>]*stroke=)([^>]*)>/g, '<circle stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<rect(?![^>]*stroke=)([^>]*)>/g, '<rect stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<line(?![^>]*stroke=)([^>]*)>/g, '<line stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<polyline(?![^>]*stroke=)([^>]*)>/g, '<polyline stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<polygon(?![^>]*stroke=)([^>]*)>/g, '<polygon stroke="currentColor"$1>');
-		reactContent = reactContent.replace(/<ellipse(?![^>]*stroke=)([^>]*)>/g, '<ellipse stroke="currentColor"$1>');
+		reactContent = reactContent.replace(
+			/<path(?![^>]*stroke=)([^>]*)>/g,
+			'<path stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<circle(?![^>]*stroke=)([^>]*)>/g,
+			'<circle stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<rect(?![^>]*stroke=)([^>]*)>/g,
+			'<rect stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<line(?![^>]*stroke=)([^>]*)>/g,
+			'<line stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<polyline(?![^>]*stroke=)([^>]*)>/g,
+			'<polyline stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<polygon(?![^>]*stroke=)([^>]*)>/g,
+			'<polygon stroke="currentColor"$1>',
+		);
+		reactContent = reactContent.replace(
+			/<ellipse(?![^>]*stroke=)([^>]*)>/g,
+			'<ellipse stroke="currentColor"$1>',
+		);
 	} else if (variantConfig.fillType === "fill") {
 		reactContent = reactContent
 			.replace(/fill="none"/g, 'fill="currentColor"')
@@ -161,6 +186,12 @@ function svgToReactComponent(
 		? "        strokeWidth={strokeWidth}\n"
 		: "";
 
+	// Add stroke attributes for line-based variants
+	const strokeAttrs =
+		variantConfig.fillType === "stroke"
+			? '        stroke="currentColor"\n        strokeLinecap="round"\n        strokeLinejoin="round"\n'
+			: "";
+
 	return `import * as React from 'react';
 
 export interface IconProps extends React.SVGProps<SVGSVGElement> {
@@ -177,7 +208,7 @@ const ${componentName} = React.forwardRef<SVGSVGElement, IconProps>(
         viewBox="${viewBox}"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-${strokeWidthAttr}        {...props}
+${strokeAttrs}${strokeWidthAttr}        {...props}
       >
         ${reactContent}
       </svg>
@@ -239,7 +270,9 @@ function generateIcons(): void {
 
 		// Validate metadata
 		if (metadata.name !== iconName) {
-			console.warn(`⚠️  Metadata name mismatch for ${iconName}: expected "${iconName}", got "${metadata.name}"`);
+			console.warn(
+				`⚠️  Metadata name mismatch for ${iconName}: expected "${iconName}", got "${metadata.name}"`,
+			);
 		}
 
 		// Read SVG content
@@ -250,8 +283,12 @@ function generateIcons(): void {
 
 		// Check for duplicate component names
 		if (usedComponentNames.has(componentName)) {
-			console.error(`❌ Duplicate component name "${componentName}" for icon "${iconName}". Skipping...`);
-			console.error(`   This usually happens when icon names like "group-1" and "group-one" both exist.`);
+			console.error(
+				`❌ Duplicate component name "${componentName}" for icon "${iconName}". Skipping...`,
+			);
+			console.error(
+				`   This usually happens when icon names like "group-1" and "group-one" both exist.`,
+			);
 			console.error(`   Please rename one of the icons to avoid conflicts.`);
 			continue;
 		}

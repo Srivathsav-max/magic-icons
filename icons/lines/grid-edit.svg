@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M22 11V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H10"/>
-  <path d="M2.03027 8.5H22.0002"/>
-  <path d="M2.03027 15.5H12.0002"/>
-  <path d="M8.50977 21.99V2.01001"/>
-  <path d="M15.5098 11.99V2.01001"/>
-  <path d="M18.7299 14.6701L14.5799 18.82C14.4199 18.98 14.2699 19.29 14.2299 19.51L13.9999 21.1C13.9199 21.67 14.3199 22.08 14.8899 21.99L16.4799 21.76C16.6999 21.73 17.0099 21.5701 17.1699 21.4101L21.3199 17.26C22.0299 16.55 22.3699 15.7101 21.3199 14.6601C20.2799 13.6201 19.4499 13.9501 18.7299 14.6701Z" stroke-miterlimit="10"/>
-  <path d="M18.1401 15.26C18.4901 16.52 19.4801 17.5 20.7401 17.86" stroke-miterlimit="10"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14.58 18.82a1.5 1.5 0 0 0-.35.69L14 21.1c-.08.57.32.98.89.89l1.59-.23a1.4 1.4 0 0 0 .69-.35l4.15-4.15c.71-.71 1.05-1.55 0-2.6-1.04-1.04-1.87-.71-2.59.01z" />
+  <path d="M15.51 11.99V2.01" />
+  <path d="M18.14 15.26a3.76 3.76 0 0 0 2.6 2.6" />
+  <path d="M2.03 15.5H12" />
+  <path d="M2.03 8.5H22" />
+  <path d="M22 11V9c0-5-2-7-7-7H9C4 2 2 4 2 9v6c0 5 2 7 7 7h1" />
+  <path d="M8.51 21.99V2.01" />
+</svg>

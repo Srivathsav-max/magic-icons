@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22"/>
-  <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001"/>
-  <path d="M15 3C15.97 5.92 16.46 8.96 16.46 12"/>
-  <path d="M3 16V15C5.92 15.97 8.96 16.46 12 16.46"/>
-  <path d="M3 8.99998C8.84 7.04998 15.16 7.04998 21 8.99998"/>
-  <path d="M18.2 21.4C19.9673 21.4 21.4 19.9673 21.4 18.2C21.4 16.4327 19.9673 15 18.2 15C16.4327 15 15 16.4327 15 18.2C15 19.9673 16.4327 21.4 18.2 21.4Z"/>
-  <path d="M22 22L21 21"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 3a28.6 28.6 0 0 1 1.46 9" />
+  <path d="M22 12a10 10 0 1 0-10 10" />
+  <path d="m22 22-1-1" />
+  <path d="M3 16v-1a28.6 28.6 0 0 0 9 1.46" />
+  <path d="M3 9a28.42 28.42 0 0 1 18 0" />
+  <path d="M8 3h1a28.42 28.42 0 0 0 0 18H8" />
+  <circle cx="18.2" cy="18.2" r="3.2" />
+</svg>

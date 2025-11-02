@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
-  <path d="M12 2L3 7V17L12 22L17 19.5L21 22V17L17 14.8L21 12V7L12 2Z" stroke-miterlimit="10"/>
-  <path d="M12 6.39999L7 9.19999V14.8L12 17.6L17 14.8V9.19999L12 6.39999Z" stroke-miterlimit="10"/>
-  <path d="M3 7L7 9.2" stroke-miterlimit="10"/>
-  <path d="M3 17L7 14.8" stroke-miterlimit="10"/>
-  <path d="M21 7L17 9.2" stroke-miterlimit="10"/>
-  <path d="M12 6V2" stroke-miterlimit="10"/>
-  <path d="M12 22V18" stroke-miterlimit="10"/>
-  <path d="M17 20V15" stroke-miterlimit="10"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 2 3 7v10l9 5 5-2.5 4 2.5v-5l-4-2.2 4-2.8V7z" />
+  <path d="M12 22v-4" />
+  <path d="M12 6.4 7 9.2v5.6l5 2.8 5-2.8V9.2z" />
+  <path d="M12 6V2" />
+  <path d="M17 20v-5" />
+  <path d="m21 7-4 2.2" />
+  <path d="m3 17 4-2.2" />
+  <path d="m3 7 4 2.2" />
+</svg>

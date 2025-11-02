@@ -1,15 +1,7 @@
 "use client";
 
-import {
-	Badge,
-	Button,
-	Input,
-	Popover,
-	PopoverContent,
-	PopoverTrigger,
-	ScrollArea,
-} from "@magic-icons/ui";
-import { ArrowLeftTwo, Cross, Moon, Search, Setting, Sun } from "magic-icons";
+import { Badge, Button, Input, ScrollArea } from "@magic-icons/ui";
+import { ArrowLeftTwo, Cross, Moon, Search, Sun } from "magic-icons";
 import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";

@@ -25,61 +25,6 @@ function sanitizeIconName(name: string): string {
 	return name.replace(/\d/g, (digit) => numberToWord[digit] || digit);
 }
 
-// Sanitize SVG for lines variant
-function sanitizeSVGForLines(svgContent: string): string {
-	// Parse and clean the SVG
-	let cleaned = svgContent.trim();
-
-	// Ensure proper SVG structure
-	if (!cleaned.startsWith("<svg")) {
-		throw new Error("Invalid SVG file");
-	}
-
-	// Replace common attributes to match lines variant standards
-	cleaned = cleaned
-		// Normalize SVG attributes
-		.replace(/<svg[^>]*>/, (match) => {
-			return `<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->`;
-		})
-		// Ensure paths have proper stroke attributes
-		.replace(/<path([^>]*)>/g, (match, attrs) => {
-			// Remove existing stroke/fill attributes
-			let cleanAttrs = attrs
-				.replace(/\s*fill="[^"]*"/g, "")
-				.replace(/\s*stroke="[^"]*"/g, "")
-				.replace(/\s*stroke-width="[^"]*"/g, "")
-				.replace(/\s*stroke-linecap="[^"]*"/g, "")
-				.replace(/\s*stroke-linejoin="[^"]*"/g, "");
-
-			return `<path${cleanAttrs}>`;
-		})
-		// Remove circle/rect fill attributes
-		.replace(/<(circle|rect|ellipse|polygon|polyline)([^>]*)>/g, (match, tag, attrs) => {
-			let cleanAttrs = attrs
-				.replace(/\s*fill="[^"]*"/g, "")
-				.replace(/\s*stroke="[^"]*"/g, "")
-				.replace(/\s*stroke-width="[^"]*"/g, "");
-
-			return `<${tag}${cleanAttrs}>`;
-		})
-		// Clean up extra whitespace
-		.replace(/\s+/g, " ")
-		.replace(/>\s+</g, ">\n  <")
-		.trim();
-
-	return cleaned;
-}
-
 export async function POST(request: NextRequest) {
 	try {
 		const formData = await request.formData();
@@ -108,19 +53,9 @@ export async function POST(request: NextRequest) {
 			const iconName = sanitizeIconName(cleanName);
 
 			// Read SVG content
-			let svgContent = await file.text();
+			const svgContent = await file.text();
 
-			// Sanitize SVG for lines variant
-			if (variant === "lines") {
-				try {
-					svgContent = sanitizeSVGForLines(svgContent);
-				} catch (error) {
-					console.error(`Error sanitizing ${fileName}:`, error);
-					continue;
-				}
-			}
-
-			// Save SVG file
+			// Save SVG file (without auto-optimization)
 			const svgPath = path.join(variantDir, `${iconName}.svg`);
 			fs.writeFileSync(svgPath, svgContent);
 

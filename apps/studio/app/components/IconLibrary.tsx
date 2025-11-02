@@ -14,7 +14,7 @@ import {
 	Label,
 	Textarea,
 } from "@magic-icons/ui";
-import { Cross, Search } from "magic-icons";
+import { Cross, MagicStar, Search } from "magic-icons";
 import { useEffect, useState } from "react";
 
 interface IconData {
@@ -55,6 +55,7 @@ export default function IconLibrary() {
 	const [tagInput, setTagInput] = useState("");
 	const [aliasInput, setAliasInput] = useState("");
 	const [saving, setSaving] = useState(false);
+	const [optimizing, setOptimizing] = useState(false);
 
 	useEffect(() => {
 		fetchIcons();
@@ -109,6 +110,36 @@ export default function IconLibrary() {
 		setSvgContent("");
 		setTagInput("");
 		setAliasInput("");
+		setOptimizing(false);
+	};
+
+	const handleOptimize = async () => {
+		if (!editingIcon || !svgContent) return;
+
+		setOptimizing(true);
+		try {
+			const response = await fetch("/api/icons/optimizer", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({
+					path: `${editingIcon.variant}/${editingIcon.name}.svg`,
+					variant: editingIcon.variant,
+				}),
+			});
+
+			const data = await response.json();
+			if (data.success) {
+				setSvgContent(data.svg);
+				alert("SVG optimized successfully!");
+			} else {
+				alert("Failed to optimize SVG: " + data.error);
+			}
+		} catch (error) {
+			console.error("Error optimizing SVG:", error);
+			alert("Failed to optimize SVG");
+		} finally {
+			setOptimizing(false);
+		}
 	};
 
 	const handleSave = async () => {
@@ -313,11 +344,24 @@ export default function IconLibrary() {
 								{/* Left: SVG Editor */}
 								<div className="space-y-4">
 									<div className="space-y-2">
-										<Label>SVG Preview</Label>
+										<div className="flex items-center justify-between">
+											<Label>SVG Preview</Label>
+											<Button
+												type="button"
+												variant="outline"
+												size="sm"
+												onClick={handleOptimize}
+												disabled={optimizing}
+												className="gap-2"
+											>
+												<MagicStar className="h-4 w-4" />
+												{optimizing ? "Optimizing..." : "Optimize"}
+											</Button>
+										</div>
 										<Card>
-											<CardContent className="p-8 flex items-center justify-center">
+											<CardContent className="p-8 flex items-center justify-center bg-muted/30">
 												<div
-													className="w-24 h-24"
+													className="w-32 h-32"
 													dangerouslySetInnerHTML={{ __html: svgContent }}
 												/>
 											</CardContent>
