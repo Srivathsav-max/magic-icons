@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "split-square",
+  "category": "location",
+  "tags": [
+    "split-square",
+    "location",
+    "split-square"
+  ],
+  "description": "split-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

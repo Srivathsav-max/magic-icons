@@ -1,0 +1,16 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "commit",
+  "category": "programing",
+  "tags": [
+    "commit",
+    "programing",
+    "commit",
+    "git"
+  ],
+  "description": "commit icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

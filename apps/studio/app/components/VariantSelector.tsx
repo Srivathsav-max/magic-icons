@@ -13,7 +13,7 @@ import {
 	Label,
 	Textarea,
 } from "@magic-icons/ui";
-import { Add, Check } from "magic-icons";
+import { Add, X } from "magic-icons";
 import { useEffect, useState } from "react";
 
 interface Variant {
@@ -116,7 +116,7 @@ export default function VariantSelector({ onSelect }: { onSelect: (variant: stri
 										<span>Stroke: {variant.defaultStrokeWidth}px</span>
 										{variant.supportsStrokeWidth && (
 											<Badge variant="default" className="gap-1">
-												<Check className="h-3 w-3" /> Customizable
+												<X className="h-3 w-3" /> Customizable
 											</Badge>
 										)}
 									</div>

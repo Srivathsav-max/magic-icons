@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "phone-outgoing",
+  "category": "essentials",
+  "tags": [
+    "phone-outgoing",
+    "essentials",
+    "phone-outgoing"
+  ],
+  "description": "phone-outgoing icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

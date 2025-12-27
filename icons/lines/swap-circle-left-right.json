@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "swap-circle-left-right",
+  "category": "arrows",
+  "tags": [
+    "swap-circle-left-right",
+    "arrows"
+  ],
+  "description": "swap-circle-left-right icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

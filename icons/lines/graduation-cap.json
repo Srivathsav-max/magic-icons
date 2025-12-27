@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "graduation-cap",
+  "category": "school",
+  "tags": [
+    "graduation-cap",
+    "school",
+    "graduation-cap"
+  ],
+  "description": "graduation-cap icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

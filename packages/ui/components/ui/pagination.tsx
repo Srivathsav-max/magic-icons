@@ -1,6 +1,6 @@
 import { mergeProps } from "@base-ui-components/react/merge-props";
 import { useRender } from "@base-ui-components/react/use-render";
-import { ArrowLeftOne, ArrowRightOne, More } from "magic-icons";
+import { ChevronLeft, ChevronRight, More } from "magic-icons";
 import type * as React from "react";
 
 import { cn } from "../../lib/utils";
@@ -73,7 +73,7 @@ function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof
 			className={cn("max-sm:aspect-square max-sm:p-0", className)}
 			{...props}
 		>
-			<ArrowLeftOne className="sm:-ms-1" />
+			<ChevronLeft className="sm:-ms-1" />
 			<span className="max-sm:hidden">Previous</span>
 		</PaginationLink>
 	);
@@ -88,7 +88,7 @@ function PaginationNext({ className, ...props }: React.ComponentProps<typeof Pag
 			{...props}
 		>
 			<span className="max-sm:hidden">Next</span>
-			<ArrowRightOne className="sm:-me-1" />
+			<ChevronRight className="sm:-me-1" />
 		</PaginationLink>
 	);
 }

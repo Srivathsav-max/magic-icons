@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "swap-up-down",
+  "category": "arrows",
+  "tags": [
+    "swap-up-down",
+    "arrows",
+    "swap-up-down"
+  ],
+  "description": "swap-up-down icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

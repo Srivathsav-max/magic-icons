@@ -1,7 +1,7 @@
 "use client";
 
 import { Accordion as AccordionPrimitive } from "@base-ui-components/react/accordion";
-import { ArrowDownTwo } from "magic-icons";
+import { ChevronDown } from "magic-icons";
 
 import { cn } from "../../lib/utils";
 
@@ -31,7 +31,7 @@ function AccordionTrigger({ className, children, ...props }: AccordionPrimitive.
 				{...props}
 			>
 				{children}
-				<ArrowDownTwo className="pointer-events-none size-4 shrink-0 translate-y-0.5 opacity-72 transition-transform duration-200 ease-in-out" />
+				<ChevronDown className="pointer-events-none size-4 shrink-0 translate-y-0.5 opacity-72 transition-transform duration-200 ease-in-out" />
 			</AccordionPrimitive.Trigger>
 		</AccordionPrimitive.Header>
 	);

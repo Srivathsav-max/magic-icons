@@ -21,6 +21,9 @@ export async function GET(request: NextRequest) {
 			const content = fs.readFileSync(filePath, "utf-8");
 			const metadata = JSON.parse(content);
 
+			// Use filename (without extension) as the source of truth for icon name
+			const iconName = file.replace(".json", "");
+
 			// Load SVG content if exists
 			let svgContent = "";
 			if (fs.existsSync(svgPath)) {
@@ -29,13 +32,19 @@ export async function GET(request: NextRequest) {
 
 			return {
 				...metadata,
-				id: metadata.name,
+				name: iconName, // Override with filename to ensure consistency
+				id: iconName,
 				svgContent,
 			};
 		});
 
+		// Deduplicate icons by name (shouldn't happen, but safety measure)
+		const uniqueIcons = Array.from(
+			new Map(icons.map((icon) => [icon.name, icon])).values()
+		);
+
 		// Filter by category if provided
-		const filteredIcons = category ? icons.filter((icon) => icon.category === category) : icons;
+		const filteredIcons = category ? uniqueIcons.filter((icon) => icon.category === category) : uniqueIcons;
 
 		return NextResponse.json({
 			success: true,

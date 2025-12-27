@@ -15,19 +15,20 @@
 	},
 	"devDependencies": {
 		"@magic-icons/ui": "workspace:*",
-		"magic-icons": "workspace:*",
-		"typescript": "^5",
+		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"@tailwindcss/postcss": "^4",
-		"tailwindcss": "^4",
+		"bun-types": "^1.3.1",
 		"element-to-path": "^1.2.1",
 		"lodash": "^4.17.21",
+		"magic-icons": "workspace:*",
 		"svg-path-bbox": "^2.0.0",
 		"svg-path-commander": "^2.0.9",
 		"svg-pathdata": "^6.0.3",
 		"svgo": "^3.1.0",
-		"svgson": "^5.3.1"
+		"svgson": "^5.3.1",
+		"tailwindcss": "^4",
+		"typescript": "^5"
 	}
 }

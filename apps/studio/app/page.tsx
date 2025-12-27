@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge, Button, Card, CardContent } from "@magic-icons/ui";
-import { ArrowLeft, Check, Import } from "magic-icons";
+import { Check, ChevronLeft, Import } from "magic-icons";
 import { useState } from "react";
 import CategorySelector from "./components/CategorySelector";
 import IconLibrary from "./components/IconLibrary";
@@ -64,7 +64,7 @@ export default function StudioPage() {
 							<div className="flex gap-3">
 								{view === "upload" && (
 									<Button variant="outline" onClick={backToLibrary} className="gap-2">
-										<ArrowLeft className="h-4 w-4" />
+										<ChevronLeft className="h-4 w-4" />
 										Back to Library
 									</Button>
 								)}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "chevron-circle-right",
+  "category": "arrows",
+  "tags": [
+    "chevron-circle-right",
+    "arrows"
+  ],
+  "description": "chevron-circle-right icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

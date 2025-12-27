@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "swap-left-right",
+  "category": "arrows",
+  "tags": [
+    "swap-left-right",
+    "arrows",
+    "swap-left-right"
+  ],
+  "description": "swap-left-right icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

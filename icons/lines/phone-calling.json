@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "phone-calling",
+  "category": "essentials",
+  "tags": [
+    "phone-calling",
+    "essentials",
+    "phone-calling"
+  ],
+  "description": "phone-calling icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "import-three",
+  "category": "arrows",
+  "tags": [
+    "arrows",
+    "import"
+  ],
+  "description": "import-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

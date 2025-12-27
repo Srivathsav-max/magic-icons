@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "git-merge",
+  "category": "programing",
+  "tags": [
+    "git-merge",
+    "programing",
+    "git-merge"
+  ],
+  "description": "git-merge icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

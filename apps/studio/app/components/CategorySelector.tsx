@@ -13,7 +13,7 @@ import {
 	Label,
 	Textarea,
 } from "@magic-icons/ui";
-import { Add, ArrowLeft } from "magic-icons";
+import { Add, ChevronLeft } from "magic-icons";
 import { useEffect, useState } from "react";
 
 interface Category {
@@ -101,7 +101,7 @@ export default function CategorySelector({
 							<p className="text-muted-foreground">Choose a category for your {variant} icons</p>
 						</div>
 						<Button variant="ghost" onClick={onBack} className="gap-2">
-							<ArrowLeft className="h-4 w-4" />
+							<ChevronLeft className="h-4 w-4" />
 							Back
 						</Button>
 					</div>

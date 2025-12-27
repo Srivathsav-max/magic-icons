@@ -194,7 +194,7 @@ export const ColorPickerSelection = memo(({ className, ...props }: ColorPickerSe
 
 	return (
 		<div
-			className={cn("relative size-full cursor-crosshair rounded", className)}
+			className={cn("relative size-full cursor-Xhair rounded", className)}
 			onPointerDown={(e) => {
 				e.preventDefault();
 				setIsDragging(true);

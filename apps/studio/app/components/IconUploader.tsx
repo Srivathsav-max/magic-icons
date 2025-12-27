@@ -10,7 +10,7 @@ import {
 	Label,
 	Textarea,
 } from "@magic-icons/ui";
-import { ArrowLeft, Cross, Import } from "magic-icons";
+import { ChevronLeft, Import, X } from "magic-icons";
 import { useState } from "react";
 
 interface UploadedIcon {
@@ -235,7 +235,7 @@ export default function IconUploader({
 							</p>
 						</div>
 						<Button variant="ghost" onClick={onBack} className="gap-2">
-							<ArrowLeft className="h-4 w-4" />
+							<ChevronLeft className="h-4 w-4" />
 							Back
 						</Button>
 					</div>
@@ -325,7 +325,7 @@ export default function IconUploader({
 													Optimization Comparison
 												</h4>
 												<Button variant="ghost" size="sm" onClick={() => setShowComparison(false)}>
-													<Cross className="h-4 w-4" />
+													<X className="h-4 w-4" />
 												</Button>
 											</div>
 											<div className="grid grid-cols-2 gap-4">
@@ -452,7 +452,7 @@ export default function IconUploader({
 															onClick={() => removeTag(tag)}
 															className="ml-1 hover:text-destructive"
 														>
-															<Cross className="h-3 w-3" />
+															<X className="h-3 w-3" />
 														</button>
 													</Badge>
 												))}
@@ -489,7 +489,7 @@ export default function IconUploader({
 															onClick={() => removeAlias(alias)}
 															className="ml-1 hover:text-destructive"
 														>
-															<Cross className="h-3 w-3" />
+															<X className="h-3 w-3" />
 														</button>
 													</Badge>
 												))}

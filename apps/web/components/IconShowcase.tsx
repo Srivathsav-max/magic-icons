@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge, Button, Input, ScrollArea } from "@magic-icons/ui";
-import { ArrowLeftTwo, Cross, Moon, Search, Sun } from "magic-icons";
+import { ChevronLeft, Moon, Search, Sun, X } from "magic-icons";
 import metadata from "magic-icons/metadata";
 import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
@@ -138,7 +138,7 @@ const IconShowcase = () => {
 							onClick={() => window.location.reload()}
 							className="shrink-0"
 						>
-							<ArrowLeftTwo className="h-5 w-5" />
+							<ChevronLeft className="h-5 w-5" />
 						</Button>
 						<div className="flex-1" />
 						<Button
@@ -209,7 +209,7 @@ const IconShowcase = () => {
 							onClick={() => setSearchTerm("")}
 							className="h-8 w-8 rounded-full"
 						>
-							<Cross className="h-4 w-4" />
+							<X className="h-4 w-4" />
 						</Button>
 					)}
 					<div className="px-3">

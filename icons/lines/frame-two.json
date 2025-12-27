@@ -1,11 +1,14 @@
 {
-	"$schema": "../../icon.schema.json",
-	"name": "frame-two",
-	"category": "arrows",
-	"tags": ["frame-two", "arrows"],
-	"description": "frame-two icon",
-	"variant": "lines",
-	"strokeWidth": 2,
-	"aliases": [],
-	"deprecated": false
+  "$schema": "../../icon.schema.json",
+  "name": "frame-two",
+  "category": "arrows",
+  "tags": [
+    "frame-two",
+    "arrows"
+  ],
+  "description": "import-two icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
 }

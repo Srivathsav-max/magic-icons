@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "arrow-up-down",
+  "category": "arrows",
+  "tags": [
+    "arrow-up-down",
+    "arrows"
+  ],
+  "description": "arrow-up-down icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

@@ -18,7 +18,7 @@
 				"name": "next"
 			}
 		],
-		"types": ["./lib/types/globals"],
+		"types": ["./lib/types/globals", "bun-types"],
 		"paths": {
 			"@/*": ["./*"]
 		}

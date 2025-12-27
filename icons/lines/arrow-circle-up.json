@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "arrow-circle-up",
+  "category": "arrows",
+  "tags": [
+    "arrow-circle-up",
+    "arrows"
+  ],
+  "description": "arrow-circle-up icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

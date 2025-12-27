@@ -1,14 +1,14 @@
 "use client";
 
-import { ArrowLeftTwo, Cross, Moon, Search, Sun } from "magic-icons";
-import metadata from "magic-icons/metadata";
-import { useTheme } from "next-themes";
-import { useRouter } from "next/navigation";
 import { Button, ScrollArea } from "@magic-icons/ui";
+import * as Icons from "magic-icons";
+import { ChevronLeft, Moon, Search, Sun, X } from "magic-icons";
+import metadata from "magic-icons/metadata";
+import { useRouter } from "next/navigation";
+import { useTheme } from "next-themes";
 import { useEffect, useMemo, useState } from "react";
 import IconDetailDialog from "@/components/IconDetailDialog";
 import Sidebar from "@/components/Sidebar";
-import * as Icons from "magic-icons";
 
 interface IconData {
 	name: string;
@@ -171,7 +171,7 @@ export default function IconsPage() {
 							onClick={() => router.push("/")}
 							className="shrink-0"
 						>
-							<ArrowLeftTwo className="h-5 w-5" />
+							<ChevronLeft className="h-5 w-5" />
 						</Button>
 						<div className="flex-1" />
 						<Button
@@ -196,13 +196,11 @@ export default function IconsPage() {
 							<div className="space-y-8">
 								{groupedByCategory.map((group) => (
 									<div key={group.category}>
-										<h2 className="text-lg font-semibold text-foreground mb-4">
-											{group.label}
-										</h2>
+										<h2 className="text-lg font-semibold text-foreground mb-4">{group.label}</h2>
 										<div
 											className="grid gap-2"
 											style={{
-												gridTemplateColumns: `repeat(auto-fill, minmax(${size + 16}px, 1fr))`
+												gridTemplateColumns: `repeat(auto-fill, minmax(${size + 16}px, 1fr))`,
 											}}
 										>
 											{group.icons.map((icon) => {
@@ -217,7 +215,7 @@ export default function IconsPage() {
 														className="flex items-center justify-center rounded bg-accent/50 hover:bg-accent transition-colors cursor-pointer"
 														style={{
 															width: `${size + 16}px`,
-															height: `${size + 16}px`
+															height: `${size + 16}px`,
 														}}
 														title={icon.componentName}
 													>
@@ -238,7 +236,7 @@ export default function IconsPage() {
 							<div
 								className="grid gap-2"
 								style={{
-									gridTemplateColumns: `repeat(auto-fill, minmax(${size + 16}px, 1fr))`
+									gridTemplateColumns: `repeat(auto-fill, minmax(${size + 16}px, 1fr))`,
 								}}
 							>
 								{filteredIcons.map((icon) => {
@@ -253,7 +251,7 @@ export default function IconsPage() {
 											className="flex items-center justify-center rounded bg-accent/50 hover:bg-accent transition-colors cursor-pointer"
 											style={{
 												width: `${size + 16}px`,
-												height: `${size + 16}px`
+												height: `${size + 16}px`,
 											}}
 											title={icon.componentName}
 										>
@@ -307,7 +305,7 @@ export default function IconsPage() {
 							onClick={() => setSearchTerm("")}
 							className="absolute right-4 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
 						>
-							<Cross className="h-4 w-4" />
+							<X className="h-4 w-4" />
 						</button>
 					)}
 				</div>

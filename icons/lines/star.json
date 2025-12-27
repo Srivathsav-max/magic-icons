@@ -1,11 +1,15 @@
 {
-	"$schema": "../../icon.schema.json",
-	"name": "star",
-	"category": "essentials",
-	"tags": ["star", "essentials"],
-	"description": "star icon",
-	"variant": "lines",
-	"strokeWidth": 2,
-	"aliases": [],
-	"deprecated": false
+  "$schema": "../../icon.schema.json",
+  "name": "star",
+  "category": "essentials",
+  "tags": [
+    "star",
+    "essentials",
+    "star"
+  ],
+  "description": "star icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
 }

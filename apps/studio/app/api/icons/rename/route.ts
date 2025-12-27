@@ -5,11 +5,18 @@ import path from "node:path";
 
 const ICONS_BASE_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "icons");
 const METADATA_DIR = path.join(process.cwd(), "..", "..", "packages", "react", "metadata", "icons");
+const SIMPLE_ICONS_DIR = path.join(process.cwd(), "..", "..", "icons");
 
 export async function POST(request: NextRequest) {
 	try {
 		const body = await request.json();
-		const { oldId, newId, category } = body;
+		const { oldId, newId, category, variant, oldName, newName } = body;
+
+		// Support both multi-variant system and simple variant system
+		if (variant && oldName && newName) {
+			// Simple variant-based renaming
+			return handleSimpleRename(variant, oldName, newName);
+		}
 
 		if (!oldId || !newId || !category) {
 			return NextResponse.json(
@@ -87,6 +94,89 @@ export async function POST(request: NextRequest) {
 		});
 	} catch (error) {
 		console.error("Error renaming icon:", error);
+		return NextResponse.json({ success: false, error: "Failed to rename icon" }, { status: 500 });
+	}
+}
+
+// Handle simple variant-based renaming (for single variant icons)
+function handleSimpleRename(variant: string, oldName: string, newName: string) {
+	try {
+		console.log(`[Rename] Renaming icon: ${oldName} → ${newName} (variant: ${variant})`);
+
+		// Validate new name format (kebab-case)
+		if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(newName)) {
+			return NextResponse.json(
+				{ success: false, error: "Icon name must be in kebab-case format" },
+				{ status: 400 },
+			);
+		}
+
+		const variantDir = path.join(SIMPLE_ICONS_DIR, variant);
+		console.log(`[Rename] Variant directory: ${variantDir}`);
+
+		// Check if variant directory exists
+		if (!fs.existsSync(variantDir)) {
+			console.error(`[Rename] Variant directory not found: ${variantDir}`);
+			return NextResponse.json(
+				{ success: false, error: "Variant directory not found" },
+				{ status: 404 },
+			);
+		}
+
+		// Rename SVG file
+		const oldSvgPath = path.join(variantDir, `${oldName}.svg`);
+		const newSvgPath = path.join(variantDir, `${newName}.svg`);
+
+		if (!fs.existsSync(oldSvgPath)) {
+			console.error(`[Rename] SVG file not found: ${oldSvgPath}`);
+			return NextResponse.json({ success: false, error: "SVG file not found" }, { status: 404 });
+		}
+
+		if (fs.existsSync(newSvgPath)) {
+			console.error(`[Rename] Target SVG already exists: ${newSvgPath}`);
+			return NextResponse.json(
+				{ success: false, error: "An icon with the new name already exists" },
+				{ status: 409 },
+			);
+		}
+
+		fs.renameSync(oldSvgPath, newSvgPath);
+		console.log(`[Rename] ✓ Renamed SVG: ${oldName}.svg → ${newName}.svg`);
+
+		// Rename metadata file
+		const oldMetadataPath = path.join(variantDir, `${oldName}.json`);
+		const newMetadataPath = path.join(variantDir, `${newName}.json`);
+
+		if (fs.existsSync(oldMetadataPath)) {
+			const metadataContent = fs.readFileSync(oldMetadataPath, "utf-8");
+			const metadata = JSON.parse(metadataContent);
+
+			// Update metadata with new name
+			metadata.name = newName;
+
+			// Update tags that reference the old name
+			if (metadata.tags && Array.isArray(metadata.tags)) {
+				metadata.tags = metadata.tags.map((tag: string) => (tag === oldName ? newName : tag));
+			}
+
+			// Update description if it contains the old name
+			if (metadata.description?.includes(oldName)) {
+				metadata.description = metadata.description.replace(oldName, newName);
+			}
+
+			fs.writeFileSync(newMetadataPath, JSON.stringify(metadata, null, 2));
+			fs.unlinkSync(oldMetadataPath);
+			console.log(`[Rename] ✓ Renamed metadata: ${oldName}.json → ${newName}.json`);
+		}
+
+		console.log(`[Rename] ✅ Successfully renamed icon: ${oldName} → ${newName}`);
+		return NextResponse.json({
+			success: true,
+			message: "Icon renamed successfully",
+			newName,
+		});
+	} catch (error) {
+		console.error("[Rename] Error renaming icon:", error);
 		return NextResponse.json({ success: false, error: "Failed to rename icon" }, { status: 500 });
 	}
 }

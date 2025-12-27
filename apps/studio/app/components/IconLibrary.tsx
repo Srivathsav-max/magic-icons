@@ -14,7 +14,7 @@ import {
 	Label,
 	Textarea,
 } from "@magic-icons/ui";
-import { Cross, MagicStar, Search } from "magic-icons";
+import { MagicStar, Search, X } from "magic-icons";
 import { useEffect, useState } from "react";
 
 interface IconData {
@@ -147,30 +147,79 @@ export default function IconLibrary() {
 
 		setSaving(true);
 		try {
-			// Save metadata
-			await fetch("/api/icons/file", {
-				method: "PUT",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					variant: editingIcon.variant,
-					name: editingIcon.name,
-					type: "metadata",
-					content: metadata,
-				}),
-			});
+			// Check if name has changed
+			const nameChanged = metadata.name !== editingIcon.name;
 
-			// Save SVG if changed
-			if (svgContent) {
+			if (nameChanged) {
+				// First, save any SVG changes to the old file
+				if (svgContent) {
+					await fetch("/api/icons/file", {
+						method: "PUT",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify({
+							variant: editingIcon.variant,
+							name: editingIcon.name,
+							type: "svg",
+							content: svgContent,
+						}),
+					});
+				}
+
+				// Save metadata changes to the old file
 				await fetch("/api/icons/file", {
 					method: "PUT",
 					headers: { "Content-Type": "application/json" },
 					body: JSON.stringify({
 						variant: editingIcon.variant,
 						name: editingIcon.name,
-						type: "svg",
-						content: svgContent,
+						type: "metadata",
+						content: metadata,
 					}),
 				});
+
+				// Then rename both SVG and metadata files
+				const renameResponse = await fetch("/api/icons/rename", {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						variant: editingIcon.variant,
+						oldName: editingIcon.name,
+						newName: metadata.name,
+					}),
+				});
+
+				const renameData = await renameResponse.json();
+				if (!renameData.success) {
+					alert(`Failed to rename icon: ${renameData.error}`);
+					setSaving(false);
+					return;
+				}
+			} else {
+				// Save metadata
+				await fetch("/api/icons/file", {
+					method: "PUT",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						variant: editingIcon.variant,
+						name: editingIcon.name,
+						type: "metadata",
+						content: metadata,
+					}),
+				});
+
+				// Save SVG if changed
+				if (svgContent) {
+					await fetch("/api/icons/file", {
+						method: "PUT",
+						headers: { "Content-Type": "application/json" },
+						body: JSON.stringify({
+							variant: editingIcon.variant,
+							name: editingIcon.name,
+							type: "svg",
+							content: svgContent,
+						}),
+					});
+				}
 			}
 
 			alert("Icon updated successfully!");
@@ -442,7 +491,7 @@ export default function IconLibrary() {
 														onClick={() => removeTag(tag)}
 														className="ml-1 hover:text-destructive"
 													>
-														<Cross className="h-3 w-3" />
+														<X className="h-3 w-3" />
 													</button>
 												</Badge>
 											))}
@@ -479,7 +528,7 @@ export default function IconLibrary() {
 														onClick={() => removeAlias(alias)}
 														className="ml-1 hover:text-destructive"
 													>
-														<Cross className="h-3 w-3" />
+														<X className="h-3 w-3" />
 													</button>
 												</Badge>
 											))}

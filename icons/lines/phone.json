@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "phone",
+  "category": "essentials",
+  "tags": [
+    "phone",
+    "essentials",
+    "phone"
+  ],
+  "description": "phone icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

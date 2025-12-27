@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "x-circle",
+  "category": "essentials",
+  "tags": [
+    "x-circle",
+    "essentials",
+    "x"
+  ],
+  "description": "x-circle icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

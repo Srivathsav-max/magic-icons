@@ -1,0 +1,14 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "chevron-left-three",
+  "category": "arrows",
+  "tags": [
+    "chevron-left-three",
+    "arrows"
+  ],
+  "description": "chevron-left-three icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

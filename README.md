@@ -9,8 +9,6 @@ A monorepo containing the Magic Icons React library and showcase website.
 
 ## About Magic Icons
 
-A comprehensive icon library with **500 customizable icons** across 5 beautiful variants. Built with TypeScript and designed for modern React applications including Next.js.
-
 [![npm version](https://img.shields.io/npm/v/magic-icons.svg)](https://www.npmjs.com/package/magic-icons)
 [![npm downloads](https://img.shields.io/npm/dm/magic-icons.svg)](https://www.npmjs.com/package/magic-icons)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

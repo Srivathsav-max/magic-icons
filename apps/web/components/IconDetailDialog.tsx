@@ -12,7 +12,7 @@ import {
 	DropdownMenuTrigger,
 } from "@magic-icons/ui";
 import * as Icons from "magic-icons";
-import { ArrowDown, Check, Copy, Download } from "magic-icons";
+import { Check, ChevronDown, Copy, Download } from "magic-icons";
 import type React from "react";
 import { Suspense, useEffect, useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -374,7 +374,7 @@ const IconDetailDialog = ({
 												<Button variant="default" className="gap-2">
 													{copiedSvg ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
 													Copy SVG
-													<ArrowDown className="h-4 w-4" />
+													<ChevronDown className="h-4 w-4" />
 												</Button>
 											</DropdownMenuTrigger>
 											<DropdownMenuContent align="start">
@@ -412,7 +412,7 @@ const IconDetailDialog = ({
 														? "JSX"
 														: selectedFramework.charAt(0).toUpperCase() +
 															selectedFramework.slice(1)}
-													<ArrowDown className="h-4 w-4" />
+													<ChevronDown className="h-4 w-4" />
 												</Button>
 											</DropdownMenuTrigger>
 											<DropdownMenuContent align="start">

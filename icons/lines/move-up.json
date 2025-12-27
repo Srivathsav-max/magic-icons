@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "move-up",
+  "category": "arrows",
+  "tags": [
+    "move-up",
+    "arrows",
+    "move-up"
+  ],
+  "description": "move-up icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}

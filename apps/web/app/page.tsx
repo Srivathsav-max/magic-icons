@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Card } from "@magic-icons/ui";
-import { ArrowRightTwo, Check, Copy, Github, Moon, Sun } from "magic-icons";
+import { Check, Copy, Github, Moon, MoveRight, Sun } from "magic-icons";
 import metadata from "magic-icons/metadata";
 import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
@@ -111,7 +111,7 @@ export default function Home() {
 							className="gap-2 text-base px-8"
 						>
 							Browse Icons
-							<ArrowRightTwo className="h-5 w-5" />
+							<MoveRight className="h-5 w-5" />
 						</Button>
 						<Button
 							variant="outline"

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../icon.schema.json",
+  "name": "x-square",
+  "category": "essentials",
+  "tags": [
+    "x-square",
+    "essentials",
+    "x"
+  ],
+  "description": "x-square icon",
+  "variant": "lines",
+  "strokeWidth": 2,
+  "aliases": [],
+  "deprecated": false
+}
